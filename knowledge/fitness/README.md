@@ -1,13 +1,13 @@
 ---
 schema: ravens.domain-hub/v1
-domain: ai-agents
+domain: fitness
 updated: 2026-08-10
 status: active
 ---
 
-# AI / agents
+# Fitness
 
-Frameworks, protocols (MCP / A2A), and Cursor agent patterns that change delivery choices on the field card and in ProjectBrain / JARVIS.
+Strength and recovery programming for lean goals, plus pregnancy-safe activity guidelines for household planning. Couples with `food/` and mealplan modes (`lean`, `pregnancy_nourish`).
 
 ## Current guidance
 

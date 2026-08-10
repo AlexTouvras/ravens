@@ -1,13 +1,30 @@
+---
+schema: ravens.domain-hub/v1
+domain: career
+updated: 2026-08-10
+status: active
+---
+
 # Career
 
-Durable notes from Muninn. Sources cited with date and URL when available.
+FI/EU analytics, risk, BI leadership, and technology-delivery market signals for careerops and careerDev.
 
 ## Current guidance
 
-_(empty — first Muninn run will seed)_
+_(none yet — awaiting first Muninn promotions)_
+
+## Active signals
+
+_(see [signals/](../../signals/))_
+
+## Note index
+
+| Slug | Title | Updated | Status |
+|------|-------|---------|--------|
+| — | — | — | — |
 
 ## Changelog
 
-| Date | Note |
-|------|------|
-| 2026-08-10 | Domain folder created |
+| Date | Change |
+|------|--------|
+| 2026-08-10 | Domain hub created (foundation) |

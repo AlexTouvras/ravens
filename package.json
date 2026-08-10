@@ -1,0 +1,11 @@
+{
+  "name": "ravens",
+  "private": true,
+  "description": "Huginn & Muninn — shared AI knowledge vault",
+  "scripts": {
+    "verify": "node scripts/verify.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

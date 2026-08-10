@@ -29,6 +29,14 @@ Last reviewed: 2026-08-10
 - Finnish grocery / seasonal produce; Lidl–K–S offer patterns (Asola / Vantaa)
 - High-protein eggless-fish week templates (oats, yogurt/cottage, one-tray, legumes/tofu)
 
+## fitness
+
+- Strength / hypertrophy programming for a lean high-protein goal (progressive overload, weekly volume, deloads)
+- Time-efficient full-body or upper/lower templates that fit a busy week (home or gym)
+- Recovery, sleep, and injury-prevention basics that change how you train this week
+- Pregnancy- and postpartum-safe activity guidelines (what to avoid, intensity caps, pelvic-floor / return-to-lift notes) for household planning alongside mealplan
+- Nordic / Finnish outdoor season tips only when they change weekly movement (ice, dark winter, heat)
+
 ## finance
 
 - Liquid long-only equity research: momentum vs equal-weight vs buy-and-hold, turnover bars
@@ -47,3 +55,5 @@ Last reviewed: 2026-08-10
 - Per-language MCP SDK spam; watch spec + servers instead
 - Crypto / tipster finance / HFT
 - Generic AI news firehose and academic thesis-style writing advice
+- Fitness influencer challenges, before/after marketing, steroid discourse, extreme cuts
+- One-off gadget reviews and “10-minute abs” listicles with no programming value
