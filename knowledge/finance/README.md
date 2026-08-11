@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: finance
-updated: 2026-08-10
+updated: 2026-08-11
 status: active
 ---
 
@@ -11,11 +11,11 @@ Long-only liquid equity research and portfolio construction for Ledger — not d
 
 ## Current guidance
 
-_(none yet — awaiting first Muninn promotions)_
+_(none yet — monthly performance themes stay signals until a durable construction rule emerges)_
 
 ## Active signals
 
-_(see [signals/](../../signals/))_
+- [SIG-20260811-004](../../signals/SIG-20260811-004.md) — July Europe momentum→value rotation (FTSE Russell)
 
 ## Note index
 
@@ -27,4 +27,5 @@ _(see [signals/](../../signals/))_
 
 | Date | Change |
 |------|--------|
+| 2026-08-11 | Opened SIG-20260811-004 from FIND-20260811-010 (signal-only) |
 | 2026-08-10 | Domain hub created (foundation) |

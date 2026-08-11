@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: food
-updated: 2026-08-10
+updated: 2026-08-11
 status: active
 ---
 
@@ -11,20 +11,21 @@ Pescatarian household planning for Asola / Vantaa — grocery patterns, food saf
 
 ## Current guidance
 
-_(none yet — awaiting first Muninn promotions)_
+- Finnish pregnancy/breastfeeding fish limits are species-specific (Ruokavirasto) — [fi-pregnancy-fish-limits](./fi-pregnancy-fish-limits.md)
 
 ## Active signals
 
-_(see [signals/](../../signals/))_
+_(none)_
 
 ## Note index
 
 | Slug | Title | Updated | Status |
 |------|-------|---------|--------|
-| — | — | — | — |
+| fi-pregnancy-fish-limits | Finnish pregnancy fish limits are species-specific | 2026-08-11 | active |
 
 ## Changelog
 
 | Date | Change |
 |------|--------|
+| 2026-08-11 | Promoted KNOW-food-fi-pregnancy-fish-limits |
 | 2026-08-10 | Domain hub created (foundation) |
