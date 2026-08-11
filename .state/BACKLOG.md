@@ -12,7 +12,7 @@
 
 ## Next
 
-- [ ] First live Huginn run → verify `inbox/YYYY-MM-DD.md` + `npm run verify`
+- [x] First live Huginn run → verify `inbox/YYYY-MM-DD.md` + `npm run verify`
 - [ ] First live Muninn run → verify knowledge/signals
 - [ ] Wire consumer read docs into mealplan / field-card when those projects ask
 
