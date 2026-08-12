@@ -23,11 +23,12 @@ Distill recent inbox findings into durable knowledge notes and short-lived signa
 
 1. Load inbox files for today and yesterday. If today’s file is missing, set a note in your commit body and only process yesterday + expire stale signals.
 2. For each new `FIND-…` not already referenced in knowledge/signals:
-   - Run Gate 0 → Gate 1 → Gate 2 in `docs/quality.md`.
+   - Run Gate 0 → Gate 1 → Gate 2 in `docs/quality.md` (include **GitHub / OSS repo filters** when `topics` include `github` / `oss`).
    - **drop** / **signal** / **knowledge** accordingly.
 3. For knowledge promotions:
    - Prefer updating an existing note (same claim) over a new slug.
    - Create/update note + domain hub + changelog per contract.
+   - Repo tooling guidance: promote to knowledge only as durable prefer/avoid rules with limits; otherwise keep as a time-bounded signal (“evaluate repo X this month”).
 4. For signals:
    - Create `signals/SIG-…md` with default 14-day expiry unless time-bound.
    - Revisit `watching` signals: expire, drop, or promote to knowledge if Gate 2 now passes.

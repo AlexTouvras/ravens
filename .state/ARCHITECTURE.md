@@ -51,3 +51,4 @@ See `README.md` quick map and `docs/architecture/overview.md`.
 | 2026-08-10 | Named verify `npm run verify` | Prove foundation health by observation |
 | 2026-08-12 | Daily digests to CareerOps Slack `#ravens` (`C0BPJSPCMAR`) | Notify without writing other repos; Cursor Automations **Send to Slack** |
 | 2026-08-12 | Watchlist: investment opportunities under `finance` | Actionable Nordic/EU/US liquid equity & ETF catalysts; still exclude crypto/HFT/tipster |
+| 2026-08-12 | Watchlist + quality: project-relevant GitHub/OSS findings | Cross-cutting scan for repos that change tooling for named consumers; still ban awesome-lists / star magnets; ≤2 repo findings/day; Muninn prefers signal unless prefer/avoid guidance is durable |

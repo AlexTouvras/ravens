@@ -36,6 +36,18 @@ Drop: influencer challenges, before/after ads, gadget listicles, extreme cuts, s
 
 When a finding affects both protein targets and training load, open **one** primary note and cross-link the other domain. Prefer food safety / pregnancy nutrition under `food`; programming under `fitness`.
 
+## GitHub / OSS repo filters
+
+Promote (signal or knowledge) only when **all** hold:
+
+1. **Named consumer** — `why_it_matters` cites a real portfolio project
+2. **Decision change** — clone-vs-build, replace custom glue, adopt a skill/server/CLI, or drop a dependency
+3. **Primary artifact** — `source_url` is the repo, release notes, or upstream docs (not an awesome-list or “top repos” roundup)
+4. **Usable license + activity** — license allows portfolio use; recent release or meaningful commit signal (not abandoned star magnets)
+
+Default path: **signal** for “watch this repo / try this month”; **knowledge** only when guidance is durable (“prefer X over Y for Z”) with clear limits.  
+Drop: awesome-lists, SDK spam, crypto bots, repos with no consumer fit.
+
 ## Bias toward fewer artifacts
 
 A quiet day with three strong findings beats twenty weak ones. Empty domains are success, not failure.

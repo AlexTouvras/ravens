@@ -17,19 +17,22 @@ Once per scheduled run, scan the web against this repo’s watchlist and write a
 1. Determine today’s date in `Europe/Helsinki`. Set `run_id` to `YYYY-MM-DD-HHMM`.
 2. Read `watchlist.md` end-to-end, including **Explicitly ignore**.
 3. For each domain section, search for fresh, primary or high-credibility sources from roughly the last 48–72 hours (longer window only for slow domains like public-health guidance).
-4. Apply Gate 0 from `docs/quality.md`. Discard anything you cannot source.
-5. Write or append `inbox/YYYY-MM-DD.md` exactly per `docs/contracts/inbox.md`.
-6. Assign `FIND-YYYYMMDD-NNN` IDs continuing from any earlier run section the same day.
-7. List empty domains under **Empty domains**.
-8. Commit with message: `huginn: inbox YYYY-MM-DD (N findings)`.
-9. Push to `main`.
-10. **Slack** — after a successful push, post a one-liner (or up to 5 bullets) to CareerOps `#ravens` (channel id `C0BPJSPCMAR`) using **Send to Slack**. Include finding count and a link to `inbox/YYYY-MM-DD.md` on `main`. Skip Slack only when the run wrote nothing new and status is still clean from an earlier same-day run; always post for `partial` / `failed`.
+4. Also scan for **project-relevant GitHub / OSS** per `watchlist.md` (cross-cutting section): individual repos or releases that change a tooling decision for a named consumer. Cap **2** such findings per day unless something exceptional shipped. Never use awesome-lists or “top N repos” roundups as sources.
+5. Apply Gate 0 from `docs/quality.md`. Discard anything you cannot source.
+6. Write or append `inbox/YYYY-MM-DD.md` exactly per `docs/contracts/inbox.md`.
+7. Assign `FIND-YYYYMMDD-NNN` IDs continuing from any earlier run section the same day.
+8. List empty domains under **Empty domains**.
+9. Commit with message: `huginn: inbox YYYY-MM-DD (N findings)`.
+10. Push to `main`.
+11. **Slack** — after a successful push, post a one-liner (or up to 5 bullets) to CareerOps `#ravens` (channel id `C0BPJSPCMAR`) using **Send to Slack**. Include finding count and a link to `inbox/YYYY-MM-DD.md` on `main`. Skip Slack only when the run wrote nothing new and status is still clean from an earlier same-day run; always post for `partial` / `failed`.
 
 ## Output limits
 
 - Target **3–12** findings total across all domains on a normal day.
 - Cap **4** findings per domain unless something exceptional happened.
+- Cap **2** GitHub/OSS-repo findings per day (count toward the total).
 - Every finding must include `source_url`, `claim`, `why_it_matters`, `confidence`, `novelty`, `action_hint`.
+- For repo findings: put `github` (and optionally `oss`) in `topics`; name the consumer in `why_it_matters`; prefer repo/release/docs URLs.
 
 ## Hard prohibitions
 

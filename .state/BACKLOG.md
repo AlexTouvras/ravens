@@ -17,6 +17,7 @@
 - [x] Enable **Send to Slack** → `#ravens` on Huginn + Muninn automations (playbooks already instruct)
 - [x] Expand finance watchlist with investment opportunities
 - [x] Push Slack + watchlist repo changes
+- [x] Expand watchlist/quality for project-relevant GitHub/OSS findings
 - [ ] Wire consumer read docs into mealplan / field-card when those projects ask
 
 ## Later
