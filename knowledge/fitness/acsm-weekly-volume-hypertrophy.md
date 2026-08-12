@@ -42,5 +42,6 @@ ACSM’s first major resistance-training Position Stand update since 2009 (annou
 ## Related
 
 - Domain hub: [fitness](./README.md)
+- Sibling: [acog-pregnancy-postpartum-activity](./acog-pregnancy-postpartum-activity.md)
 - Consumer hint: mealplan `lean` / time-efficient full-body templates
 - Food coupling: protein targets live under `food/`; this note owns weekly training volume

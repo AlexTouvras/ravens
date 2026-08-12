@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: content
-updated: 2026-08-10
+updated: 2026-08-12
 status: active
 ---
 
@@ -15,7 +15,7 @@ _(none yet — awaiting first Muninn promotions)_
 
 ## Active signals
 
-_(see [signals/](../../signals/))_
+- [SIG-20260812-004](../../signals/SIG-20260812-004.md) — Git-backed Hugo + AGENTS.md RSS briefing pipeline
 
 ## Note index
 
@@ -27,4 +27,5 @@ _(see [signals/](../../signals/))_
 
 | Date | Change |
 |------|--------|
+| 2026-08-12 | Opened SIG-20260812-004 from FIND-20260812-010 |
 | 2026-08-10 | Domain hub created (foundation) |

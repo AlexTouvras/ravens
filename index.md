@@ -12,15 +12,19 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 | Finance | [knowledge/finance/](knowledge/finance/) | Ledger, ledger-private |
 | Content | [knowledge/content/](knowledge/content/) | Orbit Writes / Signals |
 
-## Active notes (2026-08-11)
+## Active notes (2026-08-12)
 
 | Domain | Note | Confidence |
 |--------|------|------------|
 | ai-agents | [mcp-2026-07-28-stateless](knowledge/ai-agents/mcp-2026-07-28-stateless.md) | high |
+| ai-agents | [cursor-skills-portable-extension](knowledge/ai-agents/cursor-skills-portable-extension.md) | high |
 | data-bi | [direct-lake-onelake-preferred](knowledge/data-bi/direct-lake-onelake-preferred.md) | high |
+| data-bi | [dax-udfs-ga-compat-1702](knowledge/data-bi/dax-udfs-ga-compat-1702.md) | high |
 | career | [uk-ddat-data-role-language](knowledge/career/uk-ddat-data-role-language.md) | high |
 | food | [fi-pregnancy-fish-limits](knowledge/food/fi-pregnancy-fish-limits.md) | high |
+| food | [fi-pregnancy-listeria-reheat](knowledge/food/fi-pregnancy-listeria-reheat.md) | high |
 | fitness | [acsm-weekly-volume-hypertrophy](knowledge/fitness/acsm-weekly-volume-hypertrophy.md) | high |
+| fitness | [acog-pregnancy-postpartum-activity](knowledge/fitness/acog-pregnancy-postpartum-activity.md) | high |
 
 ## Contracts
 
@@ -31,4 +35,4 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 
 ## Latest inbox
 
-See `inbox/` for dated raw scans. Latest live: [inbox/2026-08-11.md](inbox/2026-08-11.md). Fixtures live under `examples/` and must not be treated as live data.
+See `inbox/` for dated raw scans. Latest live: [inbox/2026-08-12.md](inbox/2026-08-12.md). Fixtures live under `examples/` and must not be treated as live data.

@@ -44,5 +44,6 @@ Ruokavirasto’s consumer fish page (updated 2025-01-02) sets PFAS/dioxin/mercur
 ## Related
 
 - Domain hub: [food](./README.md)
+- Sibling: [fi-pregnancy-listeria-reheat](./fi-pregnancy-listeria-reheat.md)
 - Consumer hint: mealplan `pregnancy_nourish` / pescatarian templates
 - Fitness coupling: programming notes stay under `fitness/`; this note owns food-safety fish caps
