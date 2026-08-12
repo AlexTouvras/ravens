@@ -3,7 +3,8 @@
   "private": true,
   "description": "Huginn & Muninn — shared AI knowledge vault",
   "scripts": {
-    "verify": "node scripts/verify.mjs"
+    "verify": "node scripts/verify.mjs",
+    "ship:check": "npm run verify"
   },
   "engines": {
     "node": ">=20"
