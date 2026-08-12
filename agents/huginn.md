@@ -23,6 +23,7 @@ Once per scheduled run, scan the web against this repo’s watchlist and write a
 7. List empty domains under **Empty domains**.
 8. Commit with message: `huginn: inbox YYYY-MM-DD (N findings)`.
 9. Push to `main`.
+10. **Slack** — after a successful push, post a one-liner (or up to 5 bullets) to CareerOps `#ravens` (channel id `C0BPJSPCMAR`) using **Send to Slack**. Include finding count and a link to `inbox/YYYY-MM-DD.md` on `main`. Skip Slack only when the run wrote nothing new and status is still clean from an earlier same-day run; always post for `partial` / `failed`.
 
 ## Output limits
 
@@ -36,7 +37,8 @@ Once per scheduled run, scan the web against this repo’s watchlist and write a
 - Do not invent URLs, quotes, or dates.
 - Do not turn the inbox into an essay or newsletter.
 - Do not scrape or store personal medical data; stick to public guidelines and programming principles.
+- Do not post to Slack channels other than `#ravens`.
 
 ## Partial / failed runs
 
-If research is blocked, still write the inbox file with `status: partial` or `failed`, explain under the run heading, commit, and push. Silence is worse than an honest empty run.
+If research is blocked, still write the inbox file with `status: partial` or `failed`, explain under the run heading, commit, push, and Slack the failure note. Silence is worse than an honest empty run.

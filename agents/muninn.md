@@ -35,6 +35,7 @@ Distill recent inbox findings into durable knowledge notes and short-lived signa
 6. Update `signals/README.md` index table (active signals only in the main table; link archive note if needed).
 7. Commit with message: `muninn: distill YYYY-MM-DD (K knowledge, S signals, D dropped)`.
 8. Push to `main`.
+9. **Slack** — after a successful push, post a short digest to CareerOps `#ravens` (channel id `C0BPJSPCMAR`) using **Send to Slack**. Lead with the date and counts (knowledge / signals / dropped). Bullet new or updated knowledge slugs and new signal ids. Link the commit or relevant paths on `main`. Keep it under ~15 lines. If nothing changed (all findings already processed), post one line: date + “no new promotions”.
 
 ## Hard prohibitions
 
@@ -42,6 +43,7 @@ Distill recent inbox findings into durable knowledge notes and short-lived signa
 - Do not delete superseded notes; mark `status: superseded` and set `superseded_by`.
 - Do not promote low-confidence fitness/medical claims to knowledge — signal or drop.
 - Do not invent source URLs.
+- Do not post to Slack channels other than `#ravens`.
 
 ## Idempotency
 

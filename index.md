@@ -9,7 +9,7 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 | Career | [knowledge/career/](knowledge/career/) | careerops, careerDev |
 | Food | [knowledge/food/](knowledge/food/) | mealplan |
 | Fitness | [knowledge/fitness/](knowledge/fitness/) | mealplan goals, future training plans |
-| Finance | [knowledge/finance/](knowledge/finance/) | Ledger, ledger-private |
+| Finance | [knowledge/finance/](knowledge/finance/) | Ledger, ledger-private — incl. investment opportunities |
 | Content | [knowledge/content/](knowledge/content/) | Orbit Writes / Signals |
 
 ## Active notes (2026-08-12)

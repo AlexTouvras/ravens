@@ -32,6 +32,7 @@ Ravens is a shared markdown knowledge vault with versioned contracts. **Huginn**
 |------------|----------------|------|
 | Node ≥20 | `scripts/verify.mjs` | 2026-08-10 |
 | Cursor Automations (cron) | Daily Huginn + Muninn | 2026-08-10 |
+| Cursor Automations → Slack `#ravens` | Post-run digests (CareerOps workspace) | 2026-08-12 |
 
 ## File structure
 
@@ -48,3 +49,5 @@ See `README.md` quick map and `docs/architecture/overview.md`.
 | 2026-08-10 | Added `fitness` domain | Aligns with mealplan lean / pregnancy_nourish |
 | 2026-08-10 | Markdown+git over DB/MCP for v1 | Strong contracts first; seams documented |
 | 2026-08-10 | Named verify `npm run verify` | Prove foundation health by observation |
+| 2026-08-12 | Daily digests to CareerOps Slack `#ravens` (`C0BPJSPCMAR`) | Notify without writing other repos; Cursor Automations **Send to Slack** |
+| 2026-08-12 | Watchlist: investment opportunities under `finance` | Actionable Nordic/EU/US liquid equity & ETF catalysts; still exclude crypto/HFT/tipster |

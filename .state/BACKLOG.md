@@ -6,14 +6,17 @@
 
 - [x] Create private GitHub repo `AlexTouvras/ravens` and push scaffold
 - [x] Foundation: contracts, playbooks, signals, examples, architecture, verify
-- [ ] Push foundation commit to `main`
-- [ ] Approve + create Huginn automation (daily 07:00)
-- [ ] Approve + create Muninn automation (daily 07:45)
+- [x] Push foundation commit to `main`
+- [x] Approve + create Huginn automation (daily 07:00)
+- [x] Approve + create Muninn automation (daily 07:45)
 
 ## Next
 
 - [x] First live Huginn run → verify `inbox/YYYY-MM-DD.md` + `npm run verify`
 - [x] First live Muninn run → verify knowledge/signals
+- [x] Enable **Send to Slack** → `#ravens` on Huginn + Muninn automations (playbooks already instruct)
+- [x] Expand finance watchlist with investment opportunities
+- [x] Push Slack + watchlist repo changes
 - [ ] Wire consumer read docs into mealplan / field-card when those projects ask
 
 ## Later
@@ -34,5 +37,5 @@
 - [x] Contracts + quality rubric committed
 - [x] Huginn/Muninn playbooks committed
 - [x] `npm run verify` exits 0
-- [ ] Foundation pushed to `origin/main`
-- [ ] Both automation drafts approved and opened in Automations editor
+- [x] Foundation pushed to `origin/main`
+- [x] Both automation drafts approved and opened in Automations editor

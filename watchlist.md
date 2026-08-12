@@ -2,7 +2,7 @@
 
 Topics Huginn scans daily. Prefer delivery-changing signals over hype. Skip game-loop experiments, crypto/HFT, and generic model-launch PR.
 
-Last reviewed: 2026-08-10
+Last reviewed: 2026-08-12
 
 ## ai-agents
 
@@ -42,6 +42,10 @@ Last reviewed: 2026-08-10
 - Liquid long-only equity research: momentum vs equal-weight vs buy-and-hold, turnover bars
 - Nordic + US names relevant to a Nordnet book; portfolio construction (not day-trading)
 - Quant platform OSS only when evaluating clone-vs-build (Lean, Nautilus) — not crypto bots
+- **Investment opportunities** (actionable, sourced, time-bounded): Nordic / EU / US liquid equities or broad ETFs with a clear catalyst in the next weeks–months (earnings, guidance, regulatory, M&A, index events, capital-return programs)
+- New listings / spin-offs / secondary offerings on venues a retail Nordnet book can actually trade
+- Macro or sector regime shifts that change what is worth watching this month (rates, FX, commodity input costs) — only with a primary source and a concrete portfolio implication
+- Skip tips, paywalled “stock picks,” undisclosed research, and anything that smells like tipster or crypto promotion
 
 ## content
 
