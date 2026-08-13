@@ -11,8 +11,8 @@
 
 | Name | Trigger | Output | Human gate |
 |------|---------|--------|------------|
-| Huginn | Cursor daily 07:00 | `#ravens` + `inbox/YYYY-MM-DD.md` | review inbox |
-| Muninn | Cursor daily 07:45 | `#ravens` knowledge signals | review signals |
+| Huginn | Cursor daily 06:00 | `#ravens` + `inbox/YYYY-MM-DD.md` | review inbox |
+| Muninn | Cursor daily 06:30 | `#ravens` knowledge signals | review signals |
 
 ## Ship checklist
 

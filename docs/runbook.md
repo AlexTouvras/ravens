@@ -4,8 +4,8 @@
 
 | Time | Raven | Expectation |
 |------|-------|-------------|
-| 07:00 | Huginn | `inbox/YYYY-MM-DD.md` committed |
-| 07:45 | Muninn | knowledge/signals/index updated from last 48h inbox |
+| 06:00 | Huginn | `inbox/YYYY-MM-DD.md` committed |
+| 06:30 | Muninn | knowledge/signals/index updated from last 48h inbox |
 
 Cloud Agent compute must be enabled in the [Cloud Agents dashboard](https://cursor.com/dashboard?tab=cloud-agents).
 

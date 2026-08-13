@@ -29,8 +29,8 @@ scripts/verify.mjs        Named verify gate
 
 | Time | Raven  | Writes |
 |------|--------|--------|
-| 07:00 | Huginn | `inbox/YYYY-MM-DD.md` |
-| 07:45 | Muninn | `knowledge/` + `signals/` + `index.md` |
+| 06:00 | Huginn | `inbox/YYYY-MM-DD.md` |
+| 06:30 | Muninn | `knowledge/` + `signals/` + `index.md` |
 
 ## Domains
 

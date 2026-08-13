@@ -19,8 +19,8 @@ flowchart LR
   end
 
   subgraph agents [Cursor Automations]
-    H[Huginn 07:00]
-    M[Muninn 07:45]
+    H[Huginn 06:00]
+    M[Muninn 06:30]
   end
 
   subgraph consumers [Portfolio - read only v1]
@@ -52,11 +52,11 @@ sequenceDiagram
   participant Git as ravens main
   participant M as Muninn
 
-  Cron->>H: 07:00 Europe/Helsinki
+  Cron->>H: 06:00 Europe/Helsinki
   H->>Git: read watchlist + contracts
   H->>H: web research + Gate 0
   H->>Git: commit inbox/YYYY-MM-DD.md
-  Cron->>M: 07:45 Europe/Helsinki
+  Cron->>M: 06:30 Europe/Helsinki
   M->>Git: read inbox today+yesterday
   M->>M: quality Gates 0-2
   M->>Git: commit knowledge + signals + index
