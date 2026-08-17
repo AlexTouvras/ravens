@@ -64,3 +64,5 @@ List domains scanned with zero hits:
 ## Minimum bar
 
 Huginn may leave a domain empty. It must **not** invent sources. Prefer fewer high-signal findings over a long digest.
+
+Parenting findings must include exactly one age/stage tag in `topics` (`late-pregnancy`, `labor`, `age-0-72h`, `age-3-14d`, `age-2-8w`, or `age-2-6m`) matching `knowledge/parenting/README.md` Current stage (or one adjacent window).

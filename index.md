@@ -7,9 +7,11 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 | AI / agents | [knowledge/ai-agents/](knowledge/ai-agents/) | agentic-ai-field-card, ProjectBrain, JARVIS |
 | Data / BI | [knowledge/data-bi/](knowledge/data-bi/) | PowerBI portfolio, Orbit Analytics |
 | Career | [knowledge/career/](knowledge/career/) | careerops, careerDev |
-| Food | [knowledge/food/](knowledge/food/) | mealplan |
+| Food | [knowledge/food/](knowledge/food/) | mealplan (existing notes; not scanned) |
 | Fitness | [knowledge/fitness/](knowledge/fitness/) | mealplan goals, future training plans |
+| Parenting | [knowledge/parenting/](knowledge/parenting/) | household — timed to Current stage |
 | Finance | [knowledge/finance/](knowledge/finance/) | Ledger, ledger-private — incl. investment opportunities |
+| Security | [knowledge/security/](knowledge/security/) | JARVIS, ProjectBrain, Ledger, careerops, ravens |
 | Content | [knowledge/content/](knowledge/content/) | Orbit Writes / Signals |
 
 ## Active notes (2026-08-12)

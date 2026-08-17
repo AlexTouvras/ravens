@@ -39,9 +39,11 @@ scripts/verify.mjs        Named verify gate
 | `ai-agents` | field-card, ProjectBrain, JARVIS |
 | `data-bi` | PowerBI portfolio, Orbit Analytics |
 | `career` | careerops, careerDev |
-| `food` | mealplan |
+| `food` | mealplan (existing notes only; not on the daily watchlist) |
 | `fitness` | mealplan goals, training plans |
+| `parenting` | household (age-staged; birth imminent) |
 | `finance` | Ledger |
+| `security` | JARVIS, ProjectBrain, Ledger, careerops, ravens |
 | `content` | Orbit Writes / Signals |
 
 ## Verify

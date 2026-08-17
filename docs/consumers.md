@@ -15,9 +15,11 @@ How other projects use Ravens. **v1: read-only.**
 |----------|----------------|
 | agentic-ai-field-card | `knowledge/ai-agents/`, matching `signals/` |
 | Power BI / Orbit Analytics | `knowledge/data-bi/` |
-| careerops / careerDev | `knowledge/career/` |
+| careerops / careerDev | `knowledge/career/`, `knowledge/security/` |
 | mealplan | `knowledge/food/`, `knowledge/fitness/` |
-| Ledger | `knowledge/finance/` |
+| household (parenting) | `knowledge/parenting/` (read **Current stage** first) |
+| Ledger | `knowledge/finance/`, `knowledge/security/` |
+| JARVIS / ProjectBrain | `knowledge/ai-agents/`, `knowledge/security/` |
 | Orbit Writes / Signals | `knowledge/content/`, high-priority signals |
 
 ## Integration patterns (when ready)
@@ -29,5 +31,6 @@ How other projects use Ravens. **v1: read-only.**
 ## Stability promises
 
 - Paths under `docs/contracts/` are versioned; consumers should key off `schema:` frontmatter.
-- Domain folder names are stable: `ai-agents`, `data-bi`, `career`, `food`, `fitness`, `finance`, `content`.
+- Domain folder names are stable: `ai-agents`, `data-bi`, `career`, `food`, `fitness`, `parenting`, `finance`, `security`, `content`.
+- A domain may leave the daily watchlist without deleting its hub. `food/` is existing notes only; Huginn does not scan it.
 - Inbox is **not** a public API — may be noisy; Muninn output is the API.

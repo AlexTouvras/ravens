@@ -90,6 +90,8 @@ const domains = [
   "fitness",
   "finance",
   "content",
+  "parenting",
+  "security",
 ];
 
 for (const d of domains) {

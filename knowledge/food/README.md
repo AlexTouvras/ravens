@@ -1,13 +1,13 @@
 ---
 schema: ravens.domain-hub/v1
 domain: food
-updated: 2026-08-12
+updated: 2026-08-17
 status: active
 ---
 
 # Food
 
-Pescatarian household planning for Asola / Vantaa — grocery patterns, food safety, and high-protein templates that feed mealplan.
+Existing pescatarian / pregnancy food-safety notes for mealplan. Huginn no longer scans this domain (grocery, templates, and food-safety news are on the watchlist ignore list).
 
 ## Current guidance
 
@@ -29,6 +29,7 @@ _(none)_
 
 | Date | Change |
 |------|--------|
+| 2026-08-17 | Removed from daily watchlist; notes kept |
 | 2026-08-12 | Promoted KNOW-food-fi-pregnancy-listeria-reheat |
 | 2026-08-11 | Promoted KNOW-food-fi-pregnancy-fish-limits |
 | 2026-08-10 | Domain hub created (foundation) |

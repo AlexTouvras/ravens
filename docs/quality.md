@@ -13,8 +13,8 @@ Muninn uses this to decide: **drop**, **signal**, or **knowledge**.
 
 Score ≥ 2 of:
 
-1. **Portfolio fit** — maps to a named domain and a real consumer (field-card, mealplan, Ledger, …)
-2. **Actionability** — changes a decision this month (guidance, watchlist, tooling choice)
+1. **Portfolio fit** — maps to a named domain and a real consumer (field-card, mealplan, Ledger, household for `parenting`, …)
+2. **Actionability** — changes a decision this month (guidance, watchlist, tooling choice, or this week’s parenting window)
 3. **Novelty** — new vs last 30 days of inbox/knowledge
 4. **Credibility** — primary source, known practitioner, vendor docs, or public-health body (not pure engagement bait)
 
@@ -32,9 +32,21 @@ All of:
 Promote when it changes programming, recovery, or pregnancy-safe activity rules.  
 Drop: influencer challenges, before/after ads, gadget listicles, extreme cuts, steroid discourse.
 
-## Food ↔ fitness coupling
+## Food domain (not scanned)
 
-When a finding affects both protein targets and training load, open **one** primary note and cross-link the other domain. Prefer food safety / pregnancy nutrition under `food`; programming under `fitness`.
+`knowledge/food/` notes remain as durable mealplan guidance. Huginn must not gather grocery, adult nutrition, or meal-plan findings. Do not open new food notes from inbox. If a fitness finding mentions protein targets, keep it under `fitness` without a paired food note. Infant feeding-safety belongs under `parenting`.
+
+## Parenting-specific filters
+
+Promote only when the finding applies to **Current stage** in `knowledge/parenting/README.md` (or one adjacent age window). Every inbox item needs an age/stage topic tag.
+
+Default path: **signal** with a short expiry that matches the window (days, not months). **Knowledge** only when the guidance is durable *and* the note’s Limits section states the child-age range. Drop influencer listicles, product hauls, and anything for toddlers/school while the hub is still pregnancy/newborn.
+
+Do not promote low-confidence medical claims. Do not write `Child born` or change Current stage — a human does that after birth.
+
+## Security-specific filters
+
+Promote when it changes secrets, auth, or where data lives for a **named** consumer. Drop generic CVE roundups, antivirus reviews, and crypto-wallet news. Default path: **signal** unless prefer/avoid guidance is durable with limits.
 
 ## GitHub / OSS repo filters
 

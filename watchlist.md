@@ -2,7 +2,7 @@
 
 Topics Huginn scans daily. Prefer delivery-changing signals over hype. Skip game-loop experiments, crypto/HFT, and generic model-launch PR.
 
-Last reviewed: 2026-08-12
+Last reviewed: 2026-08-17
 
 ## Project-relevant GitHub / OSS (cross-cutting)
 
@@ -12,7 +12,7 @@ Find **individual repos** (or significant releases/RFCs in them) that would chan
 - Prefer: recent release, breaking change, first usable CLI/SDK, or a pattern we can adopt this month — not “interesting README”
 - `source_url` should be the repo, release, or primary docs page (not a roundup article)
 - Cap: at most **2** GitHub/OSS findings per day across all domains unless something exceptional shipped
-- Examples of fit: MCP servers that replace custom glue; PBIR/TMDL tooling; agent-skill packs; meal-planning / nutrition APIs with clear license; long-only quant libs (Lean/Nautilus-class) when evaluating Ledger build-vs-clone
+- Examples of fit: MCP servers that replace custom glue; PBIR/TMDL tooling; agent-skill packs; long-only quant libs (Lean/Nautilus-class) when evaluating Ledger build-vs-clone
 
 ## ai-agents
 
@@ -36,21 +36,58 @@ Find **individual repos** (or significant releases/RFCs in them) that would chan
 - Agile / Scrum / continuous-delivery practice useful for Delivery Lead / app ops (not generic PM hype)
 - GitHub: only when a public framework/repo is the primary artifact careerops would cite (rare)
 
-## food
-
-- Pescatarian + pregnancy/newborn food safety (mercury, leftovers, undercooked bans)
-- Finnish grocery / seasonal produce; Lidl–K–S offer patterns (Asola / Vantaa)
-- High-protein eggless-fish week templates (oats, yogurt/cottage, one-tray, legumes/tofu)
-- GitHub: meal-plan / grocery / nutrition OSS only with license clarity and mealplan fit (not calorie-tracker spam)
-
 ## fitness
 
 - Strength / hypertrophy programming for a lean high-protein goal (progressive overload, weekly volume, deloads)
 - Time-efficient full-body or upper/lower templates that fit a busy week (home or gym)
 - Recovery, sleep, and injury-prevention basics that change how you train this week
-- Pregnancy- and postpartum-safe activity guidelines (what to avoid, intensity caps, pelvic-floor / return-to-lift notes) for household planning alongside mealplan
+- Pregnancy- and postpartum-safe activity guidelines (what to avoid, intensity caps, pelvic-floor / return-to-lift notes) for household planning alongside mealplan training modes
 - Nordic / Finnish outdoor season tips only when they change weekly movement (ice, dark winter, heat)
-- GitHub: programming calculators / open training templates only when they change a weekly plan (not fitness-app clones)
+- GitHub: programming calculators / open training templates only when they change a weekly plan (not fitness-app clones). Mealplan is still a named consumer here; do not file grocery or nutrition repos.
+
+## parenting
+
+General household parenting for a Finnish home — not grocery, not adult meal-planning. **Time every finding to child age.** Read `knowledge/parenting/README.md` **Current stage** before scanning; that hub is the source of truth for “born yet?” and which windows are in play.
+
+Until **Current stage** says the child is born, treat birth as imminent (days). Scan only:
+
+- `late-pregnancy` — last weeks: labor signs, when to go in, partner support, hospital/home-coming prep
+- `labor` — birth and immediate postpartum for the parents
+- `age-0-72h` — first hours/days at home (adjacent window; gather so it is ready on arrival)
+
+After **Child born** is a date, compute age in Europe/Helsinki and scan **that window plus one adjacent only**:
+
+| Age | Topic tag |
+|-----|-----------|
+| 0–2 days | `age-0-72h` |
+| 3–14 days | `age-3-14d` |
+| 15–56 days (~2–8 weeks) | `age-2-8w` |
+| 2–6 months | `age-2-6m` |
+
+Older than the hub stage, toddler, and school-age: skip (empty is success).
+
+What to look for (public-health and Finnish systems, not blogs):
+
+- Neuvola schedule, Kela parental leave / benefits timing, birth registration — only when it bites this window
+- Newborn care: safe sleep, feeding (breast/formula/latch/supply — not recipes), soothing, nappies, temperature, jaundice/weight red flags, when to call neuvola or 112
+- Safety: car seat home, co-sleeping guidance, heat/cold, pets
+- Parent recovery that is not gym programming (sleep shifts, postpartum mental-health flags). Activity/pelvic-floor stays under `fitness`
+
+Every finding **must** put exactly one age/stage tag in `topics` and say “applies at …” in `why_it_matters`. Prefer THL, neuvola, Kela, WHO, AAP, NICE. Infant feeding-safety (honey, formula prep) lives here, not under retired `food`.
+
+GitHub: only a household tool you would actually use this month (rare). No baby-tracker spam.
+
+## security
+
+Secrets, auth, privacy, and local-vs-cloud data handling that would change how a **named** consumer runs.
+
+- MCP / agent auth, API keys in automations, Cursor cloud-agent data handling
+- JARVIS / ProjectBrain memory: what may be stored, where, and who can read it
+- Ledger credentials and portfolio-data handling (not investment tips)
+- GDPR / Finnish data-protection only with a concrete portfolio implication
+- GitHub: secret scanning, vault/OIDC patterns, local-model privacy tools — only when ravens, JARVIS, ProjectBrain, Ledger, or careerops would adopt them this month
+
+Skip the CVE firehose unless it hits a dependency a named consumer actually uses.
 
 ## finance
 
@@ -77,5 +114,8 @@ Find **individual repos** (or significant releases/RFCs in them) that would chan
 - Crypto / tipster finance / HFT
 - Generic AI news firehose and academic thesis-style writing advice
 - Fitness influencer challenges, before/after marketing, steroid discourse, extreme cuts
+- Grocery flyers, calorie trackers, adult meal-plan templates, restaurant/recipe roundups. Adult food-safety stays off-watchlist (existing `knowledge/food/` notes). Infant feeding-safety belongs under `parenting`
+- Parenting influencer listicles, product hauls, sleep-training wars without a primary source, toddler/school content, “10 baby gadgets”
+- Generic CVE roundups, consumer antivirus reviews, crypto wallets
 - One-off gadget reviews and “10-minute abs” listicles with no programming value
 - Repos with no named consumer fit, no recent release/activity signal, or license that blocks portfolio use

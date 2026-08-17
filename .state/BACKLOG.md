@@ -18,6 +18,7 @@
 - [x] Expand finance watchlist with investment opportunities
 - [x] Push Slack + watchlist repo changes
 - [x] Expand watchlist/quality for project-relevant GitHub/OSS findings
+- [x] Add `parenting` (age-staged) and `security` domains
 - [ ] Wire consumer read docs into mealplan / field-card when those projects ask
 
 ## Later
@@ -30,6 +31,7 @@
 
 - Editing Orbit, mealplan, agentic-ai-field-card, careerops, or Ledger from Huginn/Muninn
 - Game-loop / garden / puzzle experiment ingestion
+- Food / grocery / meal-plan scanning (existing `knowledge/food/` notes stay)
 - Crypto / HFT / tipster finance topics
 - Adding a database before verify + volume prove the need
 

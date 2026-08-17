@@ -51,6 +51,7 @@ summary: "Fixture day — lean deload cue and MCP monitoring note."
 
 - data-bi: no high-signal items
 - career: no high-signal items
-- food: no high-signal items
 - finance: no high-signal items
 - content: no high-signal items
+- parenting: no high-signal items
+- security: no high-signal items

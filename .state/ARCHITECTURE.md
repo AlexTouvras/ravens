@@ -47,6 +47,8 @@ See `README.md` quick map and `docs/architecture/overview.md`.
 | 2026-08-10 | Two cron automations | Separate thought vs memory |
 | 2026-08-10 | No consumer writes in v1 | Vault-first; avoid cross-repo churn |
 | 2026-08-10 | Added `fitness` domain | Aligns with mealplan lean / pregnancy_nourish |
+| 2026-08-17 | Dropped `food` from daily watchlist | Grocery/nutrition scan retired; `knowledge/food/` hub and notes kept; mealplan still reads them |
+| 2026-08-17 | Added `parenting` and `security` domains | Parenting is general household care, age-staged from imminent birth; security is secrets/auth/privacy for named consumers. Hubs required by verify. |
 | 2026-08-10 | Markdown+git over DB/MCP for v1 | Strong contracts first; seams documented |
 | 2026-08-10 | Named verify `npm run verify` | Prove foundation health by observation |
 | 2026-08-12 | Daily digests to CareerOps Slack `#ravens` (`C0BPJSPCMAR`) | Notify without writing other repos; Cursor Automations **Send to Slack** |

@@ -1,13 +1,13 @@
 ---
 schema: ravens.domain-hub/v1
 domain: fitness
-updated: 2026-08-12
+updated: 2026-08-17
 status: active
 ---
 
 # Fitness
 
-Strength and recovery programming for lean goals, plus pregnancy-safe activity guidelines for household planning. Couples with `food/` and mealplan modes (`lean`, `pregnancy_nourish`).
+Strength and recovery programming for lean goals, plus pregnancy-safe activity guidelines for household planning. Mealplan modes (`lean`, `pregnancy_nourish`) still apply. Existing pregnancy food-safety notes live under `food/` (off the daily watchlist).
 
 ## Current guidance
 
@@ -29,6 +29,7 @@ _(none)_
 
 | Date | Change |
 |------|--------|
+| 2026-08-17 | Watchlist dropped `food`; hub still points at existing food-safety notes |
 | 2026-08-12 | Promoted KNOW-fitness-acog-pregnancy-postpartum-activity |
 | 2026-08-11 | Promoted KNOW-fitness-acsm-weekly-volume-hypertrophy |
 | 2026-08-10 | Domain hub created (foundation) |
