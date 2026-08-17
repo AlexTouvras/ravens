@@ -20,7 +20,7 @@ flowchart LR
 
   subgraph agents [Cursor Automations]
     H[Huginn 08:00]
-    M[Muninn 09:00]
+    M[Muninn on Huginn push]
   end
 
   subgraph consumers [Portfolio - read only v1]
@@ -56,7 +56,7 @@ sequenceDiagram
   H->>Git: read watchlist + contracts
   H->>H: web research + Gate 0
   H->>Git: commit inbox/YYYY-MM-DD.md
-  Cron->>M: 09:00 Europe/Helsinki
+  Git->>M: push to main (huginn: subject)
   M->>Git: read inbox today+yesterday
   M->>M: quality Gates 0-2
   M->>Git: commit knowledge + signals + index

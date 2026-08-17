@@ -19,6 +19,15 @@ Distill recent inbox findings into durable knowledge notes and short-lived signa
   - relevant `knowledge/<domain>/README.md` hubs
   - open signals under `signals/` with `status: watching`
 
+## Trigger gate (git-push runs)
+
+Muninn is triggered by a **push to `main`** (Huginn returning). Before distilling, run `git log -1 --format=%s` on `main`.
+
+- If the subject starts with `huginn:` → proceed.
+- Otherwise **stop immediately**: no commit, no Slack. That skip covers your own `muninn:` distill (avoids a loop), docs commits, and anything that is not an inbox landing.
+- **Test runs** skip this gate and proceed.
+- If a 09:00 cron is still configured, it is only a retry: the same `huginn:` gate applies, so a clock run no-ops unless HEAD is still an unprocessed inbox.
+
 ## Procedure
 
 1. Load inbox files for today and yesterday. If today’s file is missing, set a note in your commit body and only process yesterday + expire stale signals.

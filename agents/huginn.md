@@ -22,8 +22,8 @@ Once per scheduled run, scan the web against this repo’s watchlist and write a
 6. Write or append `inbox/YYYY-MM-DD.md` exactly per `docs/contracts/inbox.md`.
 7. Assign `FIND-YYYYMMDD-NNN` IDs continuing from any earlier run section the same day.
 8. List empty domains under **Empty domains**.
-9. Commit with message: `huginn: inbox YYYY-MM-DD (N findings)`.
-10. Push to `main`.
+9. Commit with message: `huginn: inbox YYYY-MM-DD (N findings)`. The `huginn:` prefix is required — Muninn’s push trigger only proceeds when HEAD starts with that.
+10. Push to **`main`** (do not open a branch/PR). Muninn starts from that push.
 11. **Slack** — after a successful push, post a one-liner (or up to 5 bullets) to CareerOps `#ravens` (channel id `C0BPJSPCMAR`) using **Send to Slack**. Include finding count and a link to `inbox/YYYY-MM-DD.md` on `main`. Skip Slack only when the run wrote nothing new and status is still clean from an earlier same-day run; always post for `partial` / `failed`.
 
 ## Output limits

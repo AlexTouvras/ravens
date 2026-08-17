@@ -12,7 +12,7 @@
 | Name | Trigger | Output | Human gate |
 |------|---------|--------|------------|
 | Huginn | Cursor daily 08:00 | `#ravens` + `inbox/YYYY-MM-DD.md` | review inbox |
-| Muninn | Cursor daily 09:00 | `#ravens` knowledge signals | review signals |
+| Muninn | GitHub push to `main` (subject `huginn:`) | `#ravens` knowledge signals | review signals |
 
 ## Ship checklist
 
