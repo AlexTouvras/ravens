@@ -4,7 +4,7 @@
 
 ## Overview
 
-Ravens is a shared markdown knowledge vault with versioned contracts. **Huginn** (06:00 Europe/Helsinki) scans the web against `watchlist.md` and writes `inbox/YYYY-MM-DD.md`. **Muninn** (06:30) applies a quality rubric to produce durable `knowledge/<domain>/` notes and time-bounded `signals/`. Git is the database for v1; MCP/DB are documented extension seams only.
+Ravens is a shared markdown knowledge vault with versioned contracts. **Huginn** (08:00 Europe/Helsinki) scans the web against `watchlist.md` and writes `inbox/YYYY-MM-DD.md`. **Muninn** (09:00) applies a quality rubric to produce durable `knowledge/<domain>/` notes and time-bounded `signals/`. Git is the database for v1; MCP/DB are documented extension seams only.
 
 ## Data shapes
 
@@ -53,3 +53,4 @@ See `README.md` quick map and `docs/architecture/overview.md`.
 | 2026-08-12 | Watchlist: investment opportunities under `finance` | Actionable Nordic/EU/US liquid equity & ETF catalysts; still exclude crypto/HFT/tipster |
 | 2026-08-12 | Watchlist + quality: project-relevant GitHub/OSS findings | Cross-cutting scan for repos that change tooling for named consumers; still ban awesome-lists / star magnets; ≤2 repo findings/day; Muninn prefers signal unless prefer/avoid guidance is durable |
 | 2026-08-13 | Schedules shifted earlier: Huginn 06:00 / Muninn 06:30 (Europe/Helsinki) | Avoid 07:00 cloud rate-limit pileup that failed Huginn on 2026-08-13; Muninn custom cron `30 3 * * *` UTC |
+| 2026-08-17 | Schedules shifted later: Huginn 08:00 / Muninn 09:00 (Europe/Helsinki) | 06:00/06:30 still hit team concurrent-run cap (Huginn 5/5 failed since 13 Aug; Muninn 3/5). After 07:00 wave; 60m gap so Muninn waits for Huginn. |
