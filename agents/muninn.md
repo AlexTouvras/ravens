@@ -32,7 +32,7 @@ Muninn is triggered by a **push to `main`** (Huginn returning). Before distillin
 
 1. Load inbox files for today and yesterday. If today’s file is missing, set a note in your commit body and only process yesterday + expire stale signals.
 2. For each new `FIND-…` not already referenced in knowledge/signals:
-   - Run Gate 0 → Gate 1 → Gate 2 in `docs/quality.md` (include **GitHub / OSS repo filters** when `topics` include `github` / `oss`).
+   - Run Gate 0 → Gate 1 → Gate 2 in `docs/quality.md` (include **GitHub / OSS repo filters** when `topics` include `github` / `oss`; **Finance-specific filters** when domain is `finance`).
    - **drop** / **signal** / **knowledge** accordingly.
 3. For knowledge promotions:
    - Prefer updating an existing note (same claim) over a new slug.
@@ -53,7 +53,8 @@ Muninn is triggered by a **push to `main`** (Huginn returning). Before distillin
 - Do not delete superseded notes; mark `status: superseded` and set `superseded_by`.
 - Do not promote low-confidence fitness, parenting, or medical claims to knowledge — signal or drop.
 - Do not set or guess `Child born` / Current stage on the parenting hub — a human updates that after birth. Parenting promotions must keep the age window in the note Limits (knowledge) or signal expiry.
-- Do not invent source URLs.
+- Do not invent source URLs. Do not promote a finding whose `source_url` is an aggregator.
+- Do not edit `watch/` — Heimdall owns the video catalog.
 - Do not post to Slack channels other than `#ravens`.
 
 ## Idempotency

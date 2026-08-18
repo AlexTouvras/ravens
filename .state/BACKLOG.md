@@ -19,7 +19,11 @@
 - [x] Push Slack + watchlist repo changes
 - [x] Expand watchlist/quality for project-relevant GitHub/OSS findings
 - [x] Add `parenting` (age-staged) and `security` domains
+- [x] Heimdall foundation: `watch/` catalog, `sight.md`, playbook, video gates
 - [ ] Wire consumer read docs into mealplan / field-card when those projects ask
+- [x] Create Heimdall weekly automation (Sunday 10:00 Helsinki)
+- [x] Gathering hygiene: source tiers, date gates, finance dual-stream, scan gaps, preferred sources
+- [ ] Observe first Heimdall scheduled run in `#ravens` and verify `watch/` push
 
 ## Later
 
@@ -29,10 +33,11 @@
 
 ## Out of scope (strict)
 
-- Editing Orbit, mealplan, agentic-ai-field-card, careerops, or Ledger from Huginn/Muninn
+- Editing Orbit, mealplan, agentic-ai-field-card, careerops, or Ledger from Huginn/Muninn/Heimdall
 - Game-loop / garden / puzzle experiment ingestion
 - Food / grocery / meal-plan scanning (existing `knowledge/food/` notes stay)
 - Crypto / HFT / tipster finance topics
+- World-news / geopolitics domain; World Monitor (or similar OSINT dashboard) ingest, MCP, fork, or `source_url`
 - Adding a database before verify + volume prove the need
 
 ## Definition of done (foundation)

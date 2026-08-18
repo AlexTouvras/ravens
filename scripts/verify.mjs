@@ -63,18 +63,22 @@ const required = [
   "README.md",
   "AGENTS.md",
   "watchlist.md",
+  "sight.md",
   "index.md",
   "agents/huginn.md",
   "agents/muninn.md",
+  "agents/heimdall.md",
   "docs/contracts/README.md",
   "docs/contracts/inbox.md",
   "docs/contracts/knowledge-note.md",
   "docs/contracts/signal.md",
+  "docs/contracts/watch.md",
   "docs/quality.md",
   "docs/runbook.md",
   "docs/consumers.md",
   "docs/architecture/overview.md",
   "signals/README.md",
+  "watch/README.md",
   "examples/README.md",
   "package.json",
   "scripts/verify.mjs",
@@ -109,10 +113,12 @@ for (const d of domains) {
 expectSchema("examples/inbox-sample.md", "ravens.inbox/v1");
 expectSchema("examples/knowledge-sample.md", "ravens.knowledge/v1");
 expectSchema("examples/signal-sample.md", "ravens.signal/v1");
+expectSchema("examples/watch-sample.md", "ravens.watch/v1");
 
 const findIds = new Map(); // id -> file
 const knowIds = new Map();
 const sigIds = new Map();
+const watchIds = new Map();
 
 function track(map, id, rel, label) {
   if (map.has(id) && map.get(id) !== rel)
@@ -148,10 +154,22 @@ for (const rel of walkMarkdown("signals")) {
   if (fm?.id) track(sigIds, fm.id, rel, "SIG");
 }
 
+for (const rel of walkMarkdown("watch")) {
+  if (rel.endsWith("README.md")) continue;
+  expectSchema(rel, "ravens.watch/v1");
+  const fm = parseFrontmatter(read(rel));
+  if (fm?.id) track(watchIds, fm.id, rel, "WATCH");
+}
+
 // Fixture IDs must stay in examples only
 for (const [id, rel] of findIds) {
   if (id.startsWith("FIND-20990101-"))
     errors.push(`fixture FIND id ${id} leaked into live inbox at ${rel}`);
+}
+
+for (const [id, rel] of watchIds) {
+  if (id.startsWith("WATCH-20990101-"))
+    errors.push(`fixture WATCH id ${id} leaked into live watch/ at ${rel}`);
 }
 
 if (warnings.length) {
@@ -167,5 +185,5 @@ if (errors.length) {
 
 console.log("verify ok");
 console.log(
-  `  domains=${domains.length} liveFind=${findIds.size} liveKnow=${knowIds.size} liveSig=${sigIds.size}`
+  `  domains=${domains.length} liveFind=${findIds.size} liveKnow=${knowIds.size} liveSig=${sigIds.size} liveWatch=${watchIds.size}`
 );

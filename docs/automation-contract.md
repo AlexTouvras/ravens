@@ -13,6 +13,7 @@
 |------|---------|--------|------------|
 | Huginn | Cursor daily 08:00 | `#ravens` + `inbox/YYYY-MM-DD.md` | review inbox |
 | Muninn | GitHub push to `main` (subject `huginn:`) | `#ravens` knowledge signals | review signals |
+| Heimdall | weekly Sunday 10:00 Europe/Helsinki | `#ravens` + `watch/` | review clips |
 
 ## Ship checklist
 

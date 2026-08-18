@@ -9,7 +9,7 @@
 1. One file per calendar day (local Finland time, Europe/Helsinki).
 2. Filename is the scan date, not the publish date of sources.
 3. If a prior file exists for today, **append** a new run section — do not overwrite earlier findings.
-4. Every finding needs a stable `id`, domain, source URL, and claim that can be checked.
+4. Every finding needs a stable `id`, domain, source URL, and claim that can be checked. `source_url` is the publisher, not an aggregator.
 
 ## Template
 
@@ -41,6 +41,7 @@ summary: "One sentence: what mattered today."
 - **source_url:** https://…
 - **source_title:** Publisher or page title
 - **published:** YYYY-MM-DD or unknown
+- **corroboration_url:** (optional; required before Muninn promotes finance opportunity/macro items)
 - **found_at:** YYYY-MM-DDTHH:MM:SS+03:00
 - **confidence:** high | medium | low
 - **novelty:** new | update | rumor
@@ -55,6 +56,12 @@ summary: "One sentence: what mattered today."
 List domains scanned with zero hits:
 
 - finance: no high-signal items
+
+## Scan gaps
+
+Preferred-source families that failed, timed out, or were paywalled. `none` if the scan completed. Empty domains are not gaps.
+
+- none
 ```
 
 ## ID scheme
@@ -63,6 +70,8 @@ List domains scanned with zero hits:
 
 ## Minimum bar
 
-Huginn may leave a domain empty. It must **not** invent sources. Prefer fewer high-signal findings over a long digest.
+Huginn may leave a domain empty. It must **not** invent sources. Prefer fewer high-signal findings over a long digest. List **Scan gaps** when a preferred source family was blocked; do not omit the heading.
+
+Journalism items need a parseable `published` date inside Gate 0. Living official docs may use `published: unknown` (see `docs/quality.md`).
 
 Parenting findings must include exactly one age/stage tag in `topics` (`late-pregnancy`, `labor`, `age-0-72h`, `age-3-14d`, `age-2-8w`, or `age-2-6m`) matching `knowledge/parenting/README.md` Current stage (or one adjacent window).

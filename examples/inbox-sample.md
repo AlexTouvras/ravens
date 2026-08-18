@@ -55,3 +55,7 @@ summary: "Fixture day — lean deload cue and MCP monitoring note."
 - content: no high-signal items
 - parenting: no high-signal items
 - security: no high-signal items
+
+## Scan gaps
+
+- none

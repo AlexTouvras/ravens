@@ -5,7 +5,7 @@ How other projects use Ravens. **v1: read-only.**
 ## Principles
 
 1. Treat `AlexTouvras/ravens` as the source of truth for shared AI knowledge.
-2. Prefer `knowledge/<domain>/` and `index.md` over raw `inbox/`.
+2. Prefer `knowledge/<domain>/` and `index.md` over raw `inbox/`. Use `watch/` for form/how-to videos.
 3. Use `signals/` for time-bounded watch items; check `expires` and `status`.
 4. Never require Huginn/Muninn to write into your repo until an explicit consumer automation is designed.
 
@@ -17,7 +17,8 @@ How other projects use Ravens. **v1: read-only.**
 | Power BI / Orbit Analytics | `knowledge/data-bi/` |
 | careerops / careerDev | `knowledge/career/`, `knowledge/security/` |
 | mealplan | `knowledge/food/`, `knowledge/fitness/` |
-| household (parenting) | `knowledge/parenting/` (read **Current stage** first) |
+| fitness coach | `knowledge/fitness/`, `watch/fitness/` (form-check clips) |
+| household (parenting) | `knowledge/parenting/` (read **Current stage** first), `watch/parenting/` |
 | Ledger | `knowledge/finance/`, `knowledge/security/` |
 | JARVIS / ProjectBrain | `knowledge/ai-agents/`, `knowledge/security/` |
 | Orbit Writes / Signals | `knowledge/content/`, high-priority signals |

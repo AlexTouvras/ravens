@@ -2,11 +2,12 @@
 
 ## Daily rhythm (Europe/Helsinki)
 
-| Time | Raven | Expectation |
+| Time | Agent | Expectation |
 |------|-------|-------------|
 | 08:00 | Huginn | `inbox/YYYY-MM-DD.md` committed to `main` |
 | on that push | Muninn | knowledge/signals/index updated from last 48h inbox |
 | 09:00 | Muninn (retry) | Runs only if HEAD is still `huginn:` (push trigger missed) |
+| weekly / on-demand | Heimdall | `watch/` notes; **do not activate the weekly automation until Thu 2026-08-20** |
 
 Cloud Agent compute must be enabled in the [Cloud Agents dashboard](https://cursor.com/dashboard?tab=cloud-agents).
 
@@ -41,5 +42,6 @@ In Cursor Automations, use “Run now” on Huginn first. Muninn should start fr
 - **ProjectBrain MCP** — expose curated hubs as portfolio memory tools
 - **Consumer automations** — mealplan/field-card/Orbit *read* signals and open PRs
 - **Search index** — only if markdown grep becomes painful
+- **World Monitor / OSINT MCP** — personal dashboard only; do not ingest into Huginn
 
 Do not add a database until verify + volume prove the need.

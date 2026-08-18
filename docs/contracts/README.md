@@ -7,8 +7,14 @@ Machine- and agent-readable shapes for the vault. Automations must produce these
 | Inbox day file | [inbox.md](./inbox.md) | Huginn |
 | Knowledge note | [knowledge-note.md](./knowledge-note.md) | Muninn |
 | Signal card | [signal.md](./signal.md) | Muninn |
-| Quality / promotion | [../quality.md](../quality.md) | Muninn (applies Huginn output) |
+| Watch note | [watch.md](./watch.md) | Heimdall |
+| Quality / promotion | [../quality.md](../quality.md) | Muninn (text) + Heimdall (video gates) |
 
-Version: **1.0** · 2026-08-10
+Version: **1.1** · 2026-08-18
 
 Breaking changes bump the version and require a changelog entry in this folder.
+
+| Date | Change |
+|------|--------|
+| 2026-08-18 | Inbox: optional `corroboration_url`; required **Scan gaps** heading. Quality: source tiers, date/retrospective Gate 0, finance dual-stream. Additive; existing inbox files stay valid. |
+| 2026-08-10 | v1.0 foundation contracts |

@@ -1,7 +1,7 @@
 {
   "name": "ravens",
   "private": true,
-  "description": "Huginn & Muninn — shared AI knowledge vault",
+  "description": "Huginn, Muninn & Heimdall — shared AI knowledge vault",
   "scripts": {
     "verify": "node scripts/verify.mjs",
     "ship:check": "npm run verify"

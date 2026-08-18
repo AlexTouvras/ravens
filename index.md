@@ -8,8 +8,8 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 | Data / BI | [knowledge/data-bi/](knowledge/data-bi/) | PowerBI portfolio, Orbit Analytics |
 | Career | [knowledge/career/](knowledge/career/) | careerops, careerDev |
 | Food | [knowledge/food/](knowledge/food/) | mealplan (existing notes; not scanned) |
-| Fitness | [knowledge/fitness/](knowledge/fitness/) | mealplan goals, future training plans |
-| Parenting | [knowledge/parenting/](knowledge/parenting/) | household — timed to Current stage |
+| Fitness | [knowledge/fitness/](knowledge/fitness/) · [watch/fitness/](watch/fitness/) | mealplan goals, fitness coach form checks |
+| Parenting | [knowledge/parenting/](knowledge/parenting/) · [watch/parenting/](watch/parenting/) | household — timed to Current stage |
 | Finance | [knowledge/finance/](knowledge/finance/) | Ledger, ledger-private — incl. investment opportunities |
 | Security | [knowledge/security/](knowledge/security/) | JARVIS, ProjectBrain, Ledger, careerops, ravens |
 | Content | [knowledge/content/](knowledge/content/) | Orbit Writes / Signals |
@@ -33,6 +33,7 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 - Inbox: [docs/contracts/inbox.md](docs/contracts/inbox.md)
 - Knowledge: [docs/contracts/knowledge-note.md](docs/contracts/knowledge-note.md)
 - Signals: [docs/contracts/signal.md](docs/contracts/signal.md) · [signals/](signals/)
+- Watch: [docs/contracts/watch.md](docs/contracts/watch.md) · [watch/](watch/)
 - Quality: [docs/quality.md](docs/quality.md)
 
 ## Latest inbox

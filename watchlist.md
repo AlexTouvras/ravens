@@ -1,8 +1,10 @@
 # Watchlist
 
-Topics Huginn scans daily. Prefer delivery-changing signals over hype. Skip game-loop experiments, crypto/HFT, and generic model-launch PR.
+Topics Huginn scans daily. Prefer delivery-changing signals over hype. Skip game-loop experiments, crypto/HFT, generic model-launch PR, and world-news firehoses.
 
-Last reviewed: 2026-08-17
+Last reviewed: 2026-08-18
+
+Cite the **publisher** (`source_url`). Preferred sources below are search hints, not a quota you must fill. Empty is success.
 
 ## Project-relevant GitHub / OSS (cross-cutting)
 
@@ -21,6 +23,7 @@ Find **individual repos** (or significant releases/RFCs in them) that would chan
 - Cursor / IDE agent patterns: skills vs rules, automations, human-in-the-loop approve gates
 - RAG, evaluation, durable agent state — only when it changes field-card guidance
 - GitHub: Cursor skill packs, MCP servers, agent eval harnesses that field-card or ProjectBrain would actually wire in
+- Prefer: vendor docs and GitHub **releases** for named frameworks; MCP spec. Skip HN roundups.
 
 ## data-bi
 
@@ -28,6 +31,7 @@ Find **individual repos** (or significant releases/RFCs in them) that would chan
 - DAX and model design (SQLBI-class depth), Direct Lake, executive report storytelling
 - Patterns we ship: churn propensity, RFM/segmentation, 30-day readmission, credit PD/PSI, Nordic equity boards
 - GitHub: PBIR/PBIP/TMDL CLIs, Fabric deployment helpers, DAX/test tooling that changes how portfolio reports ship
+- Prefer: Microsoft Learn, SQLBI, Fabric blog, those CLIs’ release notes
 
 ## career
 
@@ -35,6 +39,7 @@ Find **individual repos** (or significant releases/RFCs in them) that would chan
 - Progression ladders / capability frameworks (DDaT-style data + delivery)
 - Agile / Scrum / continuous-delivery practice useful for Delivery Lead / app ops (not generic PM hype)
 - GitHub: only when a public framework/repo is the primary artifact careerops would cite (rare)
+- Prefer: official FI/EU role frameworks (DDaT-style), named employer or agency pages. Skip LinkedIn influencer posts.
 
 ## fitness
 
@@ -44,6 +49,7 @@ Find **individual repos** (or significant releases/RFCs in them) that would chan
 - Pregnancy- and postpartum-safe activity guidelines (what to avoid, intensity caps, pelvic-floor / return-to-lift notes) for household planning alongside mealplan training modes
 - Nordic / Finnish outdoor season tips only when they change weekly movement (ice, dark winter, heat)
 - GitHub: programming calculators / open training templates only when they change a weekly plan (not fitness-app clones). Mealplan is still a named consumer here; do not file grocery or nutrition repos.
+- Prefer: ACSM, ACOG, NSCA-class writing, THL activity notes. Skip Instagram and challenge blogs.
 
 ## parenting
 
@@ -73,7 +79,7 @@ What to look for (public-health and Finnish systems, not blogs):
 - Safety: car seat home, co-sleeping guidance, heat/cold, pets
 - Parent recovery that is not gym programming (sleep shifts, postpartum mental-health flags). Activity/pelvic-floor stays under `fitness`
 
-Every finding **must** put exactly one age/stage tag in `topics` and say “applies at …” in `why_it_matters`. Prefer THL, neuvola, Kela, WHO, AAP, NICE. Infant feeding-safety (honey, formula prep) lives here, not under retired `food`.
+Every finding **must** put exactly one age/stage tag in `topics` and say “applies at …” in `why_it_matters`. Prefer THL, neuvola, Kela, WHO, AAP, NICE (Yle only when it cites those). Infant feeding-safety (honey, formula prep) lives here, not under retired `food`.
 
 GitHub: only a household tool you would actually use this month (rare). No baby-tracker spam.
 
@@ -87,16 +93,17 @@ Secrets, auth, privacy, and local-vs-cloud data handling that would change how a
 - GDPR / Finnish data-protection only with a concrete portfolio implication
 - GitHub: secret scanning, vault/OIDC patterns, local-model privacy tools — only when ravens, JARVIS, ProjectBrain, Ledger, or careerops would adopt them this month
 
-Skip the CVE firehose unless it hits a dependency a named consumer actually uses.
+Skip the CVE firehose unless it hits a dependency a named consumer actually uses. Prefer vendor security advisories and CISA KEV **for that stack**, not World Monitor / IOC dashboards.
 
 ## finance
 
 - Liquid long-only equity research: momentum vs equal-weight vs buy-and-hold, turnover bars
 - Nordic + US names relevant to a Nordnet book; portfolio construction (not day-trading)
 - Quant platform OSS only when evaluating clone-vs-build (Lean, Nautilus) — not crypto bots
-- **Investment opportunities** (actionable, sourced, time-bounded): Nordic / EU / US liquid equities or broad ETFs with a clear catalyst in the next weeks–months (earnings, guidance, regulatory, M&A, index events, capital-return programs)
+- **Investment opportunities** (actionable, sourced, time-bounded): Nordic / EU / US liquid equities or broad ETFs with a clear catalyst in the next weeks–months (earnings, guidance, regulatory, M&A, index events, capital-return programs). Needs `corroboration_url` before Muninn promotes (same rule as macro)
 - New listings / spin-offs / secondary offerings on venues a retail Nordnet book can actually trade
-- Macro or sector regime shifts that change what is worth watching this month (rates, FX, commodity input costs) — only with a primary source and a concrete portfolio implication
+- Macro or sector regime shifts that change what is worth watching this month (rates, FX, commodity input costs) — primary source **plus** a second independent stream (`corroboration_url`); see `docs/quality.md` finance filters
+- Prefer: company IR / filings, Nasdaq Helsinki / Nasdaq / NYSE notices, ECB, Fed, BoE. Yle/Reuters are fine as the second stream, not as the only one for an “opportunity”
 - Skip tips, paywalled “stock picks,” undisclosed research, and anything that smells like tipster or crypto promotion
 - GitHub: long-only backtest / portfolio libs and Nordnet-adjacent tooling when Ledger faces a build-vs-clone choice
 
@@ -105,6 +112,7 @@ Skip the CVE firehose unless it hits a dependency a named consumer actually uses
 - RSS / news-radar and “build in public” essay craft (Orbit weekly Write)
 - Faceless short-video pipeline tooling: TTS, captions, beat-aligned image gen (only when reels stack is active)
 - GitHub: RSS/radar or MDX/essay pipeline tools only when Orbit Writes stack is actively changing
+- Prefer: the essay or pipeline repo itself. Skip world-news dashboards.
 
 ## Explicitly ignore
 
@@ -112,7 +120,9 @@ Skip the CVE firehose unless it hits a dependency a named consumer actually uses
 - WhatsApp/Telegram/Discord bots, **awesome-lists**, “top N GitHub repos” listicles, MetaGPT-style star magnets
 - Per-language MCP SDK spam; watch spec + servers instead
 - Crypto / tipster finance / HFT
-- Generic AI news firehose and academic thesis-style writing advice
+- Generic AI news firehose, world-news / geopolitics roundups, and OSINT dashboards (World Monitor, worldmonitor.app, similar) as `source_url` or as a domain
+- Academic thesis-style writing advice
+- “On this day” / throwback / anniversary recap pages
 - Fitness influencer challenges, before/after marketing, steroid discourse, extreme cuts
 - Grocery flyers, calorie trackers, adult meal-plan templates, restaurant/recipe roundups. Adult food-safety stays off-watchlist (existing `knowledge/food/` notes). Infant feeding-safety belongs under `parenting`
 - Parenting influencer listicles, product hauls, sleep-training wars without a primary source, toddler/school content, “10 baby gadgets”

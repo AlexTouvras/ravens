@@ -4,13 +4,13 @@ Instructions for any agent working in **ravens**.
 
 ## What this repo is
 
-Shared AI knowledge vault. **Huginn** gathers; **Muninn** remembers. Markdown + git are the database for v1.
+Shared AI knowledge vault. **Huginn** gathers; **Muninn** remembers; **Heimdall** catalogs videos. Markdown + git are the database for v1.
 
 ## Read before writing
 
 1. `.state/CURRENT_TASK.md` and `.state/ARCHITECTURE.md`
 2. `docs/contracts/` for schemas you touch
-3. `agents/huginn.md` or `agents/muninn.md` if you are those roles
+3. `agents/huginn.md`, `agents/muninn.md`, or `agents/heimdall.md` if you are those roles
 
 ## Named verify
 
@@ -25,4 +25,6 @@ Do not claim the foundation is healthy unless verify exits 0.
 - Do not write to other portfolio repos from this project’s automations (v1).
 - Do not add a database or MCP server without an explicit decision recorded in `.state/ARCHITECTURE.md`.
 - Prefer updating knowledge notes over duplicating them.
+- Video form/how-to clips live in `watch/`, not in Huginn’s inbox.
 - Empty high-quality days beat noisy digests.
+- Cite the publisher page in `source_url`, not an aggregator (Google News, World Monitor, RSS-reader hosts). No world-news domain.
