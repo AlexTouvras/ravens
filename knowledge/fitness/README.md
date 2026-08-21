@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: fitness
-updated: 2026-08-17
+updated: 2026-08-21
 status: active
 ---
 
@@ -16,7 +16,7 @@ Strength and recovery programming for lean goals, plus pregnancy-safe activity g
 
 ## Active signals
 
-_(none)_
+- [SIG-20260821-003](../../signals/SIG-20260821-003.md) — Sprint intervals vs moderate cycling for cardiometabolic blood proteins
 
 ## Note index
 
@@ -29,6 +29,7 @@ _(none)_
 
 | Date | Change |
 |------|--------|
+| 2026-08-21 | Opened SIG-20260821-003 from FIND-20260821-004 (sprint-interval cardiometabolic study; single-study, not yet durable) |
 | 2026-08-17 | Watchlist dropped `food`; hub still points at existing food-safety notes |
 | 2026-08-12 | Promoted KNOW-fitness-acog-pregnancy-postpartum-activity |
 | 2026-08-11 | Promoted KNOW-fitness-acsm-weekly-volume-hypertrophy |

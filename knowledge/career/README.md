@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: career
-updated: 2026-08-12
+updated: 2026-08-21
 status: active
 ---
 
@@ -15,8 +15,8 @@ FI/EU analytics, risk, BI leadership, and technology-delivery market signals for
 
 ## Active signals
 
-- [SIG-20260811-003](../../signals/SIG-20260811-003.md) — Stora Enso Controlling analyst wording (apply by 17 Aug)
 - [SIG-20260812-003](../../signals/SIG-20260812-003.md) — K-ryhmä BI Analyst GenAI/Snowflake language (apply by 23 Aug)
+- [SIG-20260821-002](../../signals/SIG-20260821-002.md) — ABB Helsinki Data Analyst, Snowflake + Power BI semantic models (apply by 1 Sep)
 
 ## Note index
 
@@ -28,6 +28,7 @@ FI/EU analytics, risk, BI leadership, and technology-delivery market signals for
 
 | Date | Change |
 |------|--------|
+| 2026-08-21 | Opened SIG-20260821-002 from FIND-20260821-003 (ABB Helsinki — third FI posting pairing Snowflake with Power BI semantic models); expired SIG-20260811-003 (Stora Enso deadline passed) |
 | 2026-08-12 | Opened SIG-20260812-003 from FIND-20260812-006 |
 | 2026-08-11 | Promoted KNOW-career-uk-ddat-data-role-language; opened SIG-20260811-003 |
 | 2026-08-10 | Domain hub created (foundation) |

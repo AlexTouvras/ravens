@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: finance
-updated: 2026-08-12
+updated: 2026-08-21
 status: active
 ---
 
@@ -16,6 +16,8 @@ _(none yet — monthly performance themes stay signals until a durable construct
 ## Active signals
 
 - [SIG-20260811-004](../../signals/SIG-20260811-004.md) — July Europe momentum→value / AI-momentum unwind (FTSE Russell + Guinness)
+- [SIG-20260821-004](../../signals/SIG-20260821-004.md) — Santander completes $12.2bn Webster Financial acquisition
+- [SIG-20260821-005](../../signals/SIG-20260821-005.md) — Posti Group EUR 4.5m buyback trading on Nasdaq Helsinki (through Jan 2027)
 
 ## Note index
 
@@ -27,6 +29,7 @@ _(none yet — monthly performance themes stay signals until a durable construct
 
 | Date | Change |
 |------|--------|
+| 2026-08-21 | Opened SIG-20260821-004 from FIND-20260821-007 (Santander/Webster, official action, single primary source) and SIG-20260821-005 from FIND-20260821-008 (Posti buyback, official action, single primary source) |
 | 2026-08-12 | Watchlist expanded: investment opportunities (liquid Nordic/EU/US catalysts) |
 | 2026-08-12 | Linked FIND-20260812-009 into SIG-20260811-004 (corroboration; no new SIG) |
 | 2026-08-11 | Opened SIG-20260811-004 from FIND-20260811-010 (signal-only) |

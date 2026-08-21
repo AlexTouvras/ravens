@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: parenting
-updated: 2026-08-17
+updated: 2026-08-21
 status: active
 ---
 
@@ -21,7 +21,7 @@ Once `Child born` is `YYYY-MM-DD`, compute age in Europe/Helsinki and scan that 
 
 ## Current guidance
 
-_(none yet)_
+- AAP safe-sleep ABCs (alone, on the back, firm flat surface; room-share without bed-sharing ≥6 months; no soft bedding; avoid overheating) — set up before birth — [aap-safe-sleep-abcs](./aap-safe-sleep-abcs.md)
 
 Related, other domains: pregnancy fish/listeria under [`food/`](../food/); pregnancy activity under [`fitness/acog-pregnancy-postpartum-activity.md`](../fitness/acog-pregnancy-postpartum-activity.md).
 
@@ -31,10 +31,13 @@ _(none)_
 
 ## Note index
 
-_(none yet)_
+| Slug | Title | Updated | Status |
+|------|-------|---------|--------|
+| aap-safe-sleep-abcs | AAP safe-sleep ABCs for the newborn's first days home | 2026-08-21 | active |
 
 ## Changelog
 
 | Date | Change |
 |------|--------|
+| 2026-08-21 | Promoted KNOW-parenting-aap-safe-sleep-abcs from FIND-20260821-005 (age-0-72h) |
 | 2026-08-17 | Domain hub created; stage = late pregnancy / birth imminent |

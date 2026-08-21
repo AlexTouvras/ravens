@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: ai-agents
-updated: 2026-08-12
+updated: 2026-08-21
 status: active
 ---
 
@@ -30,6 +30,7 @@ Frameworks, protocols (MCP / A2A), and Cursor agent patterns that change deliver
 
 | Date | Change |
 |------|--------|
+| 2026-08-21 | Linked FIND-20260821-001 (Cursor Subscriptions + `/goal`) into SIG-20260812-001 — same watch item, no new SIG |
 | 2026-08-12 | Promoted KNOW-ai-agents-cursor-skills-portable-extension; opened SIG-20260812-001 |
 | 2026-08-11 | Promoted KNOW-ai-agents-mcp-2026-07-28-stateless; opened SIG-20260811-001 |
 | 2026-08-10 | Domain hub created (foundation) |
