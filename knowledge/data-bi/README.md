@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: data-bi
-updated: 2026-08-21
+updated: 2026-08-22
 status: active
 ---
 
@@ -11,7 +11,7 @@ Microsoft Fabric, Power BI / PBIR, semantic models, and analytics patterns used 
 
 ## Current guidance
 
-- Prefer Direct Lake on OneLake for new semantic models; design to avoid DirectQuery fallback — [direct-lake-onelake-preferred](./direct-lake-onelake-preferred.md)
+- Prefer Direct Lake on OneLake for new semantic models; design to avoid DirectQuery fallback — Direct Lake now also supports calculated columns and schema/data/table-level refresh control (Aug 2026) — [direct-lake-onelake-preferred](./direct-lake-onelake-preferred.md)
 - Use DAX user-defined functions (`FUNCTION`) at compat 1702+ to centralize shared measure logic — [dax-udfs-ga-compat-1702](./dax-udfs-ga-compat-1702.md)
 
 ## Active signals
@@ -24,13 +24,14 @@ Microsoft Fabric, Power BI / PBIR, semantic models, and analytics patterns used 
 
 | Slug | Title | Updated | Status |
 |------|-------|---------|--------|
-| direct-lake-onelake-preferred | Prefer Direct Lake on OneLake over SQL-endpoint Direct Lake | 2026-08-11 | active |
+| direct-lake-onelake-preferred | Prefer Direct Lake on OneLake over SQL-endpoint Direct Lake | 2026-08-22 | active |
 | dax-udfs-ga-compat-1702 | Use DAX user-defined functions at compat 1702+ | 2026-08-12 | active |
 
 ## Changelog
 
 | Date | Change |
 |------|--------|
+| 2026-08-22 | Updated KNOW-data-bi-direct-lake-onelake-preferred with FIND-20260822-002 (Direct Lake calculated-column support GA, schema/data/table-level refresh control — same August 2026 update page as SIG-20260821-001) |
 | 2026-08-21 | Opened SIG-20260821-001 from FIND-20260821-002 (Power BI PBIP + VS Code dev-loop speedups) |
 | 2026-08-12 | Promoted KNOW-data-bi-dax-udfs-ga-compat-1702; opened SIG-20260812-002; dropped FIND-20260812-004 (PBIR Feature Summary URL 403 / Gate 0) |
 | 2026-08-11 | Promoted KNOW-data-bi-direct-lake-onelake-preferred; opened SIG-20260811-002; dropped FIND-20260811-003 (settings-pane UI chrome) |

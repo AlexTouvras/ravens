@@ -18,6 +18,10 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 | [SIG-20260821-003](./SIG-20260821-003.md) | fitness | Sprint intervals vs moderate cycling — cardiometabolic blood proteins | p3 | 2026-09-04 |
 | [SIG-20260821-004](./SIG-20260821-004.md) | finance | Santander completes $12.2bn Webster Financial acquisition | p3 | 2026-09-04 |
 | [SIG-20260821-005](./SIG-20260821-005.md) | finance | Posti Group EUR 4.5m buyback trading on Nasdaq Helsinki (through Jan 2027) | p3 | 2026-09-04 |
+| [SIG-20260822-001](./SIG-20260822-001.md) | ai-agents | SEP-2640 "skills over MCP" discovery draft keeps changing shape | p3 | 2026-09-05 |
+| [SIG-20260822-002](./SIG-20260822-002.md) | security | BRIDGEHEAD npm typosquat campaign bridges WSL into Windows | p2 | 2026-09-05 |
+| [SIG-20260822-003](./SIG-20260822-003.md) | finance | Bavarian Nordic upgrades FY2026 guidance, launches DKK 750m buyback | p2 | 2026-09-05 |
+| [SIG-20260822-004](./SIG-20260822-004.md) | finance | Fortum's cash tender offer for Elmera Group opens for acceptance | p3 | 2026-09-05 |
 
 Archived (expired/dropped): [SIG-20260811-003](./SIG-20260811-003.md) — Stora Enso Controlling analyst wording, expired 2026-08-21 (deadline passed).
 

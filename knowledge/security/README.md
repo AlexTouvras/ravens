@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: security
-updated: 2026-08-21
+updated: 2026-08-22
 status: active
 ---
 
@@ -15,7 +15,7 @@ Secrets, auth, privacy, and local-vs-cloud handling for named consumers (JARVIS,
 
 ## Active signals
 
-_(none)_
+- [SIG-20260822-002](../../signals/SIG-20260822-002.md) — BRIDGEHEAD npm typosquat campaign bridges WSL into Windows
 
 ## Note index
 
@@ -27,5 +27,6 @@ _(none)_
 
 | Date | Change |
 |------|--------|
+| 2026-08-22 | Opened SIG-20260822-002 from FIND-20260822-005 (BRIDGEHEAD npm typosquat WSL→Windows crypto-wallet stealer) |
 | 2026-08-21 | Promoted KNOW-security-github-mcp-server-min-version from FIND-20260821-006 |
 | 2026-08-17 | Domain hub created |
