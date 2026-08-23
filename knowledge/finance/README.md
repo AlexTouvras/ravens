@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: finance
-updated: 2026-08-22
+updated: 2026-08-23
 status: active
 ---
 
@@ -31,6 +31,7 @@ _(none yet — monthly performance themes stay signals until a durable construct
 
 | Date | Change |
 |------|--------|
+| 2026-08-23 | Dropped FIND-20260823-004 (Fed Chair Warsh's first Jackson Hole keynote, 28 Aug) — macro/regime-shift narrative with only one primary stream (Kansas City Fed FAQ); `corroboration_url` (TechTimes preview piece) is neither a second primary nor a named Nordnet-tradable implication, so the finance dual-stream gate fails |
 | 2026-08-22 | Opened SIG-20260822-003 from FIND-20260822-006 (Bavarian Nordic guidance upgrade + buyback, official action) and SIG-20260822-004 from FIND-20260822-007 (Fortum/Elmera tender offer, official action) |
 | 2026-08-21 | Opened SIG-20260821-004 from FIND-20260821-007 (Santander/Webster, official action, single primary source) and SIG-20260821-005 from FIND-20260821-008 (Posti buyback, official action, single primary source) |
 | 2026-08-12 | Watchlist expanded: investment opportunities (liquid Nordic/EU/US catalysts) |
