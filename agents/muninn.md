@@ -25,7 +25,7 @@ Muninn is triggered by a **push to `main`** (Huginn returning). Before distillin
 
 - If the subject starts with `huginn:` → proceed.
 - Otherwise **stop immediately**: no commit, no Slack. That skip covers your own `muninn:` distill (avoids a loop), docs commits, Heimdall/`watch` commits, and anything that is not an inbox landing.
-- **Test runs** skip this gate and proceed.
+- **Test runs** skip this gate and **must proceed**: distill (idempotent), **Send to Slack**, then push only if you created a commit. Never treat a Test run as a cron no-op.
 - If a 09:00 cron is still configured, it is only a retry: the same `huginn:` gate applies, so a clock run no-ops unless HEAD is still an unprocessed inbox.
 - **Ordering:** always **Send to Slack before `git push`**. Pushing first cancels this run when the push trigger fires again.
 
