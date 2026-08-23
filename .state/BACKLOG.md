@@ -23,7 +23,8 @@
 - [ ] Wire consumer read docs into mealplan / field-card when those projects ask
 - [x] Create Heimdall weekly automation (Sunday 10:00 Helsinki)
 - [x] Gathering hygiene: source tiers, date gates, finance dual-stream, scan gaps, preferred sources
-- [ ] Observe first Heimdall scheduled run in `#ravens` and verify `watch/` push
+- [x] Observe first Heimdall scheduled run — `heimdall: watch 2026-08-23` on `main` (no Slack digest yet)
+- [ ] Fix Muninn Slack silence: self-push cancels distill run before Send to Slack (no `#ravens` posts since 15 Aug)
 
 ## Later
 

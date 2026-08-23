@@ -63,3 +63,4 @@ See `README.md` quick map and `docs/architecture/overview.md`.
 | 2026-08-17 | Third agent is Heimdall (not Hliðskjálf) | Watchman myth fits video catalog; throne was the wrong category next to two ravens |
 | 2026-08-17 | `watch/` + `sight.md` separate from Huginn inbox | Form/how-to clips are a catalog, not daily news |
 | 2026-08-18 | Source tiers, date/retrospective Gate 0, finance dual-stream; no world-news domain | Habits from a World Monitor review; cite publishers, not the dashboard; AGPL/MCP ingest stays out of v1 |
+| 2026-08-23 | Muninn **Send to Slack before push** | Own `muninn:` push retriggers the automation and Cancels the distill run; Slack-after-push never landed (silent since 15 Aug). Gate still blocks non-`huginn:` HEAD. |

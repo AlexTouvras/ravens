@@ -7,7 +7,7 @@
 | 08:00 | Huginn | `inbox/YYYY-MM-DD.md` committed to `main` |
 | on that push | Muninn | knowledge/signals/index updated from last 48h inbox |
 | 09:00 | Muninn (retry) | Runs only if HEAD is still `huginn:` (push trigger missed) |
-| weekly / on-demand | Heimdall | `watch/` notes; **do not activate the weekly automation until Thu 2026-08-20** |
+| weekly / on-demand | Heimdall | `watch/` notes; Slack digest after catalog updates |
 
 Cloud Agent compute must be enabled in the [Cloud Agents dashboard](https://cursor.com/dashboard?tab=cloud-agents).
 
@@ -30,6 +30,7 @@ Must exit 0 before calling the foundation “healthy”. After each automation l
 | Run history **Failed ~3m** / usage or spend limit | Cloud agent owner hit a Cursor usage cap | Open the run summary; Manage settings / wait for reset; then Test-run Muninn |
 | Inbox on `cursor/*` branch, not `main` | Cloud agent branched instead of pushing `main` | Cherry-pick onto `main` (Muninn's push trigger needs `huginn:` on `main`); confirm Open PR tool is off |
 | Inbox on `main` but no Muninn commit | Push trigger missed, or playbook aborted a non-`huginn:` HEAD | Check Muninn run history; Test-run Muninn |
+| Muninn commit on `main` but no Slack digest | Distill run **Cancelled** when Muninn’s own push retriggers the automation (before Slack) | Playbook must **Send to Slack before push**; confirm in run log; Test-run Muninn |
 | Verify fails on frontmatter | Contract drift | Fix file or bump contract version deliberately |
 | Duplicate FIND/SIG ids | Non-idempotent rewrite | Dedupe; keep earliest; link in changelog |
 

@@ -24,9 +24,10 @@ Distill recent inbox findings into durable knowledge notes and short-lived signa
 Muninn is triggered by a **push to `main`** (Huginn returning). Before distilling, run `git log -1 --format=%s` on `main`.
 
 - If the subject starts with `huginn:` → proceed.
-- Otherwise **stop immediately**: no commit, no Slack. That skip covers your own `muninn:` distill (avoids a loop), docs commits, and anything that is not an inbox landing.
+- Otherwise **stop immediately**: no commit, no Slack. That skip covers your own `muninn:` distill (avoids a loop), docs commits, Heimdall/`watch` commits, and anything that is not an inbox landing.
 - **Test runs** skip this gate and proceed.
 - If a 09:00 cron is still configured, it is only a retry: the same `huginn:` gate applies, so a clock run no-ops unless HEAD is still an unprocessed inbox.
+- **Ordering:** always **Send to Slack before `git push`**. Pushing first cancels this run when the push trigger fires again.
 
 ## Procedure
 
@@ -44,8 +45,8 @@ Muninn is triggered by a **push to `main`** (Huginn returning). Before distillin
 5. Refresh `index.md` when domains, hubs, or consumer mappings change.
 6. Update `signals/README.md` index table (active signals only in the main table; link archive note if needed).
 7. Commit with message: `muninn: distill YYYY-MM-DD (K knowledge, S signals, D dropped)`.
-8. Push to `main`.
-9. **Slack** — after a successful push, post a short digest to CareerOps `#ravens` (channel id `C0BPJSPCMAR`) using **Send to Slack**. Lead with the date and counts (knowledge / signals / dropped). Bullet new or updated knowledge slugs and new signal ids. Link the commit or relevant paths on `main`. Keep it under ~15 lines. If nothing changed (all findings already processed), post one line: date + “no new promotions”.
+8. **Slack first** — before pushing, post a short digest to CareerOps `#ravens` (channel id `C0BPJSPCMAR`) using **Send to Slack**. Lead with the date and counts (knowledge / signals / dropped). Bullet new or updated knowledge slugs and new signal ids. Link paths on `main` (commit SHA optional). Keep it under ~15 lines. If nothing changed (all findings already processed), post one line: date + “no new promotions”. **Why before push:** Muninn’s own `muninn:` push retriggers this automation and cancels the in-flight run; Slack after push often never lands.
+9. Push to `main` immediately after the Slack tool returns (do not wait for channel UI confirmation).
 
 ## Hard prohibitions
 
