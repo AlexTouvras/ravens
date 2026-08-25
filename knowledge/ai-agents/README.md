@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: ai-agents
-updated: 2026-08-23
+updated: 2026-08-25
 status: active
 ---
 
@@ -16,7 +16,6 @@ Frameworks, protocols (MCP / A2A), and Cursor agent patterns that change deliver
 
 ## Active signals
 
-- [SIG-20260811-001](../../signals/SIG-20260811-001.md) — Cursor Google Workspace plugins; approve-gate writes
 - [SIG-20260812-001](../../signals/SIG-20260812-001.md) — Cursor Automations `/automate`, GitHub/Slack triggers, computer use default
 - [SIG-20260822-001](../../signals/SIG-20260822-001.md) — SEP-2640 "skills over MCP" discovery draft keeps changing shape
 - [SIG-20260823-001](../../signals/SIG-20260823-001.md) — Agent Plugins 1.0.0 vendor-neutral Agent Skills + MCP packaging spec
@@ -32,6 +31,7 @@ Frameworks, protocols (MCP / A2A), and Cursor agent patterns that change deliver
 
 | Date | Change |
 |------|--------|
+| 2026-08-25 | Expired SIG-20260811-001 (no fresh Workspace-write mutation reports or HITL rule in the intervening two weeks) |
 | 2026-08-23 | Opened SIG-20260823-001 from FIND-20260823-002 (Agent Plugins 1.0.0 cross-vendor packaging spec); linked FIND-20260823-001 into SIG-20260812-001 — same 19 Aug Cursor changelog, no new SIG |
 | 2026-08-22 | Opened SIG-20260822-001 from FIND-20260822-001 (SEP-2640 skills-over-MCP draft churn; corroborates existing cursor-skills-portable-extension guidance) |
 | 2026-08-21 | Linked FIND-20260821-001 (Cursor Subscriptions + `/goal`) into SIG-20260812-001 — same watch item, no new SIG |

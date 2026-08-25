@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: data-bi
-updated: 2026-08-22
+updated: 2026-08-25
 status: active
 ---
 
@@ -16,7 +16,6 @@ Microsoft Fabric, Power BI / PBIR, semantic models, and analytics patterns used 
 
 ## Active signals
 
-- [SIG-20260811-002](../../signals/SIG-20260811-002.md) — Copilot in Excel snapshot-analyzes Power BI reports
 - [SIG-20260812-002](../../signals/SIG-20260812-002.md) — TMDL View + Model Options on Power BI web
 - [SIG-20260821-001](../../signals/SIG-20260821-001.md) — PBIP + VS Code dev-loop speedups (auto-reload, direct entry)
 
@@ -31,6 +30,7 @@ Microsoft Fabric, Power BI / PBIR, semantic models, and analytics patterns used 
 
 | Date | Change |
 |------|--------|
+| 2026-08-25 | Dropped FIND-20260825-004 (per-table Direct Lake → Import Storage-mode switch) — Gate 0 fails: `source_url` (community.fabric.microsoft.com) returns 403 to Muninn's fetch tools and the Wayback snapshot did not render verifiable article content, so the claim could not be confirmed attributable to the source (same pattern as FIND-20260812-004); expired SIG-20260811-002 (Copilot-in-Excel feature stayed niche, no consumer pull) |
 | 2026-08-22 | Updated KNOW-data-bi-direct-lake-onelake-preferred with FIND-20260822-002 (Direct Lake calculated-column support GA, schema/data/table-level refresh control — same August 2026 update page as SIG-20260821-001) |
 | 2026-08-21 | Opened SIG-20260821-001 from FIND-20260821-002 (Power BI PBIP + VS Code dev-loop speedups) |
 | 2026-08-12 | Promoted KNOW-data-bi-dax-udfs-ga-compat-1702; opened SIG-20260812-002; dropped FIND-20260812-004 (PBIR Feature Summary URL 403 / Gate 0) |

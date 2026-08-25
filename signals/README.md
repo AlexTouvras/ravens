@@ -6,12 +6,8 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 
 | ID | Domain | Title | Priority | Expires |
 |----|--------|-------|----------|---------|
-| [SIG-20260811-001](./SIG-20260811-001.md) | ai-agents | Cursor Google Workspace plugins — approve-gated write blast radius | p2 | 2026-08-25 |
-| [SIG-20260811-002](./SIG-20260811-002.md) | data-bi | Copilot in Excel can snapshot-analyze Power BI reports | p2 | 2026-08-25 |
-| [SIG-20260811-004](./SIG-20260811-004.md) | finance | July Europe equities — momentum crowdedness rotated toward value | p3 | 2026-08-25 |
 | [SIG-20260812-001](./SIG-20260812-001.md) | ai-agents | Cursor Automations — /automate, GitHub/Slack triggers, computer use default | p2 | 2026-08-26 |
 | [SIG-20260812-002](./SIG-20260812-002.md) | data-bi | TMDL View + Model Options available in Power BI web modeling | p2 | 2026-08-26 |
-| [SIG-20260812-003](./SIG-20260812-003.md) | career | K-ryhmä BI Analyst — GenAI/Snowflake retail analytics (apply by 23 Aug) | p1 | 2026-08-23 |
 | [SIG-20260812-004](./SIG-20260812-004.md) | content | Git-backed Hugo + AGENTS.md RSS briefing pipeline | p3 | 2026-08-26 |
 | [SIG-20260821-001](./SIG-20260821-001.md) | data-bi | Power BI PBIP + VS Code dev-loop speedups | p2 | 2026-09-04 |
 | [SIG-20260821-002](./SIG-20260821-002.md) | career | ABB Helsinki Data Analyst — Snowflake + Power BI (apply by 1 Sep) | p1 | 2026-09-01 |
@@ -24,8 +20,17 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 | [SIG-20260822-004](./SIG-20260822-004.md) | finance | Fortum's cash tender offer for Elmera Group opens for acceptance | p3 | 2026-09-05 |
 | [SIG-20260823-001](./SIG-20260823-001.md) | ai-agents | Agent Plugins 1.0.0 — vendor-neutral Agent Skills + MCP packaging spec | p3 | 2026-09-06 |
 | [SIG-20260823-002](./SIG-20260823-002.md) | content | content-os — agent-agnostic daily source-scan → draft-in-voice pipeline reference | p3 | 2026-09-06 |
+| [SIG-20260825-001](./SIG-20260825-001.md) | finance | Ambea's recommended takeover offer for Humana opens its acceptance period | p3 | 2026-09-08 |
+| [SIG-20260825-002](./SIG-20260825-002.md) | finance | SP Group raises FY2026 guidance and runs a DKK 40m buyback after UK bolt-on | p2 | 2026-09-08 |
+| [SIG-20260825-003](./SIG-20260825-003.md) | career | UPM Data & Platform Specialist — Snowflake + Fabric + Power BI + governance (apply by 17 Sep) | p1 | 2026-09-17 |
 
-Archived (expired/dropped): [SIG-20260811-003](./SIG-20260811-003.md) — Stora Enso Controlling analyst wording, expired 2026-08-21 (deadline passed).
+Archived (expired/dropped):
+
+- [SIG-20260811-001](./SIG-20260811-001.md) — Cursor Google Workspace plugins approve-gate, expired 2026-08-25 (no HITL rule emerged)
+- [SIG-20260811-002](./SIG-20260811-002.md) — Copilot in Excel snapshot-analysis, expired 2026-08-25 (stayed niche)
+- [SIG-20260811-003](./SIG-20260811-003.md) — Stora Enso Controlling analyst wording, expired 2026-08-21 (deadline passed)
+- [SIG-20260811-004](./SIG-20260811-004.md) — July Europe momentum→value rotation, expired 2026-08-25 (window closed, no durable rule)
+- [SIG-20260812-003](./SIG-20260812-003.md) — K-ryhmä BI Analyst GenAI/Snowflake wording, expired 2026-08-23 (deadline passed; pattern later promoted via KNOW-career-fi-warehouse-powerbi-pairing)
 
 ## Rules
 

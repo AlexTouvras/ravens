@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: finance
-updated: 2026-08-23
+updated: 2026-08-25
 status: active
 ---
 
@@ -15,11 +15,12 @@ _(none yet — monthly performance themes stay signals until a durable construct
 
 ## Active signals
 
-- [SIG-20260811-004](../../signals/SIG-20260811-004.md) — July Europe momentum→value / AI-momentum unwind (FTSE Russell + Guinness)
 - [SIG-20260821-004](../../signals/SIG-20260821-004.md) — Santander completes $12.2bn Webster Financial acquisition
 - [SIG-20260821-005](../../signals/SIG-20260821-005.md) — Posti Group EUR 4.5m buyback trading on Nasdaq Helsinki (through Jan 2027)
 - [SIG-20260822-003](../../signals/SIG-20260822-003.md) — Bavarian Nordic upgrades FY2026 guidance, launches DKK 750m buyback
 - [SIG-20260822-004](../../signals/SIG-20260822-004.md) — Fortum's cash tender offer for Elmera Group opens for acceptance
+- [SIG-20260825-001](../../signals/SIG-20260825-001.md) — Ambea's recommended takeover offer for Humana opens its acceptance period
+- [SIG-20260825-002](../../signals/SIG-20260825-002.md) — SP Group raises FY2026 guidance and runs a DKK 40m buyback after UK bolt-on
 
 ## Note index
 
@@ -31,6 +32,7 @@ _(none yet — monthly performance themes stay signals until a durable construct
 
 | Date | Change |
 |------|--------|
+| 2026-08-25 | Opened SIG-20260825-001 from FIND-20260825-001 (Ambea/Humana offer document, official action) and SIG-20260825-002 from FIND-20260825-002 (SP Group guidance upgrade + buyback + UK bolt-on, official action with independent corroboration); expired SIG-20260811-004 (July momentum→value window closed, no durable rule) |
 | 2026-08-23 | Dropped FIND-20260823-004 (Fed Chair Warsh's first Jackson Hole keynote, 28 Aug) — macro/regime-shift narrative with only one primary stream (Kansas City Fed FAQ); `corroboration_url` (TechTimes preview piece) is neither a second primary nor a named Nordnet-tradable implication, so the finance dual-stream gate fails |
 | 2026-08-22 | Opened SIG-20260822-003 from FIND-20260822-006 (Bavarian Nordic guidance upgrade + buyback, official action) and SIG-20260822-004 from FIND-20260822-007 (Fortum/Elmera tender offer, official action) |
 | 2026-08-21 | Opened SIG-20260821-004 from FIND-20260821-007 (Santander/Webster, official action, single primary source) and SIG-20260821-005 from FIND-20260821-008 (Posti buyback, official action, single primary source) |
