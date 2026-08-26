@@ -6,9 +6,6 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 
 | ID | Domain | Title | Priority | Expires |
 |----|--------|-------|----------|---------|
-| [SIG-20260812-001](./SIG-20260812-001.md) | ai-agents | Cursor Automations — /automate, GitHub/Slack triggers, computer use default | p2 | 2026-08-26 |
-| [SIG-20260812-002](./SIG-20260812-002.md) | data-bi | TMDL View + Model Options available in Power BI web modeling | p2 | 2026-08-26 |
-| [SIG-20260812-004](./SIG-20260812-004.md) | content | Git-backed Hugo + AGENTS.md RSS briefing pipeline | p3 | 2026-08-26 |
 | [SIG-20260821-001](./SIG-20260821-001.md) | data-bi | Power BI PBIP + VS Code dev-loop speedups | p2 | 2026-09-04 |
 | [SIG-20260821-002](./SIG-20260821-002.md) | career | ABB Helsinki Data Analyst — Snowflake + Power BI (apply by 1 Sep) | p1 | 2026-09-01 |
 | [SIG-20260821-003](./SIG-20260821-003.md) | fitness | Sprint intervals vs moderate cycling — cardiometabolic blood proteins | p3 | 2026-09-04 |
@@ -31,6 +28,9 @@ Archived (expired/dropped):
 - [SIG-20260811-003](./SIG-20260811-003.md) — Stora Enso Controlling analyst wording, expired 2026-08-21 (deadline passed)
 - [SIG-20260811-004](./SIG-20260811-004.md) — July Europe momentum→value rotation, expired 2026-08-25 (window closed, no durable rule)
 - [SIG-20260812-003](./SIG-20260812-003.md) — K-ryhmä BI Analyst GenAI/Snowflake wording, expired 2026-08-23 (deadline passed; pattern later promoted via KNOW-career-fi-warehouse-powerbi-pairing)
+- [SIG-20260812-001](./SIG-20260812-001.md) — Cursor Automations /automate, GitHub/Slack triggers, computer use default, expired 2026-08-26 (product surface still churning, no HITL rule or ravens adoption decision)
+- [SIG-20260812-002](./SIG-20260812-002.md) — TMDL View + Model Options on Power BI web, expired 2026-08-26 (no team decision on web-vs-Desktop modeling)
+- [SIG-20260812-004](./SIG-20260812-004.md) — Git-backed Hugo + AGENTS.md RSS briefing pipeline, expired 2026-08-26 (no Orbit adoption decision)
 
 ## Rules
 

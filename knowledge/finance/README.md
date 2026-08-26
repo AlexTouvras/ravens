@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: finance
-updated: 2026-08-25
+updated: 2026-08-26
 status: active
 ---
 
@@ -32,6 +32,7 @@ _(none yet — monthly performance themes stay signals until a durable construct
 
 | Date | Change |
 |------|--------|
+| 2026-08-26 | Dropped FIND-20260826-001 (Fortum/Elmera tender) and FIND-20260826-002 (Bavarian Nordic guidance) — Gate 0 duplicates of the same claims already open as SIG-20260822-004 and SIG-20260822-003; logged as corroboration in each signal's resolution log |
 | 2026-08-25 | Opened SIG-20260825-001 from FIND-20260825-001 (Ambea/Humana offer document, official action) and SIG-20260825-002 from FIND-20260825-002 (SP Group guidance upgrade + buyback + UK bolt-on, official action with independent corroboration); expired SIG-20260811-004 (July momentum→value window closed, no durable rule) |
 | 2026-08-23 | Dropped FIND-20260823-004 (Fed Chair Warsh's first Jackson Hole keynote, 28 Aug) — macro/regime-shift narrative with only one primary stream (Kansas City Fed FAQ); `corroboration_url` (TechTimes preview piece) is neither a second primary nor a named Nordnet-tradable implication, so the finance dual-stream gate fails |
 | 2026-08-22 | Opened SIG-20260822-003 from FIND-20260822-006 (Bavarian Nordic guidance upgrade + buyback, official action) and SIG-20260822-004 from FIND-20260822-007 (Fortum/Elmera tender offer, official action) |

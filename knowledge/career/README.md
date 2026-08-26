@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: career
-updated: 2026-08-25
+updated: 2026-08-26
 status: active
 ---
 
@@ -30,6 +30,7 @@ FI/EU analytics, risk, BI leadership, and technology-delivery market signals for
 
 | Date | Change |
 |------|--------|
+| 2026-08-26 | Dropped FIND-20260826-003 (ABB Data Analyst) — Gate 0 duplicate of the identical Jobly listing already open as SIG-20260821-002; logged in that signal's resolution log |
 | 2026-08-25 | Promoted KNOW-career-fi-warehouse-powerbi-pairing from the repeated K-ryhmä/ABB/UPM pattern (FIND-20260825-003 was the fourth posting); opened SIG-20260825-003 from FIND-20260825-003; expired SIG-20260812-003 (K-ryhmä deadline passed, no submission surfaced) |
 | 2026-08-21 | Opened SIG-20260821-002 from FIND-20260821-003 (ABB Helsinki — third FI posting pairing Snowflake with Power BI semantic models); expired SIG-20260811-003 (Stora Enso deadline passed) |
 | 2026-08-12 | Opened SIG-20260812-003 from FIND-20260812-006 |
