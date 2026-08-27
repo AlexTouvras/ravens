@@ -20,6 +20,9 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 | [SIG-20260825-001](./SIG-20260825-001.md) | finance | Ambea's recommended takeover offer for Humana opens its acceptance period | p3 | 2026-09-08 |
 | [SIG-20260825-002](./SIG-20260825-002.md) | finance | SP Group raises FY2026 guidance and runs a DKK 40m buyback after UK bolt-on | p2 | 2026-09-08 |
 | [SIG-20260825-003](./SIG-20260825-003.md) | career | UPM Data & Platform Specialist — Snowflake + Fabric + Power BI + governance (apply by 17 Sep) | p1 | 2026-09-17 |
+| [SIG-20260827-001](./SIG-20260827-001.md) | finance | HP Inc. raises full-year fiscal 2026 EPS and free-cash-flow guidance | p2 | 2026-09-10 |
+| [SIG-20260827-002](./SIG-20260827-002.md) | career | Finnair Analytics Engineer — Vantaa, AMOS ERP + Power BI (apply by 6 Sep) | p1 | 2026-09-06 |
+| [SIG-20260827-003](./SIG-20260827-003.md) | security | Anthropic unifies Claude memory across chat and Cowork, default-exclude sensitive topics | p3 | 2026-09-10 |
 
 Archived (expired/dropped):
 

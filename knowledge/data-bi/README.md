@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: data-bi
-updated: 2026-08-26
+updated: 2026-08-27
 status: active
 ---
 
@@ -12,7 +12,7 @@ Microsoft Fabric, Power BI / PBIR, semantic models, and analytics patterns used 
 ## Current guidance
 
 - Prefer Direct Lake on OneLake for new semantic models; design to avoid DirectQuery fallback — Direct Lake now also supports calculated columns and schema/data/table-level refresh control (Aug 2026) — [direct-lake-onelake-preferred](./direct-lake-onelake-preferred.md)
-- Use DAX user-defined functions (`FUNCTION`) at compat 1702+ to centralize shared measure logic — [dax-udfs-ga-compat-1702](./dax-udfs-ga-compat-1702.md)
+- Use DAX user-defined functions (`FUNCTION`) at compat 1702+ to centralize shared measure logic, and use the Power BI Modeling MCP server + an AI assistant to auto-generate PASS/FAIL regression tests for those measures — [dax-udfs-ga-compat-1702](./dax-udfs-ga-compat-1702.md)
 - Fabric App consumers need only Read on the underlying semantic model (Build stays author-only) — re-review app-audience grants that were over-provisioned to Build — [fabric-apps-read-permission](./fabric-apps-read-permission.md)
 
 ## Active signals
@@ -24,13 +24,14 @@ Microsoft Fabric, Power BI / PBIR, semantic models, and analytics patterns used 
 | Slug | Title | Updated | Status |
 |------|-------|---------|--------|
 | direct-lake-onelake-preferred | Prefer Direct Lake on OneLake over SQL-endpoint Direct Lake | 2026-08-22 | active |
-| dax-udfs-ga-compat-1702 | Use DAX user-defined functions at compat 1702+ | 2026-08-12 | active |
+| dax-udfs-ga-compat-1702 | Use DAX user-defined functions at compat 1702+ | 2026-08-27 | active |
 | fabric-apps-read-permission | Fabric App consumers only need Read on the underlying semantic model | 2026-08-26 | active |
 
 ## Changelog
 
 | Date | Change |
 |------|--------|
+| 2026-08-27 | Updated KNOW-data-bi-dax-udfs-ga-compat-1702 with FIND-20260827-003 (SQLBI, 24 Aug 2026: AI + Power BI Modeling MCP server auto-generates DAX UDF-based regression tests for measures) |
 | 2026-08-26 | Promoted KNOW-data-bi-fabric-apps-read-permission from FIND-20260826-004 (Microsoft Learn, Aug 2026 update: Fabric App consumers need only Read, not Build); expired SIG-20260812-002 (TMDL View/Model Options) — hit its 2026-08-26 default expiry with no team decision on web-vs-Desktop modeling |
 | 2026-08-25 | Dropped FIND-20260825-004 (per-table Direct Lake → Import Storage-mode switch) — Gate 0 fails: `source_url` (community.fabric.microsoft.com) returns 403 to Muninn's fetch tools and the Wayback snapshot did not render verifiable article content, so the claim could not be confirmed attributable to the source (same pattern as FIND-20260812-004); expired SIG-20260811-002 (Copilot-in-Excel feature stayed niche, no consumer pull) |
 | 2026-08-22 | Updated KNOW-data-bi-direct-lake-onelake-preferred with FIND-20260822-002 (Direct Lake calculated-column support GA, schema/data/table-level refresh control — same August 2026 update page as SIG-20260821-001) |

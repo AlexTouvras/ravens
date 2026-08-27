@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: security
-updated: 2026-08-22
+updated: 2026-08-27
 status: active
 ---
 
@@ -16,6 +16,7 @@ Secrets, auth, privacy, and local-vs-cloud handling for named consumers (JARVIS,
 ## Active signals
 
 - [SIG-20260822-002](../../signals/SIG-20260822-002.md) — BRIDGEHEAD npm typosquat campaign bridges WSL into Windows
+- [SIG-20260827-003](../../signals/SIG-20260827-003.md) — Anthropic unifies Claude memory across chat and Cowork with default-exclude sensitive topics
 
 ## Note index
 
@@ -27,6 +28,7 @@ Secrets, auth, privacy, and local-vs-cloud handling for named consumers (JARVIS,
 
 | Date | Change |
 |------|--------|
+| 2026-08-27 | Opened SIG-20260827-003 from FIND-20260827-004 (Anthropic unified Claude memory, chat + Cowork, default-exclude sensitive topics — reference pattern for JARVIS/ProjectBrain, no consumer decision yet) |
 | 2026-08-22 | Opened SIG-20260822-002 from FIND-20260822-005 (BRIDGEHEAD npm typosquat WSL→Windows crypto-wallet stealer) |
 | 2026-08-21 | Promoted KNOW-security-github-mcp-server-min-version from FIND-20260821-006 |
 | 2026-08-17 | Domain hub created |
