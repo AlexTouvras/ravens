@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: security
-updated: 2026-08-27
+updated: 2026-08-28
 status: active
 ---
 
@@ -28,6 +28,7 @@ Secrets, auth, privacy, and local-vs-cloud handling for named consumers (JARVIS,
 
 | Date | Change |
 |------|--------|
+| 2026-08-28 | Dropped FIND-20260828-004 (GitHub MCP Server 1.11.0 per-call OAuth scope checks) — refines but does not change the existing v1.10.0+ pin; GitHub/OSS filter fails on named-consumer (no portfolio project adopts `github-mcp-server` today, per the existing note's own Limits) — revisit when a consumer actually adopts the server |
 | 2026-08-27 | Opened SIG-20260827-003 from FIND-20260827-004 (Anthropic unified Claude memory, chat + Cowork, default-exclude sensitive topics — reference pattern for JARVIS/ProjectBrain, no consumer decision yet) |
 | 2026-08-22 | Opened SIG-20260822-002 from FIND-20260822-005 (BRIDGEHEAD npm typosquat WSL→Windows crypto-wallet stealer) |
 | 2026-08-21 | Promoted KNOW-security-github-mcp-server-min-version from FIND-20260821-006 |

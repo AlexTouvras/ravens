@@ -6,7 +6,6 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 
 | ID | Domain | Title | Priority | Expires |
 |----|--------|-------|----------|---------|
-| [SIG-20260821-001](./SIG-20260821-001.md) | data-bi | Power BI PBIP + VS Code dev-loop speedups | p2 | 2026-09-04 |
 | [SIG-20260821-002](./SIG-20260821-002.md) | career | ABB Helsinki Data Analyst — Snowflake + Power BI (apply by 1 Sep) | p1 | 2026-09-01 |
 | [SIG-20260821-003](./SIG-20260821-003.md) | fitness | Sprint intervals vs moderate cycling — cardiometabolic blood proteins | p3 | 2026-09-04 |
 | [SIG-20260821-004](./SIG-20260821-004.md) | finance | Santander completes $12.2bn Webster Financial acquisition | p3 | 2026-09-04 |
@@ -23,9 +22,12 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 | [SIG-20260827-001](./SIG-20260827-001.md) | finance | HP Inc. raises full-year fiscal 2026 EPS and free-cash-flow guidance | p2 | 2026-09-10 |
 | [SIG-20260827-002](./SIG-20260827-002.md) | career | Finnair Analytics Engineer — Vantaa, AMOS ERP + Power BI (apply by 6 Sep) | p1 | 2026-09-06 |
 | [SIG-20260827-003](./SIG-20260827-003.md) | security | Anthropic unifies Claude memory across chat and Cowork, default-exclude sensitive topics | p3 | 2026-09-10 |
+| [SIG-20260828-001](./SIG-20260828-001.md) | finance | Best Buy raises FY27 revenue, comparable-sales, and adjusted-EPS guidance | p2 | 2026-09-11 |
+| [SIG-20260828-002](./SIG-20260828-002.md) | finance | Boliden agrees share-and-cash deal for majority stake in Nexa Resources | p3 | 2026-09-11 |
 
-Archived (expired/dropped):
+Archived (expired/dropped/promoted):
 
+- [SIG-20260821-001](./SIG-20260821-001.md) — Power BI PBIP + VS Code dev-loop speedups, promoted 2026-08-28 to [KNOW-data-bi-pbip-vscode-instant-reload-ga](../knowledge/data-bi/pbip-vscode-instant-reload-ga.md) (August 2026 update shipped both behaviors GA)
 - [SIG-20260811-001](./SIG-20260811-001.md) — Cursor Google Workspace plugins approve-gate, expired 2026-08-25 (no HITL rule emerged)
 - [SIG-20260811-002](./SIG-20260811-002.md) — Copilot in Excel snapshot-analysis, expired 2026-08-25 (stayed niche)
 - [SIG-20260811-003](./SIG-20260811-003.md) — Stora Enso Controlling analyst wording, expired 2026-08-21 (deadline passed)
