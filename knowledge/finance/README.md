@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: finance
-updated: 2026-08-28
+updated: 2026-08-29
 status: active
 ---
 
@@ -24,6 +24,8 @@ _(none yet — monthly performance themes stay signals until a durable construct
 - [SIG-20260827-001](../../signals/SIG-20260827-001.md) — HP Inc. raises full-year fiscal 2026 EPS and free-cash-flow guidance
 - [SIG-20260828-001](../../signals/SIG-20260828-001.md) — Best Buy raises FY27 revenue, comparable-sales, and adjusted-EPS guidance
 - [SIG-20260828-002](../../signals/SIG-20260828-002.md) — Boliden agrees share-and-cash deal for majority stake in Nexa Resources
+- [SIG-20260829-001](../../signals/SIG-20260829-001.md) — Dollar General raises FY2026 guidance and plans to resume share buybacks
+- [SIG-20260829-002](../../signals/SIG-20260829-002.md) — ECB set for a near-certain 25bp September hike to 2.50%
 
 ## Note index
 
@@ -35,6 +37,7 @@ _(none yet — monthly performance themes stay signals until a durable construct
 
 | Date | Change |
 |------|--------|
+| 2026-08-29 | Opened SIG-20260829-001 from FIND-20260829-001 (Dollar General FY2026 guidance upgrade + resumed buyback, official action, single primary source) and SIG-20260829-002 from FIND-20260829-002 (ECB September 25bp-hike setup, macro/regime-shift dual-stream satisfied via ECB accounts + Reuters sourcing) |
 | 2026-08-28 | Opened SIG-20260828-001 from FIND-20260828-001 (Best Buy FY27 revenue/comp-sales/EPS guidance upgrade, official action, single primary source) and SIG-20260828-002 from FIND-20260828-002 (Boliden/Nexa Resources share-and-cash deal + follow-on tender offer, official action, single primary source) |
 | 2026-08-27 | Opened SIG-20260827-001 from FIND-20260827-001 (HP Inc. FY26 EPS/FCF guidance upgrade, official action, single primary source) |
 | 2026-08-26 | Dropped FIND-20260826-001 (Fortum/Elmera tender) and FIND-20260826-002 (Bavarian Nordic guidance) — Gate 0 duplicates of the same claims already open as SIG-20260822-004 and SIG-20260822-003; logged as corroboration in each signal's resolution log |

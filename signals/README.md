@@ -24,6 +24,10 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 | [SIG-20260827-003](./SIG-20260827-003.md) | security | Anthropic unifies Claude memory across chat and Cowork, default-exclude sensitive topics | p3 | 2026-09-10 |
 | [SIG-20260828-001](./SIG-20260828-001.md) | finance | Best Buy raises FY27 revenue, comparable-sales, and adjusted-EPS guidance | p2 | 2026-09-11 |
 | [SIG-20260828-002](./SIG-20260828-002.md) | finance | Boliden agrees share-and-cash deal for majority stake in Nexa Resources | p3 | 2026-09-11 |
+| [SIG-20260829-001](./SIG-20260829-001.md) | finance | Dollar General raises FY2026 guidance and plans to resume share buybacks | p2 | 2026-09-12 |
+| [SIG-20260829-002](./SIG-20260829-002.md) | finance | ECB set for a near-certain 25bp September hike to 2.50% | p2 | 2026-09-11 |
+| [SIG-20260829-003](./SIG-20260829-003.md) | ai-agents | Cursor Origin removes the GitHub prerequisite for starting a cloud agent | p3 | 2026-09-12 |
+| [SIG-20260829-004](./SIG-20260829-004.md) | career | Tribedo Helsinki Solution Analyst — SQL/Python/Power BI banking-risk reporting (apply by 30 Aug) | p1 | 2026-08-30 |
 
 Archived (expired/dropped/promoted):
 

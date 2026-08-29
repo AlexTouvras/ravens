@@ -14,7 +14,7 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 | Security | [knowledge/security/](knowledge/security/) | JARVIS, ProjectBrain, Ledger, careerops, ravens |
 | Content | [knowledge/content/](knowledge/content/) | Orbit Writes / Signals |
 
-## Active notes (2026-08-28)
+## Active notes (2026-08-29)
 
 | Domain | Note | Confidence |
 |--------|------|------------|
@@ -24,6 +24,7 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 | data-bi | [dax-udfs-ga-compat-1702](knowledge/data-bi/dax-udfs-ga-compat-1702.md) | high |
 | data-bi | [fabric-apps-read-permission](knowledge/data-bi/fabric-apps-read-permission.md) | high |
 | data-bi | [pbip-vscode-instant-reload-ga](knowledge/data-bi/pbip-vscode-instant-reload-ga.md) | high |
+| data-bi | [theme-pane-fluent2-default-ga](knowledge/data-bi/theme-pane-fluent2-default-ga.md) | high |
 | career | [uk-ddat-data-role-language](knowledge/career/uk-ddat-data-role-language.md) | high |
 | career | [fi-warehouse-powerbi-pairing](knowledge/career/fi-warehouse-powerbi-pairing.md) | medium |
 | food | [fi-pregnancy-fish-limits](knowledge/food/fi-pregnancy-fish-limits.md) | high |
@@ -46,4 +47,4 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 
 ## Latest inbox
 
-See `inbox/` for dated raw scans. Latest live: [inbox/2026-08-28.md](inbox/2026-08-28.md). Fixtures live under `examples/` and must not be treated as live data.
+See `inbox/` for dated raw scans. Latest live: [inbox/2026-08-29.md](inbox/2026-08-29.md). Fixtures live under `examples/` and must not be treated as live data.

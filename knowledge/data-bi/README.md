@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: data-bi
-updated: 2026-08-28
+updated: 2026-08-29
 status: active
 ---
 
@@ -15,6 +15,7 @@ Microsoft Fabric, Power BI / PBIR, semantic models, and analytics patterns used 
 - Use DAX user-defined functions (`FUNCTION`) at compat 1702+ to centralize shared measure logic, and use the Power BI Modeling MCP server + an AI assistant to auto-generate PASS/FAIL regression tests for those measures — [dax-udfs-ga-compat-1702](./dax-udfs-ga-compat-1702.md)
 - Fabric App consumers need only Read on the underlying semantic model (Build stays author-only) — re-review app-audience grants that were over-provisioned to Build — [fabric-apps-read-permission](./fabric-apps-read-permission.md)
 - Edit PBIP projects (PBIR/TMDL) directly in VS Code via Desktop's built-in entry point, and rely on Desktop's instant-reload detection for external changes — both GA as of the August 2026 update — [pbip-vscode-instant-reload-ga](./pbip-vscode-instant-reload-ga.md)
+- New reports start on the Fluent 2 base theme by default; use the Theme pane (GA) for base theme, palette, text, and visual/page property changes, and audit existing templates against the new default before the next board — [theme-pane-fluent2-default-ga](./theme-pane-fluent2-default-ga.md)
 
 ## Active signals
 
@@ -28,11 +29,13 @@ _(none currently open)_
 | dax-udfs-ga-compat-1702 | Use DAX user-defined functions at compat 1702+ | 2026-08-27 | active |
 | fabric-apps-read-permission | Fabric App consumers only need Read on the underlying semantic model | 2026-08-26 | active |
 | pbip-vscode-instant-reload-ga | PBIP instant-reload and built-in VS Code entry point are GA | 2026-08-28 | active |
+| theme-pane-fluent2-default-ga | Theme pane and the Fluent 2 default theme are GA | 2026-08-29 | active |
 
 ## Changelog
 
 | Date | Change |
 |------|--------|
+| 2026-08-29 | Promoted KNOW-data-bi-theme-pane-fluent2-default-ga from FIND-20260829-004 (Microsoft Learn August 2026 update: Fluent 2 base theme becomes the new-report default, Theme pane reaches GA, font overrides removed from base theme) |
 | 2026-08-28 | Promoted KNOW-data-bi-pbip-vscode-instant-reload-ga from SIG-20260821-001 + FIND-20260828-003 (Microsoft Learn August 2026 update: PBIP instant-reload + built-in VS Code entry point ship GA, no preview flag) |
 | 2026-08-27 | Updated KNOW-data-bi-dax-udfs-ga-compat-1702 with FIND-20260827-003 (SQLBI, 24 Aug 2026: AI + Power BI Modeling MCP server auto-generates DAX UDF-based regression tests for measures) |
 | 2026-08-26 | Promoted KNOW-data-bi-fabric-apps-read-permission from FIND-20260826-004 (Microsoft Learn, Aug 2026 update: Fabric App consumers need only Read, not Build); expired SIG-20260812-002 (TMDL View/Model Options) — hit its 2026-08-26 default expiry with no team decision on web-vs-Desktop modeling |

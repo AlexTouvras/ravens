@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: career
-updated: 2026-08-27
+updated: 2026-08-29
 status: active
 ---
 
@@ -19,6 +19,7 @@ FI/EU analytics, risk, BI leadership, and technology-delivery market signals for
 - [SIG-20260821-002](../../signals/SIG-20260821-002.md) — ABB Helsinki Data Analyst, Snowflake + Power BI semantic models (apply by 1 Sep)
 - [SIG-20260825-003](../../signals/SIG-20260825-003.md) — UPM Data & Platform Specialist, Snowflake + Fabric + Power BI + governance (apply by 17 Sep)
 - [SIG-20260827-002](../../signals/SIG-20260827-002.md) — Finnair Analytics Engineer, Vantaa — AMOS ERP + Power BI (apply by 6 Sep)
+- [SIG-20260829-004](../../signals/SIG-20260829-004.md) — Tribedo Helsinki Solution Analyst, SQL/Python/Power BI banking-risk reporting (apply by 30 Aug)
 
 ## Note index
 
@@ -31,6 +32,7 @@ FI/EU analytics, risk, BI leadership, and technology-delivery market signals for
 
 | Date | Change |
 |------|--------|
+| 2026-08-29 | Opened SIG-20260829-004 from FIND-20260829-005 (Tribedo Helsinki Solution Analyst — SQL/Python/Power BI banking-risk reporting; imminent 30 Aug deadline; banking-risk variant of the warehouse/Power-BI pairing pattern) |
 | 2026-08-27 | Opened SIG-20260827-002 from FIND-20260827-002 (Finnair Analytics Engineer, Vantaa — AMOS maintenance-ERP + Power BI, a domain-specific-ERP variant of the warehouse/Power-BI pairing pattern) |
 | 2026-08-26 | Dropped FIND-20260826-003 (ABB Data Analyst) — Gate 0 duplicate of the identical Jobly listing already open as SIG-20260821-002; logged in that signal's resolution log |
 | 2026-08-25 | Promoted KNOW-career-fi-warehouse-powerbi-pairing from the repeated K-ryhmä/ABB/UPM pattern (FIND-20260825-003 was the fourth posting); opened SIG-20260825-003 from FIND-20260825-003; expired SIG-20260812-003 (K-ryhmä deadline passed, no submission surfaced) |
