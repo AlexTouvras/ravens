@@ -24,6 +24,8 @@
 - [x] Create Heimdall weekly automation (Sunday 10:00 Helsinki)
 - [x] Gathering hygiene: source tiers, date gates, finance dual-stream, scan gaps, preferred sources
 - [x] Observe first Heimdall scheduled run — `heimdall: watch 2026-08-23` on `main` (no Slack digest yet)
+- [x] Heimdall weekly 2026-08-30 — form-check gaps `plyo-push-up` / `drop-jump` plus motivate lane
+- [ ] Enable Heimdall **Send to Slack** → `#ravens` (`C0BPJSPCMAR`) — MCP catalog still memory-only as of 2026-08-23
 - [ ] Fix Muninn Slack silence: self-push cancels distill run before Send to Slack (no `#ravens` posts since 15 Aug)
 
 ## Later

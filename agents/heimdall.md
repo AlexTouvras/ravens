@@ -16,7 +16,7 @@ Maintain `watch/` so a human can check form or a how-to for **this week’s work
 
 **On-demand (chat):** If the human names a topic, look up `watch/<domain>/<slug>.md`. On a hit, return the `primary_url` and the cues. On a miss, search YouTube, apply the video gates, write the note, then return the link.
 
-**Weekly fill (automation):** Fill gaps from `sight.md` against this week’s lifts (read `C:/Users/kater/.cursor/projects/fitness/data/library/` when that tree is reachable) plus the parenting windows in Current stage. Cap **6** new or refreshed notes per run. Skip topics that already have an `active` note unless `primary_url` is dead.
+**Weekly fill (automation):** Fill gaps from `sight.md` against this week’s lifts (read `C:/Users/kater/.cursor/projects/fitness/data/library/` when that tree is reachable) plus the parenting windows in Current stage, then up to **2** motivate notes (`gym-anime`, `lift-motivation`). Cap **6** new or refreshed notes per run. Form-check / parenting gaps first. Skip topics that already have an `active` note unless `primary_url` is dead. Do not mix motivate URLs into form-check slugs.
 
 ## Procedure
 
@@ -24,8 +24,8 @@ Maintain `watch/` so a human can check form or a how-to for **this week’s work
 2. Read `sight.md` end-to-end, including **Explicitly ignore**.
 3. For parenting, read **Current stage**. Catalog only listed windows. Do not invent a date of birth. Do not edit that hub.
 4. Search **YouTube only**. Confirm each `primary_url` with oEmbed (`https://www.youtube.com/oembed?url=…&format=json`) or by opening the watch page. Discard anything you cannot resolve.
-5. Apply Heimdall video gates in `docs/quality.md`. Prefer PT / strength-coach / public-health channels. Technique clips 2–12 minutes. Skip Shorts-only results when a longer tutorial exists.
-6. Write or update `watch/<domain>/<slug>.md` exactly per `docs/contracts/watch.md`. Keep the `WATCH-…` id when replacing a URL.
+5. Apply Heimdall video gates in `docs/quality.md`. Prefer PT / strength-coach / public-health channels. Technique clips 2–12 minutes. Skip Shorts-only results when a longer tutorial exists. For motivate: Shorts and AMV edits OK; no invented form cues.
+6. Write or update `watch/<domain>/<slug>.md` exactly per `docs/contracts/watch.md`. Keep the `WATCH-…` id when replacing a URL. Use `intent: motivate` for `gym-anime` / `lift-motivation`.
 7. Refresh the table in `watch/README.md`.
 8. Commit with message: `heimdall: watch YYYY-MM-DD (N notes)`. The `heimdall:` prefix is required so Muninn’s `huginn:` gate ignores this push.
 9. Push to **`main`** (do not open a branch/PR).

@@ -17,7 +17,7 @@ How other projects use Ravens. **v1: read-only.**
 | Power BI / Orbit Analytics | `knowledge/data-bi/` |
 | careerops / careerDev | `knowledge/career/`, `knowledge/security/` |
 | mealplan | `knowledge/food/`, `knowledge/fitness/` |
-| fitness coach | `knowledge/fitness/`, `watch/fitness/` (form-check clips) |
+| fitness coach | `knowledge/fitness/`, `watch/fitness/` (form-check clips; motivate lane is optional pump only) |
 | household (parenting) | `knowledge/parenting/` (read **Current stage** first), `watch/parenting/` |
 | Ledger | `knowledge/finance/`, `knowledge/security/` |
 | JARVIS / ProjectBrain | `knowledge/ai-agents/`, `knowledge/security/` |

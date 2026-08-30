@@ -64,3 +64,4 @@ See `README.md` quick map and `docs/architecture/overview.md`.
 | 2026-08-17 | `watch/` + `sight.md` separate from Huginn inbox | Form/how-to clips are a catalog, not daily news |
 | 2026-08-18 | Source tiers, date/retrospective Gate 0, finance dual-stream; no world-news domain | Habits from a World Monitor review; cite publishers, not the dashboard; AGPL/MCP ingest stays out of v1 |
 | 2026-08-23 | Muninn **Send to Slack before push** | Own `muninn:` push retriggers the automation and Cancels the distill run; Slack-after-push never landed (silent since 15 Aug). Gate still blocks non-`huginn:` HEAD. |
+| 2026-08-30 | Watch `intent: motivate` for gym-anime / lift-motivation | Heimdall weekly fill: a small pump lane next to form-check. Shorts/AMV OK; no form cues; never mix into lift slugs. |

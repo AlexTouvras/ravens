@@ -134,6 +134,10 @@ Drop: challenges, before/after ads, “destroy your knees” bait, steroid disco
 Same age window as Huginn. Prefer THL, neuvola, NHS, AAP, WHO, Global Health Media.  
 Drop: influencer listicles, product hauls, sleep-training wars, toddler/school content while Current stage is pregnancy/newborn. Not medical diagnosis.
 
+### Motivate video filters
+
+`intent: motivate` only for the named slugs `gym-anime` and `lift-motivation`. Shorts and AMV edits are allowed. Do not invent form cues. Do not mix a motivate URL into a form-check note.
+
 ### Bias toward fewer artifacts
 
 One active clip per topic. A quiet catalog beats a folder of almost-duplicates.

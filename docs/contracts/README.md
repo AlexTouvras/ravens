@@ -16,5 +16,6 @@ Breaking changes bump the version and require a changelog entry in this folder.
 
 | Date | Change |
 |------|--------|
+| 2026-08-30 | Watch: `intent` may be `motivate` (gym-anime / lift-motivation only). Additive. |
 | 2026-08-18 | Inbox: optional `corroboration_url`; required **Scan gaps** heading. Quality: source tiers, date/retrospective Gate 0, finance dual-stream. Additive; existing inbox files stay valid. |
 | 2026-08-10 | v1.0 foundation contracts |

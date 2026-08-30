@@ -2,7 +2,7 @@
 
 Topics Heimdall may catalog. Separate from Huginn’s `watchlist.md` on purpose — news and videos are different jobs.
 
-Last reviewed: 2026-08-17
+Last reviewed: 2026-08-30
 
 v1 domains: **fitness** and **parenting** only.
 
@@ -20,13 +20,20 @@ Seed / keep current (W6 library, 2026-08):
 | nordic-curl | Nordic curl or hamstring curl | catalogued |
 | pull-up | Pull-ups or lat pulldown | catalogued |
 | bench-press | Bench press | catalogued |
-| single-arm-db-row | Single-arm DB row | gap |
-| shoulder-press | Shoulder press | gap |
-| calf-raise | Calf raise | gap |
-| core-dead-bug-side-plank | Core (dead bug / side plank) | gap |
-| plyo-push-up | Plyo push-ups | gap |
-| band-face-pull | Band face pulls or explosive band pulls | gap |
-| drop-jump | Drop jumps or broad jumps | gap |
+| single-arm-db-row | Single-arm DB row | catalogued |
+| shoulder-press | Shoulder press | catalogued |
+| calf-raise | Calf raise | catalogued |
+| core-dead-bug-side-plank | Core (dead bug / side plank) | catalogued |
+| plyo-push-up | Plyo push-ups | catalogued |
+| band-face-pull | Band face pulls or explosive band pulls | catalogued |
+| drop-jump | Drop jumps or broad jumps | catalogued |
+
+Motivate lane (not form-check; Shorts / AMV OK; no invented cues):
+
+| Topic slug | Intent | Status |
+|------------|--------|--------|
+| gym-anime | motivate | catalogued |
+| lift-motivation | motivate | catalogued |
 
 Prefer: licensed PT or strength coach, side-on camera, barbell or the exact implement we use. Skip: challenges, “destroy your knees” bait, steroid discourse, pregnancy-as-workout marketing.
 
@@ -41,7 +48,7 @@ Until the child is born, catalog only:
 | Topic slug | Window | Intent |
 |------------|--------|--------|
 | labour-signs | `late-pregnancy` | how-to — when to go in |
-| labour-partner-support | `labor` | how-to — partner support (**gap**) |
+| labour-partner-support | `labor` | how-to — partner support |
 | newborn-safer-sleep | `age-0-72h` | how-to — safer sleep |
 | newborn-latch | `age-0-72h` | how-to — latch / positioning |
 

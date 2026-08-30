@@ -62,7 +62,7 @@ One paragraph: credentials, camera angle, match to our programming.
 | Field | Values |
 |-------|--------|
 | `status` | `active` \| `stale` \| `superseded` |
-| `intent` | `form-check` \| `how-to` \| `idea` |
+| `intent` | `form-check` \| `how-to` \| `idea` \| `motivate` |
 | `consumer` | `fitness` \| `household` |
 | `stage` | `none` for fitness; parenting uses the same tags as Huginn (`late-pregnancy`, `labor`, `age-0-72h`, …) |
 | `confidence` | `high` \| `medium` \| `low` |
