@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: parenting
-updated: 2026-08-27
+updated: 2026-08-30
 status: active
 ---
 
@@ -24,6 +24,7 @@ Once `Child born` is `YYYY-MM-DD`, compute age in Europe/Helsinki and scan that 
 - AAP safe-sleep ABCs (alone, on the back, firm flat surface; room-share without bed-sharing ≥6 months; no soft bedding; avoid overheating) — set up before birth — [aap-safe-sleep-abcs](./aap-safe-sleep-abcs.md)
 - Finland: expect a statutory neuvola home visit within 1–14 days of birth for a first child — no booking needed, just be ready — [fi-neuvola-home-visit-first-time-parents](./fi-neuvola-home-visit-first-time-parents.md)
 - Expect vitamin K prophylaxis to be offered for the newborn at/around birth; confirm the local (Finnish) administration protocol with the delivering hospital — [nice-vitamin-k-newborn-prophylaxis](./nice-vitamin-k-newborn-prophylaxis.md)
+- HUS: always call **09 471 71500** before travelling in; go in when contractions are regular under 10 minutes; Espoo births move to Jorvi from 1 Sep 2026 09:00 — [hus-call-before-labor](./hus-call-before-labor.md)
 
 Related, other domains: pregnancy fish/listeria under [`food/`](../food/); pregnancy activity under [`fitness/acog-pregnancy-postpartum-activity.md`](../fitness/acog-pregnancy-postpartum-activity.md).
 
@@ -38,11 +39,13 @@ _(none)_
 | aap-safe-sleep-abcs | AAP safe-sleep ABCs for the newborn's first days home | 2026-08-21 | active |
 | fi-neuvola-home-visit-first-time-parents | Finland — statutory neuvola home visit within 1–14 days of birth | 2026-08-22 | active |
 | nice-vitamin-k-newborn-prophylaxis | Expect vitamin K prophylaxis to be offered for the newborn at/around birth | 2026-08-27 | active |
+| hus-call-before-labor | HUS — call 09 471 71500 before going in; go-in under 10-minute contractions | 2026-08-30 | active |
 
 ## Changelog
 
 | Date | Change |
 |------|--------|
+| 2026-08-30 | Promoted KNOW-parenting-hus-call-before-labor from FIND-20260830-003 (HUS living synnytys page: call-first 09 471 71500, go-in under 10-minute contractions, Espoo→Jorvi 1 Sep 2026; late-pregnancy / labor) |
 | 2026-08-27 | Promoted KNOW-parenting-nice-vitamin-k-newborn-prophylaxis from FIND-20260827-005 (NICE NG235 reinstated vitamin K prophylaxis recommendation, age-0-72h) |
 | 2026-08-22 | Promoted KNOW-parenting-fi-neuvola-home-visit-first-time-parents from FIND-20260822-004 (age-0-72h, adjacent prepare-now; statutory home visit within 1–14 days) |
 | 2026-08-21 | Promoted KNOW-parenting-aap-safe-sleep-abcs from FIND-20260821-005 (age-0-72h) |

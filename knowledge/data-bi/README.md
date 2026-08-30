@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: data-bi
-updated: 2026-08-29
+updated: 2026-08-30
 status: active
 ---
 
@@ -19,7 +19,7 @@ Microsoft Fabric, Power BI / PBIR, semantic models, and analytics patterns used 
 
 ## Active signals
 
-_(none currently open)_
+- [SIG-20260830-003](../../signals/SIG-20260830-003.md) — Power BI Copilot Summary/Narrative can read bookmark-hidden visuals
 
 ## Note index
 
@@ -35,6 +35,7 @@ _(none currently open)_
 
 | Date | Change |
 |------|--------|
+| 2026-08-30 | Opened SIG-20260830-003 from FIND-20260830-004 (Microsoft Learn August 2026 update: Copilot Summary/Narrative can read display-only bookmark-hidden visuals; capability landing, not yet a delivery rule) |
 | 2026-08-29 | Promoted KNOW-data-bi-theme-pane-fluent2-default-ga from FIND-20260829-004 (Microsoft Learn August 2026 update: Fluent 2 base theme becomes the new-report default, Theme pane reaches GA, font overrides removed from base theme) |
 | 2026-08-28 | Promoted KNOW-data-bi-pbip-vscode-instant-reload-ga from SIG-20260821-001 + FIND-20260828-003 (Microsoft Learn August 2026 update: PBIP instant-reload + built-in VS Code entry point ship GA, no preview flag) |
 | 2026-08-27 | Updated KNOW-data-bi-dax-udfs-ga-compat-1702 with FIND-20260827-003 (SQLBI, 24 Aug 2026: AI + Power BI Modeling MCP server auto-generates DAX UDF-based regression tests for measures) |

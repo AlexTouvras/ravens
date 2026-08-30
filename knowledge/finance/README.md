@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: finance
-updated: 2026-08-29
+updated: 2026-08-30
 status: active
 ---
 
@@ -26,6 +26,8 @@ _(none yet — monthly performance themes stay signals until a durable construct
 - [SIG-20260828-002](../../signals/SIG-20260828-002.md) — Boliden agrees share-and-cash deal for majority stake in Nexa Resources
 - [SIG-20260829-001](../../signals/SIG-20260829-001.md) — Dollar General raises FY2026 guidance and plans to resume share buybacks
 - [SIG-20260829-002](../../signals/SIG-20260829-002.md) — ECB set for a near-certain 25bp September hike to 2.50%
+- [SIG-20260830-001](../../signals/SIG-20260830-001.md) — Warsh Jackson Hole: inflation above 2% PCE, financial conditions not restrictive
+- [SIG-20260830-002](../../signals/SIG-20260830-002.md) — Orion Nasdaq Helsinki Class B buyback (500k / EUR 45m, 1 Sep–31 Dec)
 
 ## Note index
 
@@ -37,6 +39,7 @@ _(none yet — monthly performance themes stay signals until a durable construct
 
 | Date | Change |
 |------|--------|
+| 2026-08-30 | Opened SIG-20260830-001 from FIND-20260830-001 (Warsh delivered Jackson Hole speech, dual-stream Fed page + CNBC; updates the 23 Aug drop of FIND-20260823-004) and SIG-20260830-002 from FIND-20260830-002 (Orion Nasdaq Helsinki buyback, official action, single primary on Orion IR) |
 | 2026-08-29 | Opened SIG-20260829-001 from FIND-20260829-001 (Dollar General FY2026 guidance upgrade + resumed buyback, official action, single primary source) and SIG-20260829-002 from FIND-20260829-002 (ECB September 25bp-hike setup, macro/regime-shift dual-stream satisfied via ECB accounts + Reuters sourcing) |
 | 2026-08-28 | Opened SIG-20260828-001 from FIND-20260828-001 (Best Buy FY27 revenue/comp-sales/EPS guidance upgrade, official action, single primary source) and SIG-20260828-002 from FIND-20260828-002 (Boliden/Nexa Resources share-and-cash deal + follow-on tender offer, official action, single primary source) |
 | 2026-08-27 | Opened SIG-20260827-001 from FIND-20260827-001 (HP Inc. FY26 EPS/FCF guidance upgrade, official action, single primary source) |
