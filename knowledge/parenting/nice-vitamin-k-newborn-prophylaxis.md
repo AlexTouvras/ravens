@@ -40,4 +40,4 @@ NICE's living intrapartum care guideline (NG235, recommendations 1.11.12–1.11.
 ## Related
 
 - Domain hub: [parenting](./README.md)
-- Sibling: [aap-safe-sleep-abcs](./aap-safe-sleep-abcs.md), [fi-neuvola-home-visit-first-time-parents](./fi-neuvola-home-visit-first-time-parents.md), [hus-call-before-labor](./hus-call-before-labor.md)
+- Sibling: [aap-safe-sleep-abcs](./aap-safe-sleep-abcs.md), [fi-neuvola-home-visit-first-time-parents](./fi-neuvola-home-visit-first-time-parents.md), [hus-call-before-labor](./hus-call-before-labor.md), [fi-newborn-hospital-discharge](./fi-newborn-hospital-discharge.md)

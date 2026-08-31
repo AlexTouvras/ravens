@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: ai-agents
-updated: 2026-08-29
+updated: 2026-08-31
 status: active
 ---
 
@@ -19,6 +19,7 @@ Frameworks, protocols (MCP / A2A), and Cursor agent patterns that change deliver
 - [SIG-20260822-001](../../signals/SIG-20260822-001.md) — SEP-2640 "skills over MCP" discovery draft keeps changing shape
 - [SIG-20260823-001](../../signals/SIG-20260823-001.md) — Agent Plugins 1.0.0 vendor-neutral Agent Skills + MCP packaging spec
 - [SIG-20260829-003](../../signals/SIG-20260829-003.md) — Cursor Origin removes the GitHub prerequisite for starting a cloud agent
+- [SIG-20260831-002](../../signals/SIG-20260831-002.md) — Pydantic AI 2.36.0 public durable-execution backend API + named `@durable_operation`
 
 ## Note index
 
@@ -31,6 +32,7 @@ Frameworks, protocols (MCP / A2A), and Cursor agent patterns that change deliver
 
 | Date | Change |
 |------|--------|
+| 2026-08-31 | Opened SIG-20260831-002 from FIND-20260831-002 (Pydantic AI 2.36.0 public durable-execution backend API + required `@durable_operation` name; GitHub/OSS signal until a consumer adopts a pin) |
 | 2026-08-29 | Opened SIG-20260829-003 from FIND-20260829-003 (Cursor Origin removes the GitHub prerequisite for starting a cloud agent — new bootstrap capability, no adoption decision yet) |
 | 2026-08-26 | Expired SIG-20260812-001 (Cursor Automations `/automate`/triggers) — hit default expiry with no field-card HITL rule or ravens Subscriptions/`/goal` migration decision |
 | 2026-08-25 | Expired SIG-20260811-001 (no fresh Workspace-write mutation reports or HITL rule in the intervening two weeks) |

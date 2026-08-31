@@ -40,5 +40,5 @@ Valtioneuvoston asetus 93/2026 (in force since 1 Feb 2026) is the current, offic
 ## Related
 
 - Domain hub: [parenting](./README.md)
-- Sibling: [aap-safe-sleep-abcs](./aap-safe-sleep-abcs.md)
+- Sibling: [aap-safe-sleep-abcs](./aap-safe-sleep-abcs.md), [fi-newborn-hospital-discharge](./fi-newborn-hospital-discharge.md)
 - Consumer hint: household arrival-checklist prep

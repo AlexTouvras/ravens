@@ -27,13 +27,15 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 | [SIG-20260829-001](./SIG-20260829-001.md) | finance | Dollar General raises FY2026 guidance and plans to resume share buybacks | p2 | 2026-09-12 |
 | [SIG-20260829-002](./SIG-20260829-002.md) | finance | ECB set for a near-certain 25bp September hike to 2.50% | p2 | 2026-09-11 |
 | [SIG-20260829-003](./SIG-20260829-003.md) | ai-agents | Cursor Origin removes the GitHub prerequisite for starting a cloud agent | p3 | 2026-09-12 |
-| [SIG-20260829-004](./SIG-20260829-004.md) | career | Tribedo Helsinki Solution Analyst — SQL/Python/Power BI banking-risk reporting (apply by 30 Aug) | p1 | 2026-08-30 |
 | [SIG-20260830-001](./SIG-20260830-001.md) | finance | Warsh Jackson Hole — inflation above 2% PCE, financial conditions not restrictive | p2 | 2026-09-13 |
 | [SIG-20260830-002](./SIG-20260830-002.md) | finance | Orion Nasdaq Helsinki Class B buyback — up to 500,000 shares / EUR 45m | p2 | 2026-09-13 |
 | [SIG-20260830-003](./SIG-20260830-003.md) | data-bi | Power BI Copilot Summary/Narrative can read bookmark-hidden visuals | p3 | 2026-09-13 |
+| [SIG-20260831-001](./SIG-20260831-001.md) | finance | G City subsequent Citycon tender period preliminarily lifts holding to 91.05% | p2 | 2026-09-14 |
+| [SIG-20260831-002](./SIG-20260831-002.md) | ai-agents | Pydantic AI 2.36.0 — public durable-execution backend API and named @durable_operation | p3 | 2026-09-14 |
 
 Archived (expired/dropped/promoted):
 
+- [SIG-20260829-004](./SIG-20260829-004.md) — Tribedo Helsinki Solution Analyst, expired 2026-08-31 (30 Aug application deadline passed)
 - [SIG-20260821-001](./SIG-20260821-001.md) — Power BI PBIP + VS Code dev-loop speedups, promoted 2026-08-28 to [KNOW-data-bi-pbip-vscode-instant-reload-ga](../knowledge/data-bi/pbip-vscode-instant-reload-ga.md) (August 2026 update shipped both behaviors GA)
 - [SIG-20260811-001](./SIG-20260811-001.md) — Cursor Google Workspace plugins approve-gate, expired 2026-08-25 (no HITL rule emerged)
 - [SIG-20260811-002](./SIG-20260811-002.md) — Copilot in Excel snapshot-analysis, expired 2026-08-25 (stayed niche)
