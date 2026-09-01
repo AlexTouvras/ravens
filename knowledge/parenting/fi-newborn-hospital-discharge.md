@@ -43,5 +43,5 @@ Terveyskylä Naistalo's living newborn-discharge page (last reviewed 12 Jan 2026
 ## Related
 
 - Domain hub: [parenting](./README.md)
-- Sibling: [hus-call-before-labor](./hus-call-before-labor.md), [fi-neuvola-home-visit-first-time-parents](./fi-neuvola-home-visit-first-time-parents.md), [nice-vitamin-k-newborn-prophylaxis](./nice-vitamin-k-newborn-prophylaxis.md), [aap-safe-sleep-abcs](./aap-safe-sleep-abcs.md)
+- Sibling: [hus-call-before-labor](./hus-call-before-labor.md), [fi-neuvola-home-visit-first-time-parents](./fi-neuvola-home-visit-first-time-parents.md), [nice-vitamin-k-newborn-prophylaxis](./nice-vitamin-k-newborn-prophylaxis.md), [aap-safe-sleep-abcs](./aap-safe-sleep-abcs.md), [fi-newborn-heel-prick-screen](./fi-newborn-heel-prick-screen.md)
 - Consumer hint: household arrival checklist / first-days home

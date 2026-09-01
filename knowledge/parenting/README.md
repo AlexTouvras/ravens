@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: parenting
-updated: 2026-08-31
+updated: 2026-09-01
 status: active
 ---
 
@@ -26,6 +26,8 @@ Once `Child born` is `YYYY-MM-DD`, compute age in Europe/Helsinki and scan that 
 - Expect vitamin K prophylaxis to be offered for the newborn at/around birth; confirm the local (Finnish) administration protocol with the delivering hospital — [nice-vitamin-k-newborn-prophylaxis](./nice-vitamin-k-newborn-prophylaxis.md)
 - HUS: always call **09 471 71500** before travelling in; go in when contractions are regular under 10 minutes; Espoo births move to Jorvi from 1 Sep 2026 09:00 — [hus-call-before-labor](./hus-call-before-labor.md)
 - Finland: expect a pediatrician discharge exam, book 24h / 24–36h hospital follow-up by discharge age, and call the discharging ward for jaundice or first-days red flags — [fi-newborn-hospital-discharge](./fi-newborn-hospital-discharge.md)
+- Finland: expect a rare-disease heel-prick (VasSeu) at **2–5 days**, with parental consent, on the ward or at a lab point — [fi-newborn-heel-prick-screen](./fi-newborn-heel-prick-screen.md)
+- Kela: the birthing parent can file vanhempainraha in OmaKela **before birth** (bundle with raskausraha); the other parent files only after birth; two-month deadline per period — [fi-kela-vanhempainraha-before-birth](./fi-kela-vanhempainraha-before-birth.md)
 
 Related, other domains: pregnancy fish/listeria under [`food/`](../food/); pregnancy activity under [`fitness/acog-pregnancy-postpartum-activity.md`](../fitness/acog-pregnancy-postpartum-activity.md).
 
@@ -42,11 +44,14 @@ _(none)_
 | nice-vitamin-k-newborn-prophylaxis | Expect vitamin K prophylaxis to be offered for the newborn at/around birth | 2026-08-27 | active |
 | hus-call-before-labor | HUS — call 09 471 71500 before going in; go-in under 10-minute contractions | 2026-08-30 | active |
 | fi-newborn-hospital-discharge | Finland — pediatrician discharge exam, 24–36h follow-up, and first-days red flags | 2026-08-31 | active |
+| fi-newborn-heel-prick-screen | Finland — newborn rare-disease heel-prick at 2–5 days, with parental consent | 2026-09-01 | active |
+| fi-kela-vanhempainraha-before-birth | Finland — birthing parent can file vanhempainraha in OmaKela before birth | 2026-09-01 | active |
 
 ## Changelog
 
 | Date | Change |
 |------|--------|
+| 2026-09-01 | Promoted KNOW-parenting-fi-newborn-heel-prick-screen from FIND-20260901-003 (Terveyskylä living VasSeu page: 2–5-day heel-prick + parental consent; age-0-72h) and KNOW-parenting-fi-kela-vanhempainraha-before-birth from FIND-20260901-004 (Kela living vanhempainraha page: birthing parent may file before birth; late-pregnancy) |
 | 2026-08-31 | Promoted KNOW-parenting-fi-newborn-hospital-discharge from FIND-20260831-003 (Terveyskylä Naistalo living discharge page: pediatrician exam, 24h / 24–36h follow-up, jaundice + first-days red flags; age-0-72h) |
 | 2026-08-30 | Promoted KNOW-parenting-hus-call-before-labor from FIND-20260830-003 (HUS living synnytys page: call-first 09 471 71500, go-in under 10-minute contractions, Espoo→Jorvi 1 Sep 2026; late-pregnancy / labor) |
 | 2026-08-27 | Promoted KNOW-parenting-nice-vitamin-k-newborn-prophylaxis from FIND-20260827-005 (NICE NG235 reinstated vitamin K prophylaxis recommendation, age-0-72h) |

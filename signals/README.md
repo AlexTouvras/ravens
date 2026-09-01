@@ -30,8 +30,9 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 | [SIG-20260830-001](./SIG-20260830-001.md) | finance | Warsh Jackson Hole — inflation above 2% PCE, financial conditions not restrictive | p2 | 2026-09-13 |
 | [SIG-20260830-002](./SIG-20260830-002.md) | finance | Orion Nasdaq Helsinki Class B buyback — up to 500,000 shares / EUR 45m | p2 | 2026-09-13 |
 | [SIG-20260830-003](./SIG-20260830-003.md) | data-bi | Power BI Copilot Summary/Narrative can read bookmark-hidden visuals | p3 | 2026-09-13 |
-| [SIG-20260831-001](./SIG-20260831-001.md) | finance | G City subsequent Citycon tender period preliminarily lifts holding to 91.05% | p2 | 2026-09-14 |
+| [SIG-20260831-001](./SIG-20260831-001.md) | finance | G City final Citycon subsequent period stays at 91.05%; squeeze-out and delisting start | p2 | 2026-09-14 |
 | [SIG-20260831-002](./SIG-20260831-002.md) | ai-agents | Pydantic AI 2.36.0 — public durable-execution backend API and named @durable_operation | p3 | 2026-09-14 |
+| [SIG-20260901-001](./SIG-20260901-001.md) | finance | UPM EGM approves the partial demerger that will list WISA Group | p2 | 2026-09-15 |
 
 Archived (expired/dropped/promoted):
 
