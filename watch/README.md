@@ -2,6 +2,8 @@
 
 Heimdall’s video index. One note per topic. Prefer this over searching YouTube again.
 
+Consumers match from this catalog — see [docs/consumers.md](../docs/consumers.md). Fitness joins on `Coach library:` lines; motivate on slug; parenting on `stage`.
+
 Last updated: 2026-08-30
 
 | Domain | Slug | Intent | Stage | Status |

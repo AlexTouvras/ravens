@@ -1,0 +1,27 @@
+# ProjectBrain agent profile — meta-agent output for this repo
+project: ravens
+learned_from:
+  - careerops
+  - Reelsmaker
+
+success_definition: collaboration_quality  # tasks progress with few issues
+
+mandatory_artifacts:
+  - docs/ARCHITECTURE.md
+  - docs/AGENT_LOG.md
+  - docs/CURRENT_STATE.md
+
+workflow:
+  phased_delivery: true
+  no_mock_pipelines: true
+  update_architecture_on_ship: true
+  end_session_handoff: true
+
+session_start:
+  - Read docs/CURRENT_STATE.md
+  - Call get_session_handoff or get_project_context(mode=slim)
+  - Do not rely on prior chat history
+
+session_end:
+  - Call end_session_handoff
+  - Update docs/CURRENT_STATE.md and append docs/AGENT_LOG.md

@@ -34,7 +34,7 @@ scripts/verify.mjs        Named verify gate
 |------|--------|--------|
 | 08:00 | Huginn | `inbox/YYYY-MM-DD.md` |
 | after Huginn lands on `main` | Muninn | `knowledge/` + `signals/` + `index.md` |
-| weekly / on-demand (not live until 2026-08-20) | Heimdall | `watch/` |
+| weekly Sunday 10:00 | Heimdall | `watch/` (fitness + parenting clips) |
 
 ## Domains
 
@@ -44,7 +44,7 @@ scripts/verify.mjs        Named verify gate
 | `data-bi` | PowerBI portfolio, Orbit Analytics |
 | `career` | careerops, careerDev |
 | `food` | mealplan (existing notes only; not on the daily watchlist) |
-| `fitness` | mealplan goals, training plans |
+| `fitness` | mealplan goals, fitness coach — **`watch/fitness/`** matched by lift name / motivate slug |
 | `parenting` | household (age-staged; birth imminent) |
 | `finance` | Ledger |
 | `security` | JARVIS, ProjectBrain, Ledger, careerops, ravens |

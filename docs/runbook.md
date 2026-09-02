@@ -7,7 +7,7 @@
 | 08:00 | Huginn | `inbox/YYYY-MM-DD.md` committed to `main` |
 | on that push | Muninn | knowledge/signals/index updated from last 48h inbox |
 | 09:00 | Muninn (retry) | Runs only if HEAD is still `huginn:` (push trigger missed) |
-| weekly / on-demand | Heimdall | `watch/` notes; Slack digest after catalog updates |
+| weekly / on-demand | Heimdall | `watch/` notes on `main`; consumers match by slug / Coach library / stage |
 
 Cloud Agent compute must be enabled in the [Cloud Agents dashboard](https://cursor.com/dashboard?tab=cloud-agents).
 
@@ -31,6 +31,7 @@ Must exit 0 before calling the foundation “healthy”. After each automation l
 | Inbox on `cursor/*` branch, not `main` | Cloud agent branched instead of pushing `main` | Cherry-pick onto `main` (Muninn's push trigger needs `huginn:` on `main`); confirm Open PR tool is off |
 | Inbox on `main` but no Muninn commit | Push trigger missed, or playbook aborted a non-`huginn:` HEAD | Check Muninn run history; Test-run Muninn |
 | Muninn commit on `main` but no Slack digest | Distill run **Cancelled** when Muninn’s own push retriggers the automation (before Slack) | Playbook must **Send to Slack before push**; confirm in run log; Test-run Muninn |
+| Lift names unlinked in fitness HTML/Slack | Heimdall gap or missing `Coach library:` line in watch note | Fill slug in `sight.md`; Heimdall run; then `coach-strength --sync-videos` in fitness |
 | Verify fails on frontmatter | Contract drift | Fix file or bump contract version deliberately |
 | Duplicate FIND/SIG ids | Non-idempotent rewrite | Dedupe; keep earliest; link in changelog |
 

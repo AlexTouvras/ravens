@@ -23,7 +23,7 @@ Ravens is a shared markdown knowledge vault with versioned contracts. **Huginn**
 ## Design patterns
 
 - Two ravens, two runs — Huginn on cron; Muninn on Huginn’s `huginn:` push to `main` (09:00 cron is a retry if HEAD is still `huginn:`)
-- Heimdall is a third agent, not a third raven — video catalog in `watch/`; YouTube only; no Instagram scrape
+- Heimdall is a third agent, not a third raven — video catalog in `watch/`; YouTube search; Instagram/TikTok paste-only; **no Slack** — consumers match clips from `watch/` on `main`
 - Contracts before content — schemas in `docs/contracts/`
 - Promote via rubric — drop / signal / knowledge (`docs/quality.md`)
 - Read-only consumers — no cross-repo writes in v1
@@ -65,3 +65,4 @@ See `README.md` quick map and `docs/architecture/overview.md`.
 | 2026-08-18 | Source tiers, date/retrospective Gate 0, finance dual-stream; no world-news domain | Habits from a World Monitor review; cite publishers, not the dashboard; AGPL/MCP ingest stays out of v1 |
 | 2026-08-23 | Muninn **Send to Slack before push** | Own `muninn:` push retriggers the automation and Cancels the distill run; Slack-after-push never landed (silent since 15 Aug). Gate still blocks non-`huginn:` HEAD. |
 | 2026-08-30 | Watch `intent: motivate` for gym-anime / lift-motivation | Heimdall weekly fill: a small pump lane next to form-check. Shorts/AMV OK; no form cues; never mix into lift slugs. |
+| 2026-09-02 | Heimdall **no Slack** — consumer match only | Clips join portfolio via `watch/` + `docs/consumers.md` (fitness: Coach library line + `--sync-videos`; parenting: stage tag). Huginn/Muninn still Slack. |

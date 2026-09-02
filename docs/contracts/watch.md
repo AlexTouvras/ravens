@@ -2,9 +2,17 @@
 
 **Path:** `watch/<domain>/<slug>.md` (plus `watch/README.md` as catalog index)  
 **Producer:** Heimdall  
-**Consumers:** Humans, fitness coach (read-only), household. Muninn does not distill these.
+**Consumers:** Humans, fitness coach (read-only), household. Muninn does not distill these. Heimdall does **not** Slack — consumers match from `watch/` on `main` (see `docs/consumers.md`).
 
 One note per topic (a lift, a parenting how-to). This is a catalog, not a daily inbox. Prefer updating the existing slug over adding a second clip for the same movement.
+
+## Consumer hooks (required for matching)
+
+| Consumer | Required in note |
+|----------|------------------|
+| `fitness` form-check | Frontmatter `consumer: fitness`; body line `Coach library: <exact lift name>` under **Related** (must match fitness coach library JSON names). |
+| `fitness` motivate | Frontmatter `intent: motivate`; join by slug (`gym-anime`, `lift-motivation`). No `Coach library` line. |
+| `household` parenting | Frontmatter `consumer: household`; `stage` matches `knowledge/parenting/README.md` Current stage window. |
 
 ## Rules
 
