@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: parenting
-updated: 2026-09-01
+updated: 2026-09-02
 status: active
 ---
 
@@ -28,6 +28,9 @@ Once `Child born` is `YYYY-MM-DD`, compute age in Europe/Helsinki and scan that 
 - Finland: expect a pediatrician discharge exam, book 24h / 24–36h hospital follow-up by discharge age, and call the discharging ward for jaundice or first-days red flags — [fi-newborn-hospital-discharge](./fi-newborn-hospital-discharge.md)
 - Finland: expect a rare-disease heel-prick (VasSeu) at **2–5 days**, with parental consent, on the ward or at a lab point — [fi-newborn-heel-prick-screen](./fi-newborn-heel-prick-screen.md)
 - Kela: the birthing parent can file vanhempainraha in OmaKela **before birth** (bundle with raskausraha); the other parent files only after birth; two-month deadline per period — [fi-kela-vanhempainraha-before-birth](./fi-kela-vanhempainraha-before-birth.md)
+- Kela: file lapsilisä in OmaKela **before birth**; Kela learns of the birth from the population register — no separate birth notice; first-child EUR 94.88 + EUR 26 under-3 — [fi-kela-lapsilisa-before-birth](./fi-kela-lapsilisa-before-birth.md)
+- Finland: jaundice is common (up to half of term newborns); physiological peak at **3–5 days**; phototherapy is the standard next step — [fi-newborn-jaundice-phototherapy](./fi-newborn-jaundice-phototherapy.md)
+- Finland: first-days care — back sleep, ≥8 breastfeeds/24h, dry-cotton-bud cord care, check warmth at the neck, no nail cutting for two weeks — [fi-newborn-first-days-care](./fi-newborn-first-days-care.md)
 
 Related, other domains: pregnancy fish/listeria under [`food/`](../food/); pregnancy activity under [`fitness/acog-pregnancy-postpartum-activity.md`](../fitness/acog-pregnancy-postpartum-activity.md).
 
@@ -43,14 +46,18 @@ _(none)_
 | fi-neuvola-home-visit-first-time-parents | Finland — statutory neuvola home visit within 1–14 days of birth | 2026-08-22 | active |
 | nice-vitamin-k-newborn-prophylaxis | Expect vitamin K prophylaxis to be offered for the newborn at/around birth | 2026-08-27 | active |
 | hus-call-before-labor | HUS — call 09 471 71500 before going in; go-in under 10-minute contractions | 2026-08-30 | active |
-| fi-newborn-hospital-discharge | Finland — pediatrician discharge exam, 24–36h follow-up, and first-days red flags | 2026-08-31 | active |
+| fi-newborn-hospital-discharge | Finland — pediatrician discharge exam, 24–36h follow-up, and first-days red flags | 2026-09-02 | active |
 | fi-newborn-heel-prick-screen | Finland — newborn rare-disease heel-prick at 2–5 days, with parental consent | 2026-09-01 | active |
 | fi-kela-vanhempainraha-before-birth | Finland — birthing parent can file vanhempainraha in OmaKela before birth | 2026-09-01 | active |
+| fi-kela-lapsilisa-before-birth | Finland — file lapsilisä in OmaKela before birth; Kela learns of the birth from the register | 2026-09-02 | active |
+| fi-newborn-jaundice-phototherapy | Finland — newborn jaundice is common; phototherapy is the standard next step | 2026-09-02 | active |
+| fi-newborn-first-days-care | Finland — first-days newborn care (back sleep, ≥8 feeds, cord, neck warmth) | 2026-09-02 | active |
 
 ## Changelog
 
 | Date | Change |
 |------|--------|
+| 2026-09-02 | Promoted KNOW-parenting-fi-newborn-jaundice-phototherapy from FIND-20260902-002 (Terveyskylä Naistalo living jaundice page: common, 3–5-day peak, phototherapy; age-0-72h), KNOW-parenting-fi-kela-lapsilisa-before-birth from FIND-20260902-003 (Kela living lapsilisä page: file before birth, register-notified birth; late-pregnancy), and KNOW-parenting-fi-newborn-first-days-care from FIND-20260902-004 (Terveyskylä Naistalo living basic-care page: ≥8 feeds, cord, neck warmth, two-week nails; age-0-72h) |
 | 2026-09-01 | Promoted KNOW-parenting-fi-newborn-heel-prick-screen from FIND-20260901-003 (Terveyskylä living VasSeu page: 2–5-day heel-prick + parental consent; age-0-72h) and KNOW-parenting-fi-kela-vanhempainraha-before-birth from FIND-20260901-004 (Kela living vanhempainraha page: birthing parent may file before birth; late-pregnancy) |
 | 2026-08-31 | Promoted KNOW-parenting-fi-newborn-hospital-discharge from FIND-20260831-003 (Terveyskylä Naistalo living discharge page: pediatrician exam, 24h / 24–36h follow-up, jaundice + first-days red flags; age-0-72h) |
 | 2026-08-30 | Promoted KNOW-parenting-hus-call-before-labor from FIND-20260830-003 (HUS living synnytys page: call-first 09 471 71500, go-in under 10-minute contractions, Espoo→Jorvi 1 Sep 2026; late-pregnancy / labor) |

@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: finance
-updated: 2026-09-01
+updated: 2026-09-02
 status: active
 ---
 
@@ -30,6 +30,7 @@ _(none yet — monthly performance themes stay signals until a durable construct
 - [SIG-20260830-002](../../signals/SIG-20260830-002.md) — Orion Nasdaq Helsinki Class B buyback (500k / EUR 45m, 1 Sep–31 Dec)
 - [SIG-20260831-001](../../signals/SIG-20260831-001.md) — G City final Citycon subsequent period stays at 91.05%; squeeze-out and Nasdaq Helsinki delisting start
 - [SIG-20260901-001](../../signals/SIG-20260901-001.md) — UPM EGM approves the partial demerger that will list WISA Group
+- [SIG-20260902-001](../../signals/SIG-20260902-001.md) — Medtronic raises FY27 organic-growth and EPS guidance after a 13.7% organic Q1
 
 ## Note index
 
@@ -41,6 +42,7 @@ _(none yet — monthly performance themes stay signals until a durable construct
 
 | Date | Change |
 |------|--------|
+| 2026-09-02 | Opened SIG-20260902-001 from FIND-20260902-001 (Medtronic FY27 organic-growth/EPS guidance raise after 13.7% organic Q1, official action, single primary on Medtronic IR) |
 | 2026-09-01 | Updated SIG-20260831-001 from FIND-20260901-001 (final Citycon subsequent-period print holds 91.05%; squeeze-out + Nasdaq Helsinki delisting now stated on the same Cision IR family). Opened SIG-20260901-001 from FIND-20260901-002 (UPM EGM approves WISA plywood demerger, official action, single primary on UPM IR) |
 | 2026-08-31 | Opened SIG-20260831-001 from FIND-20260831-001 (G City subsequent Citycon tender period preliminarily 91.05%, official action, single primary on Citycon Cision IR) |
 | 2026-08-30 | Opened SIG-20260830-001 from FIND-20260830-001 (Warsh delivered Jackson Hole speech, dual-stream Fed page + CNBC; updates the 23 Aug drop of FIND-20260823-004) and SIG-20260830-002 from FIND-20260830-002 (Orion Nasdaq Helsinki buyback, official action, single primary on Orion IR) |

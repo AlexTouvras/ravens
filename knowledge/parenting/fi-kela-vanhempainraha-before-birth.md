@@ -41,5 +41,5 @@ Kela's living vanhempainraha page (updated 4 Aug 2026) is current Finnish-benefi
 ## Related
 
 - Domain hub: [parenting](./README.md)
-- Sibling: [hus-call-before-labor](./hus-call-before-labor.md), [fi-newborn-hospital-discharge](./fi-newborn-hospital-discharge.md)
+- Sibling: [hus-call-before-labor](./hus-call-before-labor.md), [fi-newborn-hospital-discharge](./fi-newborn-hospital-discharge.md), [fi-kela-lapsilisa-before-birth](./fi-kela-lapsilisa-before-birth.md)
 - Consumer hint: household late-pregnancy benefits checklist

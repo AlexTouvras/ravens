@@ -41,5 +41,5 @@ Terveyskylä's living newborn-screening page (last reviewed 17 Oct 2025) is curr
 ## Related
 
 - Domain hub: [parenting](./README.md)
-- Sibling: [fi-newborn-hospital-discharge](./fi-newborn-hospital-discharge.md), [fi-neuvola-home-visit-first-time-parents](./fi-neuvola-home-visit-first-time-parents.md), [nice-vitamin-k-newborn-prophylaxis](./nice-vitamin-k-newborn-prophylaxis.md)
+- Sibling: [fi-newborn-hospital-discharge](./fi-newborn-hospital-discharge.md), [fi-newborn-jaundice-phototherapy](./fi-newborn-jaundice-phototherapy.md), [fi-newborn-first-days-care](./fi-newborn-first-days-care.md), [fi-neuvola-home-visit-first-time-parents](./fi-neuvola-home-visit-first-time-parents.md), [nice-vitamin-k-newborn-prophylaxis](./nice-vitamin-k-newborn-prophylaxis.md)
 - Consumer hint: household arrival checklist / first days
