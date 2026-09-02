@@ -1,28 +1,14 @@
 # Automation contract — ravens
 
-## Repository
+**Canonical:** [`.state/AUTOMATION_CONTRACT.md`](../.state/AUTOMATION_CONTRACT.md) (tracked; use for automations and IDE).
+
+This file is a short human index. Edit the `.state/` contract when runtime, verify, or automation URLs change.
+
+## Quick reference
 
 | Field | Value |
 |-------|-------|
-| GitHub | `AlexTouvras/ravens` |
-| Default branch | `main` |
+| Verify | `npm run verify` |
+| Ship | `npm run ship:check` |
 
-## Automations
-
-| Name | Trigger | Output | Human gate |
-|------|---------|--------|------------|
-| Huginn | Cursor daily 08:00 | `#ravens` + `inbox/YYYY-MM-DD.md` | review inbox |
-| Muninn | GitHub push to `main` (subject `huginn:`) | `#ravens` knowledge signals | review signals |
-| Heimdall | weekly Sunday 10:00 Europe/Helsinki | `watch/` on `main` (consumer match) | review clips; sync fitness snapshot |
-
-## Ship checklist
-
-```bash
-npm run ship:check   # runs npm run verify
-```
-
-## Definition of done
-
-- [ ] `npm run verify` exits 0
-- [ ] Playbooks/contracts unchanged or updated together
-- [ ] First scheduled run observed in Slack
+See `.state/AUTOMATION_CONTRACT.md` for Huginn / Muninn / Heimdall table and read/write order.
