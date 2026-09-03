@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: finance
-updated: 2026-09-02
+updated: 2026-09-03
 status: active
 ---
 
@@ -31,6 +31,7 @@ _(none yet — monthly performance themes stay signals until a durable construct
 - [SIG-20260831-001](../../signals/SIG-20260831-001.md) — G City final Citycon subsequent period stays at 91.05%; squeeze-out and Nasdaq Helsinki delisting start
 - [SIG-20260901-001](../../signals/SIG-20260901-001.md) — UPM EGM approves the partial demerger that will list WISA Group
 - [SIG-20260902-001](../../signals/SIG-20260902-001.md) — Medtronic raises FY27 organic-growth and EPS guidance after a 13.7% organic Q1
+- [SIG-20260903-001](../../signals/SIG-20260903-001.md) — STOXX adds Nokia to the Euro Stoxx 50 from 21 September 2026
 
 ## Note index
 
@@ -42,6 +43,7 @@ _(none yet — monthly performance themes stay signals until a durable construct
 
 | Date | Change |
 |------|--------|
+| 2026-09-03 | Opened SIG-20260903-001 from FIND-20260903-001 (STOXX adds Nokia to Euro Stoxx 50 effective 21 Sep, dual-stream STOXX press release + Kauppalehti wrap) |
 | 2026-09-02 | Opened SIG-20260902-001 from FIND-20260902-001 (Medtronic FY27 organic-growth/EPS guidance raise after 13.7% organic Q1, official action, single primary on Medtronic IR) |
 | 2026-09-01 | Updated SIG-20260831-001 from FIND-20260901-001 (final Citycon subsequent-period print holds 91.05%; squeeze-out + Nasdaq Helsinki delisting now stated on the same Cision IR family). Opened SIG-20260901-001 from FIND-20260901-002 (UPM EGM approves WISA plywood demerger, official action, single primary on UPM IR) |
 | 2026-08-31 | Opened SIG-20260831-001 from FIND-20260831-001 (G City subsequent Citycon tender period preliminarily 91.05%, official action, single primary on Citycon Cision IR) |

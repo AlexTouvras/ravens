@@ -43,5 +43,5 @@ Terveyskylä Naistalo's living newborn basic-care page (last reviewed 12 Jan 202
 ## Related
 
 - Domain hub: [parenting](./README.md)
-- Sibling: [aap-safe-sleep-abcs](./aap-safe-sleep-abcs.md), [fi-newborn-hospital-discharge](./fi-newborn-hospital-discharge.md), [fi-newborn-jaundice-phototherapy](./fi-newborn-jaundice-phototherapy.md), [fi-newborn-heel-prick-screen](./fi-newborn-heel-prick-screen.md), [fi-neuvola-home-visit-first-time-parents](./fi-neuvola-home-visit-first-time-parents.md)
+- Sibling: [aap-safe-sleep-abcs](./aap-safe-sleep-abcs.md), [fi-first-latch-hand-express](./fi-first-latch-hand-express.md), [fi-newborn-hospital-discharge](./fi-newborn-hospital-discharge.md), [fi-newborn-jaundice-phototherapy](./fi-newborn-jaundice-phototherapy.md), [fi-newborn-heel-prick-screen](./fi-newborn-heel-prick-screen.md), [fi-neuvola-home-visit-first-time-parents](./fi-neuvola-home-visit-first-time-parents.md)
 - Consumer hint: household first nights home

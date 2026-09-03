@@ -33,6 +33,8 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 | [SIG-20260831-002](./SIG-20260831-002.md) | ai-agents | Pydantic AI 2.36.0 — public durable-execution backend API and named @durable_operation | p3 | 2026-09-14 |
 | [SIG-20260901-001](./SIG-20260901-001.md) | finance | UPM EGM approves the partial demerger that will list WISA Group | p2 | 2026-09-15 |
 | [SIG-20260902-001](./SIG-20260902-001.md) | finance | Medtronic raises FY27 organic-growth and EPS guidance after a 13.7% organic Q1 | p2 | 2026-09-16 |
+| [SIG-20260903-001](./SIG-20260903-001.md) | finance | STOXX adds Nokia to the Euro Stoxx 50 from 21 September 2026 | p2 | 2026-09-21 |
+| [SIG-20260903-002](./SIG-20260903-002.md) | ai-agents | Cursor Self-Hosted Machines keep Cloud Agent tool execution on your own network | p2 | 2026-09-17 |
 
 Archived (expired/dropped/promoted):
 

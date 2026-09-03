@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: parenting
-updated: 2026-09-02
+updated: 2026-09-03
 status: active
 ---
 
@@ -31,6 +31,8 @@ Once `Child born` is `YYYY-MM-DD`, compute age in Europe/Helsinki and scan that 
 - Kela: file lapsilisä in OmaKela **before birth**; Kela learns of the birth from the population register — no separate birth notice; first-child EUR 94.88 + EUR 26 under-3 — [fi-kela-lapsilisa-before-birth](./fi-kela-lapsilisa-before-birth.md)
 - Finland: jaundice is common (up to half of term newborns); physiological peak at **3–5 days**; phototherapy is the standard next step — [fi-newborn-jaundice-phototherapy](./fi-newborn-jaundice-phototherapy.md)
 - Finland: first-days care — back sleep, ≥8 breastfeeds/24h, dry-cotton-bud cord care, check warmth at the neck, no nail cutting for two weeks — [fi-newborn-first-days-care](./fi-newborn-first-days-care.md)
+- Finland: waters breaking — call the maternity hospital first; pad-check at home; usual 12h review and 24h induction — [fi-waters-breaking-call-first](./fi-waters-breaking-call-first.md)
+- Finland: first latch — let the baby crawl to the breast; hand-express colostrum if no latch within two hours — [fi-first-latch-hand-express](./fi-first-latch-hand-express.md)
 
 Related, other domains: pregnancy fish/listeria under [`food/`](../food/); pregnancy activity under [`fitness/acog-pregnancy-postpartum-activity.md`](../fitness/acog-pregnancy-postpartum-activity.md).
 
@@ -52,11 +54,14 @@ _(none)_
 | fi-kela-lapsilisa-before-birth | Finland — file lapsilisä in OmaKela before birth; Kela learns of the birth from the register | 2026-09-02 | active |
 | fi-newborn-jaundice-phototherapy | Finland — newborn jaundice is common; phototherapy is the standard next step | 2026-09-02 | active |
 | fi-newborn-first-days-care | Finland — first-days newborn care (back sleep, ≥8 feeds, cord, neck warmth) | 2026-09-02 | active |
+| fi-waters-breaking-call-first | Finland — waters breaking: call the maternity hospital first; pad-check at home | 2026-09-03 | active |
+| fi-first-latch-hand-express | Finland — first latch: let the baby crawl to the breast; hand-express if no latch in two hours | 2026-09-03 | active |
 
 ## Changelog
 
 | Date | Change |
 |------|--------|
+| 2026-09-03 | Promoted KNOW-parenting-fi-waters-breaking-call-first from FIND-20260903-003 (Terveyskylä Naistalo living waters page: call-first, pad check, 12h review, 24h induction; late-pregnancy / labor) and KNOW-parenting-fi-first-latch-hand-express from FIND-20260903-004 (Terveyskylä Naistalo living first-breastfeed page: crawl-to-breast, two-hour latch window, hand-express colostrum; labor / age-0-72h) |
 | 2026-09-02 | Promoted KNOW-parenting-fi-newborn-jaundice-phototherapy from FIND-20260902-002 (Terveyskylä Naistalo living jaundice page: common, 3–5-day peak, phototherapy; age-0-72h), KNOW-parenting-fi-kela-lapsilisa-before-birth from FIND-20260902-003 (Kela living lapsilisä page: file before birth, register-notified birth; late-pregnancy), and KNOW-parenting-fi-newborn-first-days-care from FIND-20260902-004 (Terveyskylä Naistalo living basic-care page: ≥8 feeds, cord, neck warmth, two-week nails; age-0-72h) |
 | 2026-09-01 | Promoted KNOW-parenting-fi-newborn-heel-prick-screen from FIND-20260901-003 (Terveyskylä living VasSeu page: 2–5-day heel-prick + parental consent; age-0-72h) and KNOW-parenting-fi-kela-vanhempainraha-before-birth from FIND-20260901-004 (Kela living vanhempainraha page: birthing parent may file before birth; late-pregnancy) |
 | 2026-08-31 | Promoted KNOW-parenting-fi-newborn-hospital-discharge from FIND-20260831-003 (Terveyskylä Naistalo living discharge page: pediatrician exam, 24h / 24–36h follow-up, jaundice + first-days red flags; age-0-72h) |
