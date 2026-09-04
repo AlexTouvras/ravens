@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: fitness
-updated: 2026-08-22
+updated: 2026-09-04
 status: active
 ---
 
@@ -17,7 +17,7 @@ Strength and recovery programming for lean goals, plus pregnancy-safe activity g
 
 ## Active signals
 
-- [SIG-20260821-003](../../signals/SIG-20260821-003.md) — Sprint intervals vs moderate cycling for cardiometabolic blood proteins
+_(none)_
 
 ## Note index
 
@@ -31,6 +31,7 @@ Strength and recovery programming for lean goals, plus pregnancy-safe activity g
 
 | Date | Change |
 |------|--------|
+| 2026-09-04 | Expired SIG-20260821-003 (sprint-interval cardiometabolic study) — default 14-day expiry, no ACSM-class corroboration, Gate 2 still fails |
 | 2026-08-22 | Promoted KNOW-fitness-nsca-no-menstrual-cycle-periodization from FIND-20260822-003 (NSCA Position Statement Part II) |
 | 2026-08-21 | Opened SIG-20260821-003 from FIND-20260821-004 (sprint-interval cardiometabolic study; single-study, not yet durable) |
 | 2026-08-17 | Watchlist dropped `food`; hub still points at existing food-safety notes |

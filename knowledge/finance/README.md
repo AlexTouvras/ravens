@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: finance
-updated: 2026-09-03
+updated: 2026-09-04
 status: active
 ---
 
@@ -15,10 +15,8 @@ _(none yet — monthly performance themes stay signals until a durable construct
 
 ## Active signals
 
-- [SIG-20260821-004](../../signals/SIG-20260821-004.md) — Santander completes $12.2bn Webster Financial acquisition
-- [SIG-20260821-005](../../signals/SIG-20260821-005.md) — Posti Group EUR 4.5m buyback trading on Nasdaq Helsinki (through Jan 2027)
 - [SIG-20260822-003](../../signals/SIG-20260822-003.md) — Bavarian Nordic upgrades FY2026 guidance, launches DKK 750m buyback
-- [SIG-20260822-004](../../signals/SIG-20260822-004.md) — Fortum's cash tender offer for Elmera Group opens for acceptance
+- [SIG-20260822-004](../../signals/SIG-20260822-004.md) — Fortum Elmera tender — regulatory clearances done; 90% acceptance still open to 18 Sep
 - [SIG-20260825-001](../../signals/SIG-20260825-001.md) — Ambea's recommended takeover offer for Humana opens its acceptance period
 - [SIG-20260825-002](../../signals/SIG-20260825-002.md) — SP Group raises FY2026 guidance and runs a DKK 40m buyback after UK bolt-on
 - [SIG-20260827-001](../../signals/SIG-20260827-001.md) — HP Inc. raises full-year fiscal 2026 EPS and free-cash-flow guidance
@@ -43,6 +41,7 @@ _(none yet — monthly performance themes stay signals until a durable construct
 
 | Date | Change |
 |------|--------|
+| 2026-09-04 | Updated SIG-20260822-004 from FIND-20260904-001 (Fortum 3 Sep IR: Regulatory Approvals condition satisfied; 90% Minimum Acceptance still open to 18 Sep 16:30 CEST; expiry extended, priority p2). Dropped FIND-20260904-002 (Broadcom Q3 $29.6bn / Q4 ~$34.8bn guide) at Gate 0 — investors.broadcom.com 403s this run and Wayback had no snapshot, so the claim could not be confirmed attributable to the source; did not invent an alternate URL. Expired SIG-20260821-004 (Santander/Webster) and SIG-20260821-005 (Posti buyback) on default 14-day expiry with no further catalyst. |
 | 2026-09-03 | Opened SIG-20260903-001 from FIND-20260903-001 (STOXX adds Nokia to Euro Stoxx 50 effective 21 Sep, dual-stream STOXX press release + Kauppalehti wrap) |
 | 2026-09-02 | Opened SIG-20260902-001 from FIND-20260902-001 (Medtronic FY27 organic-growth/EPS guidance raise after 13.7% organic Q1, official action, single primary on Medtronic IR) |
 | 2026-09-01 | Updated SIG-20260831-001 from FIND-20260901-001 (final Citycon subsequent-period print holds 91.05%; squeeze-out + Nasdaq Helsinki delisting now stated on the same Cision IR family). Opened SIG-20260901-001 from FIND-20260901-002 (UPM EGM approves WISA plywood demerger, official action, single primary on UPM IR) |

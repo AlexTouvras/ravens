@@ -14,7 +14,7 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 | Security | [knowledge/security/](knowledge/security/) | JARVIS, ProjectBrain, Ledger, careerops, ravens |
 | Content | [knowledge/content/](knowledge/content/) | Orbit Writes / Signals |
 
-## Active notes (2026-09-03)
+## Active notes (2026-09-04)
 
 | Domain | Note | Confidence |
 |--------|------|------------|
@@ -44,6 +44,8 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 | parenting | [fi-newborn-first-days-care](knowledge/parenting/fi-newborn-first-days-care.md) | high |
 | parenting | [fi-waters-breaking-call-first](knowledge/parenting/fi-waters-breaking-call-first.md) | high |
 | parenting | [fi-first-latch-hand-express](knowledge/parenting/fi-first-latch-hand-express.md) | high |
+| parenting | [fi-newborn-tsh-oae-screens](knowledge/parenting/fi-newborn-tsh-oae-screens.md) | high |
+| parenting | [fi-dvv-birth-hetu-automatic](knowledge/parenting/fi-dvv-birth-hetu-automatic.md) | high |
 | security | [github-mcp-server-min-version](knowledge/security/github-mcp-server-min-version.md) | high |
 
 ## Contracts
@@ -56,4 +58,4 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 
 ## Latest inbox
 
-See `inbox/` for dated raw scans. Latest live: [inbox/2026-09-03.md](inbox/2026-09-03.md). Fixtures live under `examples/` and must not be treated as live data.
+See `inbox/` for dated raw scans. Latest live: [inbox/2026-09-04.md](inbox/2026-09-04.md). Fixtures live under `examples/` and must not be treated as live data.

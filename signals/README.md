@@ -6,13 +6,10 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 
 | ID | Domain | Title | Priority | Expires |
 |----|--------|-------|----------|---------|
-| [SIG-20260821-003](./SIG-20260821-003.md) | fitness | Sprint intervals vs moderate cycling — cardiometabolic blood proteins | p3 | 2026-09-04 |
-| [SIG-20260821-004](./SIG-20260821-004.md) | finance | Santander completes $12.2bn Webster Financial acquisition | p3 | 2026-09-04 |
-| [SIG-20260821-005](./SIG-20260821-005.md) | finance | Posti Group EUR 4.5m buyback trading on Nasdaq Helsinki (through Jan 2027) | p3 | 2026-09-04 |
 | [SIG-20260822-001](./SIG-20260822-001.md) | ai-agents | SEP-2640 "skills over MCP" discovery draft keeps changing shape | p3 | 2026-09-05 |
 | [SIG-20260822-002](./SIG-20260822-002.md) | security | BRIDGEHEAD npm typosquat campaign bridges WSL into Windows | p2 | 2026-09-05 |
 | [SIG-20260822-003](./SIG-20260822-003.md) | finance | Bavarian Nordic upgrades FY2026 guidance, launches DKK 750m buyback | p2 | 2026-09-05 |
-| [SIG-20260822-004](./SIG-20260822-004.md) | finance | Fortum's cash tender offer for Elmera Group opens for acceptance | p3 | 2026-09-05 |
+| [SIG-20260822-004](./SIG-20260822-004.md) | finance | Fortum Elmera tender — regulatory clearances done; 90% still open to 18 Sep | p2 | 2026-09-18 |
 | [SIG-20260823-001](./SIG-20260823-001.md) | ai-agents | Agent Plugins 1.0.0 — vendor-neutral Agent Skills + MCP packaging spec | p3 | 2026-09-06 |
 | [SIG-20260823-002](./SIG-20260823-002.md) | content | content-os — agent-agnostic daily source-scan → draft-in-voice pipeline reference | p3 | 2026-09-06 |
 | [SIG-20260825-001](./SIG-20260825-001.md) | finance | Ambea's recommended takeover offer for Humana opens its acceptance period | p3 | 2026-09-08 |
@@ -35,9 +32,13 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 | [SIG-20260902-001](./SIG-20260902-001.md) | finance | Medtronic raises FY27 organic-growth and EPS guidance after a 13.7% organic Q1 | p2 | 2026-09-16 |
 | [SIG-20260903-001](./SIG-20260903-001.md) | finance | STOXX adds Nokia to the Euro Stoxx 50 from 21 September 2026 | p2 | 2026-09-21 |
 | [SIG-20260903-002](./SIG-20260903-002.md) | ai-agents | Cursor Self-Hosted Machines keep Cloud Agent tool execution on your own network | p2 | 2026-09-17 |
+| [SIG-20260904-001](./SIG-20260904-001.md) | ai-agents | LangChain 1.4.0 first-party langchain.mcp / MCPAdapter stable pin | p3 | 2026-09-18 |
 
 Archived (expired/dropped/promoted):
 
+- [SIG-20260821-003](./SIG-20260821-003.md) — sprint-interval cardiometabolic study, expired 2026-09-04 (no ACSM-class corroboration)
+- [SIG-20260821-004](./SIG-20260821-004.md) — Santander/Webster close, expired 2026-09-04 (no further catalyst)
+- [SIG-20260821-005](./SIG-20260821-005.md) — Posti Group buyback, expired 2026-09-04 (no further official print)
 - [SIG-20260821-002](./SIG-20260821-002.md) — ABB Helsinki Data Analyst, expired 2026-09-02 (1 Sep application deadline passed)
 - [SIG-20260829-004](./SIG-20260829-004.md) — Tribedo Helsinki Solution Analyst, expired 2026-08-31 (30 Aug application deadline passed)
 - [SIG-20260821-001](./SIG-20260821-001.md) — Power BI PBIP + VS Code dev-loop speedups, promoted 2026-08-28 to [KNOW-data-bi-pbip-vscode-instant-reload-ga](../knowledge/data-bi/pbip-vscode-instant-reload-ga.md) (August 2026 update shipped both behaviors GA)
