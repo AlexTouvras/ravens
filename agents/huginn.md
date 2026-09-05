@@ -10,19 +10,20 @@ Once per scheduled run, scan the web against this repo’s watchlist and write a
 
 - Repo: this repository (`ravens`)
 - Branch: `main`
-- Read first: `watchlist.md`, `knowledge/parenting/README.md` (**Current stage**), `docs/contracts/inbox.md`, `docs/quality.md` (Gate 0 only — you gather; Muninn promotes)
+- Read first: `watchlist.md`, `knowledge/parenting/README.md` (**Current stage** / `Child born`), `docs/contracts/inbox.md`, `docs/quality.md` (Gate 0 only — you gather; Muninn promotes)
 
 ## Procedure
 
 1. Determine today’s date in `Europe/Helsinki`. Set `run_id` to `YYYY-MM-DD-HHMM`.
 2. Read `watchlist.md` end-to-end, including **Explicitly ignore**.
-3. For **parenting**, read **Current stage** in `knowledge/parenting/README.md`. Scan only the listed windows (imminent birth → `late-pregnancy` / `labor` / `age-0-72h` until a human sets `Child born`). Put exactly one age/stage tag in `topics` and “applies at …” in `why_it_matters`. Do not edit that hub.
+3. For **parenting**, read **Current stage** in `knowledge/parenting/README.md`. Compute `age_days` and `week_of_life` from `Child born` (do not copy a stale snapshot). Search **this week of life and the coming week** — development, feeding/growth, sleep/soothing, LUVN neuvola that bites W or W+1, vitamin D / safety newly relevant this week. Put exactly one age-bucket tag plus `week-N` in `topics`, and “applies at week N of life …” in `why_it_matters`. Skip `late-pregnancy` / `labor` / first-72h topics already in the hub. Do not edit that hub.
+3b. For **fitness**, use the same week as postpartum week. Search staged return (walking, pelvic-floor) for that week, not pregnancy exercise.
 4. For each domain section, search preferred sources in `watchlist.md` first (publisher pages, last 48–72 hours; longer only for slow domains like public-health guidance). Apply Gate 0 date/retrospective rules in `docs/quality.md`.
 5. Also scan for **project-relevant GitHub / OSS** per `watchlist.md` (cross-cutting section): individual repos or releases that change a tooling decision for a named consumer. Cap **2** such findings per day unless something exceptional shipped. Never use awesome-lists, “top N repos” roundups, or World Monitor as sources.
 6. Apply Gate 0 from `docs/quality.md`. Discard anything you cannot source. `source_url` must be the publisher, not an aggregator.
 7. Write or append `inbox/YYYY-MM-DD.md` exactly per `docs/contracts/inbox.md`. For finance investment-opportunity or macro/regime items, set `corroboration_url` when a second independent stream exists.
 8. Assign `FIND-YYYYMMDD-NNN` IDs continuing from any earlier run section the same day.
-9. List **Empty domains** (scanned, nothing worth filing) and **Scan gaps** (preferred source family blocked, timed out, or paywalled). Write `- none` under Scan gaps if the scan completed. Do not imply completeness when a source family failed.
+9. List **Empty domains** (scanned, nothing worth filing) and **Scan gaps** (preferred source family blocked, timed out, or paywalled). Write `- none` under Scan gaps if the scan completed. Do not imply completeness when a source family failed. Also write the **Parenting week** block from `docs/contracts/inbox.md` (age, this week, coming week, lookahead FIND ids) even if parenting is empty.
 10. Commit with message: `huginn: inbox YYYY-MM-DD (N findings)`. The `huginn:` prefix is required — Muninn’s push trigger only proceeds when HEAD starts with that.
 11. Push to **`main`** (do not open a branch/PR). Muninn starts from that push.
 12. **Slack** — after a successful push, post a one-liner (or up to 5 bullets) to CareerOps `#ravens` (channel id `C0BPJSPCMAR`) using **Send to Slack**. Include finding count and a link to `inbox/YYYY-MM-DD.md` on `main`. Skip Slack only when the run wrote nothing new and status is still clean from an earlier same-day run; always post for `partial` / `failed`.
@@ -33,7 +34,7 @@ Once per scheduled run, scan the web against this repo’s watchlist and write a
 - Cap **4** findings per domain unless something exceptional happened.
 - Cap **2** GitHub/OSS-repo findings per day (count toward the total).
 - Every finding must include `source_url`, `claim`, `why_it_matters`, `confidence`, `novelty`, `action_hint`.
-- For parenting findings: exactly one age/stage tag in `topics`; `why_it_matters` must say which window it applies to.
+- For parenting findings: exactly one age-bucket tag plus `week-N` in `topics`; `why_it_matters` must say which week of life it applies to.
 - For repo findings: put `github` (and optionally `oss`) in `topics`; name the consumer in `why_it_matters`; prefer repo/release/docs URLs.
 - For finance opportunity/macro findings: include `corroboration_url` when you have a second stream; otherwise Muninn will drop the promote.
 

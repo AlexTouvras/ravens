@@ -26,6 +26,8 @@
 - [x] Observe first Heimdall scheduled run — `heimdall: watch 2026-08-23` on `main` (no Slack digest yet)
 - [x] Heimdall weekly 2026-08-30 — form-check gaps `plyo-push-up` / `drop-jump` plus motivate lane
 - [x] Heimdall delivery = consumer match from `watch/` (not Slack); documented in `docs/consumers.md` (2026-09-02)
+- [x] Parenting searches follow week of life (Child born 2026-08-20); inbox `Parenting week` block (2026-09-05)
+- [x] Household week-plan listed at `knowledge/parenting/coming-week.md` (2026-09-05)
 - [ ] Wire consumer read docs into mealplan / field-card when those projects ask (fitness wired)
 
 ## Later

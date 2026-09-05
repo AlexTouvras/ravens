@@ -2,7 +2,7 @@
 
 Topics Heimdall may catalog. Separate from Huginn’s `watchlist.md` on purpose — news and videos are different jobs.
 
-Last reviewed: 2026-08-30
+Last reviewed: 2026-09-05
 
 v1 domains: **fitness** and **parenting** only.
 
@@ -41,18 +41,18 @@ Pregnancy-safe activity stays in `knowledge/fitness/` (ACOG). Do not replace tha
 
 ## parenting
 
-Same age gate as Huginn. Read `knowledge/parenting/README.md` **Current stage** before searching.
+Same week-of-life gate as Huginn. Read `knowledge/parenting/README.md` **Current stage** / `Child born` before searching. Catalog how-tos for **this week and next**, not generic newborn labour prep.
 
-Until the child is born, catalog only:
+Until the child is born, catalog only labour / first-days slugs. After `Child born`, drop labour hunts. Current (week 3–4 as of 2026-09-05):
 
 | Topic slug | Window | Intent |
 |------------|--------|--------|
-| labour-signs | `late-pregnancy` | how-to — when to go in |
-| labour-partner-support | `labor` | how-to — partner support |
-| newborn-safer-sleep | `age-0-72h` | how-to — safer sleep |
-| newborn-latch | `age-0-72h` | how-to — latch / positioning |
+| newborn-safer-sleep | `age-2-8w` | how-to — safer sleep (still in play) |
+| newborn-latch | `age-2-8w` | how-to — latch / positioning (still in play) |
+| tummy-time | `age-2-8w` | how-to — supervised awake tummy time |
+| infant-soothing | `age-2-8w` | how-to — crying / settling at 2–8 weeks |
 
-Prefer THL, neuvola, Kela, NHS, AAP, WHO, Global Health Media. Finnish-language official clips are welcome.
+Prefer THL, neuvola, Kela, NHS, AAP, WHO, Global Health Media. Finnish-language official clips are welcome. Skip wonder-weeks and sleep-training wars.
 
 ## Explicitly ignore
 

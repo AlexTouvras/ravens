@@ -30,6 +30,7 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 | [SIG-20260903-001](./SIG-20260903-001.md) | finance | STOXX adds Nokia to the Euro Stoxx 50 from 21 September 2026 | p2 | 2026-09-21 |
 | [SIG-20260903-002](./SIG-20260903-002.md) | ai-agents | Cursor Self-Hosted Machines keep Cloud Agent tool execution on your own network | p2 | 2026-09-17 |
 | [SIG-20260904-001](./SIG-20260904-001.md) | ai-agents | LangChain 1.4.0 first-party langchain.mcp / MCPAdapter stable pin | p3 | 2026-09-18 |
+| [SIG-20260905-003](./SIG-20260905-003.md) | parenting | AAP 1-month visit topics — 8–12 feeds/day, ~½ lb weekly gain (US figures) | p2 | 2026-09-20 |
 | [SIG-20260905-001](./SIG-20260905-001.md) | finance | FCCA clears Terveystalo Hohde dental deal; clinic divestments still due around October | p2 | 2026-10-31 |
 | [SIG-20260905-002](./SIG-20260905-002.md) | finance | HPE Q3 FY26 revenue $12.2bn; raises FY26 growth outlook to 34–37% | p2 | 2026-09-19 |
 

@@ -9,7 +9,7 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 | Career | [knowledge/career/](knowledge/career/) | careerops, careerDev |
 | Food | [knowledge/food/](knowledge/food/) | mealplan (existing notes; not scanned) |
 | Fitness | [knowledge/fitness/](knowledge/fitness/) · [watch/fitness/](watch/fitness/) | mealplan goals, fitness coach form checks |
-| Parenting | [knowledge/parenting/](knowledge/parenting/) · [watch/parenting/](watch/parenting/) | household — timed to Current stage |
+| Parenting | [knowledge/parenting/](knowledge/parenting/) · [watch/parenting/](watch/parenting/) | household — week of life from Child born |
 | Finance | [knowledge/finance/](knowledge/finance/) | Ledger, ledger-private — incl. investment opportunities |
 | Security | [knowledge/security/](knowledge/security/) | JARVIS, ProjectBrain, Ledger, careerops, ravens |
 | Content | [knowledge/content/](knowledge/content/) | Orbit Writes / Signals |
@@ -32,6 +32,10 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 | fitness | [acsm-weekly-volume-hypertrophy](knowledge/fitness/acsm-weekly-volume-hypertrophy.md) | high |
 | fitness | [acog-pregnancy-postpartum-activity](knowledge/fitness/acog-pregnancy-postpartum-activity.md) | high |
 | fitness | [nsca-no-menstrual-cycle-periodization](knowledge/fitness/nsca-no-menstrual-cycle-periodization.md) | high |
+| parenting | [coming-week](knowledge/parenting/coming-week.md) | high |
+| parenting | [luvn-neuvola-2-4w-4-6w](knowledge/parenting/luvn-neuvola-2-4w-4-6w.md) | high |
+| parenting | [fi-infant-vitamin-d-from-2-weeks](knowledge/parenting/fi-infant-vitamin-d-from-2-weeks.md) | high |
+| parenting | [thl-0-1-month-development-growth](knowledge/parenting/thl-0-1-month-development-growth.md) | high |
 | parenting | [aap-safe-sleep-abcs](knowledge/parenting/aap-safe-sleep-abcs.md) | high |
 | parenting | [fi-neuvola-home-visit-first-time-parents](knowledge/parenting/fi-neuvola-home-visit-first-time-parents.md) | high |
 | parenting | [nice-vitamin-k-newborn-prophylaxis](knowledge/parenting/nice-vitamin-k-newborn-prophylaxis.md) | high |

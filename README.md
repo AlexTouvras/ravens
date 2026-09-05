@@ -45,7 +45,7 @@ scripts/verify.mjs        Named verify gate
 | `career` | careerops, careerDev |
 | `food` | mealplan (existing notes only; not on the daily watchlist) |
 | `fitness` | mealplan goals, fitness coach — **`watch/fitness/`** matched by lift name / motivate slug |
-| `parenting` | household (age-staged; birth imminent) |
+| `parenting` | household (week of life from Child born) |
 | `finance` | Ledger |
 | `security` | JARVIS, ProjectBrain, Ledger, careerops, ravens |
 | `content` | Orbit Writes / Signals |

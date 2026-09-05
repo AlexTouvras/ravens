@@ -20,7 +20,7 @@ One note per topic (a lift, a parenting how-to). This is a catalog, not a daily 
 2. `primary_url` must be a real YouTube watch URL that oEmbed (or an equivalent check) can resolve. Do not invent video ids.
 3. Instagram / TikTok / Reels are **paste-only**: catalog a URL the human supplied. Do not search or scrape those platforms.
 4. v1 domains are `fitness` and `parenting` only.
-5. Parenting notes must include exactly one age/stage tag matching `knowledge/parenting/README.md` Current stage (or one adjacent window).
+5. Parenting notes must include exactly one age/stage tag matching `knowledge/parenting/README.md` Current stage week-of-life bucket (or one adjacent window).
 6. Fixture ids `WATCH-20990101-*` live only under `examples/`.
 
 ## Template
@@ -72,7 +72,7 @@ One paragraph: credentials, camera angle, match to our programming.
 | `status` | `active` \| `stale` \| `superseded` |
 | `intent` | `form-check` \| `how-to` \| `idea` \| `motivate` |
 | `consumer` | `fitness` \| `household` |
-| `stage` | `none` for fitness; parenting uses the same tags as Huginn (`late-pregnancy`, `labor`, `age-0-72h`, …) |
+| `stage` | `none` for fitness; parenting uses Huginn age-bucket tags (`age-2-8w`, …) timed to week of life |
 | `confidence` | `high` \| `medium` \| `low` |
 
 ## ID scheme

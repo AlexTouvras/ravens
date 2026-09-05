@@ -51,6 +51,16 @@ summary: "One sentence: what mattered today."
 ### data-bi
 …
 
+## Parenting week
+
+- **child_born:** YYYY-MM-DD
+- **age_days:** N
+- **week_of_life:** W
+- **this_week:** YYYY-MM-DD – YYYY-MM-DD
+- **coming_week:** W+1 (starts YYYY-MM-DD)
+- **bucket:** age-…
+- **lookahead:** FIND-… or none
+
 ## Empty domains
 
 List domains scanned with zero hits:
@@ -74,4 +84,6 @@ Huginn may leave a domain empty. It must **not** invent sources. Prefer fewer hi
 
 Journalism items need a parseable `published` date inside Gate 0. Living official docs may use `published: unknown` (see `docs/quality.md`).
 
-Parenting findings must include exactly one age/stage tag in `topics` (`late-pregnancy`, `labor`, `age-0-72h`, `age-3-14d`, `age-2-8w`, or `age-2-6m`) matching `knowledge/parenting/README.md` Current stage (or one adjacent window).
+Parenting findings must include exactly one age-bucket tag (`late-pregnancy`, `labor`, `age-0-72h`, `age-3-14d`, `age-2-8w`, or `age-2-6m`) matching `knowledge/parenting/README.md` Current stage, plus `week-N` for the child's week of life (or the coming week if it is a lookahead finding). `why_it_matters` must say “applies at week N of life …”.
+
+After findings, every live run writes a **Parenting week** block (even if the parenting domain is empty). Fixtures may omit it. See the template.

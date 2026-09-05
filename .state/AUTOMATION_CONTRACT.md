@@ -3,7 +3,7 @@
 > Repo-scoped contract for Cursor Automations and other headless agent runs.
 > IDE agents use the same `.state/` files plus optional ProjectBrain MCP.
 
-**Last updated:** 2026-09-02
+**Last updated:** 2026-09-05
 
 ## Runtime
 
@@ -17,11 +17,11 @@
 
 ## Automations
 
-| Name | Trigger | Output | Human gate |
-|------|---------|--------|------------|
-| Huginn | Daily 08:00 | `#ravens` + `inbox/YYYY-MM-DD.md` | review inbox |
-| Muninn | GitHub push `huginn:` | `#ravens` knowledge signals | review signals |
-| Heimdall | Sun 10:00 Helsinki | `watch/` on `main` | review clips; sync fitness snapshot |
+| Name | Trigger | Output | Human gate | URL |
+|------|---------|--------|------------|-----|
+| Huginn | Daily 08:00 | `#ravens` + `inbox/YYYY-MM-DD.md` | review inbox | https://cursor.com/automations/732cacfb-955c-11f1-ba66-0e7d0216e441 |
+| Muninn | GitHub push `huginn:` | `#ravens` knowledge signals | review signals | https://cursor.com/automations/c9afc8b1-955c-11f1-ba66-0e7d0216e441 |
+| Heimdall | Sun 10:00 Helsinki | `watch/` on `main` | review clips; sync fitness snapshot | https://cursor.com/automations/6d39a6f4-9adc-11f1-ba66-0e7d0216e441 |
 
 ## Scope (one run = one item)
 

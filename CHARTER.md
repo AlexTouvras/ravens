@@ -14,7 +14,7 @@ Shared markdown knowledge vault: **Huginn** daily scan, **Muninn** distill, **He
 - Keep a citable, contract-versioned knowledge layer in git — no database in v1
 - Run Huginn → Muninn daily with Slack digests to `#ravens`
 - Maintain Heimdall `watch/` catalog; portfolio projects match clips (fitness coach, household parenting)
-- Age-staged parenting notes as household needs evolve (birth imminent)
+- Age-staged parenting notes as household needs evolve (week of life from Child born)
 - Read-only consumers — no cross-repo writes from automations
 
 ## Success Criteria

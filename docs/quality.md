@@ -58,8 +58,8 @@ All of:
 
 ## Fitness-specific filters
 
-Promote when it changes programming, recovery, or pregnancy-safe activity rules.  
-Drop: influencer challenges, before/after ads, gadget listicles, extreme cuts, steroid discourse.
+Promote when it changes programming, recovery, or **this postpartum week's** activity rules (postpartum week = child's week of life).  
+Drop: influencer challenges, before/after ads, gadget listicles, extreme cuts, steroid discourse, and pregnancy-as-if-still-pregnant queries after `Child born` is set.
 
 ## Food domain (not scanned)
 
@@ -67,9 +67,9 @@ Drop: influencer challenges, before/after ads, gadget listicles, extreme cuts, s
 
 ## Parenting-specific filters
 
-Promote only when the finding applies to **Current stage** in `knowledge/parenting/README.md` (or one adjacent age window). Every inbox item needs an age/stage topic tag.
+Promote only when the finding applies to **this week of life or the coming week** from `knowledge/parenting/README.md` (compute from `Child born`; the age-bucket tag plus `week-N` must match). Every inbox item needs an age-bucket topic tag and `week-N`.
 
-Default path: **signal** with a short expiry that matches the window (days, not months). **Knowledge** only when the guidance is durable *and* the note’s Limits section states the child-age range. Drop influencer listicles, product hauls, and anything for toddlers/school while the hub is still pregnancy/newborn.
+Default path: **signal** with a short expiry that matches the window (days or a couple of weeks, not months). **Knowledge** only when the guidance is durable *and* the note’s Limits section states the child-age range. Drop influencer listicles, product hauls, wonder-weeks, and anything for toddlers/school. After `Child born` is set, drop late-pregnancy / labour / first-72h re-files unless the living page changed a still-actionable rule.
 
 Do not promote low-confidence medical claims. Do not write `Child born` or change Current stage — a human does that after birth.
 

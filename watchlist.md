@@ -2,7 +2,7 @@
 
 Topics Huginn scans daily. Prefer delivery-changing signals over hype. Skip game-loop experiments, crypto/HFT, generic model-launch PR, and world-news firehoses.
 
-Last reviewed: 2026-08-18
+Last reviewed: 2026-09-05
 
 Cite the **publisher** (`source_url`). Preferred sources below are search hints, not a quota you must fill. Empty is success.
 
@@ -46,22 +46,20 @@ Find **individual repos** (or significant releases/RFCs in them) that would chan
 - Strength / hypertrophy programming for a lean high-protein goal (progressive overload, weekly volume, deloads)
 - Time-efficient full-body or upper/lower templates that fit a busy week (home or gym)
 - Recovery, sleep, and injury-prevention basics that change how you train this week
-- Pregnancy- and postpartum-safe activity guidelines (what to avoid, intensity caps, pelvic-floor / return-to-lift notes) for household planning alongside mealplan training modes
+- **Postpartum week matches the child's week of life** (read `knowledge/parenting/README.md` Child born). Scan activity that is realistic *this postpartum week* (walking, pelvic-floor, medically staged return). Do **not** search late-pregnancy exercise or “pregnancy workout” as if birth had not happened. ACOG ≥150 min/week remains the durable ceiling, not a week-3 lift program
 - Nordic / Finnish outdoor season tips only when they change weekly movement (ice, dark winter, heat)
 - GitHub: programming calculators / open training templates only when they change a weekly plan (not fitness-app clones). Mealplan is still a named consumer here; do not file grocery or nutrition repos.
 - Prefer: ACSM, ACOG, NSCA-class writing, THL activity notes. Skip Instagram and challenge blogs.
 
 ## parenting
 
-General household parenting for a Finnish home — not grocery, not adult meal-planning. **Time every finding to child age.** Read `knowledge/parenting/README.md` **Current stage** before scanning; that hub is the source of truth for “born yet?” and which windows are in play.
+General household parenting for a Finnish home — not grocery, not adult meal-planning. **Time every search to the child's week of life**, not to a generic “newborn” or late-pregnancy query.
 
-Until **Current stage** says the child is born, treat birth as imminent (days). Scan only:
+Read `knowledge/parenting/README.md` **Current stage** first. That hub holds `Child born`. Compute in Europe/Helsinki:
 
-- `late-pregnancy` — last weeks: labor signs, when to go in, partner support, hospital/home-coming prep
-- `labor` — birth and immediate postpartum for the parents
-- `age-0-72h` — first hours/days at home (adjacent window; gather so it is ready on arrival)
+`age_days = today − Child born`; `week_of_life = floor(age_days / 7) + 1` (week 1 = days 0–6).
 
-After **Child born** is a date, compute age in Europe/Helsinki and scan **that window plus one adjacent only**:
+Scan **this week of life and the coming week** (lookahead for a household week-plan: development, feeding, sleep, neuvola, safety). File under the matching age **bucket**, plus `week-N` in `topics`:
 
 | Age | Topic tag |
 |-----|-----------|
@@ -70,16 +68,18 @@ After **Child born** is a date, compute age in Europe/Helsinki and scan **that w
 | 15–56 days (~2–8 weeks) | `age-2-8w` |
 | 2–6 months | `age-2-6m` |
 
-Older than the hub stage, toddler, and school-age: skip (empty is success).
+Older than the hub stage, toddler, and school-age: skip (empty is success). After `Child born` is set, **do not** search `late-pregnancy` or `labor` unless a living page changed a still-actionable rule (e.g. other-parent Kela after birth).
 
-What to look for (public-health and Finnish systems, not blogs):
+Query shape (search the week number, not “newborn”):
 
-- Neuvola schedule, Kela parental leave / benefits timing, birth registration — only when it bites this window
-- Newborn care: safe sleep, feeding (breast/formula/latch/supply — not recipes), soothing, nappies, temperature, jaundice/weight red flags, when to call neuvola or 112
-- Safety: car seat home, co-sleeping guidance, heat/cold, pets
-- Parent recovery that is not gym programming (sleep shifts, postpartum mental-health flags). Activity/pelvic-floor stays under `fitness`
+- Development at week W and W+1 (THL / Terveyskirjasto / AAP 1-month visit topics — not wonder-weeks blogs)
+- Feeding and growth that bite this week (birth-weight regain by ~2 weeks; then weekly gain; cluster feeding only from primary sources)
+- Sleep / soothing at this age; supervised awake tummy time (never as sleep position)
+- Finnish calendar: Espoo is **LUVN** neuvola, not HUS. Typical: 2–4 week nurse visit (in play at week 3), 4–6 week nurse+doctor (coming week / week 4–6). Vitamin D drops from 2 weeks (Ruokavirasto)
+- Safety newly relevant this week (not hospital discharge)
+- Parent recovery that is not gym programming (sleep shifts, postpartum mood flags). Activity/pelvic-floor stays under `fitness` at the same postpartum week
 
-Every finding **must** put exactly one age/stage tag in `topics` and say “applies at …” in `why_it_matters`. Prefer THL, neuvola, Kela, WHO, AAP, NICE (Yle only when it cites those). Infant feeding-safety (honey, formula prep) lives here, not under retired `food`.
+Every finding **must** put exactly one age-bucket tag and `week-N` in `topics`, and say “applies at week N of life …” in `why_it_matters`. Prefer THL, LUVN/neuvola, Kela, Ruokavirasto, WHO, AAP, NICE (Yle only when it cites those). Infant feeding-safety (honey, formula prep, vitamin D) lives here, not under retired `food`.
 
 GitHub: only a household tool you would actually use this month (rare). No baby-tracker spam.
 

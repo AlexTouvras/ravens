@@ -22,7 +22,7 @@ Maintain `watch/` so portfolio projects can **match** clips to real work: coach-
 
 1. Determine today’s date in `Europe/Helsinki`.
 2. Read `sight.md` end-to-end, including **Explicitly ignore**.
-3. For parenting, read **Current stage**. Catalog only listed windows. Do not invent a date of birth. Do not edit that hub.
+3. For parenting, read **Current stage**. Compute week of life from `Child born`. Catalog how-tos for **this week and the coming week** only (tummy time, soothing, neuvola-age clips). Do not hunt new labour / late-pregnancy clips once the child is born. Do not invent a date of birth. Do not edit that hub.
 4. Search **YouTube only**. Confirm each `primary_url` with oEmbed (`https://www.youtube.com/oembed?url=…&format=json`) or by opening the watch page. Discard anything you cannot resolve.
 5. Apply Heimdall video gates in `docs/quality.md`. Prefer PT / strength-coach / public-health channels. Technique clips 2–12 minutes. Skip Shorts-only results when a longer tutorial exists. For motivate: Shorts and AMV edits OK; no invented form cues.
 6. Write or update `watch/<domain>/<slug>.md` exactly per `docs/contracts/watch.md`. Keep the `WATCH-…` id when replacing a URL. Use `intent: motivate` for `gym-anime` / `lift-motivation`.

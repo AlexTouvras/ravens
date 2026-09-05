@@ -18,7 +18,7 @@ Heimdall does **not** post to Slack. Value is in **`watch/` notes on `main`** th
 | **fitness** coach | `watch/fitness/` | `Coach library: …` line in note body + slug | `exercise_videos.py` parses frontmatter; `video_url_for(lift_name)` at HTML/Slack render. Snapshot: `fitness/data/library/exercise_videos.json` via `coach-strength --sync-videos` after Heimdall lands. |
 | **fitness** kickoff | `watch/fitness/` motivate slugs | `gym-anime`, `lift-motivation` | `week_boost.py` rotates by `week_id`; not mixed with form-check. |
 | **mealplan** | `knowledge/fitness/`, `knowledge/food/` | domain hubs | Text nutrition/activity only today; no direct `watch/` join yet. |
-| **household** parenting | `watch/parenting/` + `knowledge/parenting/` | `stage` frontmatter vs hub **Current stage** | Human or agent reads active how-to for the window (labour, newborn latch, …). |
+| **household** parenting | `watch/parenting/` + `knowledge/parenting/` | `stage` / week of life vs hub **Current stage** | Human or agent reads how-tos for this week of life (and next) from `Child born`. |
 
 ### Fitness sync (after Heimdall push)
 
@@ -45,7 +45,7 @@ Rewrites `data/library/exercise_videos.json` from live `watch/fitness/*.md`. Clo
 | careerops / careerDev | `knowledge/career/`, `knowledge/security/` |
 | mealplan | `knowledge/food/`, `knowledge/fitness/` |
 | fitness coach | `knowledge/fitness/`, `watch/fitness/` (form-check + motivate) |
-| household (parenting) | `knowledge/parenting/` (read **Current stage** first), `watch/parenting/` |
+| household (parenting) | `knowledge/parenting/` (read **Current stage** / week of life first), `watch/parenting/` |
 | Ledger | `knowledge/finance/`, `knowledge/security/` |
 | JARVIS / ProjectBrain | `knowledge/ai-agents/`, `knowledge/security/` |
 | Orbit Writes / Signals | `knowledge/content/`, high-priority signals |
