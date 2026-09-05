@@ -13,12 +13,11 @@
 
 ## In progress
 
-- Glass: Save Huginn + Heimdall prompts so the daily run uses the new playbooks
-- Push after rebase
+- Glass Huginn + Heimdall editors were opened; Save was not confirmed (IDE browser MCP down)
 
 ## Next session
 
-1. Confirm Glass Save on Huginn and Heimdall
+1. Save Huginn and Heimdall Agent Instructions in Glass (read `agents/huginn.md` / `agents/heimdall.md`; week of life from Child born)
 2. Wire mealplan / field-card watch read paths when those projects ask
 3. Revisit SIG-20260822-004 on 18 Sep (Elmera 90% acceptance / offer close)
 4. Revisit SIG-20260905-001 for a publisher Hohde close print and the October Emal clinic sales
