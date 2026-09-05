@@ -42,5 +42,5 @@ Kela's living lapsilisä page is current Finnish-benefits protocol. The before-b
 ## Related
 
 - Domain hub: [parenting](./README.md)
-- Sibling: [fi-kela-vanhempainraha-before-birth](./fi-kela-vanhempainraha-before-birth.md), [fi-dvv-birth-hetu-automatic](./fi-dvv-birth-hetu-automatic.md), [hus-call-before-labor](./hus-call-before-labor.md), [fi-newborn-hospital-discharge](./fi-newborn-hospital-discharge.md)
+- Sibling: [fi-kela-vanhempainraha-before-birth](./fi-kela-vanhempainraha-before-birth.md), [fi-dvv-birth-hetu-automatic](./fi-dvv-birth-hetu-automatic.md), [fi-kela-card-after-hetu-name](./fi-kela-card-after-hetu-name.md), [hus-call-before-labor](./hus-call-before-labor.md), [fi-newborn-hospital-discharge](./fi-newborn-hospital-discharge.md)
 - Consumer hint: household late-pregnancy benefits checklist

@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: security
-updated: 2026-09-04
+updated: 2026-09-05
 status: active
 ---
 
@@ -15,7 +15,6 @@ Secrets, auth, privacy, and local-vs-cloud handling for named consumers (JARVIS,
 
 ## Active signals
 
-- [SIG-20260822-002](../../signals/SIG-20260822-002.md) — BRIDGEHEAD npm typosquat campaign bridges WSL into Windows
 - [SIG-20260827-003](../../signals/SIG-20260827-003.md) — Anthropic unifies Claude memory across chat and Cowork with default-exclude sensitive topics
 
 ## Note index
@@ -28,6 +27,7 @@ Secrets, auth, privacy, and local-vs-cloud handling for named consumers (JARVIS,
 
 | Date | Change |
 |------|--------|
+| 2026-09-05 | Expired SIG-20260822-002 (BRIDGEHEAD npm typosquat) on default 14-day expiry with no named-consumer exposure and no durable lockfile/allowlist rule. |
 | 2026-09-04 | Updated KNOW-security-github-mcp-server-min-version from FIND-20260904-004 — raised the adoption pin from v1.10.0+ to v1.12.0+ (safer writes: pin merge HEADs, recover file SHAs, least-privilege `public_repo`, dropped-label detection; plus ruleset/custom-property tools). 1.11.0 stayed a no-op pin refine; 1.12.0 is the hardening step the note said to re-check. |
 | 2026-08-29 | Dropped FIND-20260829-006 (CVE-2026-75130, critical unpatched prompt-injection in Context7 MCP doc server) — security filter fails on named-consumer: no portfolio project (JARVIS/ProjectBrain/Ledger/careerops/ravens) runs Context7 or any docs-serving MCP server today, so there is no secrets/auth/data-location decision to change; the general "treat MCP free-text/custom-instruction fields as untrusted" principle is already this automation's own default posture — revisit if a consumer adopts a docs-serving MCP server |
 | 2026-08-28 | Dropped FIND-20260828-004 (GitHub MCP Server 1.11.0 per-call OAuth scope checks) — refines but does not change the existing v1.10.0+ pin; GitHub/OSS filter fails on named-consumer (no portfolio project adopts `github-mcp-server` today, per the existing note's own Limits) — revisit when a consumer actually adopts the server |

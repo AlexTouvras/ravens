@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: finance
-updated: 2026-09-04
+updated: 2026-09-05
 status: active
 ---
 
@@ -15,7 +15,6 @@ _(none yet — monthly performance themes stay signals until a durable construct
 
 ## Active signals
 
-- [SIG-20260822-003](../../signals/SIG-20260822-003.md) — Bavarian Nordic upgrades FY2026 guidance, launches DKK 750m buyback
 - [SIG-20260822-004](../../signals/SIG-20260822-004.md) — Fortum Elmera tender — regulatory clearances done; 90% acceptance still open to 18 Sep
 - [SIG-20260825-001](../../signals/SIG-20260825-001.md) — Ambea's recommended takeover offer for Humana opens its acceptance period
 - [SIG-20260825-002](../../signals/SIG-20260825-002.md) — SP Group raises FY2026 guidance and runs a DKK 40m buyback after UK bolt-on
@@ -30,6 +29,8 @@ _(none yet — monthly performance themes stay signals until a durable construct
 - [SIG-20260901-001](../../signals/SIG-20260901-001.md) — UPM EGM approves the partial demerger that will list WISA Group
 - [SIG-20260902-001](../../signals/SIG-20260902-001.md) — Medtronic raises FY27 organic-growth and EPS guidance after a 13.7% organic Q1
 - [SIG-20260903-001](../../signals/SIG-20260903-001.md) — STOXX adds Nokia to the Euro Stoxx 50 from 21 September 2026
+- [SIG-20260905-001](../../signals/SIG-20260905-001.md) — FCCA clears Terveystalo’s Hohde dental deal; clinic divestments still due around October
+- [SIG-20260905-002](../../signals/SIG-20260905-002.md) — HPE Q3 FY26 $12.2bn; raises FY26 growth outlook to 34–37%
 
 ## Note index
 
@@ -41,6 +42,7 @@ _(none yet — monthly performance themes stay signals until a durable construct
 
 | Date | Change |
 |------|--------|
+| 2026-09-05 | Opened SIG-20260905-001 from FIND-20260905-001 (Terveystalo Hohde FCCA/KKV clearance with Savonlinna/Mikkeli/Seinäjoki → Emal commitments; clinic sales around October; no publisher close print) and SIG-20260905-002 from FIND-20260905-002 (HPE Q3 FY26 $12.2bn + FY26 growth raised to 34–37%, official action, single primary on HPE IR). Expired SIG-20260822-003 (Bavarian Nordic) on default 14-day expiry with no further catalyst. |
 | 2026-09-04 | Updated SIG-20260822-004 from FIND-20260904-001 (Fortum 3 Sep IR: Regulatory Approvals condition satisfied; 90% Minimum Acceptance still open to 18 Sep 16:30 CEST; expiry extended, priority p2). Dropped FIND-20260904-002 (Broadcom Q3 $29.6bn / Q4 ~$34.8bn guide) at Gate 0 — investors.broadcom.com 403s this run and Wayback had no snapshot, so the claim could not be confirmed attributable to the source; did not invent an alternate URL. Expired SIG-20260821-004 (Santander/Webster) and SIG-20260821-005 (Posti buyback) on default 14-day expiry with no further catalyst. |
 | 2026-09-03 | Opened SIG-20260903-001 from FIND-20260903-001 (STOXX adds Nokia to Euro Stoxx 50 effective 21 Sep, dual-stream STOXX press release + Kauppalehti wrap) |
 | 2026-09-02 | Opened SIG-20260902-001 from FIND-20260902-001 (Medtronic FY27 organic-growth/EPS guidance raise after 13.7% organic Q1, official action, single primary on Medtronic IR) |

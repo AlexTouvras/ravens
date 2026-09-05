@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: parenting
-updated: 2026-09-04
+updated: 2026-09-05
 status: active
 ---
 
@@ -35,6 +35,9 @@ Once `Child born` is `YYYY-MM-DD`, compute age in Europe/Helsinki and scan that 
 - Finland: first latch — let the baby crawl to the breast; hand-express colostrum if no latch within two hours — [fi-first-latch-hand-express](./fi-first-latch-hand-express.md)
 - Finland: expect cord-blood TSH at birth and a both-ear OAE hearing screen before going home (retest ~2 weeks if both ears fail) — [fi-newborn-tsh-oae-screens](./fi-newborn-tsh-oae-screens.md)
 - Finland: hospital reports the birth; the child gets a hetu without a parent filing; names and mother tongue to DVV or parish within three months — [fi-dvv-birth-hetu-automatic](./fi-dvv-birth-hetu-automatic.md)
+- Finland: first-time labor is generally 2h of 5-minute contractions; subsequent 1h of 10-minute contractions; phone if unsure — [fi-labor-start-contraction-thresholds](./fi-labor-start-contraction-thresholds.md)
+- Finland: if lochia becomes heavy again, or foul with fever, call the maternity hospital (38 °C split) — [fi-postpartum-lochia-fever-red-flags](./fi-postpartum-lochia-fever-red-flags.md)
+- Kela: do not apply for the newborn’s Kela card — it posts after hetu and name — [fi-kela-card-after-hetu-name](./fi-kela-card-after-hetu-name.md)
 
 Related, other domains: pregnancy fish/listeria under [`food/`](../food/); pregnancy activity under [`fitness/acog-pregnancy-postpartum-activity.md`](../fitness/acog-pregnancy-postpartum-activity.md).
 
@@ -60,11 +63,15 @@ _(none)_
 | fi-first-latch-hand-express | Finland — first latch: let the baby crawl to the breast; hand-express if no latch in two hours | 2026-09-03 | active |
 | fi-newborn-tsh-oae-screens | Finland — cord-blood TSH at birth and both-ear OAE hearing screen before going home | 2026-09-04 | active |
 | fi-dvv-birth-hetu-automatic | Finland — hospital reports the birth; the child gets a hetu without a parent filing | 2026-09-04 | active |
+| fi-labor-start-contraction-thresholds | Finland — first-time labor is usually 2h of 5-minute contractions; subsequent 1h of 10-minute | 2026-09-05 | active |
+| fi-postpartum-lochia-fever-red-flags | Finland — if lochia becomes heavy again, or foul with fever, call the maternity hospital | 2026-09-05 | active |
+| fi-kela-card-after-hetu-name | Finland — do not apply for the newborn’s Kela card; it posts after hetu and name | 2026-09-05 | active |
 
 ## Changelog
 
 | Date | Change |
 |------|--------|
+| 2026-09-05 | Promoted KNOW-parenting-fi-labor-start-contraction-thresholds from FIND-20260905-003 (Terveyskylä Naistalo living spontaneous-labor page: first-time 2h/5 min vs subsequent 1h/10 min; late-pregnancy / labor), KNOW-parenting-fi-postpartum-lochia-fever-red-flags from FIND-20260905-004 (Terveyskylä living recovery page: heavy-again lochia + 38 °C endometritis split; age-0-72h), and KNOW-parenting-fi-kela-card-after-hetu-name from FIND-20260905-005 (Kela living birth-benefits page: automatic card after hetu and name; age-0-72h) |
 | 2026-09-04 | Promoted KNOW-parenting-fi-newborn-tsh-oae-screens from FIND-20260904-005 (Terveyskylä Naistalo living screening page: cord-blood TSH + both-ear OAE, two-week retest, three-month referral; age-0-72h) and KNOW-parenting-fi-dvv-birth-hetu-automatic from FIND-20260904-006 (DVV living birth-registration page: hospital files, automatic hetu, three-month name filing; age-0-72h) |
 | 2026-09-03 | Promoted KNOW-parenting-fi-waters-breaking-call-first from FIND-20260903-003 (Terveyskylä Naistalo living waters page: call-first, pad check, 12h review, 24h induction; late-pregnancy / labor) and KNOW-parenting-fi-first-latch-hand-express from FIND-20260903-004 (Terveyskylä Naistalo living first-breastfeed page: crawl-to-breast, two-hour latch window, hand-express colostrum; labor / age-0-72h) |
 | 2026-09-02 | Promoted KNOW-parenting-fi-newborn-jaundice-phototherapy from FIND-20260902-002 (Terveyskylä Naistalo living jaundice page: common, 3–5-day peak, phototherapy; age-0-72h), KNOW-parenting-fi-kela-lapsilisa-before-birth from FIND-20260902-003 (Kela living lapsilisä page: file before birth, register-notified birth; late-pregnancy), and KNOW-parenting-fi-newborn-first-days-care from FIND-20260902-004 (Terveyskylä Naistalo living basic-care page: ≥8 feeds, cord, neck warmth, two-week nails; age-0-72h) |

@@ -43,5 +43,5 @@ DVV's living birth-registration page is current Finnish-systems protocol. Automa
 ## Related
 
 - Domain hub: [parenting](./README.md)
-- Sibling: [fi-kela-lapsilisa-before-birth](./fi-kela-lapsilisa-before-birth.md), [fi-kela-vanhempainraha-before-birth](./fi-kela-vanhempainraha-before-birth.md), [fi-newborn-hospital-discharge](./fi-newborn-hospital-discharge.md)
+- Sibling: [fi-kela-lapsilisa-before-birth](./fi-kela-lapsilisa-before-birth.md), [fi-kela-vanhempainraha-before-birth](./fi-kela-vanhempainraha-before-birth.md), [fi-kela-card-after-hetu-name](./fi-kela-card-after-hetu-name.md), [fi-newborn-hospital-discharge](./fi-newborn-hospital-discharge.md)
 - Consumer hint: household arrival / first-weeks admin checklist

@@ -6,9 +6,6 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 
 | ID | Domain | Title | Priority | Expires |
 |----|--------|-------|----------|---------|
-| [SIG-20260822-001](./SIG-20260822-001.md) | ai-agents | SEP-2640 "skills over MCP" discovery draft keeps changing shape | p3 | 2026-09-05 |
-| [SIG-20260822-002](./SIG-20260822-002.md) | security | BRIDGEHEAD npm typosquat campaign bridges WSL into Windows | p2 | 2026-09-05 |
-| [SIG-20260822-003](./SIG-20260822-003.md) | finance | Bavarian Nordic upgrades FY2026 guidance, launches DKK 750m buyback | p2 | 2026-09-05 |
 | [SIG-20260822-004](./SIG-20260822-004.md) | finance | Fortum Elmera tender — regulatory clearances done; 90% still open to 18 Sep | p2 | 2026-09-18 |
 | [SIG-20260823-001](./SIG-20260823-001.md) | ai-agents | Agent Plugins 1.0.0 — vendor-neutral Agent Skills + MCP packaging spec | p3 | 2026-09-06 |
 | [SIG-20260823-002](./SIG-20260823-002.md) | content | content-os — agent-agnostic daily source-scan → draft-in-voice pipeline reference | p3 | 2026-09-06 |
@@ -33,9 +30,14 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 | [SIG-20260903-001](./SIG-20260903-001.md) | finance | STOXX adds Nokia to the Euro Stoxx 50 from 21 September 2026 | p2 | 2026-09-21 |
 | [SIG-20260903-002](./SIG-20260903-002.md) | ai-agents | Cursor Self-Hosted Machines keep Cloud Agent tool execution on your own network | p2 | 2026-09-17 |
 | [SIG-20260904-001](./SIG-20260904-001.md) | ai-agents | LangChain 1.4.0 first-party langchain.mcp / MCPAdapter stable pin | p3 | 2026-09-18 |
+| [SIG-20260905-001](./SIG-20260905-001.md) | finance | FCCA clears Terveystalo Hohde dental deal; clinic divestments still due around October | p2 | 2026-10-31 |
+| [SIG-20260905-002](./SIG-20260905-002.md) | finance | HPE Q3 FY26 revenue $12.2bn; raises FY26 growth outlook to 34–37% | p2 | 2026-09-19 |
 
 Archived (expired/dropped/promoted):
 
+- [SIG-20260822-001](./SIG-20260822-001.md) — SEP-2640 skills-over-MCP draft, expired 2026-09-05 (no further draft churn)
+- [SIG-20260822-002](./SIG-20260822-002.md) — BRIDGEHEAD npm typosquat, expired 2026-09-05 (no named-consumer exposure)
+- [SIG-20260822-003](./SIG-20260822-003.md) — Bavarian Nordic guidance + buyback, expired 2026-09-05 (no further catalyst)
 - [SIG-20260821-003](./SIG-20260821-003.md) — sprint-interval cardiometabolic study, expired 2026-09-04 (no ACSM-class corroboration)
 - [SIG-20260821-004](./SIG-20260821-004.md) — Santander/Webster close, expired 2026-09-04 (no further catalyst)
 - [SIG-20260821-005](./SIG-20260821-005.md) — Posti Group buyback, expired 2026-09-04 (no further official print)
