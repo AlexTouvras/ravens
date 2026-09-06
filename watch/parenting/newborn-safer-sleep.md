@@ -7,12 +7,12 @@ title: Newborn safer sleep
 status: active
 intent: how-to
 consumer: household
-stage: age-0-72h
+stage: age-2-8w
 primary_url: https://www.youtube.com/watch?v=NO2vbtjNk2c
 primary_title: Safer Sleep For Babies
 channel: Lullaby Trust
 duration: 2:03
-accessed: 2026-08-17
+accessed: 2026-09-06
 confidence: high
 ---
 
@@ -20,7 +20,7 @@ confidence: high
 
 ## Why this clip
 
-The Lullaby Trust is the UK SIDS-prevention charity. Short (2:03) back-to-sleep demo you can watch before the baby is home. Adjacent window: catalogued now so it is ready on arrival.
+The Lullaby Trust is the UK SIDS-prevention charity. Short (2:03) back-to-sleep demo. Still the week-3/4 rule: back, clear cot, not too hot. Same `WATCH-` id; URL re-confirmed via YouTube oEmbed 2026-09-06.
 
 ## Cues to steal
 
@@ -31,9 +31,9 @@ The Lullaby Trust is the UK SIDS-prevention charity. Short (2:03) back-to-sleep 
 
 - UK charity guidance; Finnish neuvola / THL advice wins if they differ.
 - Not a sleep-training method. Not a co-sleeping how-to (they have a separate clip).
-- Preterm or medical sleep plans come from the unit, not this video.
+- Preterm or medical sleep plans come from the unit or neuvola, not this video.
 
 ## Related
 
-- Stage: `age-0-72h` (adjacent while Current stage is late pregnancy)
-- Sibling: [labour-signs](./labour-signs.md)
+- Stage: `age-2-8w` (hub Current stage — week 3 now, week 4 from 10 Sep)
+- Sibling: [tummy-time](./tummy-time.md), [infant-soothing](./infant-soothing.md)

@@ -7,12 +7,12 @@ title: Newborn latch / attaching at the breast
 status: active
 intent: how-to
 consumer: household
-stage: age-0-72h
+stage: age-2-8w
 primary_url: https://www.youtube.com/watch?v=wjt-Ashodw8
 primary_title: Attaching Your Baby at the Breast – Breastfeeding Series
 channel: Global Health Media Project
 duration: 10:27
-accessed: 2026-08-17
+accessed: 2026-09-06
 confidence: high
 ---
 
@@ -20,7 +20,7 @@ confidence: high
 
 ## Why this clip
 
-Global Health Media’s breastfeeding series is the usual public-health demo (wide gape, baby to breast, not breast to baby). 10:27. Adjacent window: ready for arrival. Confirmed via watch URL 2026-08-17.
+Global Health Media’s breastfeeding series is the usual public-health demo (wide gape, baby to breast, not breast to baby). 10:27. Still in play at week 3–4 for positioning. Same `WATCH-` id; URL re-confirmed via YouTube oEmbed 2026-09-06.
 
 ## Cues to steal
 
@@ -35,5 +35,5 @@ Global Health Media’s breastfeeding series is the usual public-health demo (wi
 
 ## Related
 
-- Stage: `age-0-72h`
-- Sibling: [newborn-safer-sleep](./newborn-safer-sleep.md)
+- Stage: `age-2-8w` (hub Current stage — week 3 now, week 4 from 10 Sep)
+- Sibling: [newborn-safer-sleep](./newborn-safer-sleep.md), [infant-soothing](./infant-soothing.md)

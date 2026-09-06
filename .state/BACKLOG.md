@@ -28,6 +28,7 @@
 - [x] Heimdall delivery = consumer match from `watch/` (not Slack); documented in `docs/consumers.md` (2026-09-02)
 - [x] Parenting searches follow week of life (Child born 2026-08-20); inbox `Parenting week` block (2026-09-05)
 - [x] Household week-plan listed at `knowledge/parenting/coming-week.md` (2026-09-05)
+- [x] Heimdall weekly 2026-09-06 — week 3–4 how-tos `tummy-time` / `infant-soothing`; restaged safer-sleep and latch to `age-2-8w`
 - [ ] Wire consumer read docs into mealplan / field-card when those projects ask (fitness wired)
 
 ## Later
