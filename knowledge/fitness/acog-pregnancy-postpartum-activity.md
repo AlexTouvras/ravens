@@ -44,6 +44,6 @@ ACOG Committee Opinion No. 804 restates durable public clinical guidance aligned
 ## Related
 
 - Domain hub: [fitness](./README.md)
-- Sibling: [acsm-weekly-volume-hypertrophy](./acsm-weekly-volume-hypertrophy.md)
+- Sibling: [acsm-weekly-volume-hypertrophy](./acsm-weekly-volume-hypertrophy.md), [fi-postpartum-walking-pelvic-floor](./fi-postpartum-walking-pelvic-floor.md)
 - Food coupling: pregnancy food-safety notes under `food/`
 - Consumer hint: mealplan household fitness / `pregnancy_nourish` planning

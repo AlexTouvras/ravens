@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: content
-updated: 2026-08-26
+updated: 2026-09-06
 status: active
 ---
 
@@ -15,7 +15,7 @@ _(none yet — awaiting first Muninn promotions)_
 
 ## Active signals
 
-- [SIG-20260823-002](../../signals/SIG-20260823-002.md) — content-os agent-agnostic source-scan → draft-in-voice pipeline reference
+_(none)_
 
 ## Note index
 
@@ -27,6 +27,7 @@ _(none yet — awaiting first Muninn promotions)_
 
 | Date | Change |
 |------|--------|
+| 2026-09-06 | Expired SIG-20260823-002 (content-os) on default 14-day expiry — no Orbit adoption decision |
 | 2026-08-26 | Expired SIG-20260812-004 (Hugo + AGENTS.md RSS pipeline) — hit default expiry with no Orbit adoption decision |
 | 2026-08-23 | Opened SIG-20260823-002 from FIND-20260823-003 (content-os repo; complements, does not duplicate, SIG-20260812-004) |
 | 2026-08-12 | Opened SIG-20260812-004 from FIND-20260812-010 |

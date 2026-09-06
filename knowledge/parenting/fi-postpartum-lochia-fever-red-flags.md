@@ -37,7 +37,7 @@ Terveyskylä Naistalo's living postpartum-recovery page (last reviewed 14 Jan 20
 
 - Age window: `age-0-72h` (adjacent prepare-now; afterpains and lochia start on the ward and continue in the first days at home). Re-check [`knowledge/parenting/README.md`](./README.md) **Current stage** — a human sets `Child born`, not this note.
 - **Finnish hospital / Terveyskylä Naistalo** national guidance. The discharging ward's own printed instructions win on the day.
-- Not a diagnosis or a substitute for the maternity-hospital line, the health centre, or 112. Not gym or pelvic-floor programming — pregnancy/postpartum activity stays in [`fitness/acog-pregnancy-postpartum-activity.md`](../fitness/acog-pregnancy-postpartum-activity.md).
+- Not a diagnosis or a substitute for the maternity-hospital line, the health centre, or 112. Not gym or pelvic-floor programming — pregnancy/postpartum activity stays in [`fitness/acog-pregnancy-postpartum-activity.md`](../fitness/acog-pregnancy-postpartum-activity.md) and [`fitness/fi-postpartum-walking-pelvic-floor.md`](../fitness/fi-postpartum-walking-pelvic-floor.md).
 - Tear-care, oestrogen cream, and intercourse timing on the same page are optional self-care, not this note's promote bar. Do not invent a birth date.
 
 ## Related

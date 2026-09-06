@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: ai-agents
-updated: 2026-09-05
+updated: 2026-09-06
 status: active
 ---
 
@@ -16,7 +16,6 @@ Frameworks, protocols (MCP / A2A), and Cursor agent patterns that change deliver
 
 ## Active signals
 
-- [SIG-20260823-001](../../signals/SIG-20260823-001.md) — Agent Plugins 1.0.0 vendor-neutral Agent Skills + MCP packaging spec
 - [SIG-20260829-003](../../signals/SIG-20260829-003.md) — Cursor Origin removes the GitHub prerequisite for starting a cloud agent
 - [SIG-20260831-002](../../signals/SIG-20260831-002.md) — Pydantic AI 2.36.0 public durable-execution backend API + named `@durable_operation`
 - [SIG-20260903-002](../../signals/SIG-20260903-002.md) — Cursor Self-Hosted Machines keep Cloud Agent tool execution on your own network
@@ -33,6 +32,7 @@ Frameworks, protocols (MCP / A2A), and Cursor agent patterns that change deliver
 
 | Date | Change |
 |------|--------|
+| 2026-09-06 | Expired SIG-20260823-001 (Agent Plugins 1.0.0) on default 14-day expiry — no v1.1, no named-consumer packaging decision; Cursor Skills prefer-rule unchanged. |
 | 2026-09-05 | Expired SIG-20260822-001 (SEP-2640 skills-over-MCP draft) on default 14-day expiry with no further draft churn or SDK convergence; standing Cursor Skills prefer-rule unchanged. |
 | 2026-09-04 | Opened SIG-20260904-001 from FIND-20260904-003 (LangChain 1.4.0 first-party `langchain.mcp` / `MCPAdapter`; GitHub/OSS signal until a consumer pins it). Revisited SIG-20260831-002 — Huginn noted Pydantic AI 2.39.0 as a model-catalog increment, not a new clone-vs-build SIG. |
 | 2026-09-03 | Opened SIG-20260903-002 from FIND-20260903-002 (Cursor Self-Hosted Machines, 2 Sep changelog — tool execution on a worker you manage; signal until a named consumer adopts or requires it) |

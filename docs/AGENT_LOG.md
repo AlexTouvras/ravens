@@ -4,6 +4,11 @@
 
 <!-- New entries go below -->
 
+### 2026-09-06 — Muninn distill
+
+- **Built:** three parenting notes (crying rise / under-2-month fever / never-shake; short supervised tummy time; 2–4h sleep stretches); Finnish postpartum walking + pelvic-floor note; SIG-20260906-001 (AAP tummy-time volume by 7 weeks); coming-week rewrite; expired Agent Plugins, content-os, and Finnair deadline signals
+- **Why:** Huginn inbox 2026-09-06 (5 findings); yesterday's FIND ids already linked
+
 ### 2026-09-05 — Week-of-life parenting scans
 
 - **Built:** Child born 2026-08-20; Huginn/watchlist/Heimdall retargeted to week of life; living `coming-week` plan; LUVN / vitamin D / THL notes; SIG-20260905-003 (AAP lookahead). Rebased onto morning Huginn/Muninn (labor-start, lochia, Kela card).

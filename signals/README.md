@@ -7,13 +7,10 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 | ID | Domain | Title | Priority | Expires |
 |----|--------|-------|----------|---------|
 | [SIG-20260822-004](./SIG-20260822-004.md) | finance | Fortum Elmera tender — regulatory clearances done; 90% still open to 18 Sep | p2 | 2026-09-18 |
-| [SIG-20260823-001](./SIG-20260823-001.md) | ai-agents | Agent Plugins 1.0.0 — vendor-neutral Agent Skills + MCP packaging spec | p3 | 2026-09-06 |
-| [SIG-20260823-002](./SIG-20260823-002.md) | content | content-os — agent-agnostic daily source-scan → draft-in-voice pipeline reference | p3 | 2026-09-06 |
 | [SIG-20260825-001](./SIG-20260825-001.md) | finance | Ambea's recommended takeover offer for Humana opens its acceptance period | p3 | 2026-09-08 |
 | [SIG-20260825-002](./SIG-20260825-002.md) | finance | SP Group raises FY2026 guidance and runs a DKK 40m buyback after UK bolt-on | p2 | 2026-09-08 |
 | [SIG-20260825-003](./SIG-20260825-003.md) | career | UPM Data & Platform Specialist — Snowflake + Fabric + Power BI + governance (apply by 17 Sep) | p1 | 2026-09-17 |
 | [SIG-20260827-001](./SIG-20260827-001.md) | finance | HP Inc. raises full-year fiscal 2026 EPS and free-cash-flow guidance | p2 | 2026-09-10 |
-| [SIG-20260827-002](./SIG-20260827-002.md) | career | Finnair Analytics Engineer — Vantaa, AMOS ERP + Power BI (apply by 6 Sep) | p1 | 2026-09-06 |
 | [SIG-20260827-003](./SIG-20260827-003.md) | security | Anthropic unifies Claude memory across chat and Cowork, default-exclude sensitive topics | p3 | 2026-09-10 |
 | [SIG-20260828-001](./SIG-20260828-001.md) | finance | Best Buy raises FY27 revenue, comparable-sales, and adjusted-EPS guidance | p2 | 2026-09-11 |
 | [SIG-20260828-002](./SIG-20260828-002.md) | finance | Boliden agrees share-and-cash deal for majority stake in Nexa Resources | p3 | 2026-09-11 |
@@ -33,9 +30,13 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 | [SIG-20260905-003](./SIG-20260905-003.md) | parenting | AAP 1-month visit topics — 8–12 feeds/day, ~½ lb weekly gain (US figures) | p2 | 2026-09-20 |
 | [SIG-20260905-001](./SIG-20260905-001.md) | finance | FCCA clears Terveystalo Hohde dental deal; clinic divestments still due around October | p2 | 2026-10-31 |
 | [SIG-20260905-002](./SIG-20260905-002.md) | finance | HPE Q3 FY26 revenue $12.2bn; raises FY26 growth outlook to 34–37% | p2 | 2026-09-19 |
+| [SIG-20260906-001](./SIG-20260906-001.md) | parenting | AAP supervised tummy time — build toward 15–30 minutes/day by 7 weeks | p2 | 2026-10-08 |
 
 Archived (expired/dropped/promoted):
 
+- [SIG-20260823-001](./SIG-20260823-001.md) — Agent Plugins 1.0.0, expired 2026-09-06 (no v1.1 / no packaging decision)
+- [SIG-20260823-002](./SIG-20260823-002.md) — content-os, expired 2026-09-06 (no Orbit adoption)
+- [SIG-20260827-002](./SIG-20260827-002.md) — Finnair Analytics Engineer, expired 2026-09-06 (6 Sep application deadline)
 - [SIG-20260822-001](./SIG-20260822-001.md) — SEP-2640 skills-over-MCP draft, expired 2026-09-05 (no further draft churn)
 - [SIG-20260822-002](./SIG-20260822-002.md) — BRIDGEHEAD npm typosquat, expired 2026-09-05 (no named-consumer exposure)
 - [SIG-20260822-003](./SIG-20260822-003.md) — Bavarian Nordic guidance + buyback, expired 2026-09-05 (no further catalyst)

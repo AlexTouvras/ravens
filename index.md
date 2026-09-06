@@ -14,7 +14,7 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 | Security | [knowledge/security/](knowledge/security/) | JARVIS, ProjectBrain, Ledger, careerops, ravens |
 | Content | [knowledge/content/](knowledge/content/) | Orbit Writes / Signals |
 
-## Active notes (2026-09-05)
+## Active notes (2026-09-06)
 
 | Domain | Note | Confidence |
 |--------|------|------------|
@@ -32,6 +32,7 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 | fitness | [acsm-weekly-volume-hypertrophy](knowledge/fitness/acsm-weekly-volume-hypertrophy.md) | high |
 | fitness | [acog-pregnancy-postpartum-activity](knowledge/fitness/acog-pregnancy-postpartum-activity.md) | high |
 | fitness | [nsca-no-menstrual-cycle-periodization](knowledge/fitness/nsca-no-menstrual-cycle-periodization.md) | high |
+| fitness | [fi-postpartum-walking-pelvic-floor](knowledge/fitness/fi-postpartum-walking-pelvic-floor.md) | high |
 | parenting | [coming-week](knowledge/parenting/coming-week.md) | high |
 | parenting | [luvn-neuvola-2-4w-4-6w](knowledge/parenting/luvn-neuvola-2-4w-4-6w.md) | high |
 | parenting | [fi-infant-vitamin-d-from-2-weeks](knowledge/parenting/fi-infant-vitamin-d-from-2-weeks.md) | high |
@@ -53,6 +54,9 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 | parenting | [fi-labor-start-contraction-thresholds](knowledge/parenting/fi-labor-start-contraction-thresholds.md) | high |
 | parenting | [fi-postpartum-lochia-fever-red-flags](knowledge/parenting/fi-postpartum-lochia-fever-red-flags.md) | high |
 | parenting | [fi-kela-card-after-hetu-name](knowledge/parenting/fi-kela-card-after-hetu-name.md) | high |
+| parenting | [fi-infant-crying-fever-never-shake](knowledge/parenting/fi-infant-crying-fever-never-shake.md) | high |
+| parenting | [fi-infant-tummy-time](knowledge/parenting/fi-infant-tummy-time.md) | high |
+| parenting | [fi-infant-sleep-2-4h-stretches](knowledge/parenting/fi-infant-sleep-2-4h-stretches.md) | high |
 | security | [github-mcp-server-min-version](knowledge/security/github-mcp-server-min-version.md) | high |
 
 ## Contracts
@@ -65,4 +69,4 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 
 ## Latest inbox
 
-See `inbox/` for dated raw scans. Latest live: [inbox/2026-09-05.md](inbox/2026-09-05.md). Fixtures live under `examples/` and must not be treated as live data.
+See `inbox/` for dated raw scans. Latest live: [inbox/2026-09-06.md](inbox/2026-09-06.md). Fixtures live under `examples/` and must not be treated as live data.

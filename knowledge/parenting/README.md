@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: parenting
-updated: 2026-09-05
+updated: 2026-09-06
 status: active
 ---
 
@@ -23,7 +23,7 @@ Huginn **recomputes** age and week every run. Do not copy the snapshot if the ca
 
 ## This week's plan
 
-Living list: [coming-week](./coming-week.md) (Muninn rewrites when week of life moves). Snapshot 2026-09-05 — week 3 now, week 4 from 10 Sep.
+Living list: [coming-week](./coming-week.md) (Muninn rewrites when week of life moves). Snapshot 2026-09-06 — week 3 now, week 4 from 10 Sep.
 
 ## Current guidance (this week / coming week)
 
@@ -35,8 +35,12 @@ Still in play at week 3–4:
 - 0–1 month: eye contact, moving limbs together; birth weight back by ~2 weeks, then 150–200 g/week — [thl-0-1-month-development-growth](./thl-0-1-month-development-growth.md)
 - AAP safe-sleep ABCs — [aap-safe-sleep-abcs](./aap-safe-sleep-abcs.md)
 - Back sleep, ≥8 feeds; two-week nail rule is ending — [fi-newborn-first-days-care](./fi-newborn-first-days-care.md)
+- Crying typically rises from 2 weeks to about 1½ months; fever under 2 months always needs a doctor; never shake — [fi-infant-crying-fever-never-shake](./fi-infant-crying-fever-never-shake.md)
+- Short supervised awake tummy time (chest/lap, then floor) — [fi-infant-tummy-time](./fi-infant-tummy-time.md)
+- Sleep is still 2–4 hour stretches; night/day split waits for ~3 months — [fi-infant-sleep-2-4h-stretches](./fi-infant-sleep-2-4h-stretches.md)
 - Jaundice can linger through 4–6 weeks — [fi-newborn-jaundice-phototherapy](./fi-newborn-jaundice-phototherapy.md)
 - If lochia becomes heavy again, or foul with fever, call the maternity hospital — [fi-postpartum-lochia-fever-red-flags](./fi-postpartum-lochia-fever-red-flags.md)
+- Parent recovery this week: walking plus pain-free pelvic-floor; sport waits for the jälkitarkastus — [fi-postpartum-walking-pelvic-floor](../fitness/fi-postpartum-walking-pelvic-floor.md)
 - OAE hearing retest ~2 weeks if both ears failed at discharge — [fi-newborn-tsh-oae-screens](./fi-newborn-tsh-oae-screens.md)
 - Names and mother tongue to DVV or parish within three months; hetu is automatic — [fi-dvv-birth-hetu-automatic](./fi-dvv-birth-hetu-automatic.md)
 - Do not apply for the newborn’s Kela card — it posts after hetu and name — [fi-kela-card-after-hetu-name](./fi-kela-card-after-hetu-name.md)
@@ -50,12 +54,16 @@ Related, other domains: infant feeding-safety here, not `food/`; postpartum acti
 ## Active signals
 
 - [SIG-20260905-003](../../signals/SIG-20260905-003.md) — AAP 1-month 8–12 feeds/day (US; expire 20 Sep)
+- [SIG-20260906-001](../../signals/SIG-20260906-001.md) — AAP tummy-time 15–30 min/day by 7 weeks (US volume; expire 8 Oct)
 
 ## Note index
 
 | Slug | Title | Updated | Status |
 |------|-------|---------|--------|
-| coming-week | Household week-plan — week 3 now, week 4 next | 2026-09-05 | active |
+| coming-week | Household week-plan — week 3 now, week 4 next | 2026-09-06 | active |
+| fi-infant-crying-fever-never-shake | Finland — crying rises from 2 weeks to ~1½ months; fever under 2 months always needs a doctor | 2026-09-06 | active |
+| fi-infant-tummy-time | Finland — start short awake tummy time; chest or lap first, then the floor | 2026-09-06 | active |
+| fi-infant-sleep-2-4h-stretches | Finland — week-3 sleep is still 2–4 hour stretches | 2026-09-06 | active |
 | luvn-neuvola-2-4w-4-6w | LUVN — 2–4 week nurse visit, then 4–6 week nurse+doctor | 2026-09-05 | active |
 | fi-infant-vitamin-d-from-2-weeks | Finland — 10 µg/day vitamin D from 2 weeks of age | 2026-09-05 | active |
 | thl-0-1-month-development-growth | THL — 0–1 month development and ~2-week weight regain | 2026-09-05 | active |
@@ -81,6 +89,7 @@ Related, other domains: infant feeding-safety here, not `food/`; postpartum acti
 
 | Date | Change |
 |------|--------|
+| 2026-09-06 | Promoted fi-infant-crying-fever-never-shake, fi-infant-tummy-time, and fi-infant-sleep-2-4h-stretches from FIND-20260906-001…003; opened SIG-20260906-001 from FIND-20260906-004 (AAP 15–30 min tummy time by 7 weeks). Rewrote coming-week packing list. |
 | 2026-09-05 | Human set Child born 2026-08-20; scans follow week of life. Promoted coming-week, luvn-neuvola-2-4w-4-6w, fi-infant-vitamin-d-from-2-weeks, thl-0-1-month-development-growth from FIND-20260905-006…008; opened SIG-20260905-003 from FIND-20260905-009. Morning Muninn also promoted labor-start, lochia/fever, and Kela-card notes from FIND-20260905-003…005 |
 | 2026-09-04 | Promoted KNOW-parenting-fi-newborn-tsh-oae-screens from FIND-20260904-005 and KNOW-parenting-fi-dvv-birth-hetu-automatic from FIND-20260904-006 |
 | 2026-09-03 | Promoted KNOW-parenting-fi-waters-breaking-call-first from FIND-20260903-003 and KNOW-parenting-fi-first-latch-hand-express from FIND-20260903-004 |

@@ -42,5 +42,6 @@ The AAP's safe-sleep ABCs are the current US pediatric consensus for reducing sl
 ## Related
 
 - Domain hub: [parenting](./README.md)
-- Sibling: [fi-newborn-first-days-care](./fi-newborn-first-days-care.md) restates back-sleep in Finnish-hospital first-days wording
+- Sibling: [fi-newborn-first-days-care](./fi-newborn-first-days-care.md) restates back-sleep in Finnish-hospital first-days wording; [fi-infant-tummy-time](./fi-infant-tummy-time.md) is awake play, not a sleep position
 - Adjacent: pregnancy activity under [`fitness/acog-pregnancy-postpartum-activity.md`](../fitness/acog-pregnancy-postpartum-activity.md)
+- Signal: [SIG-20260906-001](../../signals/SIG-20260906-001.md) — AAP 15–30 min tummy-time volume by 7 weeks
