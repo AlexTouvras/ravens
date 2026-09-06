@@ -28,3 +28,4 @@ Do not claim the foundation is healthy unless verify exits 0.
 - Video form/how-to clips live in `watch/`, not in Huginn’s inbox. Heimdall does not Slack — portfolio projects match clips from `watch/` (see `docs/consumers.md`).
 - Empty high-quality days beat noisy digests.
 - Cite the publisher page in `source_url`, not an aggregator (Google News, World Monitor, RSS-reader hosts). No world-news domain.
+- Do not compute week of life or write a household week-plan. Ravens gathers; other projects plan.

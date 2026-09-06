@@ -41,9 +41,9 @@ Pregnancy-safe activity stays in `knowledge/fitness/` (ACOG). Do not replace tha
 
 ## parenting
 
-Same week-of-life gate as Huginn. Read `knowledge/parenting/README.md` **Current stage** / `Child born` before searching. Catalog how-tos for **this week and next**, not generic newborn labour prep.
+Catalog infant how-tos tagged by age **stage** so **household** can match. After `Child born` is set on the parenting hub, drop labour hunts. Do not compute week of life.
 
-Until the child is born, catalog only labour / first-days slugs. After `Child born`, drop labour hunts. Current (week 3–4 as of 2026-09-06):
+Current catalogued slugs (restaged 2026-09-06):
 
 | Topic slug | Window | Intent |
 |------------|--------|--------|
@@ -62,4 +62,4 @@ Prefer THL, neuvola, Kela, NHS, AAP, WHO, Global Health Media. Finnish-language 
 - Parenting influencer listicles, product hauls, sleep-training wars
 - Finance / career / AI conference talks (text domains stay with Huginn)
 - Medical diagnosis or “this pain means X” claims
-- Toddler / school-age content while Current stage is pregnancy / newborn
+- Toddler / school-age content while Current stage is pregnancy or early infant

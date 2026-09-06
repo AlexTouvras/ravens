@@ -72,7 +72,7 @@ One paragraph: credentials, camera angle, match to our programming.
 | `status` | `active` \| `stale` \| `superseded` |
 | `intent` | `form-check` \| `how-to` \| `idea` \| `motivate` |
 | `consumer` | `fitness` \| `household` |
-| `stage` | `none` for fitness; parenting uses Huginn age-bucket tags (`age-2-8w`, …) timed to week of life |
+| `stage` | `none` for fitness; parenting uses age-bucket tags (`age-2-8w`, …) so household can match |
 | `confidence` | `high` \| `medium` \| `low` |
 
 ## ID scheme

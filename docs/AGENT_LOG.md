@@ -4,6 +4,16 @@
 
 <!-- New entries go below -->
 
+### 2026-09-06 — Week-of-life planning out of ravens
+
+- **Built:** Huginn/Heimdall/Muninn/watchlist/quality/contracts retargeted to gather-for-consumers; parenting hub no longer computes week of life; `coming-week` superseded; Glass Huginn + Heimdall prompts re-saved. `npm run verify` ok.
+- **Why:** Week-of-life planning belongs in another project. Ravens only gathers tagged notes and clips.
+
+### 2026-09-06 — Huginn still scans every watchlist domain
+
+- **Built:** Playbook + watchlist lead with every domain; week-of-life is parenting query shape only; live Huginn Glass prompt re-saved (946 chars, names all domains). Slack digest must not read as baby-only.
+- **Why:** 2026-09-06 inbox did scan empty domains, but the standing prompt and Slack headline made it look like newborn-only news.
+
 ### 2026-09-06 — Muninn distill
 
 - **Built:** three parenting notes (crying rise / under-2-month fever / never-shake; short supervised tummy time; 2–4h sleep stretches); Finnish postpartum walking + pelvic-floor note; SIG-20260906-001 (AAP tummy-time volume by 7 weeks); coming-week rewrite; expired Agent Plugins, content-os, and Finnair deadline signals

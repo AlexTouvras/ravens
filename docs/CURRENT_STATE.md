@@ -6,24 +6,22 @@
 
 ## Done this session
 
-- Muninn distill of Huginn inbox 2026-09-06 (week 3 of life, day 17)
-- Promoted three parenting notes (crying/fever/never-shake; short tummy time; 2–4h sleep stretches) and one fitness note (walking + pelvic-floor until jälkitarkastus)
-- Opened SIG-20260906-001 (AAP 15–30 min tummy time by 7 weeks)
-- Rewrote `coming-week` packing list; expired SIG-20260823-001/002 and SIG-20260827-002
-- Yesterday FIND-20260905-* already linked
+- Week-of-life planning is **out of ravens**. Huginn/Heimdall gather for named consumers; household filters by age-bucket. `coming-week` superseded.
+- Live Glass prompts re-saved (Huginn 963 chars, Heimdall 505). Both start `AUTOMATION_CONTRACT` and say do not compute week of life.
+- `npm run verify` → `verify ok` (domains=9, liveKnow=40).
 
 ## In progress
 
-- None for this distill
+- Playbook/hub/contract edits are local until commit + push
 
 ## Next session
 
-1. Save Huginn and Heimdall Agent Instructions in Glass if still unconfirmed
+1. Commit + push this scope change if not already on `main`
 2. Wire mealplan / field-card watch read paths when those projects ask
 3. Revisit SIG-20260822-004 on 18 Sep (Elmera 90% acceptance / offer close)
 4. Revisit SIG-20260905-001 for a publisher Hohde close print and the October Emal clinic sales
-5. Revisit SIG-20260906-001 toward 8 Oct (7-week tummy-time volume)
+5. Revisit SIG-20260906-001 toward 8 Oct (7-week tummy-time volume) — household applies the week, not ravens
 
 ## Blockers
 
-- None
+- Cloud Huginn still reads `agents/huginn.md` from `origin/main` until the playbook is pushed. Glass standing prompt already forbids week-of-life.

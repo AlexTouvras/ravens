@@ -7,30 +7,21 @@ status: active
 
 # Parenting
 
-General household parenting for a Finnish home. Huginn times findings to **week of life**, not to grocery, adult meal-planning, or generic “newborn” queries.
+General household parenting for a Finnish home. Ravens **gathers** notes the household consumer can filter by age-bucket. Week-of-life planning is **not** this repo’s job.
 
 ## Current stage
 
-Huginn must read this section before scanning. **Do not invent or change `Child born`.** Only a human sets that date.
+Human-set fact so Huginn does not hunt late-pregnancy after birth. **Do not invent or change `Child born`.** Do not compute week of life here.
 
 - Status: born
 - Child born: 2026-08-20
-- Formula (Europe/Helsinki calendar dates): `age_days = today − Child born`; `week_of_life = floor(age_days / 7) + 1` (week 1 = days 0–6)
-- Snapshot **as of 2026-09-05:** 16 days, **week 3** of life (this week: 2026-09-03 – 2026-09-09). Coming week = **week 4** (starts 2026-09-10)
-- Bucket tag now: `age-2-8w` (15–56 days). Adjacent only if a finding still bites: `age-3-14d` (cord, jaundice tail). Do **not** scan `late-pregnancy` or `labor`
+- Coarse tag for new findings: `age-2-8w` (infant). Skip `late-pregnancy` and `labor` unless a living page changed a still-actionable rule.
 
-Huginn **recomputes** age and week every run. Do not copy the snapshot if the calendar has moved. Search **this week of life and the coming week** so a household week-plan can be listed later (development, feeding, sleep, neuvola, safety, parent recovery). Skip first-days / labour topics already in this hub unless the living page changed the rule.
+## Current guidance
 
-## This week's plan
+Durable notes for household to read (not a week-plan):
 
-Living list: [coming-week](./coming-week.md) (Muninn rewrites when week of life moves). Snapshot 2026-09-06 — week 3 now, week 4 from 10 Sep.
-
-## Current guidance (this week / coming week)
-
-Still in play at week 3–4:
-
-- **Week-plan packing list** — [coming-week](./coming-week.md)
-- LUVN: **2–4 week** nurse visit now, **4–6 week** nurse+doctor next — [luvn-neuvola-2-4w-4-6w](./luvn-neuvola-2-4w-4-6w.md)
+- LUVN: **2–4 week** nurse visit, then **4–6 week** nurse+doctor — [luvn-neuvola-2-4w-4-6w](./luvn-neuvola-2-4w-4-6w.md)
 - Vitamin D **10 µg/day from 2 weeks**; reduce if formula ≥500 ml/day — [fi-infant-vitamin-d-from-2-weeks](./fi-infant-vitamin-d-from-2-weeks.md)
 - 0–1 month: eye contact, moving limbs together; birth weight back by ~2 weeks, then 150–200 g/week — [thl-0-1-month-development-growth](./thl-0-1-month-development-growth.md)
 - AAP safe-sleep ABCs — [aap-safe-sleep-abcs](./aap-safe-sleep-abcs.md)
@@ -40,7 +31,7 @@ Still in play at week 3–4:
 - Sleep is still 2–4 hour stretches; night/day split waits for ~3 months — [fi-infant-sleep-2-4h-stretches](./fi-infant-sleep-2-4h-stretches.md)
 - Jaundice can linger through 4–6 weeks — [fi-newborn-jaundice-phototherapy](./fi-newborn-jaundice-phototherapy.md)
 - If lochia becomes heavy again, or foul with fever, call the maternity hospital — [fi-postpartum-lochia-fever-red-flags](./fi-postpartum-lochia-fever-red-flags.md)
-- Parent recovery this week: walking plus pain-free pelvic-floor; sport waits for the jälkitarkastus — [fi-postpartum-walking-pelvic-floor](../fitness/fi-postpartum-walking-pelvic-floor.md)
+- Parent recovery: walking plus pain-free pelvic-floor; sport waits for the jälkitarkastus — [fi-postpartum-walking-pelvic-floor](../fitness/fi-postpartum-walking-pelvic-floor.md)
 - OAE hearing retest ~2 weeks if both ears failed at discharge — [fi-newborn-tsh-oae-screens](./fi-newborn-tsh-oae-screens.md)
 - Names and mother tongue to DVV or parish within three months; hetu is automatic — [fi-dvv-birth-hetu-automatic](./fi-dvv-birth-hetu-automatic.md)
 - Do not apply for the newborn’s Kela card — it posts after hetu and name — [fi-kela-card-after-hetu-name](./fi-kela-card-after-hetu-name.md)
@@ -49,7 +40,7 @@ Still in play at week 3–4:
 
 Passed windows (do not re-scan unless the living page changed): labour start thresholds, waters breaking, first latch, vitamin K at birth, HUS labour call-first, hospital discharge / heel-prick, statutory 1–14 day home visit.
 
-Related, other domains: infant feeding-safety here, not `food/`; postpartum activity under [`fitness/acog-pregnancy-postpartum-activity.md`](../fitness/acog-pregnancy-postpartum-activity.md) timed to the same week of life.
+Related, other domains: infant feeding-safety here, not `food/`; postpartum activity under [`fitness/acog-pregnancy-postpartum-activity.md`](../fitness/acog-pregnancy-postpartum-activity.md) and [`fitness/fi-postpartum-walking-pelvic-floor.md`](../fitness/fi-postpartum-walking-pelvic-floor.md).
 
 ## Active signals
 
@@ -60,7 +51,7 @@ Related, other domains: infant feeding-safety here, not `food/`; postpartum acti
 
 | Slug | Title | Updated | Status |
 |------|-------|---------|--------|
-| coming-week | Household week-plan — week 3 now, week 4 next | 2026-09-06 | active |
+| coming-week | Household week-plan (not maintained here) | 2026-09-06 | superseded |
 | fi-infant-crying-fever-never-shake | Finland — crying rises from 2 weeks to ~1½ months; fever under 2 months always needs a doctor | 2026-09-06 | active |
 | fi-infant-tummy-time | Finland — start short awake tummy time; chest or lap first, then the floor | 2026-09-06 | active |
 | fi-infant-sleep-2-4h-stretches | Finland — week-3 sleep is still 2–4 hour stretches | 2026-09-06 | active |
@@ -89,7 +80,7 @@ Related, other domains: infant feeding-safety here, not `food/`; postpartum acti
 
 | Date | Change |
 |------|--------|
-| 2026-09-06 | Promoted fi-infant-crying-fever-never-shake, fi-infant-tummy-time, and fi-infant-sleep-2-4h-stretches from FIND-20260906-001…003; opened SIG-20260906-001 from FIND-20260906-004 (AAP 15–30 min tummy time by 7 weeks). Rewrote coming-week packing list. |
+| 2026-09-06 | Promoted infant crying/tummy-time/sleep notes and SIG-20260906-001. Later: week-of-life planning moved out of ravens; `coming-week` superseded. |
 | 2026-09-05 | Human set Child born 2026-08-20; scans follow week of life. Promoted coming-week, luvn-neuvola-2-4w-4-6w, fi-infant-vitamin-d-from-2-weeks, thl-0-1-month-development-growth from FIND-20260905-006…008; opened SIG-20260905-003 from FIND-20260905-009. Morning Muninn also promoted labor-start, lochia/fever, and Kela-card notes from FIND-20260905-003…005 |
 | 2026-09-04 | Promoted KNOW-parenting-fi-newborn-tsh-oae-screens from FIND-20260904-005 and KNOW-parenting-fi-dvv-birth-hetu-automatic from FIND-20260904-006 |
 | 2026-09-03 | Promoted KNOW-parenting-fi-waters-breaking-call-first from FIND-20260903-003 and KNOW-parenting-fi-first-latch-hand-express from FIND-20260903-004 |

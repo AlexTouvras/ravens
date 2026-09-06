@@ -10,13 +10,13 @@ Machine- and agent-readable shapes for the vault. Automations must produce these
 | Watch note | [watch.md](./watch.md) | Heimdall |
 | Quality / promotion | [../quality.md](../quality.md) | Muninn (text) + Heimdall (video gates) |
 
-Version: **1.1** · 2026-09-05
+Version: **1.1** · 2026-09-06
 
 Breaking changes bump the version and require a changelog entry in this folder.
 
 | Date | Change |
 |------|--------|
-| 2026-09-05 | Inbox: required **Parenting week** block; parenting topics add `week-N` beside the age bucket. Additive. |
+| 2026-09-06 | Inbox: **Parenting week** block and `week-N` no longer required. Week-of-life planning is out of ravens’ scope. Additive (old inboxes stay valid). |
 | 2026-08-30 | Watch: `intent` may be `motivate` (gym-anime / lift-motivation only). Additive. |
 | 2026-08-18 | Inbox: optional `corroboration_url`; required **Scan gaps** heading. Quality: source tiers, date/retrospective Gate 0, finance dual-stream. Additive; existing inbox files stay valid. |
 | 2026-08-10 | v1.0 foundation contracts |

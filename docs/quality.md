@@ -43,7 +43,7 @@ Muninn may score Gate 1 **credibility** only for tiers 1–3. A tier-4 URL fails
 Score ≥ 2 of:
 
 1. **Portfolio fit** — maps to a named domain and a real consumer (field-card, mealplan, Ledger, household for `parenting`, …)
-2. **Actionability** — changes a decision this month (guidance, watchlist, tooling choice, or this week’s parenting window)
+2. **Actionability** — changes a decision this month (guidance, watchlist, tooling choice, or household care a named consumer would use)
 3. **Novelty** — new vs last 30 days of inbox/knowledge
 4. **Credibility** — source tier 1–3 (table above), not engagement bait
 
@@ -58,7 +58,7 @@ All of:
 
 ## Fitness-specific filters
 
-Promote when it changes programming, recovery, or **this postpartum week's** activity rules (postpartum week = child's week of life).  
+Promote when it changes programming, recovery, or postpartum return rules that **mealplan** or **fitness** would use.  
 Drop: influencer challenges, before/after ads, gadget listicles, extreme cuts, steroid discourse, and pregnancy-as-if-still-pregnant queries after `Child born` is set.
 
 ## Food domain (not scanned)
@@ -67,9 +67,9 @@ Drop: influencer challenges, before/after ads, gadget listicles, extreme cuts, s
 
 ## Parenting-specific filters
 
-Promote only when the finding applies to **this week of life or the coming week** from `knowledge/parenting/README.md` (compute from `Child born`; the age-bucket tag plus `week-N` must match). Every inbox item needs an age-bucket topic tag and `week-N`.
+Promote when the finding is useful to the **household** consumer (Finnish infant / postpartum care, not a week-plan). Tag one age-bucket from the source’s age range. Do not compute week of life and do not rewrite a coming-week packing list — that is out of ravens’ scope.
 
-Default path: **signal** with a short expiry that matches the window (days or a couple of weeks, not months). **Knowledge** only when the guidance is durable *and* the note’s Limits section states the child-age range. Drop influencer listicles, product hauls, wonder-weeks, and anything for toddlers/school. After `Child born` is set, drop late-pregnancy / labour / first-72h re-files unless the living page changed a still-actionable rule.
+Default path: **signal** with a short expiry when the claim is time-bounded. **Knowledge** only when the guidance is durable *and* the note’s Limits section states the child-age range. Drop influencer listicles, product hauls, wonder-weeks, and anything for toddlers/school. After `Child born` is set, drop late-pregnancy / labour / first-72h re-files unless the living page changed a still-actionable rule.
 
 Do not promote low-confidence medical claims. Do not write `Child born` or change Current stage — a human does that after birth.
 

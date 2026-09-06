@@ -9,7 +9,7 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 | Career | [knowledge/career/](knowledge/career/) | careerops, careerDev |
 | Food | [knowledge/food/](knowledge/food/) | mealplan (existing notes; not scanned) |
 | Fitness | [knowledge/fitness/](knowledge/fitness/) · [watch/fitness/](watch/fitness/) | mealplan goals, fitness coach form checks |
-| Parenting | [knowledge/parenting/](knowledge/parenting/) · [watch/parenting/](watch/parenting/) | household — week of life from Child born |
+| Parenting | [knowledge/parenting/](knowledge/parenting/) · [watch/parenting/](watch/parenting/) | household (age-bucket tags; week-plans elsewhere) |
 | Finance | [knowledge/finance/](knowledge/finance/) | Ledger, ledger-private — incl. investment opportunities |
 | Security | [knowledge/security/](knowledge/security/) | JARVIS, ProjectBrain, Ledger, careerops, ravens |
 | Content | [knowledge/content/](knowledge/content/) | Orbit Writes / Signals |
@@ -33,7 +33,6 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 | fitness | [acog-pregnancy-postpartum-activity](knowledge/fitness/acog-pregnancy-postpartum-activity.md) | high |
 | fitness | [nsca-no-menstrual-cycle-periodization](knowledge/fitness/nsca-no-menstrual-cycle-periodization.md) | high |
 | fitness | [fi-postpartum-walking-pelvic-floor](knowledge/fitness/fi-postpartum-walking-pelvic-floor.md) | high |
-| parenting | [coming-week](knowledge/parenting/coming-week.md) | high |
 | parenting | [luvn-neuvola-2-4w-4-6w](knowledge/parenting/luvn-neuvola-2-4w-4-6w.md) | high |
 | parenting | [fi-infant-vitamin-d-from-2-weeks](knowledge/parenting/fi-infant-vitamin-d-from-2-weeks.md) | high |
 | parenting | [thl-0-1-month-development-growth](knowledge/parenting/thl-0-1-month-development-growth.md) | high |

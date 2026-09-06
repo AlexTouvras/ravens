@@ -1,2 +1,3 @@
 # Agent working memory — daily task is local-only
 .state/CURRENT_TASK.md
+.state/LESSONS.md

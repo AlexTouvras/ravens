@@ -16,7 +16,7 @@ Distill recent inbox findings into durable knowledge notes and short-lived signa
   - `docs/contracts/signal.md`
   - `docs/quality.md`
   - `index.md`
-  - relevant `knowledge/<domain>/README.md` hubs (for parenting: **Current stage** — do not edit it)
+  - relevant `knowledge/<domain>/README.md` hubs (for parenting: **Current stage** is a birth-happened fact — do not edit it, do not compute week of life)
   - open signals under `signals/` with `status: watching`
 
 ## Trigger gate (git-push runs)
@@ -53,7 +53,7 @@ Muninn is triggered by a **push to `main`** (Huginn returning). Before distillin
 - Do not edit Orbit, mealplan, agentic-ai-field-card, careerops, Ledger, or any repo other than `ravens`.
 - Do not delete superseded notes; mark `status: superseded` and set `superseded_by`.
 - Do not promote low-confidence fitness, parenting, or medical claims to knowledge — signal or drop.
-- Do not set or guess `Child born` / Current stage on the parenting hub — a human updates that after birth. Parenting promotions must keep the age window in the note Limits (knowledge) or signal expiry.
+- Do not set or guess `Child born` / Current stage on the parenting hub — a human updates that after birth. Parenting promotions must keep the age window in the note Limits (knowledge) or signal expiry. Do not rewrite `coming-week` or any household week-plan.
 - Do not invent source URLs. Do not promote a finding whose `source_url` is an aggregator.
 - Do not edit `watch/` — Heimdall owns the video catalog.
 - Do not post to Slack channels other than `#ravens`.

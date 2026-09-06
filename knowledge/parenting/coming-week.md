@@ -3,11 +3,11 @@ schema: ravens.knowledge/v1
 id: KNOW-parenting-coming-week
 domain: parenting
 title: Household week-plan — week 3 now, week 4 next (from 2026-08-20)
-status: active
+status: superseded
 updated: 2026-09-06
 created: 2026-09-05
 confidence: high
-tags: [age-2-8w, week-3, week-4, week-plan]
+tags: [age-2-8w, week-plan]
 supersedes: []
 superseded_by: null
 source_findings:
@@ -28,7 +28,9 @@ canonical_sources:
 
 # Household week-plan — week 3 now, week 4 next
 
-Muninn rewrites this note when Huginn's **Parenting week** block moves. Child born **2026-08-20**. Snapshot **2026-09-06**: day 17, week 3 (3–9 Sep). Coming week = week 4 (from 10 Sep). One-month mark 20 Sep. Seven-week tummy-time volume mark 8 Oct.
+**Superseded in ravens (2026-09-06).** Week-of-life planning belongs in the household project. Muninn will not rewrite this note. Linked durable rules below still stand.
+
+Muninn used to rewrite this when Huginn's **Parenting week** block moved. Child born **2026-08-20**. Last snapshot **2026-09-06**: day 17, week 3 (3–9 Sep). Coming week = week 4 (from 10 Sep). One-month mark 20 Sep. Seven-week tummy-time volume mark 8 Oct.
 
 ## Guidance
 
@@ -56,11 +58,11 @@ Coming week (week 4, from 10 Sep):
 
 ## Rationale
 
-This is the household list Huginn's week-of-life scans are for. Durable rules live in the linked notes; this page is the **this week / next week** packing list.
+This was a household packing list. Durable rules live in the linked notes. Ravens no longer maintains a this-week / next-week plan.
 
 ## Limits / do not apply when
 
-- **Snapshot.** Rewrite when week of life changes. Do not treat a stale week-3 list as week 6 guidance.
+- **Snapshot.** Stale on purpose. Do not treat this as current week-of-life guidance.
 - Not medical advice. Neuvola, the discharging ward, or 112 win on the day.
 - Finnish sources beat US well-child booking. Do not book an AAP 1-month clinic visit; use LUVN.
 
@@ -68,4 +70,4 @@ This is the household list Huginn's week-of-life scans are for. Durable rules li
 
 - Domain hub: [parenting](./README.md)
 - Inbox: [2026-09-06](../../inbox/2026-09-06.md)
-- Consumer hint: household week-plan
+- Consumer hint: household (week-plan lives outside ravens)

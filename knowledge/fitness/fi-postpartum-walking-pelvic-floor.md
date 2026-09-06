@@ -31,11 +31,11 @@ canonical_sources:
 
 ## Rationale
 
-Terveyskirjasto’s living recovery-after-birth page is current Finnish postpartum activity staging: walk and do pain-free pelvic-floor work now; wait for the jälkitarkastus before sport; delay C-section abdominal work to 4–5 weeks. That survives headline churn and changes this postpartum week’s realistic return.
+Terveyskirjasto’s living recovery-after-birth page is current Finnish postpartum activity staging: walk and do pain-free pelvic-floor work now; wait for the jälkitarkastus before sport; delay C-section abdominal work to 4–5 weeks. That survives headline churn. The household / fitness consumer decides which postpartum week it is.
 
 ## Limits / do not apply when
 
-- Postpartum week = the child’s **week of life** (week 3 now; C-section abs are a week-4–5 lookahead). Re-check [`knowledge/parenting/README.md`](../parenting/README.md) **Current stage**.
+- Staged postpartum return (walk + pain-free pelvic-floor until the jälkitarkastus; C-section abs from 4–5 weeks). The household / fitness consumer applies the week number — ravens does not.
 - **Finnish Terveyskirjasto** staging. The discharging ward, neuvola, or a pelvic-floor physiotherapist wins on the day.
 - Absolute or relative obstetric contraindications, wound problems, or clinician instructions to rest — clinical advice wins. Not medical advice or individualized rehab.
 - Do not apply non-pregnant ACSM hypertrophy defaults. Do not treat this as clearance for running, jumping, or ≥80% 1RM work before the jälkitarkastus.
