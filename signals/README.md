@@ -28,9 +28,11 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 | [SIG-20260903-002](./SIG-20260903-002.md) | ai-agents | Cursor Self-Hosted Machines keep Cloud Agent tool execution on your own network | p2 | 2026-09-17 |
 | [SIG-20260904-001](./SIG-20260904-001.md) | ai-agents | LangChain 1.4.0 first-party langchain.mcp / MCPAdapter stable pin | p3 | 2026-09-18 |
 | [SIG-20260905-003](./SIG-20260905-003.md) | parenting | AAP 1-month visit topics — 8–12 feeds/day, ~½ lb weekly gain (US figures) | p2 | 2026-09-20 |
-| [SIG-20260905-001](./SIG-20260905-001.md) | finance | FCCA clears Terveystalo Hohde dental deal; clinic divestments still due around October | p2 | 2026-10-31 |
+| [SIG-20260905-001](./SIG-20260905-001.md) | finance | Terveystalo completed Hohde on 4 Sep; Emal clinic sales still due October | p2 | 2026-10-31 |
 | [SIG-20260905-002](./SIG-20260905-002.md) | finance | HPE Q3 FY26 revenue $12.2bn; raises FY26 growth outlook to 34–37% | p2 | 2026-09-19 |
 | [SIG-20260906-001](./SIG-20260906-001.md) | parenting | AAP supervised tummy time — build toward 15–30 minutes/day by 7 weeks | p2 | 2026-10-08 |
+| [SIG-20260907-001](./SIG-20260907-001.md) | data-bi | microsoft/skills-for-fabric 0.3.15 — OneLake catalog-governance CLI and Capacity Metrics workflow | p2 | 2026-09-21 |
+| [SIG-20260907-002](./SIG-20260907-002.md) | career | Linear Helsinki BI Analyst — Power BI/SQL inside a real-estate SaaS product (apply by 17 Sep) | p1 | 2026-09-17 |
 
 Archived (expired/dropped/promoted):
 

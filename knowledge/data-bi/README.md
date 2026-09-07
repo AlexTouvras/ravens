@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: data-bi
-updated: 2026-08-30
+updated: 2026-09-07
 status: active
 ---
 
@@ -20,6 +20,7 @@ Microsoft Fabric, Power BI / PBIR, semantic models, and analytics patterns used 
 ## Active signals
 
 - [SIG-20260830-003](../../signals/SIG-20260830-003.md) — Power BI Copilot Summary/Narrative can read bookmark-hidden visuals
+- [SIG-20260907-001](../../signals/SIG-20260907-001.md) — microsoft/skills-for-fabric 0.3.15 OneLake catalog-governance CLI + Capacity Metrics workflow
 
 ## Note index
 
@@ -35,6 +36,7 @@ Microsoft Fabric, Power BI / PBIR, semantic models, and analytics patterns used 
 
 | Date | Change |
 |------|--------|
+| 2026-09-07 | Opened SIG-20260907-001 from FIND-20260907-002 (microsoft/skills-for-fabric v0.3.15: onelake-catalog-govern-cli + read-only Capacity Metrics workflow in sqldw-cli; MIT; evaluate this month, not a prefer/avoid pin) |
 | 2026-08-30 | Opened SIG-20260830-003 from FIND-20260830-004 (Microsoft Learn August 2026 update: Copilot Summary/Narrative can read display-only bookmark-hidden visuals; capability landing, not yet a delivery rule) |
 | 2026-08-29 | Promoted KNOW-data-bi-theme-pane-fluent2-default-ga from FIND-20260829-004 (Microsoft Learn August 2026 update: Fluent 2 base theme becomes the new-report default, Theme pane reaches GA, font overrides removed from base theme) |
 | 2026-08-28 | Promoted KNOW-data-bi-pbip-vscode-instant-reload-ga from SIG-20260821-001 + FIND-20260828-003 (Microsoft Learn August 2026 update: PBIP instant-reload + built-in VS Code entry point ship GA, no preview flag) |

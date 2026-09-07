@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: career
-updated: 2026-09-06
+updated: 2026-09-07
 status: active
 ---
 
@@ -17,6 +17,7 @@ FI/EU analytics, risk, BI leadership, and technology-delivery market signals for
 ## Active signals
 
 - [SIG-20260825-003](../../signals/SIG-20260825-003.md) — UPM Data & Platform Specialist, Snowflake + Fabric + Power BI + governance (apply by 17 Sep)
+- [SIG-20260907-002](../../signals/SIG-20260907-002.md) — Linear Helsinki BI Analyst, Power BI/SQL inside a real-estate SaaS product (apply by 17 Sep)
 
 ## Note index
 
@@ -29,6 +30,7 @@ FI/EU analytics, risk, BI leadership, and technology-delivery market signals for
 
 | Date | Change |
 |------|--------|
+| 2026-09-07 | Opened SIG-20260907-002 from FIND-20260907-003 (Linear Helsinki BI Analyst — Power BI/SQL product-embedded customer reporting at a Finnish real-estate SaaS; apply by 17 Sep; distinct from the warehouse-pairing knowledge note) |
 | 2026-09-06 | Expired SIG-20260827-002 (Finnair Analytics Engineer) — 6 Sep application deadline reached with no submission/decision surfaced |
 | 2026-09-02 | Expired SIG-20260821-002 (ABB Helsinki Data Analyst) — 1 Sep application deadline passed with no submission/decision surfaced |
 | 2026-08-31 | Expired SIG-20260829-004 (Tribedo Helsinki Solution Analyst) — 30 Aug application deadline passed with no submission/decision surfaced |

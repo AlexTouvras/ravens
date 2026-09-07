@@ -68,4 +68,4 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 
 ## Latest inbox
 
-See `inbox/` for dated raw scans. Latest live: [inbox/2026-09-06.md](inbox/2026-09-06.md). Fixtures live under `examples/` and must not be treated as live data.
+See `inbox/` for dated raw scans. Latest live: [inbox/2026-09-07.md](inbox/2026-09-07.md). Fixtures live under `examples/` and must not be treated as live data.
