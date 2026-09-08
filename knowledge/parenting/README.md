@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: parenting
-updated: 2026-09-06
+updated: 2026-09-08
 status: active
 ---
 
@@ -29,6 +29,7 @@ Durable notes for household to read (not a week-plan):
 - Crying typically rises from 2 weeks to about 1½ months; fever under 2 months always needs a doctor; never shake — [fi-infant-crying-fever-never-shake](./fi-infant-crying-fever-never-shake.md)
 - Short supervised awake tummy time (chest/lap, then floor) — [fi-infant-tummy-time](./fi-infant-tummy-time.md)
 - Sleep is still 2–4 hour stretches; night/day split waits for ~3 months — [fi-infant-sleep-2-4h-stretches](./fi-infant-sleep-2-4h-stretches.md)
+- Established milk supply does not stop suddenly; frequent feeds restore it in 1–2 days; wait on a dummy until latch and weight are rising — [fi-infant-milk-supply-dummy](./fi-infant-milk-supply-dummy.md)
 - Jaundice can linger through 4–6 weeks — [fi-newborn-jaundice-phototherapy](./fi-newborn-jaundice-phototherapy.md)
 - If lochia becomes heavy again, or foul with fever, call the maternity hospital — [fi-postpartum-lochia-fever-red-flags](./fi-postpartum-lochia-fever-red-flags.md)
 - Parent recovery: walking plus pain-free pelvic-floor; sport waits for the jälkitarkastus — [fi-postpartum-walking-pelvic-floor](../fitness/fi-postpartum-walking-pelvic-floor.md)
@@ -55,6 +56,7 @@ Related, other domains: infant feeding-safety here, not `food/`; postpartum acti
 | fi-infant-crying-fever-never-shake | Finland — crying rises from 2 weeks to ~1½ months; fever under 2 months always needs a doctor | 2026-09-06 | active |
 | fi-infant-tummy-time | Finland — start short awake tummy time; chest or lap first, then the floor | 2026-09-06 | active |
 | fi-infant-sleep-2-4h-stretches | Finland — week-3 sleep is still 2–4 hour stretches | 2026-09-06 | active |
+| fi-infant-milk-supply-dummy | Finland — established milk supply does not stop suddenly; wait on a dummy until weight is rising | 2026-09-08 | active |
 | luvn-neuvola-2-4w-4-6w | LUVN — 2–4 week nurse visit, then 4–6 week nurse+doctor | 2026-09-05 | active |
 | fi-infant-vitamin-d-from-2-weeks | Finland — 10 µg/day vitamin D from 2 weeks of age | 2026-09-05 | active |
 | thl-0-1-month-development-growth | THL — 0–1 month development and ~2-week weight regain | 2026-09-05 | active |
@@ -80,6 +82,7 @@ Related, other domains: infant feeding-safety here, not `food/`; postpartum acti
 
 | Date | Change |
 |------|--------|
+| 2026-09-08 | Promoted KNOW-parenting-fi-infant-milk-supply-dummy from FIND-20260908-002 (Terveyskirjasto/THL: established supply does not stop suddenly; 1–2 day recovery via more frequent feeds; dummy wait until latch and weight rise). Milk-sufficiency / dummy rule only — not the page’s 4–6 month complementary-food section. |
 | 2026-09-06 | Promoted infant crying/tummy-time/sleep notes and SIG-20260906-001. Later: week-of-life planning moved out of ravens; `coming-week` superseded. |
 | 2026-09-05 | Human set Child born 2026-08-20; scans follow week of life. Promoted coming-week, luvn-neuvola-2-4w-4-6w, fi-infant-vitamin-d-from-2-weeks, thl-0-1-month-development-growth from FIND-20260905-006…008; opened SIG-20260905-003 from FIND-20260905-009. Morning Muninn also promoted labor-start, lochia/fever, and Kela-card notes from FIND-20260905-003…005 |
 | 2026-09-04 | Promoted KNOW-parenting-fi-newborn-tsh-oae-screens from FIND-20260904-005 and KNOW-parenting-fi-dvv-birth-hetu-automatic from FIND-20260904-006 |

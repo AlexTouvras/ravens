@@ -7,8 +7,6 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 | ID | Domain | Title | Priority | Expires |
 |----|--------|-------|----------|---------|
 | [SIG-20260822-004](./SIG-20260822-004.md) | finance | Fortum Elmera tender — regulatory clearances done; 90% still open to 18 Sep | p2 | 2026-09-18 |
-| [SIG-20260825-001](./SIG-20260825-001.md) | finance | Ambea's recommended takeover offer for Humana opens its acceptance period | p3 | 2026-09-08 |
-| [SIG-20260825-002](./SIG-20260825-002.md) | finance | SP Group raises FY2026 guidance and runs a DKK 40m buyback after UK bolt-on | p2 | 2026-09-08 |
 | [SIG-20260825-003](./SIG-20260825-003.md) | career | UPM Data & Platform Specialist — Snowflake + Fabric + Power BI + governance (apply by 17 Sep) | p1 | 2026-09-17 |
 | [SIG-20260827-001](./SIG-20260827-001.md) | finance | HP Inc. raises full-year fiscal 2026 EPS and free-cash-flow guidance | p2 | 2026-09-10 |
 | [SIG-20260827-003](./SIG-20260827-003.md) | security | Anthropic unifies Claude memory across chat and Cowork, default-exclude sensitive topics | p3 | 2026-09-10 |
@@ -33,9 +31,12 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 | [SIG-20260906-001](./SIG-20260906-001.md) | parenting | AAP supervised tummy time — build toward 15–30 minutes/day by 7 weeks | p2 | 2026-10-08 |
 | [SIG-20260907-001](./SIG-20260907-001.md) | data-bi | microsoft/skills-for-fabric 0.3.15 — OneLake catalog-governance CLI and Capacity Metrics workflow | p2 | 2026-09-21 |
 | [SIG-20260907-002](./SIG-20260907-002.md) | career | Linear Helsinki BI Analyst — Power BI/SQL inside a real-estate SaaS product (apply by 17 Sep) | p1 | 2026-09-17 |
+| [SIG-20260908-001](./SIG-20260908-001.md) | ai-agents | Microsoft Agent Framework Python 1.17.0 — sequence-only middleware; agent-hooks extra removed | p2 | 2026-09-22 |
 
 Archived (expired/dropped/promoted):
 
+- [SIG-20260825-001](./SIG-20260825-001.md) — Ambea/Humana offer document, expired 2026-09-08 (no further official-action print)
+- [SIG-20260825-002](./SIG-20260825-002.md) — SP Group guidance + buyback, expired 2026-09-08 (no further catalyst)
 - [SIG-20260823-001](./SIG-20260823-001.md) — Agent Plugins 1.0.0, expired 2026-09-06 (no v1.1 / no packaging decision)
 - [SIG-20260823-002](./SIG-20260823-002.md) — content-os, expired 2026-09-06 (no Orbit adoption)
 - [SIG-20260827-002](./SIG-20260827-002.md) — Finnair Analytics Engineer, expired 2026-09-06 (6 Sep application deadline)

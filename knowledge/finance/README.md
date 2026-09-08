@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: finance
-updated: 2026-09-07
+updated: 2026-09-08
 status: active
 ---
 
@@ -16,8 +16,6 @@ _(none yet — monthly performance themes stay signals until a durable construct
 ## Active signals
 
 - [SIG-20260822-004](../../signals/SIG-20260822-004.md) — Fortum Elmera tender — regulatory clearances done; 90% acceptance still open to 18 Sep
-- [SIG-20260825-001](../../signals/SIG-20260825-001.md) — Ambea's recommended takeover offer for Humana opens its acceptance period
-- [SIG-20260825-002](../../signals/SIG-20260825-002.md) — SP Group raises FY2026 guidance and runs a DKK 40m buyback after UK bolt-on
 - [SIG-20260827-001](../../signals/SIG-20260827-001.md) — HP Inc. raises full-year fiscal 2026 EPS and free-cash-flow guidance
 - [SIG-20260828-001](../../signals/SIG-20260828-001.md) — Best Buy raises FY27 revenue, comparable-sales, and adjusted-EPS guidance
 - [SIG-20260828-002](../../signals/SIG-20260828-002.md) — Boliden agrees share-and-cash deal for majority stake in Nexa Resources
@@ -42,6 +40,7 @@ _(none yet — monthly performance themes stay signals until a durable construct
 
 | Date | Change |
 |------|--------|
+| 2026-09-08 | Expired SIG-20260825-001 (Ambea/Humana offer document) and SIG-20260825-002 (SP Group guidance + buyback) on default 14-day expiry with no further official-action print. |
 | 2026-09-07 | Updated SIG-20260905-001 from FIND-20260907-001 (Terveystalo 4 Sep OMX reprint: Hohde completed 4 Sep, consolidates from that date, Q3 one-offs, 2026 guidance unchanged; remaining dated catalyst is the October Emal clinic sales). |
 | 2026-09-05 | Opened SIG-20260905-001 from FIND-20260905-001 (Terveystalo Hohde FCCA/KKV clearance with Savonlinna/Mikkeli/Seinäjoki → Emal commitments; clinic sales around October; no publisher close print) and SIG-20260905-002 from FIND-20260905-002 (HPE Q3 FY26 $12.2bn + FY26 growth raised to 34–37%, official action, single primary on HPE IR). Expired SIG-20260822-003 (Bavarian Nordic) on default 14-day expiry with no further catalyst. |
 | 2026-09-04 | Updated SIG-20260822-004 from FIND-20260904-001 (Fortum 3 Sep IR: Regulatory Approvals condition satisfied; 90% Minimum Acceptance still open to 18 Sep 16:30 CEST; expiry extended, priority p2). Dropped FIND-20260904-002 (Broadcom Q3 $29.6bn / Q4 ~$34.8bn guide) at Gate 0 — investors.broadcom.com 403s this run and Wayback had no snapshot, so the claim could not be confirmed attributable to the source; did not invent an alternate URL. Expired SIG-20260821-004 (Santander/Webster) and SIG-20260821-005 (Posti buyback) on default 14-day expiry with no further catalyst. |
