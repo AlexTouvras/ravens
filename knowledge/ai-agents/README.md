@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: ai-agents
-updated: 2026-09-08
+updated: 2026-09-09
 status: active
 ---
 
@@ -21,6 +21,7 @@ Frameworks, protocols (MCP / A2A), and Cursor agent patterns that change deliver
 - [SIG-20260903-002](../../signals/SIG-20260903-002.md) — Cursor Self-Hosted Machines keep Cloud Agent tool execution on your own network
 - [SIG-20260904-001](../../signals/SIG-20260904-001.md) — LangChain 1.4.0 first-party `langchain.mcp` / `MCPAdapter` stable pin
 - [SIG-20260908-001](../../signals/SIG-20260908-001.md) — Microsoft Agent Framework Python 1.17.0 sequence-only middleware; `agent-hooks` extra removed
+- [SIG-20260909-001](../../signals/SIG-20260909-001.md) — OpenAI Agents Python 0.22.1 server-wide MCP tool guardrails + Unix-local sandbox isolation
 
 ## Note index
 
@@ -33,6 +34,7 @@ Frameworks, protocols (MCP / A2A), and Cursor agent patterns that change deliver
 
 | Date | Change |
 |------|--------|
+| 2026-09-09 | Opened SIG-20260909-001 from FIND-20260909-001 (openai/openai-agents-python v0.22.1: server-wide MCP tool guardrails + Unix-local sandbox isolation; MIT; evaluate this month, not a prefer/avoid pin). |
 | 2026-09-08 | Opened SIG-20260908-001 from FIND-20260908-001 (microsoft/agent-framework python-1.17.0: breaking sequence-only middleware + `agent-hooks` extra removed; MIT; evaluate this month, not a prefer/avoid pin). |
 | 2026-09-06 | Expired SIG-20260823-001 (Agent Plugins 1.0.0) on default 14-day expiry — no v1.1, no named-consumer packaging decision; Cursor Skills prefer-rule unchanged. |
 | 2026-09-05 | Expired SIG-20260822-001 (SEP-2640 skills-over-MCP draft) on default 14-day expiry with no further draft churn or SDK convergence; standing Cursor Skills prefer-rule unchanged. |

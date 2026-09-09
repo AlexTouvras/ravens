@@ -32,6 +32,7 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 | [SIG-20260907-001](./SIG-20260907-001.md) | data-bi | microsoft/skills-for-fabric 0.3.15 — OneLake catalog-governance CLI and Capacity Metrics workflow | p2 | 2026-09-21 |
 | [SIG-20260907-002](./SIG-20260907-002.md) | career | Linear Helsinki BI Analyst — Power BI/SQL inside a real-estate SaaS product (apply by 17 Sep) | p1 | 2026-09-17 |
 | [SIG-20260908-001](./SIG-20260908-001.md) | ai-agents | Microsoft Agent Framework Python 1.17.0 — sequence-only middleware; agent-hooks extra removed | p2 | 2026-09-22 |
+| [SIG-20260909-001](./SIG-20260909-001.md) | ai-agents | OpenAI Agents Python 0.22.1 — server-wide MCP tool guardrails and Unix-local sandbox isolation | p2 | 2026-09-23 |
 
 Archived (expired/dropped/promoted):
 
