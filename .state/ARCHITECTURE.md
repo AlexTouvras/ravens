@@ -55,6 +55,7 @@ See `README.md` quick map and `docs/architecture/overview.md`.
 | 2026-08-10 | Markdown+git over DB/MCP for v1 | Strong contracts first; seams documented |
 | 2026-08-10 | Named verify `npm run verify` | Prove foundation health by observation |
 | 2026-08-12 | Daily digests to CareerOps Slack `#ravens` (`C0BPJSPCMAR`) | Notify without writing other repos; Cursor Automations **Send to Slack** |
+| 2026-09-09 | Slack tickets in `#ravens` (`Ticket · ravens ·`) | On-demand PR + thread review; not Huginn/Muninn/Heimdall; not `#ops-channel` |
 | 2026-08-12 | Watchlist: investment opportunities under `finance` | Actionable Nordic/EU/US liquid equity & ETF catalysts; still exclude crypto/HFT/tipster |
 | 2026-08-12 | Watchlist + quality: project-relevant GitHub/OSS findings | Cross-cutting scan for repos that change tooling for named consumers; still ban awesome-lists / star magnets; ≤2 repo findings/day; Muninn prefers signal unless prefer/avoid guidance is durable |
 | 2026-08-13 | Schedules shifted earlier: Huginn 06:00 / Muninn 06:30 (Europe/Helsinki) | Avoid 07:00 cloud rate-limit pileup that failed Huginn on 2026-08-13; Muninn custom cron `30 3 * * *` UTC |
