@@ -33,7 +33,6 @@
 - [x] Huginn standing prompt + playbook: scan every watchlist domain; week-of-life is parenting query shape only (2026-09-06)
 - [x] Week-of-life planning out of ravens — gather for household by age-bucket; `coming-week` superseded (2026-09-06)
 - [ ] Wire consumer read docs into mealplan / field-card when those projects ask (fitness wired)
-- [x] Slack tickets · Ravens (`docs/ops/slack-tickets.md`) — live Automation recorded in AUTOMATION_CONTRACT
 
 ## Later
 

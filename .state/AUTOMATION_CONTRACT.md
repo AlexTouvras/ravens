@@ -3,7 +3,7 @@
 > Repo-scoped contract for Cursor Automations and other headless agent runs.
 > IDE agents use the same `.state/` files plus optional ProjectBrain MCP.
 
-**Last updated:** 2026-09-09
+**Last updated:** 2026-09-05
 
 ## Runtime
 
@@ -13,7 +13,7 @@
 | Branch | `main` |
 | Primary verify | `npm run verify` exits 0 |
 | Ship gate | `npm run ship:check` (runs verify) |
-| Playbooks | `agents/huginn.md`, `agents/muninn.md`, `agents/heimdall.md`, `docs/runbook.md`, `docs/ops/slack-tickets.md` |
+| Playbooks | `agents/huginn.md`, `agents/muninn.md`, `agents/heimdall.md`, `docs/runbook.md` |
 
 ## Automations
 
@@ -22,7 +22,6 @@
 | Huginn | Daily 08:00 | `#ravens` + `inbox/YYYY-MM-DD.md` | review inbox | https://cursor.com/automations/732cacfb-955c-11f1-ba66-0e7d0216e441 |
 | Muninn | GitHub push `huginn:` | `#ravens` knowledge signals | review signals | https://cursor.com/automations/c9afc8b1-955c-11f1-ba66-0e7d0216e441 |
 | Heimdall | Sun 10:00 Helsinki | `watch/` on `main` | review clips; sync fitness snapshot | https://cursor.com/automations/6d39a6f4-9adc-11f1-ba66-0e7d0216e441 |
-| Slack tickets · Ravens | `#ravens` `Ticket · ravens` | PR on `ravens` | human merges | https://cursor.com/automations/ab316e69-ac2a-11f1-b532-320a589b8025 |
 
 ## Scope (one run = one item)
 
@@ -31,7 +30,6 @@
 | Huginn | One daily inbox file |
 | Muninn | Distill from one `huginn:` push |
 | Heimdall | One weekly `watch/` pass |
-| Slack tickets | One `#ravens` `Ticket · ravens` message → one PR |
 
 ## Read order (before acting)
 
