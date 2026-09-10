@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: finance
-updated: 2026-09-08
+updated: 2026-09-10
 status: active
 ---
 
@@ -16,7 +16,6 @@ _(none yet — monthly performance themes stay signals until a durable construct
 ## Active signals
 
 - [SIG-20260822-004](../../signals/SIG-20260822-004.md) — Fortum Elmera tender — regulatory clearances done; 90% acceptance still open to 18 Sep
-- [SIG-20260827-001](../../signals/SIG-20260827-001.md) — HP Inc. raises full-year fiscal 2026 EPS and free-cash-flow guidance
 - [SIG-20260828-001](../../signals/SIG-20260828-001.md) — Best Buy raises FY27 revenue, comparable-sales, and adjusted-EPS guidance
 - [SIG-20260828-002](../../signals/SIG-20260828-002.md) — Boliden agrees share-and-cash deal for majority stake in Nexa Resources
 - [SIG-20260829-001](../../signals/SIG-20260829-001.md) — Dollar General raises FY2026 guidance and plans to resume share buybacks
@@ -29,6 +28,7 @@ _(none yet — monthly performance themes stay signals until a durable construct
 - [SIG-20260903-001](../../signals/SIG-20260903-001.md) — STOXX adds Nokia to the Euro Stoxx 50 from 21 September 2026
 - [SIG-20260905-001](../../signals/SIG-20260905-001.md) — Terveystalo completed Hohde on 4 Sep; Emal clinic sales still due October
 - [SIG-20260905-002](../../signals/SIG-20260905-002.md) — HPE Q3 FY26 $12.2bn; raises FY26 growth outlook to 34–37%
+- [SIG-20260910-001](../../signals/SIG-20260910-001.md) — Fortum 22-year Loviisa nuclear PPA with Google — up to 50% capacity, ~1.4pp RONA
 
 ## Note index
 
@@ -40,6 +40,7 @@ _(none yet — monthly performance themes stay signals until a durable construct
 
 | Date | Change |
 |------|--------|
+| 2026-09-10 | Opened SIG-20260910-001 from FIND-20260910-003 (Fortum 9 Sep IR: 22-year Loviisa nuclear PPA with Google, up to 50% capacity, ~1.4pp RONA; dual-stream via Google clean-energy Finland blog). Elmera tender SIG-20260822-004 unchanged through 18 Sep. Expired SIG-20260827-001 (HP FY26 guidance) on default 14-day expiry with no further official-action print. |
 | 2026-09-08 | Expired SIG-20260825-001 (Ambea/Humana offer document) and SIG-20260825-002 (SP Group guidance + buyback) on default 14-day expiry with no further official-action print. |
 | 2026-09-07 | Updated SIG-20260905-001 from FIND-20260907-001 (Terveystalo 4 Sep OMX reprint: Hohde completed 4 Sep, consolidates from that date, Q3 one-offs, 2026 guidance unchanged; remaining dated catalyst is the October Emal clinic sales). |
 | 2026-09-05 | Opened SIG-20260905-001 from FIND-20260905-001 (Terveystalo Hohde FCCA/KKV clearance with Savonlinna/Mikkeli/Seinäjoki → Emal commitments; clinic sales around October; no publisher close print) and SIG-20260905-002 from FIND-20260905-002 (HPE Q3 FY26 $12.2bn + FY26 growth raised to 34–37%, official action, single primary on HPE IR). Expired SIG-20260822-003 (Bavarian Nordic) on default 14-day expiry with no further catalyst. |

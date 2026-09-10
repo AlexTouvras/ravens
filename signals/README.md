@@ -8,8 +8,6 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 |----|--------|-------|----------|---------|
 | [SIG-20260822-004](./SIG-20260822-004.md) | finance | Fortum Elmera tender — regulatory clearances done; 90% still open to 18 Sep | p2 | 2026-09-18 |
 | [SIG-20260825-003](./SIG-20260825-003.md) | career | UPM Data & Platform Specialist — Snowflake + Fabric + Power BI + governance (apply by 17 Sep) | p1 | 2026-09-17 |
-| [SIG-20260827-001](./SIG-20260827-001.md) | finance | HP Inc. raises full-year fiscal 2026 EPS and free-cash-flow guidance | p2 | 2026-09-10 |
-| [SIG-20260827-003](./SIG-20260827-003.md) | security | Anthropic unifies Claude memory across chat and Cowork, default-exclude sensitive topics | p3 | 2026-09-10 |
 | [SIG-20260828-001](./SIG-20260828-001.md) | finance | Best Buy raises FY27 revenue, comparable-sales, and adjusted-EPS guidance | p2 | 2026-09-11 |
 | [SIG-20260828-002](./SIG-20260828-002.md) | finance | Boliden agrees share-and-cash deal for majority stake in Nexa Resources | p3 | 2026-09-11 |
 | [SIG-20260829-001](./SIG-20260829-001.md) | finance | Dollar General raises FY2026 guidance and plans to resume share buybacks | p2 | 2026-09-12 |
@@ -32,10 +30,13 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 | [SIG-20260907-001](./SIG-20260907-001.md) | data-bi | microsoft/skills-for-fabric 0.3.15 — OneLake catalog-governance CLI and Capacity Metrics workflow | p2 | 2026-09-21 |
 | [SIG-20260907-002](./SIG-20260907-002.md) | career | Linear Helsinki BI Analyst — Power BI/SQL inside a real-estate SaaS product (apply by 17 Sep) | p1 | 2026-09-17 |
 | [SIG-20260908-001](./SIG-20260908-001.md) | ai-agents | Microsoft Agent Framework Python 1.17.0 — sequence-only middleware; agent-hooks extra removed | p2 | 2026-09-22 |
-| [SIG-20260909-001](./SIG-20260909-001.md) | ai-agents | OpenAI Agents Python 0.22.1 — server-wide MCP tool guardrails and Unix-local sandbox isolation | p2 | 2026-09-23 |
+| [SIG-20260909-001](./SIG-20260909-001.md) | ai-agents | OpenAI Agents Python 0.22.2 — MCP tool guardrails plus Unix-local sandbox isolation (symlink-race fix) | p2 | 2026-09-24 |
+| [SIG-20260910-001](./SIG-20260910-001.md) | finance | Fortum 22-year Loviisa nuclear PPA with Google — up to 50% capacity, ~1.4pp RONA | p2 | 2026-09-24 |
 
 Archived (expired/dropped/promoted):
 
+- [SIG-20260827-001](./SIG-20260827-001.md) — HP FY26 EPS/FCF guidance, expired 2026-09-10 (no further official-action print)
+- [SIG-20260827-003](./SIG-20260827-003.md) — Anthropic unified Claude memory, expired 2026-09-10 (no consumer memory-design decision)
 - [SIG-20260825-001](./SIG-20260825-001.md) — Ambea/Humana offer document, expired 2026-09-08 (no further official-action print)
 - [SIG-20260825-002](./SIG-20260825-002.md) — SP Group guidance + buyback, expired 2026-09-08 (no further catalyst)
 - [SIG-20260823-001](./SIG-20260823-001.md) — Agent Plugins 1.0.0, expired 2026-09-06 (no v1.1 / no packaging decision)

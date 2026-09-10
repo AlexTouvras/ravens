@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: parenting
-updated: 2026-09-09
+updated: 2026-09-10
 status: active
 ---
 
@@ -33,6 +33,7 @@ Durable notes for household to read (not a week-plan):
 - Spit-up is normal when growth is fine; projectile vomiting at 3 weeks–2 months needs a doctor — [fi-infant-spit-up-pyloric-stenosis](./fi-infant-spit-up-pyloric-stenosis.md)
 - Jaundice can linger through 4–6 weeks — [fi-newborn-jaundice-phototherapy](./fi-newborn-jaundice-phototherapy.md)
 - If lochia becomes heavy again, or foul with fever, call the maternity hospital — [fi-postpartum-lochia-fever-red-flags](./fi-postpartum-lochia-fever-red-flags.md)
+- Jälkitarkastus at **5–12 weeks**; Kela no longer needs a certificate — [fi-jalkitarkastus-5-12w-no-kela-cert](./fi-jalkitarkastus-5-12w-no-kela-cert.md)
 - Parent recovery: walking plus pain-free pelvic-floor; sport waits for the jälkitarkastus — [fi-postpartum-walking-pelvic-floor](../fitness/fi-postpartum-walking-pelvic-floor.md)
 - OAE hearing retest ~2 weeks if both ears failed at discharge — [fi-newborn-tsh-oae-screens](./fi-newborn-tsh-oae-screens.md)
 - Names and mother tongue to DVV or parish within three months; hetu is automatic — [fi-dvv-birth-hetu-automatic](./fi-dvv-birth-hetu-automatic.md)
@@ -59,6 +60,7 @@ Related, other domains: infant feeding-safety here, not `food/`; postpartum acti
 | fi-infant-sleep-2-4h-stretches | Finland — week-3 sleep is still 2–4 hour stretches | 2026-09-06 | active |
 | fi-infant-milk-supply-dummy | Finland — established milk supply does not stop suddenly; wait on a dummy until weight is rising | 2026-09-08 | active |
 | fi-infant-spit-up-pyloric-stenosis | Finland — spit-up is normal when growth is fine; projectile vomiting at 3 weeks–2 months needs a doctor | 2026-09-09 | active |
+| fi-jalkitarkastus-5-12w-no-kela-cert | Finland — jälkitarkastus is at 5–12 weeks; Kela no longer needs a certificate | 2026-09-10 | active |
 | luvn-neuvola-2-4w-4-6w | LUVN — 2–4 week nurse visit, then 4–6 week nurse+doctor | 2026-09-05 | active |
 | fi-infant-vitamin-d-from-2-weeks | Finland — 10 µg/day vitamin D from 2 weeks of age | 2026-09-05 | active |
 | thl-0-1-month-development-growth | THL — 0–1 month development and ~2-week weight regain | 2026-09-05 | active |
@@ -84,6 +86,7 @@ Related, other domains: infant feeding-safety here, not `food/`; postpartum acti
 
 | Date | Change |
 |------|--------|
+| 2026-09-10 | Promoted KNOW-parenting-fi-jalkitarkastus-5-12w-no-kela-cert from FIND-20260910-002 (Terveyskirjasto/Duodecim: postnatal check at 5–12 weeks; gyne exam optional after uncomplicated birth; Kela no longer requires a certificate for vanhempainraha). Check-window / certificate rule only — not the LUVN child 4–6 week visit and not sport staging. |
 | 2026-09-09 | Promoted KNOW-parenting-fi-infant-spit-up-pyloric-stenosis from FIND-20260909-002 (Terveyskirjasto/Duodecim: spit-up is normal when growth is fine; reflux-disease only with growth break / apnea / night restlessness; projectile vomiting at 3 weeks–2 months is same-day doctor). Spit-up / pyloric-stenosis rule only — not the page’s left-side-sleep or 3–4 month complementary-food tips. |
 | 2026-09-08 | Promoted KNOW-parenting-fi-infant-milk-supply-dummy from FIND-20260908-002 (Terveyskirjasto/THL: established supply does not stop suddenly; 1–2 day recovery via more frequent feeds; dummy wait until latch and weight rise). Milk-sufficiency / dummy rule only — not the page’s 4–6 month complementary-food section. |
 | 2026-09-06 | Promoted infant crying/tummy-time/sleep notes and SIG-20260906-001. Later: week-of-life planning moved out of ravens; `coming-week` superseded. |

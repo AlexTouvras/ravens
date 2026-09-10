@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: fitness
-updated: 2026-09-06
+updated: 2026-09-10
 status: active
 ---
 
@@ -26,7 +26,7 @@ _(none)_
 |------|-------|---------|--------|
 | acsm-weekly-volume-hypertrophy | ACSM 2026 — ~10 weekly sets per muscle for hypertrophy | 2026-08-11 | active |
 | acog-pregnancy-postpartum-activity | ACOG — ≥150 min/week moderate activity in pregnancy and postpartum | 2026-08-12 | active |
-| fi-postpartum-walking-pelvic-floor | Finland — postpartum week 3 is walking plus pelvic-floor; sport waits for the jälkitarkastus | 2026-09-06 | active |
+| fi-postpartum-walking-pelvic-floor | Finland — postpartum week 3 is walking plus pelvic-floor; sport waits for the jälkitarkastus | 2026-09-10 | active |
 | nsca-no-menstrual-cycle-periodization | NSCA — no menstrual-cycle-synced periodization needed | 2026-08-22 | active |
 
 ## Changelog

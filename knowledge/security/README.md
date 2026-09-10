@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: security
-updated: 2026-09-09
+updated: 2026-09-10
 status: active
 ---
 
@@ -15,7 +15,7 @@ Secrets, auth, privacy, and local-vs-cloud handling for named consumers (JARVIS,
 
 ## Active signals
 
-- [SIG-20260827-003](../../signals/SIG-20260827-003.md) — Anthropic unifies Claude memory across chat and Cowork with default-exclude sensitive topics
+_(none)_
 
 ## Note index
 
@@ -27,6 +27,7 @@ Secrets, auth, privacy, and local-vs-cloud handling for named consumers (JARVIS,
 
 | Date | Change |
 |------|--------|
+| 2026-09-10 | Expired SIG-20260827-003 (Anthropic unified Claude memory) on default 14-day expiry — no ProjectBrain/JARVIS memory-design decision. |
 | 2026-09-09 | Updated KNOW-security-github-mcp-server-min-version from FIND-20260909-003 — raised the adoption pin from v1.12.0+ to v1.12.1+ (OAuth protected-resource metadata advertised extra scopes on 1.12.0; 1.12.1 advertises only default scopes). Write-safety / ruleset-tool contract from 1.12.0 is unchanged. |
 | 2026-09-05 | Expired SIG-20260822-002 (BRIDGEHEAD npm typosquat) on default 14-day expiry with no named-consumer exposure and no durable lockfile/allowlist rule. |
 | 2026-09-04 | Updated KNOW-security-github-mcp-server-min-version from FIND-20260904-004 — raised the adoption pin from v1.10.0+ to v1.12.0+ (safer writes: pin merge HEADs, recover file SHAs, least-privilege `public_repo`, dropped-label detection; plus ruleset/custom-property tools). 1.11.0 stayed a no-op pin refine; 1.12.0 is the hardening step the note said to re-check. |

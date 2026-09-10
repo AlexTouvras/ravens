@@ -4,7 +4,7 @@ id: KNOW-fitness-fi-postpartum-walking-pelvic-floor
 domain: fitness
 title: Finland — postpartum week 3 is walking plus pelvic-floor; brisker sport waits for the jälkitarkastus
 status: active
-updated: 2026-09-06
+updated: 2026-09-10
 created: 2026-09-06
 confidence: high
 tags: [postpartum, week-3, walking, pelvic-floor, terveyskirjasto]
@@ -44,5 +44,5 @@ Terveyskirjasto’s living recovery-after-birth page is current Finnish postpart
 
 - Domain hub: [fitness](./README.md)
 - Sibling: [acog-pregnancy-postpartum-activity](./acog-pregnancy-postpartum-activity.md)
-- Parenting: [coming-week](../parenting/coming-week.md), [fi-postpartum-lochia-fever-red-flags](../parenting/fi-postpartum-lochia-fever-red-flags.md)
+- Parenting: [fi-jalkitarkastus-5-12w-no-kela-cert](../parenting/fi-jalkitarkastus-5-12w-no-kela-cert.md) (5–12 week booking window), [fi-postpartum-lochia-fever-red-flags](../parenting/fi-postpartum-lochia-fever-red-flags.md)
 - Consumer hint: mealplan household fitness / postpartum week-3 return
