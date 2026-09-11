@@ -8,10 +8,8 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 |----|--------|-------|----------|---------|
 | [SIG-20260822-004](./SIG-20260822-004.md) | finance | Fortum Elmera tender — regulatory clearances done; 90% still open to 18 Sep | p2 | 2026-09-18 |
 | [SIG-20260825-003](./SIG-20260825-003.md) | career | UPM Data & Platform Specialist — Snowflake + Fabric + Power BI + governance (apply by 17 Sep) | p1 | 2026-09-17 |
-| [SIG-20260828-001](./SIG-20260828-001.md) | finance | Best Buy raises FY27 revenue, comparable-sales, and adjusted-EPS guidance | p2 | 2026-09-11 |
-| [SIG-20260828-002](./SIG-20260828-002.md) | finance | Boliden agrees share-and-cash deal for majority stake in Nexa Resources | p3 | 2026-09-11 |
 | [SIG-20260829-001](./SIG-20260829-001.md) | finance | Dollar General raises FY2026 guidance and plans to resume share buybacks | p2 | 2026-09-12 |
-| [SIG-20260829-002](./SIG-20260829-002.md) | finance | ECB set for a near-certain 25bp September hike to 2.50% | p2 | 2026-09-11 |
+| [SIG-20260829-002](./SIG-20260829-002.md) | finance | ECB raises three key rates 25bp to 2.50 / 2.65 / 2.90 from 16 Sep | p2 | 2026-09-24 |
 | [SIG-20260829-003](./SIG-20260829-003.md) | ai-agents | Cursor Origin removes the GitHub prerequisite for starting a cloud agent | p3 | 2026-09-12 |
 | [SIG-20260830-001](./SIG-20260830-001.md) | finance | Warsh Jackson Hole — inflation above 2% PCE, financial conditions not restrictive | p2 | 2026-09-13 |
 | [SIG-20260830-002](./SIG-20260830-002.md) | finance | Orion Nasdaq Helsinki Class B buyback — up to 500,000 shares / EUR 45m | p2 | 2026-09-13 |
@@ -27,14 +25,18 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 | [SIG-20260905-001](./SIG-20260905-001.md) | finance | Terveystalo completed Hohde on 4 Sep; Emal clinic sales still due October | p2 | 2026-10-31 |
 | [SIG-20260905-002](./SIG-20260905-002.md) | finance | HPE Q3 FY26 revenue $12.2bn; raises FY26 growth outlook to 34–37% | p2 | 2026-09-19 |
 | [SIG-20260906-001](./SIG-20260906-001.md) | parenting | AAP supervised tummy time — build toward 15–30 minutes/day by 7 weeks | p2 | 2026-10-08 |
-| [SIG-20260907-001](./SIG-20260907-001.md) | data-bi | microsoft/skills-for-fabric 0.3.15 — OneLake catalog-governance CLI and Capacity Metrics workflow | p2 | 2026-09-21 |
+| [SIG-20260907-001](./SIG-20260907-001.md) | data-bi | microsoft/skills-for-fabric 0.3.16 — single-skill APM install; Azure CLI reuse for remote MCP | p2 | 2026-09-24 |
 | [SIG-20260907-002](./SIG-20260907-002.md) | career | Linear Helsinki BI Analyst — Power BI/SQL inside a real-estate SaaS product (apply by 17 Sep) | p1 | 2026-09-17 |
-| [SIG-20260908-001](./SIG-20260908-001.md) | ai-agents | Microsoft Agent Framework Python 1.17.0 — sequence-only middleware; agent-hooks extra removed | p2 | 2026-09-22 |
+| [SIG-20260908-001](./SIG-20260908-001.md) | ai-agents | Microsoft Agent Framework Python 1.18.0 — SecretString wrapper, Lab off core[all], Foundry checkpoint allowlist | p2 | 2026-09-24 |
 | [SIG-20260909-001](./SIG-20260909-001.md) | ai-agents | OpenAI Agents Python 0.22.2 — MCP tool guardrails plus Unix-local sandbox isolation (symlink-race fix) | p2 | 2026-09-24 |
 | [SIG-20260910-001](./SIG-20260910-001.md) | finance | Fortum 22-year Loviisa nuclear PPA with Google — up to 50% capacity, ~1.4pp RONA | p2 | 2026-09-24 |
+| [SIG-20260911-001](./SIG-20260911-001.md) | ai-agents | Cursor Projects — coordinator plans/delegates/returns work; shared context and Slack/schedule/PR subscriptions | p2 | 2026-09-25 |
+| [SIG-20260911-002](./SIG-20260911-002.md) | finance | Oracle Q1 FY27 — revenue $19.3bn (+30%), IaaS +121% to $7.4bn, RPO $664bn; FY27 ≥$90bn / $8.10 non-GAAP EPS | p2 | 2026-09-25 |
 
 Archived (expired/dropped/promoted):
 
+- [SIG-20260828-001](./SIG-20260828-001.md) — Best Buy FY27 guidance, expired 2026-09-11 (no further official-action print)
+- [SIG-20260828-002](./SIG-20260828-002.md) — Boliden/Nexa share-and-cash deal, expired 2026-09-11 (no EGM / tender-launch print)
 - [SIG-20260827-001](./SIG-20260827-001.md) — HP FY26 EPS/FCF guidance, expired 2026-09-10 (no further official-action print)
 - [SIG-20260827-003](./SIG-20260827-003.md) — Anthropic unified Claude memory, expired 2026-09-10 (no consumer memory-design decision)
 - [SIG-20260825-001](./SIG-20260825-001.md) — Ambea/Humana offer document, expired 2026-09-08 (no further official-action print)
