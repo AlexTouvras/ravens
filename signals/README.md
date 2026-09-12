@@ -8,9 +8,7 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 |----|--------|-------|----------|---------|
 | [SIG-20260822-004](./SIG-20260822-004.md) | finance | Fortum Elmera tender — regulatory clearances done; 90% still open to 18 Sep | p2 | 2026-09-18 |
 | [SIG-20260825-003](./SIG-20260825-003.md) | career | UPM Data & Platform Specialist — Snowflake + Fabric + Power BI + governance (apply by 17 Sep) | p1 | 2026-09-17 |
-| [SIG-20260829-001](./SIG-20260829-001.md) | finance | Dollar General raises FY2026 guidance and plans to resume share buybacks | p2 | 2026-09-12 |
 | [SIG-20260829-002](./SIG-20260829-002.md) | finance | ECB raises three key rates 25bp to 2.50 / 2.65 / 2.90 from 16 Sep | p2 | 2026-09-24 |
-| [SIG-20260829-003](./SIG-20260829-003.md) | ai-agents | Cursor Origin removes the GitHub prerequisite for starting a cloud agent | p3 | 2026-09-12 |
 | [SIG-20260830-001](./SIG-20260830-001.md) | finance | Warsh Jackson Hole — inflation above 2% PCE, financial conditions not restrictive | p2 | 2026-09-13 |
 | [SIG-20260830-002](./SIG-20260830-002.md) | finance | Orion Nasdaq Helsinki Class B buyback — up to 500,000 shares / EUR 45m | p2 | 2026-09-13 |
 | [SIG-20260830-003](./SIG-20260830-003.md) | data-bi | Power BI Copilot Summary/Narrative can read bookmark-hidden visuals | p3 | 2026-09-13 |
@@ -32,9 +30,12 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 | [SIG-20260910-001](./SIG-20260910-001.md) | finance | Fortum 22-year Loviisa nuclear PPA with Google — up to 50% capacity, ~1.4pp RONA | p2 | 2026-09-24 |
 | [SIG-20260911-001](./SIG-20260911-001.md) | ai-agents | Cursor Projects — coordinator plans/delegates/returns work; shared context and Slack/schedule/PR subscriptions | p2 | 2026-09-25 |
 | [SIG-20260911-002](./SIG-20260911-002.md) | finance | Oracle Q1 FY27 — revenue $19.3bn (+30%), IaaS +121% to $7.4bn, RPO $664bn; FY27 ≥$90bn / $8.10 non-GAAP EPS | p2 | 2026-09-25 |
+| [SIG-20260912-001](./SIG-20260912-001.md) | ai-agents | Google ADK Python 2.9.0 — FallbackModel failover, YAML graphs, MCP 2.x opt-in; failed nodes re-run on resume | p2 | 2026-09-26 |
 
 Archived (expired/dropped/promoted):
 
+- [SIG-20260829-001](./SIG-20260829-001.md) — Dollar General FY2026 guidance + buyback, expired 2026-09-12 (no further official-action print)
+- [SIG-20260829-003](./SIG-20260829-003.md) — Cursor Origin no-GitHub bootstrap, expired 2026-09-12 (no named-consumer adoption)
 - [SIG-20260828-001](./SIG-20260828-001.md) — Best Buy FY27 guidance, expired 2026-09-11 (no further official-action print)
 - [SIG-20260828-002](./SIG-20260828-002.md) — Boliden/Nexa share-and-cash deal, expired 2026-09-11 (no EGM / tender-launch print)
 - [SIG-20260827-001](./SIG-20260827-001.md) — HP FY26 EPS/FCF guidance, expired 2026-09-10 (no further official-action print)

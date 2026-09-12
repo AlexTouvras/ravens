@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: parenting
-updated: 2026-09-11
+updated: 2026-09-12
 status: active
 ---
 
@@ -32,8 +32,10 @@ Durable notes for household to read (not a week-plan):
 - Established milk supply does not stop suddenly; frequent feeds restore it in 1–2 days; wait on a dummy until latch and weight are rising — [fi-infant-milk-supply-dummy](./fi-infant-milk-supply-dummy.md)
 - Spit-up is normal when growth is fine; projectile vomiting at 3 weeks–2 months needs a doctor — [fi-infant-spit-up-pyloric-stenosis](./fi-infant-spit-up-pyloric-stenosis.md)
 - Milia / baby acne / cradle cap are usually harmless; navel warmth or blisters need same-day care; diaper rash over a week or cratered needs neuvola — [fi-infant-skin-navel-diaper-rash](./fi-infant-skin-navel-diaper-rash.md)
+- Blocked tear ducts often start at **2–4 weeks**; inner-corner massage **4–5×/day** and mention it at neuvola; heavy pus needs prescribed drops — [fi-infant-blocked-tear-duct](./fi-infant-blocked-tear-duct.md)
 - Jaundice can linger through 4–6 weeks — [fi-newborn-jaundice-phototherapy](./fi-newborn-jaundice-phototherapy.md)
 - If lochia becomes heavy again, or foul with fever, call the maternity hospital — [fi-postpartum-lochia-fever-red-flags](./fi-postpartum-lochia-fever-red-flags.md)
+- Baby blues should ease in about **two weeks**; if low mood is still daily or is severe, go to neuvola — do not wait for the 5–12 week check — [fi-postpartum-depression-two-week-neuvola](./fi-postpartum-depression-two-week-neuvola.md)
 - Jälkitarkastus at **5–12 weeks**; Kela no longer needs a certificate — [fi-jalkitarkastus-5-12w-no-kela-cert](./fi-jalkitarkastus-5-12w-no-kela-cert.md)
 - Parent recovery: walking plus pain-free pelvic-floor; sport waits for the jälkitarkastus — [fi-postpartum-walking-pelvic-floor](../fitness/fi-postpartum-walking-pelvic-floor.md)
 - OAE hearing retest ~2 weeks if both ears failed at discharge — [fi-newborn-tsh-oae-screens](./fi-newborn-tsh-oae-screens.md)
@@ -62,6 +64,8 @@ Related, other domains: infant feeding-safety here, not `food/`; postpartum acti
 | fi-infant-milk-supply-dummy | Finland — established milk supply does not stop suddenly; wait on a dummy until weight is rising | 2026-09-08 | active |
 | fi-infant-spit-up-pyloric-stenosis | Finland — spit-up is normal when growth is fine; projectile vomiting at 3 weeks–2 months needs a doctor | 2026-09-09 | active |
 | fi-infant-skin-navel-diaper-rash | Finland — milia, baby acne, and cradle cap are usually harmless; navel warmth or blisters need care | 2026-09-11 | active |
+| fi-infant-blocked-tear-duct | Finland — infant blocked tear ducts often start at 2–4 weeks; massage 4–5 times a day and mention it at neuvola | 2026-09-12 | active |
+| fi-postpartum-depression-two-week-neuvola | Finland — baby blues should ease in about two weeks; go to neuvola if low mood is still daily or is severe | 2026-09-12 | active |
 | fi-jalkitarkastus-5-12w-no-kela-cert | Finland — jälkitarkastus is at 5–12 weeks; Kela no longer needs a certificate | 2026-09-10 | active |
 | luvn-neuvola-2-4w-4-6w | LUVN — 2–4 week nurse visit, then 4–6 week nurse+doctor | 2026-09-05 | active |
 | fi-infant-vitamin-d-from-2-weeks | Finland — 10 µg/day vitamin D from 2 weeks of age | 2026-09-05 | active |
@@ -88,6 +92,7 @@ Related, other domains: infant feeding-safety here, not `food/`; postpartum acti
 
 | Date | Change |
 |------|--------|
+| 2026-09-12 | Promoted KNOW-parenting-fi-infant-blocked-tear-duct from FIND-20260912-002 (Terveyskirjasto/Duodecim: 2–4 week onset; inner-corner massage 4–5×/day; neuvola mention; heavy pus needs prescribed drops; probing waits unless it has not opened by about a year). Tear-duct rule only — not the skin / navel / diaper-rash note and not adult DCR. Promoted KNOW-parenting-fi-postpartum-depression-two-week-neuvola from FIND-20260912-003 (Terveyskirjasto/Duodecim: baby blues usually fade in about two weeks; daily symptoms >2 weeks or severe → neuvola / health centre; do not wait for the 5–12 week check). Timing / care-seeking rule only — not a treatment or antidepressant plan. |
 | 2026-09-11 | Promoted KNOW-parenting-fi-infant-skin-navel-diaper-rash from FIND-20260911-004 (Terveyskirjasto/Duodecim: milia/acne/cradle-cap watch-and-wash; navel warmth or any blister/pus is same-day care; diaper rash over a week or cratered needs neuvola). Skin / navel / diaper-rash rule only — not the first-days cord how-to. |
 | 2026-09-10 | Promoted KNOW-parenting-fi-jalkitarkastus-5-12w-no-kela-cert from FIND-20260910-002 (Terveyskirjasto/Duodecim: postnatal check at 5–12 weeks; gyne exam optional after uncomplicated birth; Kela no longer requires a certificate for vanhempainraha). Check-window / certificate rule only — not the LUVN child 4–6 week visit and not sport staging. |
 | 2026-09-09 | Promoted KNOW-parenting-fi-infant-spit-up-pyloric-stenosis from FIND-20260909-002 (Terveyskirjasto/Duodecim: spit-up is normal when growth is fine; reflux-disease only with growth break / apnea / night restlessness; projectile vomiting at 3 weeks–2 months is same-day doctor). Spit-up / pyloric-stenosis rule only — not the page’s left-side-sleep or 3–4 month complementary-food tips. |
