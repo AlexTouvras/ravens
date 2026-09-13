@@ -30,6 +30,7 @@
 - [x] Household week-plan listed at `knowledge/parenting/coming-week.md` (2026-09-05)
 - [x] Huginn + Heimdall Glass Agent Instructions saved to week-of-life playbook pointers (2026-09-05)
 - [x] Heimdall weekly 2026-09-06 — week 3–4 how-tos `tummy-time` / `infant-soothing`; restaged safer-sleep and latch to `age-2-8w`
+- [x] Heimdall weekly 2026-09-13 — household `age-2-8w` how-tos `blocked-tear-duct` / `breast-pain` / `hand-expression` / `nappy-change` / `infant-bath` (no labour hunt; fitness URLs still live)
 - [x] Huginn standing prompt + playbook: scan every watchlist domain; week-of-life is parenting query shape only (2026-09-06)
 - [x] Week-of-life planning out of ravens — gather for household by age-bucket; `coming-week` superseded (2026-09-06)
 - [ ] Wire consumer read docs into mealplan / field-card when those projects ask (fitness wired)

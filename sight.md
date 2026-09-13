@@ -2,7 +2,7 @@
 
 Topics Heimdall may catalog. Separate from Huginn’s `watchlist.md` on purpose — news and videos are different jobs.
 
-Last reviewed: 2026-09-06
+Last reviewed: 2026-09-13
 
 v1 domains: **fitness** and **parenting** only.
 
@@ -43,7 +43,7 @@ Pregnancy-safe activity stays in `knowledge/fitness/` (ACOG). Do not replace tha
 
 Catalog infant how-tos tagged by age **stage** so **household** can match. After `Child born` is set on the parenting hub, drop labour hunts. Do not compute week of life.
 
-Current catalogued slugs (restaged 2026-09-06):
+Current catalogued slugs (restaged 2026-09-06; filled 2026-09-13):
 
 | Topic slug | Window | Intent |
 |------------|--------|--------|
@@ -51,6 +51,11 @@ Current catalogued slugs (restaged 2026-09-06):
 | newborn-latch | `age-2-8w` | how-to — latch / positioning (catalogued; restaged 2026-09-06) |
 | tummy-time | `age-2-8w` | how-to — supervised awake tummy time (catalogued) |
 | infant-soothing | `age-2-8w` | how-to — crying / settling at 2–8 weeks (catalogued) |
+| blocked-tear-duct | `age-2-8w` | how-to — inner-corner / Crigler massage (catalogued 2026-09-13) |
+| breast-pain | `age-2-8w` | how-to — engorgement / blocked duct / mastitis (catalogued 2026-09-13) |
+| hand-expression | `age-2-8w` | how-to — hand expression to empty (catalogued 2026-09-13) |
+| nappy-change | `age-2-8w` | how-to — nappy change / rash prevention (catalogued 2026-09-13) |
+| infant-bath | `age-2-8w` | how-to — supervised infant bath (catalogued 2026-09-13) |
 
 Prefer THL, neuvola, Kela, NHS, AAP, WHO, Global Health Media. Finnish-language official clips are welcome. Skip wonder-weeks and sleep-training wars.
 
