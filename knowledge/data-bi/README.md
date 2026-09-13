@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: data-bi
-updated: 2026-09-11
+updated: 2026-09-13
 status: active
 ---
 
@@ -19,7 +19,6 @@ Microsoft Fabric, Power BI / PBIR, semantic models, and analytics patterns used 
 
 ## Active signals
 
-- [SIG-20260830-003](../../signals/SIG-20260830-003.md) — Power BI Copilot Summary/Narrative can read bookmark-hidden visuals
 - [SIG-20260907-001](../../signals/SIG-20260907-001.md) — microsoft/skills-for-fabric 0.3.16 single-skill APM install + Azure CLI reuse for remote MCP
 
 ## Note index
@@ -36,6 +35,7 @@ Microsoft Fabric, Power BI / PBIR, semantic models, and analytics patterns used 
 
 | Date | Change |
 |------|--------|
+| 2026-09-13 | Expired SIG-20260830-003 (Power BI Copilot bookmark-hidden visuals) on default 14-day expiry — no report check and no durable authoring rule. |
 | 2026-09-11 | Updated SIG-20260907-001 from FIND-20260911-003 — raised the evaluate pin from microsoft/skills-for-fabric v0.3.15 to v0.3.16 (single-skill `apm install --skill`; Azure CLI reuse for remote MCP; no second OAuth app). 0.3.15 OneLake / Capacity Metrics workflows still in the evaluate set. |
 | 2026-09-07 | Opened SIG-20260907-001 from FIND-20260907-002 (microsoft/skills-for-fabric v0.3.15: onelake-catalog-govern-cli + read-only Capacity Metrics workflow in sqldw-cli; MIT; evaluate this month, not a prefer/avoid pin) |
 | 2026-08-30 | Opened SIG-20260830-003 from FIND-20260830-004 (Microsoft Learn August 2026 update: Copilot Summary/Narrative can read display-only bookmark-hidden visuals; capability landing, not yet a delivery rule) |

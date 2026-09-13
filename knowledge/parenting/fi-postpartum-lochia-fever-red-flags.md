@@ -4,7 +4,7 @@ id: KNOW-parenting-fi-postpartum-lochia-fever-red-flags
 domain: parenting
 title: Finland — if lochia becomes heavy again, or foul with fever, call the maternity hospital
 status: active
-updated: 2026-09-05
+updated: 2026-09-13
 created: 2026-09-05
 confidence: high
 tags: [age-0-72h, postpartum, lochia, endometritis, mastitis, terveyskyla, finland]
@@ -25,7 +25,7 @@ canonical_sources:
 - Recovery starts immediately after birth. The uterus returning to size is felt as **afterpains**. Lochia volume should **decrease** over time.
 - If decreasing lochia becomes **heavy again**, contact the **maternity-hospital emergency line**.
 - Lower-abdominal pain plus **foul-smelling lochia** plus **fever** may be endometritis. Call the **health centre** if symptoms are mild and temperature is **under 38 °C**; call the **maternity-hospital emergency clinic** if temperature is **38 °C or more**.
-- A red, hot, painful area of the breast plus **high fever** may be mastitis — treat as a same-page “contact a doctor” flag, not a wait-and-see home remedy.
+- A red, hot, painful area of the breast plus **high fever** may be mastitis — treat as a same-page “contact a doctor” flag, not a wait-and-see home remedy. The breastfeeding-window emptying / 12-hour / keep-feeding rule is in [fi-postpartum-mastitis-empty-12h](./fi-postpartum-mastitis-empty-12h.md).
 - Afterpains are often stronger and last longer after a **subsequent** birth; they ease within a few days. The page allows a warm grain bag, uterine massage before a feed, or painkillers if needed.
 - This is the **birthing parent's** recovery list. Baby warmth, feeds, and cord care stay in [fi-newborn-first-days-care](./fi-newborn-first-days-care.md); newborn red flags stay in [fi-newborn-hospital-discharge](./fi-newborn-hospital-discharge.md).
 
@@ -43,5 +43,5 @@ Terveyskylä Naistalo's living postpartum-recovery page (last reviewed 14 Jan 20
 ## Related
 
 - Domain hub: [parenting](./README.md)
-- Sibling: [fi-newborn-first-days-care](./fi-newborn-first-days-care.md), [fi-newborn-hospital-discharge](./fi-newborn-hospital-discharge.md), [fi-first-latch-hand-express](./fi-first-latch-hand-express.md), [hus-call-before-labor](./hus-call-before-labor.md)
+- Sibling: [fi-newborn-first-days-care](./fi-newborn-first-days-care.md), [fi-newborn-hospital-discharge](./fi-newborn-hospital-discharge.md), [fi-first-latch-hand-express](./fi-first-latch-hand-express.md), [hus-call-before-labor](./hus-call-before-labor.md), [fi-postpartum-mastitis-empty-12h](./fi-postpartum-mastitis-empty-12h.md)
 - Consumer hint: household first-days parent-recovery checklist

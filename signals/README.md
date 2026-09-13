@@ -9,9 +9,6 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 | [SIG-20260822-004](./SIG-20260822-004.md) | finance | Fortum Elmera tender — regulatory clearances done; 90% still open to 18 Sep | p2 | 2026-09-18 |
 | [SIG-20260825-003](./SIG-20260825-003.md) | career | UPM Data & Platform Specialist — Snowflake + Fabric + Power BI + governance (apply by 17 Sep) | p1 | 2026-09-17 |
 | [SIG-20260829-002](./SIG-20260829-002.md) | finance | ECB raises three key rates 25bp to 2.50 / 2.65 / 2.90 from 16 Sep | p2 | 2026-09-24 |
-| [SIG-20260830-001](./SIG-20260830-001.md) | finance | Warsh Jackson Hole — inflation above 2% PCE, financial conditions not restrictive | p2 | 2026-09-13 |
-| [SIG-20260830-002](./SIG-20260830-002.md) | finance | Orion Nasdaq Helsinki Class B buyback — up to 500,000 shares / EUR 45m | p2 | 2026-09-13 |
-| [SIG-20260830-003](./SIG-20260830-003.md) | data-bi | Power BI Copilot Summary/Narrative can read bookmark-hidden visuals | p3 | 2026-09-13 |
 | [SIG-20260831-001](./SIG-20260831-001.md) | finance | G City final Citycon subsequent period stays at 91.05%; squeeze-out and delisting start | p2 | 2026-09-14 |
 | [SIG-20260831-002](./SIG-20260831-002.md) | ai-agents | Pydantic AI 2.36.0 — public durable-execution backend API and named @durable_operation | p3 | 2026-09-14 |
 | [SIG-20260901-001](./SIG-20260901-001.md) | finance | UPM EGM approves the partial demerger that will list WISA Group | p2 | 2026-09-15 |
@@ -34,6 +31,9 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 
 Archived (expired/dropped/promoted):
 
+- [SIG-20260830-001](./SIG-20260830-001.md) — Warsh Jackson Hole, expired 2026-09-13 (no follow-on Fed communication; FOMC watch stays on SIG-20260829-002)
+- [SIG-20260830-002](./SIG-20260830-002.md) — Orion Class B buyback, expired 2026-09-13 (no further official-action print)
+- [SIG-20260830-003](./SIG-20260830-003.md) — Power BI Copilot bookmark-hidden visuals, expired 2026-09-13 (no report check / no authoring rule)
 - [SIG-20260829-001](./SIG-20260829-001.md) — Dollar General FY2026 guidance + buyback, expired 2026-09-12 (no further official-action print)
 - [SIG-20260829-003](./SIG-20260829-003.md) — Cursor Origin no-GitHub bootstrap, expired 2026-09-12 (no named-consumer adoption)
 - [SIG-20260828-001](./SIG-20260828-001.md) — Best Buy FY27 guidance, expired 2026-09-11 (no further official-action print)

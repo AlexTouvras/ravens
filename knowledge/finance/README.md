@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: finance
-updated: 2026-09-12
+updated: 2026-09-13
 status: active
 ---
 
@@ -17,8 +17,6 @@ _(none yet — monthly performance themes stay signals until a durable construct
 
 - [SIG-20260822-004](../../signals/SIG-20260822-004.md) — Fortum Elmera tender — regulatory clearances done; 90% acceptance still open to 18 Sep
 - [SIG-20260829-002](../../signals/SIG-20260829-002.md) — ECB raises three key rates 25bp to 2.50 / 2.65 / 2.90 from 16 Sep
-- [SIG-20260830-001](../../signals/SIG-20260830-001.md) — Warsh Jackson Hole: inflation above 2% PCE, financial conditions not restrictive
-- [SIG-20260830-002](../../signals/SIG-20260830-002.md) — Orion Nasdaq Helsinki Class B buyback (500k / EUR 45m, 1 Sep–31 Dec)
 - [SIG-20260831-001](../../signals/SIG-20260831-001.md) — G City final Citycon subsequent period stays at 91.05%; squeeze-out and Nasdaq Helsinki delisting start
 - [SIG-20260901-001](../../signals/SIG-20260901-001.md) — UPM EGM approves the partial demerger that will list WISA Group
 - [SIG-20260902-001](../../signals/SIG-20260902-001.md) — Medtronic raises FY27 organic-growth and EPS guidance after a 13.7% organic Q1
@@ -38,6 +36,7 @@ _(none yet — monthly performance themes stay signals until a durable construct
 
 | Date | Change |
 |------|--------|
+| 2026-09-13 | Expired SIG-20260830-001 (Warsh Jackson Hole) and SIG-20260830-002 (Orion Class B buyback) on default 14-day expiry with no further official-action print. FOMC 15–16 Sep watch remains on SIG-20260829-002. |
 | 2026-09-12 | Expired SIG-20260829-001 (Dollar General FY2026 guidance + buyback) on default 14-day expiry with no further official-action print. |
 | 2026-09-11 | Updated SIG-20260829-002 from FIND-20260911-005 (ECB 10 Sep print: 25bp hike to 2.50 / 2.65 / 2.90 from 16 Sep; dual-stream Guardian wrap; expiry extended through FOMC 15–16 Sep). Opened SIG-20260911-002 from FIND-20260911-006 (Oracle Q1 FY27 official-action print via PR Newswire). Expired SIG-20260828-001 (Best Buy FY27 guidance) and SIG-20260828-002 (Boliden/Nexa) on default 14-day expiry with no further official-action print. |
 | 2026-09-10 | Opened SIG-20260910-001 from FIND-20260910-003 (Fortum 9 Sep IR: 22-year Loviisa nuclear PPA with Google, up to 50% capacity, ~1.4pp RONA; dual-stream via Google clean-energy Finland blog). Elmera tender SIG-20260822-004 unchanged through 18 Sep. Expired SIG-20260827-001 (HP FY26 guidance) on default 14-day expiry with no further official-action print. |
