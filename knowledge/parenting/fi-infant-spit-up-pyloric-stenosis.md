@@ -43,5 +43,5 @@ Duodecim Terveyskirjasto’s living “Pulauttelu ja oksentelu lapsella” page 
 ## Related
 
 - Domain hub: [parenting](./README.md)
-- Sibling: [fi-infant-milk-supply-dummy](./fi-infant-milk-supply-dummy.md), [thl-0-1-month-development-growth](./thl-0-1-month-development-growth.md), [fi-infant-crying-fever-never-shake](./fi-infant-crying-fever-never-shake.md), [aap-safe-sleep-abcs](./aap-safe-sleep-abcs.md)
+- Sibling: [fi-infant-milk-supply-dummy](./fi-infant-milk-supply-dummy.md), [fi-infant-milk-stool-not-constipation](./fi-infant-milk-stool-not-constipation.md), [thl-0-1-month-development-growth](./thl-0-1-month-development-growth.md), [fi-infant-crying-fever-never-shake](./fi-infant-crying-fever-never-shake.md), [aap-safe-sleep-abcs](./aap-safe-sleep-abcs.md)
 - Consumer hint: household feeding / spit-up red-flag checklist

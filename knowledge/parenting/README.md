@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: parenting
-updated: 2026-09-13
+updated: 2026-09-14
 status: active
 ---
 
@@ -30,8 +30,10 @@ Durable notes for household to read (not a week-plan):
 - Short supervised awake tummy time (chest/lap, then floor) — [fi-infant-tummy-time](./fi-infant-tummy-time.md)
 - Sleep is still 2–4 hour stretches; night/day split waits for ~3 months — [fi-infant-sleep-2-4h-stretches](./fi-infant-sleep-2-4h-stretches.md)
 - Established milk supply does not stop suddenly; frequent feeds restore it in 1–2 days; wait on a dummy until latch and weight are rising — [fi-infant-milk-supply-dummy](./fi-infant-milk-supply-dummy.md)
+- A tight-looking infant tongue-tie waits for latch practice; do not cut preventively; a lip-tie does not change breastfeeding mechanics — [fi-infant-tongue-tie-wait-latch](./fi-infant-tongue-tie-wait-latch.md)
 - Infant oral thrush (pale tongue/cheek coatings) is usually harmless; local antifungal drops when needed; boil or replace recurring dummies — [fi-infant-oral-thrush-dummy](./fi-infant-oral-thrush-dummy.md)
 - Spit-up is normal when growth is fine; projectile vomiting at 3 weeks–2 months needs a doctor — [fi-infant-spit-up-pyloric-stenosis](./fi-infant-spit-up-pyloric-stenosis.md)
+- Milk-only infants may stool several times a day or every 5–7 days; straining then a normal stool is not constipation — [fi-infant-milk-stool-not-constipation](./fi-infant-milk-stool-not-constipation.md)
 - Milia / baby acne / cradle cap are usually harmless; navel warmth or blisters need same-day care; diaper rash over a week or cratered needs neuvola — [fi-infant-skin-navel-diaper-rash](./fi-infant-skin-navel-diaper-rash.md)
 - Blocked tear ducts often start at **2–4 weeks**; inner-corner massage **4–5×/day** and mention it at neuvola; heavy pus needs prescribed drops — [fi-infant-blocked-tear-duct](./fi-infant-blocked-tear-duct.md)
 - Jaundice can linger through 4–6 weeks — [fi-newborn-jaundice-phototherapy](./fi-newborn-jaundice-phototherapy.md)
@@ -64,8 +66,10 @@ Related, other domains: infant feeding-safety here, not `food/`; postpartum acti
 | fi-infant-tummy-time | Finland — start short awake tummy time; chest or lap first, then the floor | 2026-09-06 | active |
 | fi-infant-sleep-2-4h-stretches | Finland — week-3 sleep is still 2–4 hour stretches | 2026-09-06 | active |
 | fi-infant-milk-supply-dummy | Finland — established milk supply does not stop suddenly; wait on a dummy until weight is rising | 2026-09-08 | active |
+| fi-infant-tongue-tie-wait-latch | Finland — a tight-looking infant tongue-tie is not a preventive cut; give latch practice time; a lip-tie does not change breastfeeding | 2026-09-14 | active |
 | fi-infant-oral-thrush-dummy | Finland — infant oral thrush is usually harmless; treat with local antifungal drops if needed and boil recurring dummies | 2026-09-13 | active |
 | fi-infant-spit-up-pyloric-stenosis | Finland — spit-up is normal when growth is fine; projectile vomiting at 3 weeks–2 months needs a doctor | 2026-09-09 | active |
+| fi-infant-milk-stool-not-constipation | Finland — milk-only infants may stool several times a day or every 5–7 days; straining then a normal stool is not constipation | 2026-09-14 | active |
 | fi-infant-skin-navel-diaper-rash | Finland — milia, baby acne, and cradle cap are usually harmless; navel warmth or blisters need care | 2026-09-11 | active |
 | fi-infant-blocked-tear-duct | Finland — infant blocked tear ducts often start at 2–4 weeks; massage 4–5 times a day and mention it at neuvola | 2026-09-12 | active |
 | fi-postpartum-depression-two-week-neuvola | Finland — baby blues should ease in about two weeks; go to neuvola if low mood is still daily or is severe | 2026-09-12 | active |
@@ -96,6 +100,7 @@ Related, other domains: infant feeding-safety here, not `food/`; postpartum acti
 
 | Date | Change |
 |------|--------|
+| 2026-09-14 | Promoted KNOW-parenting-fi-infant-tongue-tie-wait-latch from FIND-20260914-001 (Terveyskirjasto/Duodecim: wait on latch practice; cut only if tongue movement is clearly limited *and* latch or pain remains; lip-tie does not change breastfeeding mechanics; no preventive cut for later eating/sleep/speech). Tongue-tie / wait-on-practice rule only — not first-latch delivery-room, not dummy-wait milk-sufficiency, and not older-child speech / school-age orthodontics. Promoted KNOW-parenting-fi-infant-milk-stool-not-constipation from FIND-20260914-002 (Terveyskirjasto/Duodecim: milk-only stool several times a day or every 5–7 days; straining then a normal stool is immature pelvic floor, not constipation). Milk-only frequency / straining rule only — not complementary-food stool firming, not toddler constipation / diarrhoea, and not the spit-up / pyloric-stenosis note. |
 | 2026-09-13 | Promoted KNOW-parenting-fi-postpartum-mastitis-empty-12h from FIND-20260913-001 (Terveyskirjasto/Duodecim: afebrile empty-first; high fever or no ease in 12 hours of emptying → doctor / health centre; keep feeding; check the baby’s mouth if Candida). Emptying / 12-hour / fever rule only — not the lochia/endometritis flag, not an antibiotic plan, and not periductal mastitis. Promoted KNOW-parenting-fi-infant-oral-thrush-dummy from FIND-20260913-002 (Terveyskirjasto/Duodecim: pale infant tongue/cheek coatings are usually harmless thrush; local antifungal drops when needed; boil or replace recurring dummies). Infant-thrush / dummy-boil rule only — not the dummy-wait milk-sufficiency note and not herpes / enterovirus / aphthous. |
 | 2026-09-12 | Promoted KNOW-parenting-fi-infant-blocked-tear-duct from FIND-20260912-002 (Terveyskirjasto/Duodecim: 2–4 week onset; inner-corner massage 4–5×/day; neuvola mention; heavy pus needs prescribed drops; probing waits unless it has not opened by about a year). Tear-duct rule only — not the skin / navel / diaper-rash note and not adult DCR. Promoted KNOW-parenting-fi-postpartum-depression-two-week-neuvola from FIND-20260912-003 (Terveyskirjasto/Duodecim: baby blues usually fade in about two weeks; daily symptoms >2 weeks or severe → neuvola / health centre; do not wait for the 5–12 week check). Timing / care-seeking rule only — not a treatment or antidepressant plan. |
 | 2026-09-11 | Promoted KNOW-parenting-fi-infant-skin-navel-diaper-rash from FIND-20260911-004 (Terveyskirjasto/Duodecim: milia/acne/cradle-cap watch-and-wash; navel warmth or any blister/pus is same-day care; diaper rash over a week or cratered needs neuvola). Skin / navel / diaper-rash rule only — not the first-days cord how-to. |

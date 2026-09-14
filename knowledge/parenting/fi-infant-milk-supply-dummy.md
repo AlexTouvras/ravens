@@ -44,5 +44,5 @@ Terveyskirjasto’s living “Vauvan ravitsemus” page is based on THL *Meille 
 ## Related
 
 - Domain hub: [parenting](./README.md)
-- Sibling: [thl-0-1-month-development-growth](./thl-0-1-month-development-growth.md), [fi-newborn-first-days-care](./fi-newborn-first-days-care.md), [fi-first-latch-hand-express](./fi-first-latch-hand-express.md), [fi-infant-crying-fever-never-shake](./fi-infant-crying-fever-never-shake.md), [fi-infant-vitamin-d-from-2-weeks](./fi-infant-vitamin-d-from-2-weeks.md), [fi-infant-oral-thrush-dummy](./fi-infant-oral-thrush-dummy.md)
+- Sibling: [thl-0-1-month-development-growth](./thl-0-1-month-development-growth.md), [fi-newborn-first-days-care](./fi-newborn-first-days-care.md), [fi-first-latch-hand-express](./fi-first-latch-hand-express.md), [fi-infant-tongue-tie-wait-latch](./fi-infant-tongue-tie-wait-latch.md), [fi-infant-crying-fever-never-shake](./fi-infant-crying-fever-never-shake.md), [fi-infant-vitamin-d-from-2-weeks](./fi-infant-vitamin-d-from-2-weeks.md), [fi-infant-oral-thrush-dummy](./fi-infant-oral-thrush-dummy.md)
 - Consumer hint: household cluster-feeding / milk-sufficiency checklist

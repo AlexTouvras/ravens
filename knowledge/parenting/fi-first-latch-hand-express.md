@@ -41,5 +41,5 @@ Terveyskylä Naistalo's living first-breastfeed page (last reviewed 9 Dec 2024) 
 ## Related
 
 - Domain hub: [parenting](./README.md)
-- Sibling: [fi-newborn-first-days-care](./fi-newborn-first-days-care.md), [fi-newborn-hospital-discharge](./fi-newborn-hospital-discharge.md), [fi-newborn-jaundice-phototherapy](./fi-newborn-jaundice-phototherapy.md), [fi-waters-breaking-call-first](./fi-waters-breaking-call-first.md)
+- Sibling: [fi-newborn-first-days-care](./fi-newborn-first-days-care.md), [fi-newborn-hospital-discharge](./fi-newborn-hospital-discharge.md), [fi-newborn-jaundice-phototherapy](./fi-newborn-jaundice-phototherapy.md), [fi-waters-breaking-call-first](./fi-waters-breaking-call-first.md), [fi-infant-tongue-tie-wait-latch](./fi-infant-tongue-tie-wait-latch.md)
 - Consumer hint: household delivery-room first hours / first latch
