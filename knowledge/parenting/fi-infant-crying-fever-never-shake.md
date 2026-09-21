@@ -42,5 +42,5 @@ Terveyskirjasto’s living crying/soothing page is based on THL *Meille tulee va
 ## Related
 
 - Domain hub: [parenting](./README.md)
-- Sibling: [coming-week](./coming-week.md), [fi-infant-vitamin-d-from-2-weeks](./fi-infant-vitamin-d-from-2-weeks.md), [fi-infant-sleep-2-4h-stretches](./fi-infant-sleep-2-4h-stretches.md), [fi-newborn-first-days-care](./fi-newborn-first-days-care.md)
+- Sibling: [coming-week](./coming-week.md), [fi-infant-vitamin-d-from-2-weeks](./fi-infant-vitamin-d-from-2-weeks.md), [fi-infant-sleep-2-4h-stretches](./fi-infant-sleep-2-4h-stretches.md), [fi-newborn-first-days-care](./fi-newborn-first-days-care.md), [fi-infant-rsv-bronchiolitis-same-day](./fi-infant-rsv-bronchiolitis-same-day.md)
 - Consumer hint: household week-plan / evening fussing

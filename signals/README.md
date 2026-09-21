@@ -6,21 +6,12 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 
 | ID | Domain | Title | Priority | Expires |
 |----|--------|-------|----------|---------|
-| [SIG-20260822-004](./SIG-20260822-004.md) | finance | Fortum Elmera tender — regulatory clearances done; 90% still open to 18 Sep | p2 | 2026-09-18 |
-| [SIG-20260825-003](./SIG-20260825-003.md) | career | UPM Data & Platform Specialist — Snowflake + Fabric + Power BI + governance (apply by 17 Sep) | p1 | 2026-09-17 |
-| [SIG-20260829-002](./SIG-20260829-002.md) | finance | ECB raises three key rates 25bp to 2.50 / 2.65 / 2.90 from 16 Sep | p2 | 2026-09-24 |
-| [SIG-20260901-001](./SIG-20260901-001.md) | finance | UPM EGM approves the partial demerger that will list WISA Group | p2 | 2026-09-15 |
-| [SIG-20260902-001](./SIG-20260902-001.md) | finance | Medtronic raises FY27 organic-growth and EPS guidance after a 13.7% organic Q1 | p2 | 2026-09-16 |
-| [SIG-20260903-001](./SIG-20260903-001.md) | finance | STOXX adds Nokia to the Euro Stoxx 50 from 21 September 2026 | p2 | 2026-09-21 |
-| [SIG-20260903-002](./SIG-20260903-002.md) | ai-agents | Cursor Self-Hosted Machines keep Cloud Agent tool execution on your own network | p2 | 2026-09-17 |
-| [SIG-20260904-001](./SIG-20260904-001.md) | ai-agents | LangChain 1.4.0 first-party langchain.mcp / MCPAdapter stable pin | p3 | 2026-09-18 |
-| [SIG-20260905-003](./SIG-20260905-003.md) | parenting | AAP 1-month visit topics — 8–12 feeds/day, ~½ lb weekly gain (US figures) | p2 | 2026-09-20 |
+| [SIG-20260822-004](./SIG-20260822-004.md) | finance | Fortum Elmera tender — 88.59% at 18 Sep close; window extended to 2 Oct | p2 | 2026-10-02 |
+| [SIG-20260829-002](./SIG-20260829-002.md) | finance | ECB 2.50% deposit from 16 Sep; FOMC hikes 25bp to 3.75–4.00% from 17 Sep | p2 | 2026-09-30 |
 | [SIG-20260905-001](./SIG-20260905-001.md) | finance | Terveystalo completed Hohde on 4 Sep; Emal clinic sales still due October | p2 | 2026-10-31 |
-| [SIG-20260905-002](./SIG-20260905-002.md) | finance | HPE Q3 FY26 revenue $12.2bn; raises FY26 growth outlook to 34–37% | p2 | 2026-09-19 |
 | [SIG-20260906-001](./SIG-20260906-001.md) | parenting | AAP supervised tummy time — build toward 15–30 minutes/day by 7 weeks | p2 | 2026-10-08 |
-| [SIG-20260907-001](./SIG-20260907-001.md) | data-bi | microsoft/skills-for-fabric 0.3.16 — single-skill APM install; Azure CLI reuse for remote MCP | p2 | 2026-09-24 |
-| [SIG-20260907-002](./SIG-20260907-002.md) | career | Linear Helsinki BI Analyst — Power BI/SQL inside a real-estate SaaS product (apply by 17 Sep) | p1 | 2026-09-17 |
-| [SIG-20260908-001](./SIG-20260908-001.md) | ai-agents | Microsoft Agent Framework Python 1.18.0 — SecretString wrapper, Lab off core[all], Foundry checkpoint allowlist | p2 | 2026-09-24 |
+| [SIG-20260907-001](./SIG-20260907-001.md) | data-bi | microsoft/skills-for-fabric 0.3.17 — powerbi-report-cli merge; FabricIQ MCP host/header move | p2 | 2026-10-05 |
+| [SIG-20260908-001](./SIG-20260908-001.md) | ai-agents | Microsoft Agent Framework Python 1.19.0 — explicit HTTP cookies, ZIP-only MCP archives, per-invocation MCP sessions | p2 | 2026-10-05 |
 | [SIG-20260909-001](./SIG-20260909-001.md) | ai-agents | OpenAI Agents Python 0.22.2 — MCP tool guardrails plus Unix-local sandbox isolation (symlink-race fix) | p2 | 2026-09-24 |
 | [SIG-20260910-001](./SIG-20260910-001.md) | finance | Fortum 22-year Loviisa nuclear PPA with Google — up to 50% capacity, ~1.4pp RONA | p2 | 2026-09-24 |
 | [SIG-20260911-001](./SIG-20260911-001.md) | ai-agents | Cursor Projects — coordinator plans/delegates/returns work; shared context and Slack/schedule/PR subscriptions | p2 | 2026-09-25 |
@@ -29,6 +20,15 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 
 Archived (expired/dropped/promoted):
 
+- [SIG-20260907-002](./SIG-20260907-002.md) — Linear Helsinki BI Analyst, expired 2026-09-17 (application deadline passed)
+- [SIG-20260905-003](./SIG-20260905-003.md) — AAP 1-month visit topics, expired 2026-09-20 (Child born + 4 weeks passed; US ½ lb/week stays off THL)
+- [SIG-20260905-002](./SIG-20260905-002.md) — HPE Q3 FY26 guidance, expired 2026-09-19 (no further official-action print)
+- [SIG-20260904-001](./SIG-20260904-001.md) — LangChain 1.4.0 MCPAdapter, expired 2026-09-18 (no named-consumer pin; 1.4.2 is an adapter patch)
+- [SIG-20260903-002](./SIG-20260903-002.md) — Cursor Self-Hosted Machines, expired 2026-09-17 (no named-consumer adoption)
+- [SIG-20260903-001](./SIG-20260903-001.md) — STOXX Nokia Euro Stoxx 50 inclusion, expired 2026-09-21 (21 Sep open reached)
+- [SIG-20260902-001](./SIG-20260902-001.md) — Medtronic FY27 guidance raise, expired 2026-09-16 (no further official-action print)
+- [SIG-20260901-001](./SIG-20260901-001.md) — UPM EGM WISA demerger, expired 2026-09-15 (no listing print)
+- [SIG-20260825-003](./SIG-20260825-003.md) — UPM Data & Platform Specialist, expired 2026-09-17 (application deadline passed)
 - [SIG-20260831-001](./SIG-20260831-001.md) — G City Citycon squeeze-out / delisting, expired 2026-09-14 (no squeeze-out timetable or delisting-application print)
 - [SIG-20260831-002](./SIG-20260831-002.md) — Pydantic AI 2.36.0 durable-execution backend, expired 2026-09-14 (later 2.43.0 still polish; no named-consumer adoption)
 - [SIG-20260830-001](./SIG-20260830-001.md) — Warsh Jackson Hole, expired 2026-09-13 (no follow-on Fed communication; FOMC watch stays on SIG-20260829-002)

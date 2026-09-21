@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: ai-agents
-updated: 2026-09-12
+updated: 2026-09-21
 status: active
 ---
 
@@ -16,10 +16,7 @@ Frameworks, protocols (MCP / A2A), and Cursor agent patterns that change deliver
 
 ## Active signals
 
-- [SIG-20260831-002](../../signals/SIG-20260831-002.md) — Pydantic AI 2.36.0 public durable-execution backend API + named `@durable_operation`
-- [SIG-20260903-002](../../signals/SIG-20260903-002.md) — Cursor Self-Hosted Machines keep Cloud Agent tool execution on your own network
-- [SIG-20260904-001](../../signals/SIG-20260904-001.md) — LangChain 1.4.0 first-party `langchain.mcp` / `MCPAdapter` stable pin
-- [SIG-20260908-001](../../signals/SIG-20260908-001.md) — Microsoft Agent Framework Python 1.18.0 SecretString wrapper, Lab off `core[all]`, Foundry checkpoint allowlist
+- [SIG-20260908-001](../../signals/SIG-20260908-001.md) — Microsoft Agent Framework Python 1.19.0 explicit HTTP cookies, ZIP-only MCP archives, per-invocation MCP sessions
 - [SIG-20260909-001](../../signals/SIG-20260909-001.md) — OpenAI Agents Python 0.22.2 MCP tool guardrails + Unix-local sandbox isolation (symlink-race fix)
 - [SIG-20260911-001](../../signals/SIG-20260911-001.md) — Cursor Projects coordinator + shared context + Slack/schedule/PR subscriptions (beta)
 - [SIG-20260912-001](../../signals/SIG-20260912-001.md) — Google ADK Python 2.9.0 FallbackModel / YAML graphs / MCP 2.x opt-in; failed-node resume re-runs
@@ -35,6 +32,7 @@ Frameworks, protocols (MCP / A2A), and Cursor agent patterns that change deliver
 
 | Date | Change |
 |------|--------|
+| 2026-09-21 | Updated SIG-20260908-001 from FIND-20260921-001 — raised the evaluate pin from microsoft/agent-framework python-1.18.0 to python-1.19.0 (explicit HTTP cookie persistence; ZIP-only MCP skill archives; per-invocation provider MCP sessions). 1.18.0 SecretString / Lab / Foundry-checkpoint contract unchanged. Expired SIG-20260903-002 (Cursor Self-Hosted Machines) and SIG-20260904-001 (LangChain 1.4.0 MCPAdapter) on default 14-day expiry — no named-consumer adoption; langchain==1.4.2 is an adapter patch, not a new contract. |
 | 2026-09-12 | Opened SIG-20260912-001 from FIND-20260912-001 (google/adk-python v2.9.0: FallbackModel failover, YAML graphs, MCP SDK 2.x opt-in; breaking failed-node resume re-run, GCS `local_file_root`, InMemory `SessionNotFoundError`; Apache-2.0; evaluate this month). Expired SIG-20260829-003 (Cursor Origin) on default 14-day expiry — no named-consumer adoption. |
 | 2026-09-11 | Opened SIG-20260911-001 from FIND-20260911-001 (Cursor Projects 10 Sep changelog: coordinator plans/delegates/returns work, shared context, Slack/schedule/PR subscriptions; beta; signal until HITL rules settle). Updated SIG-20260908-001 from FIND-20260911-002 — raised the evaluate pin from microsoft/agent-framework python-1.17.0 to python-1.18.0 (`SecretString` masked wrapper; Lab removed from `core[all]`; Foundry checkpoint allowlist). 1.17.0 middleware / `agent-hooks` contract unchanged. |
 | 2026-09-10 | Updated SIG-20260909-001 from FIND-20260910-001 — raised the evaluate pin from openai/openai-agents-python v0.22.1 to v0.22.2 (`fix(sandbox): prevent UnixLocal file API symlink races`). MCP-guardrail contract unchanged; still signal-only until a consumer adopts. |
