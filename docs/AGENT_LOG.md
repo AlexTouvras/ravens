@@ -4,6 +4,11 @@
 
 <!-- New entries go below -->
 
+### 2026-09-27 — Heimdall weekly watch fill
+
+- **Built:** Six household `age-2-8w` how-tos in `watch/parenting/` (`infant-wind`, `breastfeeding-positions`, `enough-milk`, `cradle-cap`, `bottle-sterilise`, `infant-temperature`). Sight table + `watch/README.md` refreshed. Fitness form-check / motivate URLs oEmbed-live; no labour hunt; no Slack.
+- **Why:** Weekly Heimdall fill. Existing sight slugs already had live notes; remaining hub how-tos (wind, hold, intake signs, cradle cap, equipment hygiene, temperature skill) needed catalog clips.
+
 ### 2026-09-06 — Week-of-life planning out of ravens
 
 - **Built:** Huginn/Heimdall/Muninn/watchlist/quality/contracts retargeted to gather-for-consumers; parenting hub no longer computes week of life; `coming-week` superseded; Glass Huginn + Heimdall prompts re-saved. `npm run verify` ok.

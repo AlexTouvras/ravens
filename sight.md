@@ -2,7 +2,7 @@
 
 Topics Heimdall may catalog. Separate from Huginn’s `watchlist.md` on purpose — news and videos are different jobs.
 
-Last reviewed: 2026-09-13
+Last reviewed: 2026-09-27
 
 v1 domains: **fitness** and **parenting** only.
 
@@ -43,7 +43,7 @@ Pregnancy-safe activity stays in `knowledge/fitness/` (ACOG). Do not replace tha
 
 Catalog infant how-tos tagged by age **stage** so **household** can match. After `Child born` is set on the parenting hub, drop labour hunts. Do not compute week of life.
 
-Current catalogued slugs (restaged 2026-09-06; filled 2026-09-13):
+Current catalogued slugs (restaged 2026-09-06; filled 2026-09-13; filled 2026-09-27):
 
 | Topic slug | Window | Intent |
 |------------|--------|--------|
@@ -56,6 +56,12 @@ Current catalogued slugs (restaged 2026-09-06; filled 2026-09-13):
 | hand-expression | `age-2-8w` | how-to — hand expression to empty (catalogued 2026-09-13) |
 | nappy-change | `age-2-8w` | how-to — nappy change / rash prevention (catalogued 2026-09-13) |
 | infant-bath | `age-2-8w` | how-to — supervised infant bath (catalogued 2026-09-13) |
+| infant-wind | `age-2-8w` | how-to — wind / burp after a feed (catalogued 2026-09-27) |
+| breastfeeding-positions | `age-2-8w` | how-to — recline / cross-cradle / underarm (catalogued 2026-09-27) |
+| enough-milk | `age-2-8w` | how-to — swallows / wet nappies / alert feeds (catalogued 2026-09-27) |
+| cradle-cap | `age-2-8w` | how-to — mild shampoo / soft brush (catalogued 2026-09-27) |
+| bottle-sterilise | `age-2-8w` | how-to — wash then steam or boil (catalogued 2026-09-27) |
+| infant-temperature | `age-2-8w` | how-to — armpit or rectal reading (catalogued 2026-09-27) |
 
 Prefer THL, neuvola, Kela, NHS, AAP, WHO, Global Health Media. Finnish-language official clips are welcome. Skip wonder-weeks and sleep-training wars.
 

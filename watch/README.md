@@ -4,7 +4,7 @@ Heimdall’s video index. One note per topic. Prefer this over searching YouTube
 
 Consumers match from this catalog — see [docs/consumers.md](../docs/consumers.md). Fitness joins on `Coach library:` lines; motivate on slug; parenting on `stage`.
 
-Last updated: 2026-09-13
+Last updated: 2026-09-27
 
 | Domain | Slug | Intent | Stage | Status |
 |--------|------|--------|-------|--------|
@@ -34,5 +34,11 @@ Last updated: 2026-09-13
 | parenting | [hand-expression](parenting/hand-expression.md) | how-to | age-2-8w | active |
 | parenting | [nappy-change](parenting/nappy-change.md) | how-to | age-2-8w | active |
 | parenting | [infant-bath](parenting/infant-bath.md) | how-to | age-2-8w | active |
+| parenting | [infant-wind](parenting/infant-wind.md) | how-to | age-2-8w | active |
+| parenting | [breastfeeding-positions](parenting/breastfeeding-positions.md) | how-to | age-2-8w | active |
+| parenting | [enough-milk](parenting/enough-milk.md) | how-to | age-2-8w | active |
+| parenting | [cradle-cap](parenting/cradle-cap.md) | how-to | age-2-8w | active |
+| parenting | [bottle-sterilise](parenting/bottle-sterilise.md) | how-to | age-2-8w | active |
+| parenting | [infant-temperature](parenting/infant-temperature.md) | how-to | age-2-8w | active |
 
-Household `age-2-8w` how-tos added 2026-09-13 (tear-duct, breast pain, hand expression, nappy, bath). Labour clips stay on file but are not this week’s hunt. Fitness W6 form-check and motivate slugs already have live notes.
+Household `age-2-8w` how-tos added 2026-09-27 (wind, breastfeeding positions, enough milk, cradle cap, bottle sterilise, temperature). Labour clips stay on file but were not this week’s hunt. Fitness W6 form-check and motivate slugs were oEmbed-live; no URL refresh.
