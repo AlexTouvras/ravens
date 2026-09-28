@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: finance
-updated: 2026-09-21
+updated: 2026-09-28
 status: active
 ---
 
@@ -15,11 +15,9 @@ _(none yet — monthly performance themes stay signals until a durable construct
 
 ## Active signals
 
-- [SIG-20260822-004](../../signals/SIG-20260822-004.md) — Fortum Elmera tender — 88.59% at 18 Sep close; window extended to 2 Oct
+- [SIG-20260822-004](../../signals/SIG-20260822-004.md) — Fortum Elmera tender — 90.02% accepted; Minimum Acceptance satisfied; window still 2 Oct
 - [SIG-20260829-002](../../signals/SIG-20260829-002.md) — ECB 2.50% deposit from 16 Sep; FOMC hikes 25bp to 3.75–4.00% from 17 Sep
 - [SIG-20260905-001](../../signals/SIG-20260905-001.md) — Terveystalo completed Hohde on 4 Sep; Emal clinic sales still due October
-- [SIG-20260910-001](../../signals/SIG-20260910-001.md) — Fortum 22-year Loviisa nuclear PPA with Google — up to 50% capacity, ~1.4pp RONA
-- [SIG-20260911-002](../../signals/SIG-20260911-002.md) — Oracle Q1 FY27 $19.3bn / IaaS +121% / RPO $664bn; FY27 ≥$90bn / $8.10 non-GAAP EPS
 
 ## Note index
 
@@ -31,6 +29,7 @@ _(none yet — monthly performance themes stay signals until a durable construct
 
 | Date | Change |
 |------|--------|
+| 2026-09-28 | Updated SIG-20260822-004 from FIND-20260928-003 (Fortum 25 Sep IR: 90.02% accepted / 94.14% ex-treasury; Minimum Acceptance satisfied; window still 2 Oct 16:30 CEST; squeeze-out/delist intent after completion). Same tender — no second SIG. Expired SIG-20260910-001 (Loviisa/Google PPA) and SIG-20260911-002 (Oracle Q1 FY27) on default 14-day expiry with no further official-action print. |
 | 2026-09-21 | Updated SIG-20260822-004 from FIND-20260921-005 (Fortum 21 Sep IR: 88.59% accepted at the 18 Sep close / 92.64% ex-treasury; window extended to 2 Oct 16:30 CEST; 90% on issued capital still open). Updated SIG-20260829-002 from FIND-20260921-004 (FOMC 16 Sep print: 25bp hike to 3.75–4.00% from 17 Sep, 12–0; dual-stream Guardian wrap; logged on the ECB SIG that was watching FOMC 15–16 Sep — no second SIG). Expired SIG-20260901-001 (UPM WISA), SIG-20260902-001 (Medtronic), SIG-20260903-001 (Nokia Euro Stoxx 50 inclusion date), and SIG-20260905-002 (HPE Q3) on default/dated expiry with no further official-action print. |
 | 2026-09-13 | Expired SIG-20260830-001 (Warsh Jackson Hole) and SIG-20260830-002 (Orion Class B buyback) on default 14-day expiry with no further official-action print. FOMC 15–16 Sep watch remains on SIG-20260829-002. |
 | 2026-09-12 | Expired SIG-20260829-001 (Dollar General FY2026 guidance + buyback) on default 14-day expiry with no further official-action print. |

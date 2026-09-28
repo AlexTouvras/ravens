@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: parenting
-updated: 2026-09-21
+updated: 2026-09-28
 status: active
 ---
 
@@ -28,6 +28,7 @@ Durable notes for household to read (not a week-plan):
 - Back sleep, ≥8 feeds; two-week nail rule is ending — [fi-newborn-first-days-care](./fi-newborn-first-days-care.md)
 - Crying typically rises from 2 weeks to about 1½ months; fever under 2 months always needs a doctor; never shake — [fi-infant-crying-fever-never-shake](./fi-infant-crying-fever-never-shake.md)
 - Infant bronchiolitis is usually RSV; under-6-month (especially under 3 months) feeding **and** breathing trouble is same-day care — [fi-infant-rsv-bronchiolitis-same-day](./fi-infant-rsv-bronchiolitis-same-day.md)
+- Rotavirus first oral dose from **6 weeks** and **before 12 weeks**; usual series **2, 3 and 5 months**; do not repeat a regurgitated dose — [fi-infant-rotavirus-2-3-5m](./fi-infant-rotavirus-2-3-5m.md)
 - Short supervised awake tummy time (chest/lap, then floor) — [fi-infant-tummy-time](./fi-infant-tummy-time.md)
 - Sleep is still 2–4 hour stretches; night/day split waits for ~3 months — [fi-infant-sleep-2-4h-stretches](./fi-infant-sleep-2-4h-stretches.md)
 - Established milk supply does not stop suddenly; frequent feeds restore it in 1–2 days; wait on a dummy until latch and weight are rising — [fi-infant-milk-supply-dummy](./fi-infant-milk-supply-dummy.md)
@@ -64,6 +65,7 @@ Related, other domains: infant feeding-safety here, not `food/`; postpartum acti
 | coming-week | Household week-plan (not maintained here) | 2026-09-06 | superseded |
 | fi-infant-crying-fever-never-shake | Finland — crying rises from 2 weeks to ~1½ months; fever under 2 months always needs a doctor | 2026-09-06 | active |
 | fi-infant-rsv-bronchiolitis-same-day | Finland — infant bronchiolitis is usually RSV; under-3-month feeding or breathing trouble is same-day care | 2026-09-21 | active |
+| fi-infant-rotavirus-2-3-5m | Finland — rotavirus first dose from 6 weeks and before 12 weeks; series at 2, 3 and 5 months | 2026-09-28 | active |
 | fi-infant-tummy-time | Finland — start short awake tummy time; chest or lap first, then the floor | 2026-09-06 | active |
 | fi-infant-sleep-2-4h-stretches | Finland — week-3 sleep is still 2–4 hour stretches | 2026-09-06 | active |
 | fi-infant-milk-supply-dummy | Finland — established milk supply does not stop suddenly; wait on a dummy until weight is rising | 2026-09-08 | active |
@@ -101,6 +103,7 @@ Related, other domains: infant feeding-safety here, not `food/`; postpartum acti
 
 | Date | Change |
 |------|--------|
+| 2026-09-28 | Promoted KNOW-parenting-fi-infant-rotavirus-2-3-5m from FIND-20260928-002 (THL: oral RotaTeq; first dose from 6 weeks and before 12.0 weeks; usual series 2, 3 and 5 months; third dose before 32.0 weeks; do not repeat a regurgitated dose). Timing / oral / no-repeat rule only — not a home-administration protocol, not the RSV same-day-care note, and not preterm / maternal-biologic / Kawasaki clinician gates. |
 | 2026-09-21 | Promoted KNOW-parenting-fi-infant-rsv-bronchiolitis-same-day from FIND-20260921-003 (Terveyskirjasto/Duodecim: bronchiolitis usually RSV; under-6-month / especially under-3-month feeding and breathing trouble is always same-day assessment). RSV / same-day-care rule only — not the under-2-month fever / never-shake note, not hospital mucus-clearing as DIY, and not the page’s still-unrecommended RSV vaccine / antibody products. Expired SIG-20260905-003 (AAP 1-month visit) — Child born + 4 weeks (20 Sep) passed; US ½ lb/week stays off the Finnish gain note. |
 | 2026-09-14 | Promoted KNOW-parenting-fi-infant-tongue-tie-wait-latch from FIND-20260914-001 (Terveyskirjasto/Duodecim: wait on latch practice; cut only if tongue movement is clearly limited *and* latch or pain remains; lip-tie does not change breastfeeding mechanics; no preventive cut for later eating/sleep/speech). Tongue-tie / wait-on-practice rule only — not first-latch delivery-room, not dummy-wait milk-sufficiency, and not older-child speech / school-age orthodontics. Promoted KNOW-parenting-fi-infant-milk-stool-not-constipation from FIND-20260914-002 (Terveyskirjasto/Duodecim: milk-only stool several times a day or every 5–7 days; straining then a normal stool is immature pelvic floor, not constipation). Milk-only frequency / straining rule only — not complementary-food stool firming, not toddler constipation / diarrhoea, and not the spit-up / pyloric-stenosis note. |
 | 2026-09-13 | Promoted KNOW-parenting-fi-postpartum-mastitis-empty-12h from FIND-20260913-001 (Terveyskirjasto/Duodecim: afebrile empty-first; high fever or no ease in 12 hours of emptying → doctor / health centre; keep feeding; check the baby’s mouth if Candida). Emptying / 12-hour / fever rule only — not the lochia/endometritis flag, not an antibiotic plan, and not periductal mastitis. Promoted KNOW-parenting-fi-infant-oral-thrush-dummy from FIND-20260913-002 (Terveyskirjasto/Duodecim: pale infant tongue/cheek coatings are usually harmless thrush; local antifungal drops when needed; boil or replace recurring dummies). Infant-thrush / dummy-boil rule only — not the dummy-wait milk-sufficiency note and not herpes / enterovirus / aphthous. |

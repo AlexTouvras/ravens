@@ -45,5 +45,5 @@ Duodecim Terveyskirjasto’s living “Ilmatiehyttulehdus (bronkioliitti) lapsel
 ## Related
 
 - Domain hub: [parenting](./README.md)
-- Sibling: [fi-infant-crying-fever-never-shake](./fi-infant-crying-fever-never-shake.md), [fi-infant-spit-up-pyloric-stenosis](./fi-infant-spit-up-pyloric-stenosis.md), [fi-infant-milk-supply-dummy](./fi-infant-milk-supply-dummy.md)
+- Sibling: [fi-infant-crying-fever-never-shake](./fi-infant-crying-fever-never-shake.md), [fi-infant-spit-up-pyloric-stenosis](./fi-infant-spit-up-pyloric-stenosis.md), [fi-infant-rotavirus-2-3-5m](./fi-infant-rotavirus-2-3-5m.md)
 - Consumer hint: household autumn/winter RSV same-day-care checklist
