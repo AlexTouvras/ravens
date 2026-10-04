@@ -4,7 +4,7 @@ Heimdall’s video index. One note per topic. Prefer this over searching YouTube
 
 Consumers match from this catalog — see [docs/consumers.md](../docs/consumers.md). Fitness joins on `Coach library:` lines; motivate on slug; parenting on `stage`.
 
-Last updated: 2026-09-27
+Last updated: 2026-10-04
 
 | Domain | Slug | Intent | Stage | Status |
 |--------|------|--------|-------|--------|
@@ -40,5 +40,9 @@ Last updated: 2026-09-27
 | parenting | [cradle-cap](parenting/cradle-cap.md) | how-to | age-2-8w | active |
 | parenting | [bottle-sterilise](parenting/bottle-sterilise.md) | how-to | age-2-8w | active |
 | parenting | [infant-temperature](parenting/infant-temperature.md) | how-to | age-2-8w | active |
+| parenting | [formula-feed](parenting/formula-feed.md) | how-to | age-2-8w | active |
+| parenting | [responsive-bottle-feeding](parenting/responsive-bottle-feeding.md) | how-to | age-2-8w | active |
+| parenting | [breastmilk-storage](parenting/breastmilk-storage.md) | how-to | age-2-8w | active |
+| parenting | [nipple-pain](parenting/nipple-pain.md) | how-to | age-2-8w | active |
 
-Household `age-2-8w` how-tos added 2026-09-27 (wind, breastfeeding positions, enough milk, cradle cap, bottle sterilise, temperature). Labour clips stay on file but were not this week’s hunt. Fitness W6 form-check and motivate slugs were oEmbed-live; no URL refresh.
+Household `age-2-8w` how-tos added 2026-10-04 (formula feed, responsive bottle-feeding, breastmilk storage, nipple pain). Labour clips stay on file but were not this week’s hunt. Fitness W6 form-check and motivate slugs were oEmbed-live; no URL refresh. Vitamin D drops and dry cord care still have no catalogued clip.

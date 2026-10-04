@@ -4,6 +4,11 @@
 
 <!-- New entries go below -->
 
+### 2026-10-04 — Heimdall weekly watch fill
+
+- **Built:** Four household `age-2-8w` how-tos in `watch/parenting/` (`formula-feed`, `responsive-bottle-feeding`, `breastmilk-storage`, `nipple-pain`). Sight table + `watch/README.md` refreshed. Fitness form-check / motivate URLs oEmbed-live; no labour hunt; no Slack. Left gaps: vitamin D drops (no confirmed 2–12 min public-health demo), dry cord care (GHM cord film is chlorhexidine for health workers).
+- **Why:** Weekly Heimdall fill. Existing sight slugs already had live notes. Next household gaps were making a formula feed, pacing a bottle, storing expressed milk, and nipple pain from a shallow latch.
+
 ### 2026-09-27 — Heimdall weekly watch fill
 
 - **Built:** Six household `age-2-8w` how-tos in `watch/parenting/` (`infant-wind`, `breastfeeding-positions`, `enough-milk`, `cradle-cap`, `bottle-sterilise`, `infant-temperature`). Sight table + `watch/README.md` refreshed. Fitness form-check / motivate URLs oEmbed-live; no labour hunt; no Slack.
