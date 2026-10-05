@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: parenting
-updated: 2026-09-28
+updated: 2026-10-05
 status: active
 ---
 
@@ -24,6 +24,7 @@ Durable notes for household to read (not a week-plan):
 - LUVN: **2–4 week** nurse visit, then **4–6 week** nurse+doctor — [luvn-neuvola-2-4w-4-6w](./luvn-neuvola-2-4w-4-6w.md)
 - Vitamin D **10 µg/day from 2 weeks**; reduce if formula ≥500 ml/day — [fi-infant-vitamin-d-from-2-weeks](./fi-infant-vitamin-d-from-2-weeks.md)
 - 0–1 month: eye contact, moving limbs together; birth weight back by ~2 weeks, then 150–200 g/week — [thl-0-1-month-development-growth](./thl-0-1-month-development-growth.md)
+- 2–3 months: first intentional smile, head support when lying, two-handed grasp, turn toward sound — deviations are common — [thl-2-3-month-development](./thl-2-3-month-development.md)
 - AAP safe-sleep ABCs — [aap-safe-sleep-abcs](./aap-safe-sleep-abcs.md)
 - Back sleep, ≥8 feeds; two-week nail rule is ending — [fi-newborn-first-days-care](./fi-newborn-first-days-care.md)
 - Crying typically rises from 2 weeks to about 1½ months; fever under 2 months always needs a doctor; never shake — [fi-infant-crying-fever-never-shake](./fi-infant-crying-fever-never-shake.md)
@@ -80,7 +81,8 @@ Related, other domains: infant feeding-safety here, not `food/`; postpartum acti
 | fi-jalkitarkastus-5-12w-no-kela-cert | Finland — jälkitarkastus is at 5–12 weeks; Kela no longer needs a certificate | 2026-09-10 | active |
 | luvn-neuvola-2-4w-4-6w | LUVN — 2–4 week nurse visit, then 4–6 week nurse+doctor | 2026-09-05 | active |
 | fi-infant-vitamin-d-from-2-weeks | Finland — 10 µg/day vitamin D from 2 weeks of age | 2026-09-05 | active |
-| thl-0-1-month-development-growth | THL — 0–1 month development and ~2-week weight regain | 2026-09-05 | active |
+| thl-0-1-month-development-growth | THL — 0–1 month development and ~2-week weight regain | 2026-10-05 | active |
+| thl-2-3-month-development | THL — 2–3 month intentional smile, head support when lying, two-handed grasp | 2026-10-05 | active |
 | aap-safe-sleep-abcs | AAP safe-sleep ABCs for the newborn's first days home | 2026-08-21 | active |
 | fi-neuvola-home-visit-first-time-parents | Finland — statutory neuvola home visit within 1–14 days of birth | 2026-08-22 | active |
 | nice-vitamin-k-newborn-prophylaxis | Expect vitamin K prophylaxis to be offered for the newborn at/around birth | 2026-08-27 | active |
@@ -103,6 +105,7 @@ Related, other domains: infant feeding-safety here, not `food/`; postpartum acti
 
 | Date | Change |
 |------|--------|
+| 2026-10-05 | Promoted KNOW-parenting-thl-2-3-month-development from FIND-20261005-007 (Terveyskirjasto/THL table: 2–3 month intentional smile, cooing, head support when lying, two-handed grasp, turn toward sound; deviations common; corrected age for preterm). Next row after the 0–1 month note — not a week-plan, not the 4–6 month row, Current stage unchanged. |
 | 2026-09-28 | Promoted KNOW-parenting-fi-infant-rotavirus-2-3-5m from FIND-20260928-002 (THL: oral RotaTeq; first dose from 6 weeks and before 12.0 weeks; usual series 2, 3 and 5 months; third dose before 32.0 weeks; do not repeat a regurgitated dose). Timing / oral / no-repeat rule only — not a home-administration protocol, not the RSV same-day-care note, and not preterm / maternal-biologic / Kawasaki clinician gates. |
 | 2026-09-21 | Promoted KNOW-parenting-fi-infant-rsv-bronchiolitis-same-day from FIND-20260921-003 (Terveyskirjasto/Duodecim: bronchiolitis usually RSV; under-6-month / especially under-3-month feeding and breathing trouble is always same-day assessment). RSV / same-day-care rule only — not the under-2-month fever / never-shake note, not hospital mucus-clearing as DIY, and not the page’s still-unrecommended RSV vaccine / antibody products. Expired SIG-20260905-003 (AAP 1-month visit) — Child born + 4 weeks (20 Sep) passed; US ½ lb/week stays off the Finnish gain note. |
 | 2026-09-14 | Promoted KNOW-parenting-fi-infant-tongue-tie-wait-latch from FIND-20260914-001 (Terveyskirjasto/Duodecim: wait on latch practice; cut only if tongue movement is clearly limited *and* latch or pain remains; lip-tie does not change breastfeeding mechanics; no preventive cut for later eating/sleep/speech). Tongue-tie / wait-on-practice rule only — not first-latch delivery-room, not dummy-wait milk-sufficiency, and not older-child speech / school-age orthodontics. Promoted KNOW-parenting-fi-infant-milk-stool-not-constipation from FIND-20260914-002 (Terveyskirjasto/Duodecim: milk-only stool several times a day or every 5–7 days; straining then a normal stool is immature pelvic floor, not constipation). Milk-only frequency / straining rule only — not complementary-food stool firming, not toddler constipation / diarrhoea, and not the spit-up / pyloric-stenosis note. |

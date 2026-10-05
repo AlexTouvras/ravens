@@ -14,7 +14,7 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 | Security | [knowledge/security/](knowledge/security/) | JARVIS, ProjectBrain, Ledger, careerops, ravens |
 | Content | [knowledge/content/](knowledge/content/) | Orbit Writes / Signals |
 
-## Active notes (2026-09-28)
+## Active notes (2026-10-05)
 
 | Domain | Note | Confidence |
 |--------|------|------------|
@@ -25,6 +25,8 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 | data-bi | [fabric-apps-read-permission](knowledge/data-bi/fabric-apps-read-permission.md) | high |
 | data-bi | [pbip-vscode-instant-reload-ga](knowledge/data-bi/pbip-vscode-instant-reload-ga.md) | high |
 | data-bi | [theme-pane-fluent2-default-ga](knowledge/data-bi/theme-pane-fluent2-default-ga.md) | high |
+| data-bi | [powerbi-authoring-mcp-hosted-vs-local](knowledge/data-bi/powerbi-authoring-mcp-hosted-vs-local.md) | high |
+| data-bi | [directquery-service-authoring-one-way](knowledge/data-bi/directquery-service-authoring-one-way.md) | high |
 | career | [uk-ddat-data-role-language](knowledge/career/uk-ddat-data-role-language.md) | high |
 | career | [fi-warehouse-powerbi-pairing](knowledge/career/fi-warehouse-powerbi-pairing.md) | medium |
 | food | [fi-pregnancy-fish-limits](knowledge/food/fi-pregnancy-fish-limits.md) | high |
@@ -36,6 +38,7 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 | parenting | [luvn-neuvola-2-4w-4-6w](knowledge/parenting/luvn-neuvola-2-4w-4-6w.md) | high |
 | parenting | [fi-infant-vitamin-d-from-2-weeks](knowledge/parenting/fi-infant-vitamin-d-from-2-weeks.md) | high |
 | parenting | [thl-0-1-month-development-growth](knowledge/parenting/thl-0-1-month-development-growth.md) | high |
+| parenting | [thl-2-3-month-development](knowledge/parenting/thl-2-3-month-development.md) | high |
 | parenting | [aap-safe-sleep-abcs](knowledge/parenting/aap-safe-sleep-abcs.md) | high |
 | parenting | [fi-neuvola-home-visit-first-time-parents](knowledge/parenting/fi-neuvola-home-visit-first-time-parents.md) | high |
 | parenting | [nice-vitamin-k-newborn-prophylaxis](knowledge/parenting/nice-vitamin-k-newborn-prophylaxis.md) | high |
@@ -80,4 +83,4 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 
 ## Latest inbox
 
-See `inbox/` for dated raw scans. Latest live: [inbox/2026-09-28.md](inbox/2026-09-28.md). Fixtures live under `examples/` and must not be treated as live data.
+See `inbox/` for dated raw scans. Latest live: [inbox/2026-10-05.md](inbox/2026-10-05.md). Fixtures live under `examples/` and must not be treated as live data.

@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: data-bi
-updated: 2026-09-21
+updated: 2026-10-05
 status: active
 ---
 
@@ -16,10 +16,12 @@ Microsoft Fabric, Power BI / PBIR, semantic models, and analytics patterns used 
 - Fabric App consumers need only Read on the underlying semantic model (Build stays author-only) — re-review app-audience grants that were over-provisioned to Build — [fabric-apps-read-permission](./fabric-apps-read-permission.md)
 - Edit PBIP projects (PBIR/TMDL) directly in VS Code via Desktop's built-in entry point, and rely on Desktop's instant-reload detection for external changes — both GA as of the August 2026 update — [pbip-vscode-instant-reload-ga](./pbip-vscode-instant-reload-ga.md)
 - New reports start on the Fluent 2 base theme by default; use the Theme pane (GA) for base theme, palette, text, and visual/page property changes, and audit existing templates against the new default before the next board — [theme-pane-fluent2-default-ga](./theme-pane-fluent2-default-ga.md)
+- Author semantic models with one Power BI Authoring MCP deployment: hosted preview for Fabric workspace models, local for Desktop, PBIP, service principals, transactions, and traces — do not register both — [powerbi-authoring-mcp-hosted-vs-local](./powerbi-authoring-mcp-hosted-vs-local.md)
+- DirectQuery models can be authored in the service, except SAP HANA (relational), cubes, and Blank Query; an Import save in the web editor does not switch back — [directquery-service-authoring-one-way](./directquery-service-authoring-one-way.md)
 
 ## Active signals
 
-- [SIG-20260907-001](../../signals/SIG-20260907-001.md) — microsoft/skills-for-fabric 0.3.17 powerbi-report-cli merge + FabricIQ MCP host/header move
+- [SIG-20261005-003](../../signals/SIG-20261005-003.md) — ApproximateDistinctCount on Import and Direct Lake; keep an exact distinct-count switch
 
 ## Note index
 
@@ -30,11 +32,14 @@ Microsoft Fabric, Power BI / PBIR, semantic models, and analytics patterns used 
 | fabric-apps-read-permission | Fabric App consumers only need Read on the underlying semantic model | 2026-08-26 | active |
 | pbip-vscode-instant-reload-ga | PBIP instant-reload and built-in VS Code entry point are GA | 2026-08-28 | active |
 | theme-pane-fluent2-default-ga | Theme pane and the Fluent 2 default theme are GA | 2026-08-29 | active |
+| powerbi-authoring-mcp-hosted-vs-local | Power BI Authoring MCP — hosted for Fabric models, local for Desktop and PBIP | 2026-10-05 | active |
+| directquery-service-authoring-one-way | DirectQuery models can be authored in the service; an Import save does not switch back | 2026-10-05 | active |
 
 ## Changelog
 
 | Date | Change |
 |------|--------|
+| 2026-10-05 | Promoted KNOW-data-bi-powerbi-authoring-mcp-hosted-vs-local from FIND-20261005-003 (Microsoft Learn: hosted preview authoring MCP for Fabric workspace models; local required for Desktop, PBIP/TMDL, service principal, transactions, and traces; do not register both; macOS uses hosted). Promoted KNOW-data-bi-directquery-service-authoring-one-way from FIND-20261005-004 (Microsoft Learn: author DirectQuery in the service except SAP HANA relational, cubes, and Blank Query; web editor Import save does not switch back). Opened SIG-20261005-003 from FIND-20261005-005 (Chris Webb: ApproximateDistinctCount on Import and Direct Lake; one-model ~1.6% gap; exact switch stays). Expired SIG-20260907-001 (skills-for-fabric 0.3.17) on its 2026-10-05 expiry — inbox noted v0.3.18 is not a new install contract; no consumer pin. |
 | 2026-09-21 | Updated SIG-20260907-001 from FIND-20260921-002 — raised the evaluate pin from microsoft/skills-for-fabric v0.3.16 to v0.3.17 (`powerbi-report-cli` merge of the four report skills; FabricIQ host/header move; `ResolveFabricItem`). 0.3.16 single-skill APM / Azure CLI reuse still in the evaluate set. |
 | 2026-09-13 | Expired SIG-20260830-003 (Power BI Copilot bookmark-hidden visuals) on default 14-day expiry — no report check and no durable authoring rule. |
 | 2026-09-11 | Updated SIG-20260907-001 from FIND-20260911-003 — raised the evaluate pin from microsoft/skills-for-fabric v0.3.15 to v0.3.16 (single-skill `apm install --skill`; Azure CLI reuse for remote MCP; no second OAuth app). 0.3.15 OneLake / Capacity Metrics workflows still in the evaluate set. |

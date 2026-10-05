@@ -6,17 +6,20 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 
 | ID | Domain | Title | Priority | Expires |
 |----|--------|-------|----------|---------|
-| [SIG-20260822-004](./SIG-20260822-004.md) | finance | Fortum Elmera tender — 90.02% accepted; Minimum Acceptance satisfied; window still 2 Oct | p2 | 2026-10-02 |
-| [SIG-20260829-002](./SIG-20260829-002.md) | finance | ECB 2.50% deposit from 16 Sep; FOMC hikes 25bp to 3.75–4.00% from 17 Sep | p2 | 2026-09-30 |
+| [SIG-20260822-004](./SIG-20260822-004.md) | finance | Fortum Elmera tender — offer expired 2 Oct at 91.61%; settlement expected about 23 Oct | p2 | 2026-10-23 |
 | [SIG-20260905-001](./SIG-20260905-001.md) | finance | Terveystalo completed Hohde on 4 Sep; Emal clinic sales still due October | p2 | 2026-10-31 |
 | [SIG-20260906-001](./SIG-20260906-001.md) | parenting | AAP supervised tummy time — build toward 15–30 minutes/day by 7 weeks | p2 | 2026-10-08 |
-| [SIG-20260907-001](./SIG-20260907-001.md) | data-bi | microsoft/skills-for-fabric 0.3.17 — powerbi-report-cli merge; FabricIQ MCP host/header move | p2 | 2026-10-05 |
-| [SIG-20260908-001](./SIG-20260908-001.md) | ai-agents | Microsoft Agent Framework Python 1.19.0 — explicit HTTP cookies, ZIP-only MCP archives, per-invocation MCP sessions | p2 | 2026-10-05 |
+| [SIG-20260908-001](./SIG-20260908-001.md) | ai-agents | Microsoft Agent Framework Python 1.20.0 — fail-closed approvals; session-scoped file access | p2 | 2026-10-19 |
 | [SIG-20260928-001](./SIG-20260928-001.md) | ai-agents | Cursor Rollouts and Security Review — Teams/Enterprise last-mile PR bots; no auto-merge | p2 | 2026-10-12 |
+| [SIG-20261005-001](./SIG-20261005-001.md) | ai-agents | Google ADK Python 2.11.0 — workflow tools pause for approval; abort_signal cancels the run | p2 | 2026-10-19 |
+| [SIG-20261005-002](./SIG-20261005-002.md) | career | Lokki banking BI Developer contract, Helsinki or Oulu — apply by 7 Oct 19:00 | p1 | 2026-10-07 |
+| [SIG-20261005-003](./SIG-20261005-003.md) | data-bi | ApproximateDistinctCount on Import and Direct Lake — keep an exact distinct-count switch | p2 | 2026-10-19 |
 
 Archived (expired/dropped/promoted):
 
-- [SIG-20260912-001](./SIG-20260912-001.md) — Google ADK Python 2.9.0, expired 2026-09-26 (no named-consumer pin; 2.10.0 does not reopen resume/MCP)
+- [SIG-20260907-001](./SIG-20260907-001.md) — microsoft/skills-for-fabric 0.3.17, expired 2026-10-05 (no named-consumer pin; 0.3.18 is not a new install contract)
+- [SIG-20260829-002](./SIG-20260829-002.md) — ECB 2.50% / FOMC 3.75–4.00%, expired 2026-10-05 (30 Sep window passed; no new Governing Council decision)
+- [SIG-20260912-001](./SIG-20260912-001.md) — Google ADK Python 2.9.0, expired 2026-09-26 (no named-consumer pin; 2.10.0 does not reopen resume/MCP; 2.11.0 HITL contract is SIG-20261005-001)
 - [SIG-20260911-002](./SIG-20260911-002.md) — Oracle Q1 FY27 guidance, expired 2026-09-25 (no further official-action print)
 - [SIG-20260911-001](./SIG-20260911-001.md) — Cursor Projects coordinator, expired 2026-09-25 (no HITL rule / no consumer adoption; Rollouts opened as SIG-20260928-001)
 - [SIG-20260910-001](./SIG-20260910-001.md) — Fortum Loviisa/Google PPA, expired 2026-09-24 (no further official-action print)

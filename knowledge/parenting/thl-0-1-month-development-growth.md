@@ -4,7 +4,7 @@ id: KNOW-parenting-thl-0-1-month-development-growth
 domain: parenting
 title: THL — 0–1 month development is eye contact and moving limbs together; birth weight back by ~2 weeks
 status: active
-updated: 2026-09-05
+updated: 2026-10-05
 created: 2026-09-05
 confidence: high
 tags: [age-2-8w, development, growth, thl, week-3]
@@ -32,7 +32,7 @@ The Terveyskirjasto living page is based on THL *Meille tulee vauva* (2023). The
 
 ## Limits / do not apply when
 
-- Age window: **0–1 month** (`age-2-8w` while still in that month). After 2–3 months, use the next THL row, not this note. Re-check [`knowledge/parenting/README.md`](./README.md) **Current stage**.
+- Age window: **0–1 month** (`age-2-8w` while still in that month). After 2–3 months, use [thl-2-3-month-development](./thl-2-3-month-development.md), not this note. Re-check [`knowledge/parenting/README.md`](./README.md) **Current stage**.
 - **Corrected age** for preterm babies (from due date), as the same page states.
 - Prefer these **Finnish** weekly-gain figures over AAP’s ~½ lb/week (see [SIG-20260905-003](../../signals/SIG-20260905-003.md)).
 - Not a diagnosis. Poor feeding, no weight regain, or a baby who does not respond to sound/light still goes to neuvola or 112.
@@ -40,5 +40,5 @@ The Terveyskirjasto living page is based on THL *Meille tulee vauva* (2023). The
 ## Related
 
 - Domain hub: [parenting](./README.md)
-- Sibling: [coming-week](./coming-week.md), [luvn-neuvola-2-4w-4-6w](./luvn-neuvola-2-4w-4-6w.md)
+- Sibling: [thl-2-3-month-development](./thl-2-3-month-development.md), [luvn-neuvola-2-4w-4-6w](./luvn-neuvola-2-4w-4-6w.md)
 - Consumer hint: household week-plan / development

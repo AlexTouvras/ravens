@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: ai-agents
-updated: 2026-09-28
+updated: 2026-10-05
 status: active
 ---
 
@@ -16,8 +16,9 @@ Frameworks, protocols (MCP / A2A), and Cursor agent patterns that change deliver
 
 ## Active signals
 
-- [SIG-20260908-001](../../signals/SIG-20260908-001.md) — Microsoft Agent Framework Python 1.19.0 explicit HTTP cookies, ZIP-only MCP archives, per-invocation MCP sessions
+- [SIG-20260908-001](../../signals/SIG-20260908-001.md) — Microsoft Agent Framework Python 1.20.0 fail-closed approvals and session-scoped file access
 - [SIG-20260928-001](../../signals/SIG-20260928-001.md) — Cursor Rollouts + Security Review last-mile PR bots (Teams/Enterprise; no auto-merge)
+- [SIG-20261005-001](../../signals/SIG-20261005-001.md) — Google ADK Python 2.11.0 workflow tool approval pause and abort_signal
 
 ## Note index
 
@@ -30,6 +31,7 @@ Frameworks, protocols (MCP / A2A), and Cursor agent patterns that change deliver
 
 | Date | Change |
 |------|--------|
+| 2026-10-05 | Opened SIG-20261005-001 from FIND-20261005-001 (google/adk-python v2.11.0: workflow tool nodes pause via RequestInput; abort_signal cancels the run; MCP SDK 2.x still opt-in). New HITL/cancel contract — does not reopen expired SIG-20260912-001 (2.9.0 resume/GCS; 2.10.0 still does not). Updated SIG-20260908-001 from FIND-20261005-002 — raised the evaluate pin from microsoft/agent-framework python-1.19.0 to python-1.20.0 (fail-closed unresolved approvals; session-scoped file access; Foundry hosting breaking). 1.19.0 cookie / ZIP / per-invocation session contract unchanged. |
 | 2026-09-28 | Opened SIG-20260928-001 from FIND-20260928-001 (Cursor 23 Sep changelog: Rollouts deploy-health monitor + Security Review exploitable-bug PR comments; Teams/Enterprise; Rollouts will not merge or roll back alone). Signal until HITL / enablement settles. Expired SIG-20260909-001 (OpenAI Agents 0.22.2), SIG-20260911-001 (Cursor Projects), and SIG-20260912-001 (Google ADK 2.9.0) on default 14-day expiry — no named-consumer pin; 0.22.3 and ADK 2.10.0 do not reopen those contracts; Rollouts is a separate last-mile surface, not a Projects re-open. |
 | 2026-09-21 | Updated SIG-20260908-001 from FIND-20260921-001 — raised the evaluate pin from microsoft/agent-framework python-1.18.0 to python-1.19.0 (explicit HTTP cookie persistence; ZIP-only MCP skill archives; per-invocation provider MCP sessions). 1.18.0 SecretString / Lab / Foundry-checkpoint contract unchanged. Expired SIG-20260903-002 (Cursor Self-Hosted Machines) and SIG-20260904-001 (LangChain 1.4.0 MCPAdapter) on default 14-day expiry — no named-consumer adoption; langchain==1.4.2 is an adapter patch, not a new contract. |
 | 2026-09-12 | Opened SIG-20260912-001 from FIND-20260912-001 (google/adk-python v2.9.0: FallbackModel failover, YAML graphs, MCP SDK 2.x opt-in; breaking failed-node resume re-run, GCS `local_file_root`, InMemory `SessionNotFoundError`; Apache-2.0; evaluate this month). Expired SIG-20260829-003 (Cursor Origin) on default 14-day expiry — no named-consumer adoption. |

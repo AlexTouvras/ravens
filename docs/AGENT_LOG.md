@@ -4,6 +4,11 @@
 
 <!-- New entries go below -->
 
+### 2026-10-05 — Muninn distill
+
+- **Built:** three knowledge notes (Power BI Authoring MCP hosted vs local; DirectQuery service authoring with a one-way Import save; THL 2–3 month development row). Three signals (ADK 2.11.0 approval/cancel; Lokki banking BI contract through 7 Oct; ApproximateDistinctCount). Raised Agent Framework pin to python-1.20.0 and Elmera watch to settlement ~23 Oct. Expired ECB/FOMC and skills-for-fabric 0.3.17. Yesterday’s inbox missing.
+- **Why:** Huginn inbox 2026-10-05 (8 findings) landed on `main`.
+
 ### 2026-10-04 — Heimdall weekly watch fill
 
 - **Built:** Four household `age-2-8w` how-tos in `watch/parenting/` (`formula-feed`, `responsive-bottle-feeding`, `breastmilk-storage`, `nipple-pain`). Sight table + `watch/README.md` refreshed. Fitness form-check / motivate URLs oEmbed-live; no labour hunt; no Slack. Left gaps: vitamin D drops (no confirmed 2–12 min public-health demo), dry cord care (GHM cord film is chlorhexidine for health workers).

@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: career
-updated: 2026-09-21
+updated: 2026-10-05
 status: active
 ---
 
@@ -16,7 +16,7 @@ FI/EU analytics, risk, BI leadership, and technology-delivery market signals for
 
 ## Active signals
 
-_(none — UPM Data & Platform Specialist and Linear Helsinki BI Analyst application deadlines passed 17 Sep)_
+- [SIG-20261005-002](../../signals/SIG-20261005-002.md) — Lokki banking BI Developer contract, Helsinki or Oulu, apply by 7 Oct 19:00
 
 ## Note index
 
@@ -29,6 +29,7 @@ _(none — UPM Data & Platform Specialist and Linear Helsinki BI Analyst applica
 
 | Date | Change |
 |------|--------|
+| 2026-10-05 | Opened SIG-20261005-002 from FIND-20261005-006 (Lokki Henkilöstöpalvelut: unnamed banking-client BI Developer contract, Power BI/SQL/testing, Helsinki or Oulu, apply by 7 Oct 19:00). Single agency ad — not knowledge, and not the warehouse-pairing note. |
 | 2026-09-21 | Expired SIG-20260825-003 (UPM Data & Platform Specialist) and SIG-20260907-002 (Linear Helsinki BI Analyst) — 17 Sep application deadlines passed with no submission/decision surfaced. |
 | 2026-09-07 | Opened SIG-20260907-002 from FIND-20260907-003 (Linear Helsinki BI Analyst — Power BI/SQL product-embedded customer reporting at a Finnish real-estate SaaS; apply by 17 Sep; distinct from the warehouse-pairing knowledge note) |
 | 2026-09-06 | Expired SIG-20260827-002 (Finnair Analytics Engineer) — 6 Sep application deadline reached with no submission/decision surfaced |
