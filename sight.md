@@ -2,7 +2,7 @@
 
 Topics Heimdall may catalog. Separate from Huginn’s `watchlist.md` on purpose — news and videos are different jobs.
 
-Last reviewed: 2026-10-04
+Last reviewed: 2026-10-11
 
 v1 domains: **fitness** and **parenting** only.
 
@@ -66,6 +66,9 @@ Current catalogued slugs (restaged 2026-09-06; filled 2026-09-13; filled 2026-09
 | responsive-bottle-feeding | `age-2-8w` | how-to — hunger cues, pace, do not force (catalogued 2026-10-04) |
 | breastmilk-storage | `age-2-8w` | how-to — handle expressed milk, then store (catalogued 2026-10-04) |
 | nipple-pain | `age-2-8w` | how-to — shallow latch, not “normal” pain (catalogued 2026-10-04) |
+| baby-sling | `age-2-8w` | how-to — TICKS airway check for a sling or carrier (catalogued 2026-10-11) |
+| baby-massage | `age-2-8w` | how-to — NHS body-area massage tutorials (catalogued 2026-10-11) |
+| hold-newborn | `age-2-8w` | how-to — Support, Safe, Secure, Sustainable (catalogued 2026-10-11) |
 
 Prefer THL, neuvola, Kela, NHS, AAP, WHO, Global Health Media. Finnish-language official clips are welcome. Skip wonder-weeks and sleep-training wars.
 

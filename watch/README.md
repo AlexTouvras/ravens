@@ -4,7 +4,7 @@ Heimdall’s video index. One note per topic. Prefer this over searching YouTube
 
 Consumers match from this catalog — see [docs/consumers.md](../docs/consumers.md). Fitness joins on `Coach library:` lines; motivate on slug; parenting on `stage`.
 
-Last updated: 2026-10-04
+Last updated: 2026-10-11
 
 | Domain | Slug | Intent | Stage | Status |
 |--------|------|--------|-------|--------|
@@ -44,5 +44,8 @@ Last updated: 2026-10-04
 | parenting | [responsive-bottle-feeding](parenting/responsive-bottle-feeding.md) | how-to | age-2-8w | active |
 | parenting | [breastmilk-storage](parenting/breastmilk-storage.md) | how-to | age-2-8w | active |
 | parenting | [nipple-pain](parenting/nipple-pain.md) | how-to | age-2-8w | active |
+| parenting | [baby-sling](parenting/baby-sling.md) | how-to | age-2-8w | active |
+| parenting | [baby-massage](parenting/baby-massage.md) | how-to | age-2-8w | active |
+| parenting | [hold-newborn](parenting/hold-newborn.md) | how-to | age-2-8w | active |
 
-Household `age-2-8w` how-tos added 2026-10-04 (formula feed, responsive bottle-feeding, breastmilk storage, nipple pain). Labour clips stay on file but were not this week’s hunt. Fitness W6 form-check and motivate slugs were oEmbed-live; no URL refresh. Vitamin D drops and dry cord care still have no catalogued clip.
+Household `age-2-8w` how-tos added 2026-10-11 (sling TICKS check, NHS baby-massage tutorials, holding a baby). Labour clips stay on file but were not this week’s hunt. Fitness W6 form-check and motivate slugs were oEmbed-live; no URL refresh. Vitamin D drops and dry cord care still have no clip that clears the 2–12 minute public-health demo gate.
