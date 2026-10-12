@@ -45,5 +45,5 @@ THL’s living rotavirus-vaccine instructions for professionals (page last updat
 ## Related
 
 - Domain hub: [parenting](./README.md)
-- Sibling: [fi-infant-rsv-bronchiolitis-same-day](./fi-infant-rsv-bronchiolitis-same-day.md), [fi-infant-crying-fever-never-shake](./fi-infant-crying-fever-never-shake.md), [luvn-neuvola-2-4w-4-6w](./luvn-neuvola-2-4w-4-6w.md)
+- Sibling: [fi-infant-dtap-ipv-hib-3-5-12m](./fi-infant-dtap-ipv-hib-3-5-12m.md), [fi-infant-rsv-bronchiolitis-same-day](./fi-infant-rsv-bronchiolitis-same-day.md), [fi-infant-crying-fever-never-shake](./fi-infant-crying-fever-never-shake.md), [luvn-neuvola-2-4w-4-6w](./luvn-neuvola-2-4w-4-6w.md)
 - Consumer hint: household neuvola rotavirus timing

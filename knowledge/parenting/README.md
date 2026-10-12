@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: parenting
-updated: 2026-10-05
+updated: 2026-10-12
 status: active
 ---
 
@@ -30,6 +30,7 @@ Durable notes for household to read (not a week-plan):
 - Crying typically rises from 2 weeks to about 1½ months; fever under 2 months always needs a doctor; never shake — [fi-infant-crying-fever-never-shake](./fi-infant-crying-fever-never-shake.md)
 - Infant bronchiolitis is usually RSV; under-6-month (especially under 3 months) feeding **and** breathing trouble is same-day care — [fi-infant-rsv-bronchiolitis-same-day](./fi-infant-rsv-bronchiolitis-same-day.md)
 - Rotavirus first oral dose from **6 weeks** and **before 12 weeks**; usual series **2, 3 and 5 months**; do not repeat a regurgitated dose — [fi-infant-rotavirus-2-3-5m](./fi-infant-rotavirus-2-3-5m.md)
+- Five-in-one (DTaP-IPV-Hib) at **3, 5 and 12 months**; an earlier start is only if the series must move up — [fi-infant-dtap-ipv-hib-3-5-12m](./fi-infant-dtap-ipv-hib-3-5-12m.md)
 - Short supervised awake tummy time (chest/lap, then floor) — [fi-infant-tummy-time](./fi-infant-tummy-time.md)
 - Sleep is still 2–4 hour stretches; night/day split waits for ~3 months — [fi-infant-sleep-2-4h-stretches](./fi-infant-sleep-2-4h-stretches.md)
 - Established milk supply does not stop suddenly; frequent feeds restore it in 1–2 days; wait on a dummy until latch and weight are rising — [fi-infant-milk-supply-dummy](./fi-infant-milk-supply-dummy.md)
@@ -57,7 +58,7 @@ Related, other domains: infant feeding-safety here, not `food/`; postpartum acti
 
 ## Active signals
 
-- [SIG-20260906-001](../../signals/SIG-20260906-001.md) — AAP tummy-time 15–30 min/day by 7 weeks (US volume; expire 8 Oct)
+_(none)_
 
 ## Note index
 
@@ -67,6 +68,7 @@ Related, other domains: infant feeding-safety here, not `food/`; postpartum acti
 | fi-infant-crying-fever-never-shake | Finland — crying rises from 2 weeks to ~1½ months; fever under 2 months always needs a doctor | 2026-09-06 | active |
 | fi-infant-rsv-bronchiolitis-same-day | Finland — infant bronchiolitis is usually RSV; under-3-month feeding or breathing trouble is same-day care | 2026-09-21 | active |
 | fi-infant-rotavirus-2-3-5m | Finland — rotavirus first dose from 6 weeks and before 12 weeks; series at 2, 3 and 5 months | 2026-09-28 | active |
+| fi-infant-dtap-ipv-hib-3-5-12m | Finland — five-in-one (DTaP-IPV-Hib) at 3, 5 and 12 months | 2026-10-12 | active |
 | fi-infant-tummy-time | Finland — start short awake tummy time; chest or lap first, then the floor | 2026-09-06 | active |
 | fi-infant-sleep-2-4h-stretches | Finland — week-3 sleep is still 2–4 hour stretches | 2026-09-06 | active |
 | fi-infant-milk-supply-dummy | Finland — established milk supply does not stop suddenly; wait on a dummy until weight is rising | 2026-09-08 | active |
@@ -105,6 +107,7 @@ Related, other domains: infant feeding-safety here, not `food/`; postpartum acti
 
 | Date | Change |
 |------|--------|
+| 2026-10-12 | Promoted KNOW-parenting-fi-infant-dtap-ipv-hib-3-5-12m from FIND-20261012-007 (THL: injectable five-in-one at 3, 5 and 12 months; fallback gaps 2 months then 4 months; accelerated start from 6 weeks only if the series must move up, third dose still at 12 months; defer fever). Schedule only — not a home-injection protocol, not the oral rotavirus 2/3/5-month note, and not stem-cell or neurology clinician gates. Current stage unchanged. Expired SIG-20260906-001 (AAP tummy-time 15–30 min by 7 weeks) — 8 Oct window passed; US minute quota stays off the Finnish tummy-time note. |
 | 2026-10-05 | Promoted KNOW-parenting-thl-2-3-month-development from FIND-20261005-007 (Terveyskirjasto/THL table: 2–3 month intentional smile, cooing, head support when lying, two-handed grasp, turn toward sound; deviations common; corrected age for preterm). Next row after the 0–1 month note — not a week-plan, not the 4–6 month row, Current stage unchanged. |
 | 2026-09-28 | Promoted KNOW-parenting-fi-infant-rotavirus-2-3-5m from FIND-20260928-002 (THL: oral RotaTeq; first dose from 6 weeks and before 12.0 weeks; usual series 2, 3 and 5 months; third dose before 32.0 weeks; do not repeat a regurgitated dose). Timing / oral / no-repeat rule only — not a home-administration protocol, not the RSV same-day-care note, and not preterm / maternal-biologic / Kawasaki clinician gates. |
 | 2026-09-21 | Promoted KNOW-parenting-fi-infant-rsv-bronchiolitis-same-day from FIND-20260921-003 (Terveyskirjasto/Duodecim: bronchiolitis usually RSV; under-6-month / especially under-3-month feeding and breathing trouble is always same-day assessment). RSV / same-day-care rule only — not the under-2-month fever / never-shake note, not hospital mucus-clearing as DIY, and not the page’s still-unrecommended RSV vaccine / antibody products. Expired SIG-20260905-003 (AAP 1-month visit) — Child born + 4 weeks (20 Sep) passed; US ½ lb/week stays off the Finnish gain note. |

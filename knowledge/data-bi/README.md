@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: data-bi
-updated: 2026-10-05
+updated: 2026-10-12
 status: active
 ---
 
@@ -18,6 +18,9 @@ Microsoft Fabric, Power BI / PBIR, semantic models, and analytics patterns used 
 - New reports start on the Fluent 2 base theme by default; use the Theme pane (GA) for base theme, palette, text, and visual/page property changes, and audit existing templates against the new default before the next board — [theme-pane-fluent2-default-ga](./theme-pane-fluent2-default-ga.md)
 - Author semantic models with one Power BI Authoring MCP deployment: hosted preview for Fabric workspace models, local for Desktop, PBIP, service principals, transactions, and traces — do not register both — [powerbi-authoring-mcp-hosted-vs-local](./powerbi-authoring-mcp-hosted-vs-local.md)
 - DirectQuery models can be authored in the service, except SAP HANA (relational), cubes, and Blank Query; an Import save in the web editor does not switch back — [directquery-service-authoring-one-way](./directquery-service-authoring-one-way.md)
+- Power BI Desktop from March 2026 or earlier cannot save or share to OneDrive or SharePoint from October 2026; update Desktop, and do not use a personal OneDrive account — [desktop-onedrive-save-post-march-2026](./desktop-onedrive-save-post-march-2026.md)
+- Read-only Copilot and Microsoft MCP access to a semantic model stays on until a write owner turns the model setting off — [copilot-readonly-mcp-default-on](./copilot-readonly-mcp-default-on.md)
+- Save a DAX calculation contract before an assistant writes the measure; validate the DAX before production — [dax-contract-before-ai-measure](./dax-contract-before-ai-measure.md)
 
 ## Active signals
 
@@ -34,11 +37,15 @@ Microsoft Fabric, Power BI / PBIR, semantic models, and analytics patterns used 
 | theme-pane-fluent2-default-ga | Theme pane and the Fluent 2 default theme are GA | 2026-08-29 | active |
 | powerbi-authoring-mcp-hosted-vs-local | Power BI Authoring MCP — hosted for Fabric models, local for Desktop and PBIP | 2026-10-05 | active |
 | directquery-service-authoring-one-way | DirectQuery models can be authored in the service; an Import save does not switch back | 2026-10-05 | active |
+| desktop-onedrive-save-post-march-2026 | Power BI Desktop from March 2026 or earlier cannot save to OneDrive or SharePoint | 2026-10-12 | active |
+| copilot-readonly-mcp-default-on | Read-only Copilot and Microsoft MCP access stays on until a write owner turns it off | 2026-10-12 | active |
+| dax-contract-before-ai-measure | Write the DAX calculation contract before an assistant writes the measure | 2026-10-12 | active |
 
 ## Changelog
 
 | Date | Change |
 |------|--------|
+| 2026-10-12 | Promoted KNOW-data-bi-desktop-onedrive-save-post-march-2026 from FIND-20261012-003 (Microsoft Learn: from October 2026, Desktop builds from March 2026 or earlier lose OneDrive/SharePoint save and share; .PBIX only; personal OneDrive unsupported). Promoted KNOW-data-bi-copilot-readonly-mcp-default-on from FIND-20261012-004 (Microsoft Learn: read-only Copilot and Microsoft MCP access is on until a write owner disables the model setting; not the authoring-MCP deployment choice). Promoted KNOW-data-bi-dax-contract-before-ai-measure from FIND-20261012-005 (SQLBI 5 Oct 2026: save the calculation contract before the assistant writes the measure; validate before production; not the UDF regression-test note). |
 | 2026-10-05 | Promoted KNOW-data-bi-powerbi-authoring-mcp-hosted-vs-local from FIND-20261005-003 (Microsoft Learn: hosted preview authoring MCP for Fabric workspace models; local required for Desktop, PBIP/TMDL, service principal, transactions, and traces; do not register both; macOS uses hosted). Promoted KNOW-data-bi-directquery-service-authoring-one-way from FIND-20261005-004 (Microsoft Learn: author DirectQuery in the service except SAP HANA relational, cubes, and Blank Query; web editor Import save does not switch back). Opened SIG-20261005-003 from FIND-20261005-005 (Chris Webb: ApproximateDistinctCount on Import and Direct Lake; one-model ~1.6% gap; exact switch stays). Expired SIG-20260907-001 (skills-for-fabric 0.3.17) on its 2026-10-05 expiry — inbox noted v0.3.18 is not a new install contract; no consumer pin. |
 | 2026-09-21 | Updated SIG-20260907-001 from FIND-20260921-002 — raised the evaluate pin from microsoft/skills-for-fabric v0.3.16 to v0.3.17 (`powerbi-report-cli` merge of the four report skills; FabricIQ host/header move; `ResolveFabricItem`). 0.3.16 single-skill APM / Azure CLI reuse still in the evaluate set. |
 | 2026-09-13 | Expired SIG-20260830-003 (Power BI Copilot bookmark-hidden visuals) on default 14-day expiry — no report check and no durable authoring rule. |

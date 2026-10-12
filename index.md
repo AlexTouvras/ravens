@@ -14,7 +14,7 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 | Security | [knowledge/security/](knowledge/security/) | JARVIS, ProjectBrain, Ledger, careerops, ravens |
 | Content | [knowledge/content/](knowledge/content/) | Orbit Writes / Signals |
 
-## Active notes (2026-10-05)
+## Active notes (2026-10-12)
 
 | Domain | Note | Confidence |
 |--------|------|------------|
@@ -27,6 +27,9 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 | data-bi | [theme-pane-fluent2-default-ga](knowledge/data-bi/theme-pane-fluent2-default-ga.md) | high |
 | data-bi | [powerbi-authoring-mcp-hosted-vs-local](knowledge/data-bi/powerbi-authoring-mcp-hosted-vs-local.md) | high |
 | data-bi | [directquery-service-authoring-one-way](knowledge/data-bi/directquery-service-authoring-one-way.md) | high |
+| data-bi | [desktop-onedrive-save-post-march-2026](knowledge/data-bi/desktop-onedrive-save-post-march-2026.md) | high |
+| data-bi | [copilot-readonly-mcp-default-on](knowledge/data-bi/copilot-readonly-mcp-default-on.md) | high |
+| data-bi | [dax-contract-before-ai-measure](knowledge/data-bi/dax-contract-before-ai-measure.md) | medium |
 | career | [uk-ddat-data-role-language](knowledge/career/uk-ddat-data-role-language.md) | high |
 | career | [fi-warehouse-powerbi-pairing](knowledge/career/fi-warehouse-powerbi-pairing.md) | medium |
 | food | [fi-pregnancy-fish-limits](knowledge/food/fi-pregnancy-fish-limits.md) | high |
@@ -59,6 +62,7 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 | parenting | [fi-infant-crying-fever-never-shake](knowledge/parenting/fi-infant-crying-fever-never-shake.md) | high |
 | parenting | [fi-infant-rsv-bronchiolitis-same-day](knowledge/parenting/fi-infant-rsv-bronchiolitis-same-day.md) | high |
 | parenting | [fi-infant-rotavirus-2-3-5m](knowledge/parenting/fi-infant-rotavirus-2-3-5m.md) | high |
+| parenting | [fi-infant-dtap-ipv-hib-3-5-12m](knowledge/parenting/fi-infant-dtap-ipv-hib-3-5-12m.md) | high |
 | parenting | [fi-infant-tummy-time](knowledge/parenting/fi-infant-tummy-time.md) | high |
 | parenting | [fi-infant-sleep-2-4h-stretches](knowledge/parenting/fi-infant-sleep-2-4h-stretches.md) | high |
 | parenting | [fi-infant-milk-supply-dummy](knowledge/parenting/fi-infant-milk-supply-dummy.md) | high |
@@ -83,4 +87,4 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 
 ## Latest inbox
 
-See `inbox/` for dated raw scans. Latest live: [inbox/2026-10-05.md](inbox/2026-10-05.md). Fixtures live under `examples/` and must not be treated as live data.
+See `inbox/` for dated raw scans. Latest live: [inbox/2026-10-12.md](inbox/2026-10-12.md). Fixtures live under `examples/` and must not be treated as live data.

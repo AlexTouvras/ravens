@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: security
-updated: 2026-09-10
+updated: 2026-10-12
 status: active
 ---
 
@@ -15,7 +15,7 @@ Secrets, auth, privacy, and local-vs-cloud handling for named consumers (JARVIS,
 
 ## Active signals
 
-_(none)_
+- [SIG-20261012-003](../../signals/SIG-20261012-003.md) — Cursor remote control of local agents is on by default outside Enterprise
 
 ## Note index
 
@@ -27,6 +27,7 @@ _(none)_
 
 | Date | Change |
 |------|--------|
+| 2026-10-12 | Opened SIG-20261012-003 from FIND-20261012-008 (Cursor changelog 6 Oct: Remote Control of local agents is on by default except Enterprise; the agent stays on the computer; pairing needs desktop approval). Changelog default — signal until a disable decision or a durable prefer/avoid rule. Not folded into the github-mcp pin. |
 | 2026-09-10 | Expired SIG-20260827-003 (Anthropic unified Claude memory) on default 14-day expiry — no ProjectBrain/JARVIS memory-design decision. |
 | 2026-09-09 | Updated KNOW-security-github-mcp-server-min-version from FIND-20260909-003 — raised the adoption pin from v1.12.0+ to v1.12.1+ (OAuth protected-resource metadata advertised extra scopes on 1.12.0; 1.12.1 advertises only default scopes). Write-safety / ruleset-tool contract from 1.12.0 is unchanged. |
 | 2026-09-05 | Expired SIG-20260822-002 (BRIDGEHEAD npm typosquat) on default 14-day expiry with no named-consumer exposure and no durable lockfile/allowlist rule. |
