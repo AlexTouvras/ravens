@@ -4,7 +4,7 @@ Heimdall’s video index. One note per topic. Prefer this over searching YouTube
 
 Consumers match from this catalog — see [docs/consumers.md](../docs/consumers.md). Fitness joins on `Coach library:` lines; motivate on slug; parenting on `stage`.
 
-Last updated: 2026-10-11
+Last updated: 2026-10-18
 
 | Domain | Slug | Intent | Stage | Status |
 |--------|------|--------|-------|--------|
@@ -47,5 +47,11 @@ Last updated: 2026-10-11
 | parenting | [baby-sling](parenting/baby-sling.md) | how-to | age-2-8w | active |
 | parenting | [baby-massage](parenting/baby-massage.md) | how-to | age-2-8w | active |
 | parenting | [hold-newborn](parenting/hold-newborn.md) | how-to | age-2-8w | active |
+| parenting | [infant-car-seat](parenting/infant-car-seat.md) | how-to | age-2-8w | active |
+| parenting | [carry-infant-carrier](parenting/carry-infant-carrier.md) | how-to | age-2-8w | active |
+| parenting | [baby-carry-positions](parenting/baby-carry-positions.md) | how-to | age-2-8w | active |
+| parenting | [baby-handling](parenting/baby-handling.md) | how-to | age-2-8w | active |
+| parenting | [blocked-nose](parenting/blocked-nose.md) | how-to | age-2-8w | active |
+| parenting | [breast-compressions](parenting/breast-compressions.md) | how-to | age-2-8w | active |
 
-Household `age-2-8w` how-tos added 2026-10-11 (sling TICKS check, NHS baby-massage tutorials, holding a baby). Labour clips stay on file but were not this week’s hunt. Fitness W6 form-check and motivate slugs were oEmbed-live; no URL refresh. Vitamin D drops and dry cord care still have no clip that clears the 2–12 minute public-health demo gate.
+Household `age-2-8w` how-tos added 2026-10-18 (Liikenneturva rear-facing carrier, LUVN carrier lift and arm carries, Väestöliitto side lift, UC Davis nose suction, Kent NHS breast compressions). Labour clips stay on file but were not this week’s hunt. Fitness W6 form-check and motivate slugs were oEmbed-live; no URL refresh. Vitamin D drops, dry cord care, and nail cutting still have no clip that clears the 2–12 minute public-health demo gate.
