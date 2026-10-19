@@ -8,17 +8,22 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 |----|--------|-------|----------|---------|
 | [SIG-20260822-004](./SIG-20260822-004.md) | finance | Fortum Elmera tender — offer expired 2 Oct at 91.61%; settlement expected about 23 Oct | p2 | 2026-10-23 |
 | [SIG-20260905-001](./SIG-20260905-001.md) | finance | Terveystalo completed Hohde on 4 Sep; Emal clinic sales still due October | p2 | 2026-10-31 |
-| [SIG-20260908-001](./SIG-20260908-001.md) | ai-agents | Microsoft Agent Framework Python 1.21.0 — tool-agent session isolation; full-buffer Purview | p2 | 2026-10-26 |
-| [SIG-20260928-001](./SIG-20260928-001.md) | ai-agents | Cursor Rollouts and Security Review — Teams/Enterprise last-mile PR bots; no auto-merge | p2 | 2026-10-12 |
+| [SIG-20260908-001](./SIG-20260908-001.md) | ai-agents | Microsoft Agent Framework Python 1.22.0 — persisted content breaks pre-1.22 readers | p2 | 2026-11-02 |
 | [SIG-20261005-001](./SIG-20261005-001.md) | ai-agents | Google ADK Python 2.11.0 — workflow tools pause for approval; abort_signal cancels the run | p2 | 2026-10-19 |
 | [SIG-20261005-003](./SIG-20261005-003.md) | data-bi | ApproximateDistinctCount on Import and Direct Lake — keep an exact distinct-count switch | p2 | 2026-10-19 |
 | [SIG-20261012-001](./SIG-20261012-001.md) | ai-agents | Pydantic AI 2.55.0 — Python 3.11 floor; stable durable run id | p2 | 2026-10-26 |
 | [SIG-20261012-002](./SIG-20261012-002.md) | career | UPM Senior Specialist, Global Portfolio, Helsinki — apply by 20 Oct | p1 | 2026-10-20 |
 | [SIG-20261012-003](./SIG-20261012-003.md) | security | Cursor remote control of local agents is on by default outside Enterprise | p2 | 2026-10-26 |
 | [SIG-20261012-004](./SIG-20261012-004.md) | finance | Sensofusion (SENSO) Main Market trading starts 13 Oct; offer price EUR 16.41 | p2 | 2026-10-20 |
+| [SIG-20261019-001](./SIG-20261019-001.md) | ai-agents | Pydantic AI 2.57.0 — ApprovalReviewer can clear low-risk tool calls before a person | p2 | 2026-11-02 |
+| [SIG-20261019-002](./SIG-20261019-002.md) | data-bi | Power BI Gantt visual is in preview — 1,000-row cap; blank End is a milestone | p2 | 2026-11-02 |
+| [SIG-20261019-003](./SIG-20261019-003.md) | career | DigiHelsinki Senior Data and Reporting Specialist, Helsinki — apply by 1 Nov | p1 | 2026-11-01 |
+| [SIG-20261019-004](./SIG-20261019-004.md) | parenting | LUVN — close contacts of someone especially susceptible to severe influenza book December | p2 | 2026-12-31 |
+| [SIG-20261019-005](./SIG-20261019-005.md) | finance | Digitalist cuts 2026 EBITDA guidance — turnover and EBITDA both expected to fall | p2 | 2026-10-30 |
 
 Archived (expired/dropped/promoted):
 
+- [SIG-20260928-001](./SIG-20260928-001.md) — Cursor Rollouts and Security Review, expired 2026-10-19 (12 Oct window passed; no named-consumer enablement)
 - [SIG-20261005-002](./SIG-20261005-002.md) — Lokki banking BI Developer contract, expired 2026-10-12 (7 Oct 19:00 deadline passed)
 - [SIG-20260906-001](./SIG-20260906-001.md) — AAP tummy-time 15–30 min/day by 7 weeks, expired 2026-10-12 (8 Oct window passed; US quota stays off the Finnish note)
 - [SIG-20260907-001](./SIG-20260907-001.md) — microsoft/skills-for-fabric 0.3.17, expired 2026-10-05 (no named-consumer pin; 0.3.18 is not a new install contract)

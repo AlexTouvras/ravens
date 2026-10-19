@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: parenting
-updated: 2026-10-12
+updated: 2026-10-19
 status: active
 ---
 
@@ -58,7 +58,7 @@ Related, other domains: infant feeding-safety here, not `food/`; postpartum acti
 
 ## Active signals
 
-_(none)_
+- [SIG-20261019-004](../../signals/SIG-20261019-004.md) — LUVN: close contacts of someone especially susceptible to severe influenza book December (injectable delay only)
 
 ## Note index
 
@@ -107,6 +107,7 @@ _(none)_
 
 | Date | Change |
 |------|--------|
+| 2026-10-19 | Opened SIG-20261019-004 from FIND-20261019-005 (LUVN 12 Oct 2026: close contacts of someone especially susceptible to severe influenza book December; existing bookings stay; delay is the injectable vaccine; nasal spray for 2–6-year-olds unaffected). This season’s booking window — not the rotavirus 2/3/5-month note and not the five-in-one 3/5/12-month note. Current stage unchanged. |
 | 2026-10-12 | Promoted KNOW-parenting-fi-infant-dtap-ipv-hib-3-5-12m from FIND-20261012-007 (THL: injectable five-in-one at 3, 5 and 12 months; fallback gaps 2 months then 4 months; accelerated start from 6 weeks only if the series must move up, third dose still at 12 months; defer fever). Schedule only — not a home-injection protocol, not the oral rotavirus 2/3/5-month note, and not stem-cell or neurology clinician gates. Current stage unchanged. Expired SIG-20260906-001 (AAP tummy-time 15–30 min by 7 weeks) — 8 Oct window passed; US minute quota stays off the Finnish tummy-time note. |
 | 2026-10-05 | Promoted KNOW-parenting-thl-2-3-month-development from FIND-20261005-007 (Terveyskirjasto/THL table: 2–3 month intentional smile, cooing, head support when lying, two-handed grasp, turn toward sound; deviations common; corrected age for preterm). Next row after the 0–1 month note — not a week-plan, not the 4–6 month row, Current stage unchanged. |
 | 2026-09-28 | Promoted KNOW-parenting-fi-infant-rotavirus-2-3-5m from FIND-20260928-002 (THL: oral RotaTeq; first dose from 6 weeks and before 12.0 weeks; usual series 2, 3 and 5 months; third dose before 32.0 weeks; do not repeat a regurgitated dose). Timing / oral / no-repeat rule only — not a home-administration protocol, not the RSV same-day-care note, and not preterm / maternal-biologic / Kawasaki clinician gates. |

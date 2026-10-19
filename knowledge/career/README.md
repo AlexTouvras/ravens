@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: career
-updated: 2026-10-12
+updated: 2026-10-19
 status: active
 ---
 
@@ -17,6 +17,7 @@ FI/EU analytics, risk, BI leadership, and technology-delivery market signals for
 ## Active signals
 
 - [SIG-20261012-002](../../signals/SIG-20261012-002.md) — UPM Senior Specialist, Global Portfolio, Helsinki, apply by 20 Oct
+- [SIG-20261019-003](../../signals/SIG-20261019-003.md) — DigiHelsinki Senior Data and Reporting Specialist, Helsinki, apply by 1 Nov
 
 ## Note index
 
@@ -29,6 +30,7 @@ FI/EU analytics, risk, BI leadership, and technology-delivery market signals for
 
 | Date | Change |
 |------|--------|
+| 2026-10-19 | Opened SIG-20261019-003 from FIND-20261019-004 (MPS / laura.fi: DigiHelsinki Senior Data- ja raportointiasiantuntija, Helsinki, permanent, hybrid Vallila, Power BI and semantic models, apply by 1 Nov 2026). Single named-employer ad — not knowledge, and not the warehouse-pairing note. |
 | 2026-10-12 | Opened SIG-20261012-002 from FIND-20261012-006 (UPM Workday NB6026861: Senior Specialist, Global Portfolio, Helsinki, Oracle Cloud + Power BI, apply by 20 Oct 2026). Single named-employer ad — not knowledge, and not the warehouse-pairing note. Expired SIG-20261005-002 (Lokki banking BI contract) — 7 Oct 19:00 deadline passed with no submission surfaced. |
 | 2026-10-05 | Opened SIG-20261005-002 from FIND-20261005-006 (Lokki Henkilöstöpalvelut: unnamed banking-client BI Developer contract, Power BI/SQL/testing, Helsinki or Oulu, apply by 7 Oct 19:00). Single agency ad — not knowledge, and not the warehouse-pairing note. |
 | 2026-09-21 | Expired SIG-20260825-003 (UPM Data & Platform Specialist) and SIG-20260907-002 (Linear Helsinki BI Analyst) — 17 Sep application deadlines passed with no submission/decision surfaced. |
