@@ -46,7 +46,7 @@ Rewrites `data/library/exercise_videos.json` from live `watch/fitness/*.md`. Clo
 | mealplan | `knowledge/food/`, `knowledge/fitness/` |
 | fitness coach | `knowledge/fitness/`, `watch/fitness/` (form-check + motivate) |
 | household (parenting) | `knowledge/parenting/` (filter by age-bucket / `stage`; week-plans live in the household project), `watch/parenting/` |
-| Ledger | `knowledge/finance/`, `knowledge/security/` |
+| Ledger | `knowledge/finance/`, `knowledge/security/`, finance signals (catalysts and stock-setup tags) |
 | JARVIS / ProjectBrain | `knowledge/ai-agents/`, `knowledge/security/` |
 | Orbit Writes / Signals | `knowledge/content/`, high-priority signals |
 
@@ -60,6 +60,6 @@ Rewrites `data/library/exercise_videos.json` from live `watch/fitness/*.md`. Clo
 
 - Paths under `docs/contracts/` are versioned; consumers should key off `schema:` frontmatter.
 - Domain folder names are stable: `ai-agents`, `data-bi`, `career`, `food`, `fitness`, `parenting`, `finance`, `security`, `content`.
-- A domain may leave the daily watchlist without deleting its hub. `food/` is existing notes only; Huginn does not scan it.
+- A domain may leave the weekly watchlist without deleting its hub. `food/` is existing notes only; Huginn does not scan it.
 - Inbox is **not** a public API — may be noisy; Muninn output is the API.
 - `watch/` **is** the public video API — stable slugs and `WATCH-` ids; URL may refresh, id must not.

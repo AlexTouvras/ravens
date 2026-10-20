@@ -4,7 +4,7 @@
 
 ## Overview
 
-Ravens is a shared markdown knowledge vault with versioned contracts. **Huginn** (08:00 Europe/Helsinki) scans the web against `watchlist.md` and writes `inbox/YYYY-MM-DD.md`. **Muninn** runs when that inbox lands on `main` (GitHub push, subject `huginn:`) and applies a quality rubric to produce durable `knowledge/<domain>/` notes and time-bounded `signals/`. **Heimdall** maintains a YouTube video catalog in `watch/` from `sight.md` (fitness form + parenting how-tos). Git is the database for v1; MCP/DB are documented extension seams only.
+Ravens is a shared markdown knowledge vault with versioned contracts. **Huginn** (Monday 19:00 Europe/Helsinki, cron `0 16 * * 1` UTC) scans the web against `watchlist.md` and writes `inbox/YYYY-MM-DD.md`. **Muninn** runs when that inbox lands on `main` (GitHub push, subject `huginn:`) and applies a quality rubric to produce durable `knowledge/<domain>/` notes and time-bounded `signals/`. A Monday 20:00 Helsinki cron (`0 17 * * 1` UTC) retries only if that push was missed. **Heimdall** maintains a YouTube video catalog in `watch/` from `sight.md` (fitness form + parenting how-tos). Git is the database for v1; MCP/DB are documented extension seams only.
 
 ## Data shapes
 
@@ -22,7 +22,7 @@ Ravens is a shared markdown knowledge vault with versioned contracts. **Huginn**
 
 ## Design patterns
 
-- Two ravens, two runs — Huginn on cron; Muninn on Huginn’s `huginn:` push to `main` (09:00 cron is a retry if HEAD is still `huginn:`)
+- Two ravens, two runs — Huginn on a weekly Monday cron; Muninn on Huginn’s `huginn:` push to `main` (Monday 20:00 Helsinki cron is a retry if HEAD is still `huginn:`)
 - Heimdall is a third agent, not a third raven — video catalog in `watch/`; YouTube search; Instagram/TikTok paste-only; **no Slack** — consumers match clips from `watch/` on `main`
 - Contracts before content — schemas in `docs/contracts/`
 - Promote via rubric — drop / signal / knowledge (`docs/quality.md`)
@@ -69,3 +69,5 @@ See `README.md` quick map and `docs/architecture/overview.md`.
 | 2026-09-05 | Parenting scans follow **week of life** from `Child born` (2026-08-20) | Generic newborn / late-pregnancy queries were still running after birth. Huginn searches this week + next (plan ingredients); fitness uses the same number as postpartum week. Espoo neuvola is LUVN, not HUS. Muninn keeps a living `knowledge/parenting/coming-week.md` packing list. |
 | 2026-09-06 | Week-of-life is a **parenting query shape**, not Huginn’s whole scan | 2026-09-06 Slack read as baby-only; inbox still listed empty domains. Standing prompt + playbook now lead with every watchlist domain; skipping non-parenting searches is `partial`. |
 | 2026-09-06 | **Week-of-life planning is out of ravens** | Ravens gathers for named consumers. Household (and any week-of-life planner) reads `knowledge/parenting/` and `watch/parenting/` by age-bucket. Huginn does not compute week of life or write a packing list. `coming-week` superseded. |
+| 2026-10-20 | Watchlist section `stocks` files into `finance` | Mid/long Nordnet setups (fear dip, fundamentals ahead of price, forced selling, compounder on sale, trough treated as permanent, mix shift, owner earnings, balance-sheet floor). Own scan cap of 2. Signals only; no “own this ticker” knowledge. Separate from the weeks–months catalyst lane so catalysts do not crowd it out. |
+| 2026-10-20 | Huginn and Muninn are weekly, not daily | Live crons: Huginn `0 16 * * 1` UTC, Muninn retry `0 17 * * 1` UTC (Monday 19:00 and 20:00 Europe/Helsinki while UTC+3). News window is 7 days. Finding caps are per run. Heimdall stays Sunday. |

@@ -4,7 +4,7 @@
 **Producer:** Heimdall  
 **Consumers:** Humans, fitness coach (read-only), household. Muninn does not distill these. Heimdall does **not** Slack — consumers match from `watch/` on `main` (see `docs/consumers.md`).
 
-One note per topic (a lift, a parenting how-to). This is a catalog, not a daily inbox. Prefer updating the existing slug over adding a second clip for the same movement.
+One note per topic (a lift, a parenting how-to). This is a catalog, not Huginn’s weekly inbox. Prefer updating the existing slug over adding a second clip for the same movement.
 
 ## Consumer hooks (required for matching)
 

@@ -1,13 +1,15 @@
 # Operations runbook
 
-## Daily rhythm (Europe/Helsinki)
+## Weekly rhythm
+
+Automations store UTC. Europe/Helsinki is three hours ahead until the autumn clock change, then two.
 
 | Time | Agent | Expectation |
 |------|-------|-------------|
-| 08:00 | Huginn | `inbox/YYYY-MM-DD.md` committed to `main` |
-| on that push | Muninn | knowledge/signals/index updated from last 48h inbox |
-| 09:00 | Muninn (retry) | Runs only if HEAD is still `huginn:` (push trigger missed) |
-| weekly / on-demand | Heimdall | `watch/` notes on `main`; consumers match by slug / Coach library / stage |
+| Monday 19:00 Helsinki (`0 16 * * 1` UTC) | Huginn | `inbox/YYYY-MM-DD.md` committed to `main`. News window is about the last 7 days. |
+| on that push | Muninn | knowledge/signals/index updated from that inbox |
+| Monday 20:00 Helsinki (`0 17 * * 1` UTC) | Muninn (retry) | Runs only if HEAD is still `huginn:` (push trigger missed) |
+| Sunday 10:00 Helsinki (`0 7 * * 0` UTC) / on-demand | Heimdall | `watch/` notes on `main`; consumers match by slug / Coach library / stage |
 
 Cloud Agent compute must be enabled in the [Cloud Agents dashboard](https://cursor.com/dashboard?tab=cloud-agents).
 
@@ -26,7 +28,7 @@ Must exit 0 before calling the foundation “healthy”. After each automation l
 | Symptom | Likely cause | Action |
 |---------|--------------|--------|
 | No inbox file | Huginn failed or cron/tz misconfigured | Check automation run log; run Huginn manually |
-| Run history **Failed <1m** / Rate limited | Team concurrent cloud-agent cap at 06:00/07:00 pileup | Test-run after the wave; keep Huginn after 08:00, not on the 06:00/07:00 hour |
+| Run history **Failed <1m** / Rate limited | Team concurrent cloud-agent cap when many jobs share an hour | Test-run after the wave; keep Huginn on its Monday evening cron, not on a crowded morning hour |
 | Run history **Failed ~3m** / usage or spend limit | Cloud agent owner hit a Cursor usage cap | Open the run summary; Manage settings / wait for reset; then Test-run Muninn |
 | Inbox on `cursor/*` branch, not `main` | Cloud agent branched instead of pushing `main` | Cherry-pick onto `main` (Muninn's push trigger needs `huginn:` on `main`); confirm Open PR tool is off |
 | Inbox on `main` but no Muninn commit | Push trigger missed, or playbook aborted a non-`huginn:` HEAD | Check Muninn run history; Test-run Muninn |

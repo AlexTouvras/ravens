@@ -41,7 +41,7 @@ summary: "One sentence: what mattered today."
 - **source_url:** https://…
 - **source_title:** Publisher or page title
 - **published:** YYYY-MM-DD or unknown
-- **corroboration_url:** (optional; required before Muninn promotes finance opportunity/macro items)
+- **corroboration_url:** (optional; required before Muninn promotes finance opportunity/macro items and stock setups)
 - **found_at:** YYYY-MM-DDTHH:MM:SS+03:00
 - **confidence:** high | medium | low
 - **novelty:** new | update | rumor
@@ -66,7 +66,7 @@ Preferred-source families that failed, timed out, or were paywalled. `none` if t
 
 ## ID scheme
 
-`FIND-YYYYMMDD-NNN` — zero-padded sequence per day across all domains (001, 002, …).
+`FIND-YYYYMMDD-NNN` — zero-padded sequence per inbox file across all domains (001, 002, …).
 
 ## Minimum bar
 
@@ -75,3 +75,5 @@ Huginn may leave a domain empty. It must **not** invent sources. Prefer fewer hi
 Journalism items need a parseable `published` date inside Gate 0. Living official docs may use `published: unknown` (see `docs/quality.md`).
 
 Parenting findings should include exactly one age-bucket tag (`late-pregnancy`, `labor`, `age-0-72h`, `age-3-14d`, `age-2-8w`, or `age-2-6m`) from the **source’s** age range, and `why_it_matters` must name **household**. Do not require `week-N` or a **Parenting week** block (week-of-life planning is out of ravens’ scope). Existing inbox files that still have that block remain valid.
+
+Stock-setup findings (watchlist section `stocks`) use `domain: finance` and exactly one setup topic from that section. `stocks` may appear under **Empty domains**. It is not a `knowledge/` folder.

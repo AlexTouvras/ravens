@@ -26,6 +26,6 @@ Do not claim the foundation is healthy unless verify exits 0.
 - Do not add a database or MCP server without an explicit decision recorded in `.state/ARCHITECTURE.md`.
 - Prefer updating knowledge notes over duplicating them.
 - Video form/how-to clips live in `watch/`, not in Huginn’s inbox. Heimdall does not Slack — portfolio projects match clips from `watch/` (see `docs/consumers.md`).
-- Empty high-quality days beat noisy digests.
+- A quiet weekly run beats a noisy digest.
 - Cite the publisher page in `source_url`, not an aggregator (Google News, World Monitor, RSS-reader hosts). No world-news domain.
 - Do not compute week of life or write a household week-plan. Ravens gathers; other projects plan.

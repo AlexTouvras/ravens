@@ -3,7 +3,7 @@
 > Repo-scoped contract for Cursor Automations and other headless agent runs.
 > IDE agents use the same `.state/` files plus optional ProjectBrain MCP.
 
-**Last updated:** 2026-09-05
+**Last updated:** 2026-10-20
 
 ## Runtime
 
@@ -19,15 +19,15 @@
 
 | Name | Trigger | Output | Human gate | URL |
 |------|---------|--------|------------|-----|
-| Huginn | Daily 08:00 | `#ravens` + `inbox/YYYY-MM-DD.md` | review inbox | https://cursor.com/automations/732cacfb-955c-11f1-ba66-0e7d0216e441 |
-| Muninn | GitHub push `huginn:` | `#ravens` knowledge signals | review signals | https://cursor.com/automations/c9afc8b1-955c-11f1-ba66-0e7d0216e441 |
+| Huginn | Weekly Monday 19:00 Helsinki (`0 16 * * 1` UTC) | `#ravens` + `inbox/YYYY-MM-DD.md` | review inbox | https://cursor.com/automations/732cacfb-955c-11f1-ba66-0e7d0216e441 |
+| Muninn | GitHub push `huginn:`, plus Monday 20:00 Helsinki retry (`0 17 * * 1` UTC) | `#ravens` knowledge signals | review signals | https://cursor.com/automations/c9afc8b1-955c-11f1-ba66-0e7d0216e441 |
 | Heimdall | Sun 10:00 Helsinki | `watch/` on `main` | review clips; sync fitness snapshot | https://cursor.com/automations/6d39a6f4-9adc-11f1-ba66-0e7d0216e441 |
 
 ## Scope (one run = one item)
 
 | Agent | One run produces |
 |-------|------------------|
-| Huginn | One daily inbox file |
+| Huginn | One weekly inbox file |
 | Muninn | Distill from one `huginn:` push |
 | Heimdall | One weekly `watch/` pass |
 

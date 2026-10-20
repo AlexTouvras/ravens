@@ -10,7 +10,7 @@ Curated entry points for other projects. **Muninn** keeps this current. Prefer h
 | Food | [knowledge/food/](knowledge/food/) | mealplan (existing notes; not scanned) |
 | Fitness | [knowledge/fitness/](knowledge/fitness/) · [watch/fitness/](watch/fitness/) | mealplan goals, fitness coach form checks |
 | Parenting | [knowledge/parenting/](knowledge/parenting/) · [watch/parenting/](watch/parenting/) | household (age-bucket tags; week-plans elsewhere) |
-| Finance | [knowledge/finance/](knowledge/finance/) | Ledger, ledger-private — incl. investment opportunities |
+| Finance | [knowledge/finance/](knowledge/finance/) | Ledger, ledger-private — catalysts plus mid/long stock setups |
 | Security | [knowledge/security/](knowledge/security/) | JARVIS, ProjectBrain, Ledger, careerops, ravens |
 | Content | [knowledge/content/](knowledge/content/) | Orbit Writes / Signals |
 

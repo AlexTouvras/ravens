@@ -1,13 +1,13 @@
 ---
 schema: ravens.domain-hub/v1
 domain: finance
-updated: 2026-10-19
+updated: 2026-10-20
 status: active
 ---
 
 # Finance
 
-Long-only liquid equity research, portfolio construction, and **investment opportunities** for Ledger — not day-trading, crypto, or tipster content. Prefer time-bounded catalysts a Nordnet book can act on.
+Long-only liquid equity research, portfolio construction, and **investment opportunities** for Ledger — not day-trading, crypto, or tipster content. Dated catalysts stay time-bounded. Multi-month stock setups (fear dips, fundamentals ahead of the price, and the other tags in `watchlist.md`) arrive as signals for Ledger to review, not as “own this ticker” guidance.
 
 ## Current guidance
 
@@ -30,6 +30,7 @@ _(none yet — monthly performance themes stay signals until a durable construct
 
 | Date | Change |
 |------|--------|
+| 2026-10-20 | Watchlist section `stocks`: mid/long setups (fear-dip, fundamentals-ahead, forced-selling, compounder-on-sale, trough-as-forever, mix-shift, owner-earnings, balance-sheet-floor). Findings stay in this domain. No ticker promoted to current guidance. |
 | 2026-10-19 | Opened SIG-20261019-005 from FIND-20261019-006 (Digitalist Group inside information 15 Oct 2026: 2026 turnover and EBITDA now both expected to decrease vs 2025; previous guide had EBITDA improving but still negative; business review 30 Oct 2026). Single official-action print — signal only. Elmera settlement and SENSO listing unchanged. |
 | 2026-10-12 | Opened SIG-20261012-004 from FIND-20261012-009 (Sensofusion IR: SENSO regulated-market trading starts 13 Oct 2026 at the disclosed offer price EUR 16.41; Nasdaq 9 Oct notice: prelist that day, Main Market expected 13 Oct, Large Cap, Industrials). Dual-stream listing catalyst — signal only, not a position. Elmera settlement watch unchanged; no new Fortum print. |
 | 2026-10-05 | Updated SIG-20260822-004 from FIND-20261005-008 (Fortum 2 Oct IR: offer expired 16:30 CEST; 91.61% / 95.80% ex-treasury; settlement expected on or about 23 Oct 2026). Same tender — no second SIG. Expired SIG-20260829-002 (ECB 2.50% / FOMC 3.75–4.00%) — 30 Sep window passed and inbox recorded no new Governing Council decision. |

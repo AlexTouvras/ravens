@@ -2,22 +2,24 @@
 
 > Update at end of each session. New chats start here — not from conversation history.
 
-**Last updated:** 2026-10-18
+**Last updated:** 2026-10-20
 
 ## Done this session
 
-- Heimdall weekly fill 2026-10-18 (Europe/Helsinki): 6 new household `age-2-8w` watch notes (`infant-car-seat`, `carry-infant-carrier`, `baby-carry-positions`, `baby-handling`, `blocked-nose`, `breast-compressions`). Fitness W6 form-check + motivate oEmbed-live (no refresh). No labour hunt. No week-of-life. No Slack.
-- `npm run verify` exited 0. `liveWatch=45`.
+- Added watchlist section `stocks`: mid/long buy setups for Ledger (fear dip, fundamentals ahead of the price, forced selling, compounder on sale, trough treated as permanent, mix shift, owner earnings, balance-sheet floor). Cap 2 per run. A ticker does not become current guidance.
+- Huginn and Muninn are weekly: Monday 19:00 and 20:00 Europe/Helsinki (`0 16 * * 1` and `0 17 * * 1` UTC). News window is 7 days. Finding caps are per run.
+- Playbook, quality rubric, inbox contract, finance hub, index, and consumer table updated.
 
 ## In progress
 
-- None. Weekly catalog pass is complete once the `heimdall:` push is on `main`.
+- Nothing waiting on a push once this commit is on `main`. Monday Huginn reads the weekly playbook and the `stocks` section from there.
 
 ## Next session
 
 1. Next Sunday Heimdall: skip live `active` notes unless oEmbed dies; do not hunt labour.
 2. Still open how-to gaps: vitamin D drops (no 2–12 min public-health demo that matches Ruokavirasto 10 µg), dry cord care (do not use the GHM chlorhexidine film; NHS and Nemours clips are under 2 minutes), nail cutting (Väestöliitto film is 1:34).
 3. Wire mealplan / field-card watch read paths when those projects ask.
+4. Open finance watches: Elmera settlement about 23 Oct, Terveystalo Emal clinic sales, Sensofusion listing, Digitalist business review 30 Oct.
 
 ## Blockers
 

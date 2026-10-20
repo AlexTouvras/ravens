@@ -1,8 +1,8 @@
 # Watchlist
 
-Topics Huginn scans daily for **named portfolio consumers** (field-card, mealplan, fitness, household, Ledger, careerops, Orbit, ravens, ProjectBrain/JARVIS). Every section below is in scope every run. Do **not** compute week of life or write a household week-plan — that lives outside ravens. Prefer delivery-changing signals over hype. Skip game-loop experiments, crypto/HFT, generic model-launch PR, and world-news firehoses.
+Topics Huginn scans weekly for **named portfolio consumers** (field-card, mealplan, fitness, household, Ledger, careerops, Orbit, ravens, ProjectBrain/JARVIS). Every section below is in scope every run. Do **not** compute week of life or write a household week-plan — that lives outside ravens. Prefer delivery-changing signals over hype. Skip game-loop experiments, crypto/HFT, generic model-launch PR, and world-news firehoses.
 
-Last reviewed: 2026-09-06
+Last reviewed: 2026-10-20
 
 Cite the **publisher** (`source_url`). Preferred sources below are search hints, not a quota you must fill. Empty is success.
 
@@ -13,7 +13,7 @@ Find **individual repos** (or significant releases/RFCs in them) that would chan
 - Must name the consumer in `why_it_matters` (field-card, mealplan, Ledger, Power BI portfolio, Orbit, careerops, ravens, ProjectBrain/JARVIS)
 - Prefer: recent release, breaking change, first usable CLI/SDK, or a pattern we can adopt this month — not “interesting README”
 - `source_url` should be the repo, release, or primary docs page (not a roundup article)
-- Cap: at most **2** GitHub/OSS findings per day across all domains unless something exceptional shipped
+- Cap: at most **2** GitHub/OSS findings per run across all domains unless something exceptional shipped
 - Examples of fit: MCP servers that replace custom glue; PBIR/TMDL tooling; agent-skill packs; long-only quant libs (Lean/Nautilus-class) when evaluating Ledger build-vs-clone
 
 ## ai-agents
@@ -93,6 +93,37 @@ Skip the CVE firehose unless it hits a dependency a named consumer actually uses
 - Prefer: company IR / filings, Nasdaq Helsinki / Nasdaq / NYSE notices, ECB, Fed, BoE. Yle/Reuters are fine as the second stream, not as the only one for an “opportunity”
 - Skip tips, paywalled “stock picks,” undisclosed research, and anything that smells like tipster or crypto promotion
 - GitHub: long-only backtest / portfolio libs and Nordnet-adjacent tooling when Ledger faces a build-vs-clone choice
+- Multi-month price-versus-business setups live under **stocks** below. Keep this section for dated catalysts, construction, and macro.
+
+## stocks
+
+Mid- and long-term buy setups for a liquid Nordnet book (months to years). File each hit as `domain: finance` with exactly one setup tag in `topics`. These are research leads for **Ledger**: name the setup and what would kill it. Do not name a target price or say to buy.
+
+Search only when both sides are on a real page: the price or the scare is from the last few weeks, and the latest filing or IR page says the business is in better shape than that price implies. The report itself may be older than a news cycle. Cap **2** findings a run. Empty is success.
+
+Prefer company IR, the interim or annual report, and the exchange’s own statistics. A wire (Reuters, Yle, Kauppalehti) may carry the price move or the scare as the second stream. It cannot be the only source.
+
+| Tag | File when |
+|-----|-----------|
+| `fear-dip` | The price fell on a scare (headline, lawsuit, one soft line in guidance, a sector panic) and the company’s own outlook or medium-term targets stayed intact or improved. Name the fear, and why the filing does not treat it as the new base case. |
+| `fundamentals-ahead` | Margins, returns on capital, growth, backlog, or free cash flow in the filing look strong next to the current price or multiple, and the market has not re-rated the name. Use the company’s numbers, not a blogger model. |
+| `forced-selling` | Holders are selling because they must: index deletion, a spin-off orphan window, an ETF rebalance, a fund outflow. Say who is forced out, and that the business did not deteriorate in the same window. |
+| `compounder-on-sale` | The filing still shows a durable advantage (pricing power, switching costs, high returns on capital) and the multiple is cheap versus that company’s own recent history. The moat discussion in the report did not break. |
+| `trough-as-forever` | A one-off cost, an input-cost spike, or a cycle low is being treated as permanent. The filing’s own bridge, plus a second primary, says the hole is temporary. |
+| `mix-shift` | A higher-margin or more recurring segment is already large in the filing, and the stock still trades like the old mix. |
+| `owner-earnings` | Free cash flow after maintenance capex, taken from the filing, is high versus government yields and close peers. Skip adjusted-EBITDA stories. |
+| `balance-sheet-floor` | Net cash, a listed stake, or a sum-of-parts in the filing covers a large share of the market cap, and the operating business is not in structural decline. |
+
+On every finding:
+
+- One setup tag
+- One sentence on what is cheap or feared
+- One sentence on what kills it (guidance cut, moat break, structural margin loss, dilution, or the “temporary” item showing up in the next guidance)
+- `source_url` is the IR page or filing for the business claim
+- `corroboration_url` is an independent page for the price, the multiple, or the scare when that fact is not on the same page
+- `why_it_matters` names **Ledger** and a months-to-years horizon
+
+Leave day-trade charts, “oversold” with no filing, analyst price targets, social-sentiment piles, penny stocks, and names a Nordnet account cannot trade. Dated catalysts (earnings, M&A, index add, buyback start) stay in **finance**.
 
 ## content
 
@@ -107,6 +138,7 @@ Skip the CVE firehose unless it hits a dependency a named consumer actually uses
 - WhatsApp/Telegram/Discord bots, **awesome-lists**, “top N GitHub repos” listicles, MetaGPT-style star magnets
 - Per-language MCP SDK spam; watch spec + servers instead
 - Crypto / tipster finance / HFT
+- Chart-only “oversold” calls, analyst price-target roundups, and “buy this stock” posts with no filing
 - Generic AI news firehose, world-news / geopolitics roundups, and OSINT dashboards (World Monitor, worldmonitor.app, similar) as `source_url` or as a domain
 - Academic thesis-style writing advice
 - “On this day” / throwback / anniversary recap pages

@@ -1,6 +1,6 @@
 # Ravens
 
-Shared AI knowledge vault — **Huginn** (thought / daily web scan), **Muninn** (memory / curated store), and **Heimdall** (sight / video catalog).
+Shared AI knowledge vault — **Huginn** (thought / weekly web scan), **Muninn** (memory / curated store), and **Heimdall** (sight / video catalog).
 
 Inspired by Odin’s ravens plus Heimdall, the watchman: two fly for news and memory; one keeps what is worth watching.
 
@@ -16,7 +16,7 @@ sight.md                  What Heimdall may catalog (videos)
 agents/huginn.md          Huginn playbook (automation prompt source)
 agents/muninn.md          Muninn playbook
 agents/heimdall.md        Heimdall playbook
-inbox/YYYY-MM-DD.md       Raw daily findings (Huginn)
+inbox/YYYY-MM-DD.md       Raw weekly findings (Huginn)
 knowledge/<domain>/       Durable notes + domain hubs (Muninn)
 signals/                  Time-bounded watch items (Muninn)
 watch/<domain>/           Video catalog (Heimdall)
@@ -28,13 +28,16 @@ examples/                 Golden fixtures
 scripts/verify.mjs        Named verify gate
 ```
 
-## Daily rhythm (Europe/Helsinki)
+## Weekly rhythm
+
+Automations store UTC. Europe/Helsinki is three hours ahead until the autumn clock change, then two.
 
 | Time | Agent | Writes |
 |------|--------|--------|
-| 08:00 | Huginn | `inbox/YYYY-MM-DD.md` |
+| Monday 19:00 Helsinki (`0 16 * * 1` UTC) | Huginn | `inbox/YYYY-MM-DD.md` |
 | after Huginn lands on `main` | Muninn | `knowledge/` + `signals/` + `index.md` |
-| weekly Sunday 10:00 | Heimdall | `watch/` (fitness + parenting clips) |
+| Monday 20:00 Helsinki (`0 17 * * 1` UTC) | Muninn retry | only if that push was missed and HEAD is still `huginn:` |
+| Sunday 10:00 Helsinki (`0 7 * * 0` UTC) | Heimdall | `watch/` (fitness + parenting clips) |
 
 ## Domains
 
@@ -43,10 +46,10 @@ scripts/verify.mjs        Named verify gate
 | `ai-agents` | field-card, ProjectBrain, JARVIS |
 | `data-bi` | PowerBI portfolio, Orbit Analytics |
 | `career` | careerops, careerDev |
-| `food` | mealplan (existing notes only; not on the daily watchlist) |
+| `food` | mealplan (existing notes only; not on the watchlist) |
 | `fitness` | mealplan goals, fitness coach — **`watch/fitness/`** matched by lift name / motivate slug |
 | `parenting` | household (age-bucket tags; week-plans live in that project) |
-| `finance` | Ledger |
+| `finance` | Ledger — catalysts, plus the `stocks` watchlist section (mid/long setups, same domain) |
 | `security` | JARVIS, ProjectBrain, Ledger, careerops, ravens |
 | `content` | Orbit Writes / Signals |
 

@@ -22,7 +22,7 @@ flowchart LR
   end
 
   subgraph agents [Cursor Automations]
-    H[Huginn 08:00]
+    H[Huginn Monday 19:00]
     M[Muninn on Huginn push]
     D[Heimdall weekly / on-demand]
   end
@@ -55,7 +55,7 @@ flowchart LR
   Idx --> consumers
 ```
 
-## Daily data flow
+## Weekly data flow
 
 ```mermaid
 sequenceDiagram
@@ -64,7 +64,7 @@ sequenceDiagram
   participant Git as ravens main
   participant M as Muninn
 
-  Cron->>H: 08:00 Europe/Helsinki
+  Cron->>H: Monday 19:00 Europe/Helsinki
   H->>Git: read watchlist + contracts
   H->>H: web research + Gate 0
   H->>Git: commit inbox/YYYY-MM-DD.md

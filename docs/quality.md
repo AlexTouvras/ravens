@@ -18,7 +18,7 @@ Journalism, blog, and RSS items:
 - Drop if there is no parseable publish date (`published: unknown` is a fail)
 - Drop if publish time is more than 1 hour in the future
 - Drop historical retrospectives even on a fresh URL: “on this day”, throwback, anniversary of an event ≥2 years ago
-- Default window is the last 48–72 hours. Slow domains (public-health guidance, a vendor page that changed a rule) may go older, but they still need a date unless they qualify as living docs
+- Default window is the last 7 days (Huginn runs weekly). Slow domains (public-health guidance, a vendor page that changed a rule) may go older, but they still need a date unless they qualify as living docs
 
 Living official/vendor pages (THL current guidance, Kela, Microsoft Learn, GitHub release notes):
 
@@ -88,6 +88,24 @@ Promote official actions on **one** primary page: an IR release, exchange notice
 
 Huginn should set `corroboration_url` when the second stream exists. Without it, Muninn drops the opportunity/macro finding rather than promoting; a single-source official action still proceeds. Dual-stream does not apply to GitHub/OSS clone-vs-build notes under finance.
 
+### Stock setups (watchlist section `stocks`)
+
+These findings use `domain: finance` and exactly one of: `fear-dip`, `fundamentals-ahead`, `forced-selling`, `compounder-on-sale`, `trough-as-forever`, `mix-shift`, `owner-earnings`, `balance-sheet-floor`.
+
+Promote only when all of these hold:
+
+1. Dual-stream: the business claim is on an IR page or filing, and an independent page covers the price, the multiple, or the scare (`corroboration_url`).
+2. The claim names the setup and a kill-condition (what would make the gap a trap).
+3. The horizon is months to years. A one-day event trade belongs in the catalyst lane, or it drops.
+4. The name is a liquid equity a Nordnet book can trade.
+5. The price move or scare is from the last few weeks. The latest interim or annual report may be older than the 7-day news window.
+
+Default path: **signal**, 30-day expiry, consumer Ledger. The signal means the gap is still worth a look. It is not a holding instruction and not advice to buy. On revisit, expire it if the price has caught up or the kill-condition has printed.
+
+**Knowledge** only for a durable screening rule (how to recognize the setup). Never a note whose guidance is to own a ticker.
+
+Drop target prices, buy/sell wording, chart-only “oversold” calls, analyst-target roundups, and a cheap multiple with no filing behind it.
+
 ## GitHub / OSS repo filters
 
 Promote (signal or knowledge) only when **all** hold:
@@ -102,7 +120,7 @@ Drop: awesome-lists, SDK spam, crypto bots, repos with no consumer fit.
 
 ## Bias toward fewer artifacts
 
-A quiet day with three strong findings beats twenty weak ones. Empty domains are success, not failure.
+A quiet run with three strong findings beats twenty weak ones. Empty domains are success, not failure.
 
 ## Heimdall video gates (watch catalog only)
 

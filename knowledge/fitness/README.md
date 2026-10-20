@@ -7,7 +7,7 @@ status: active
 
 # Fitness
 
-Strength and recovery programming for lean goals, plus pregnancy-safe activity guidelines for household planning. Mealplan modes (`lean`, `pregnancy_nourish`) still apply. Existing pregnancy food-safety notes live under `food/` (off the daily watchlist).
+Strength and recovery programming for lean goals, plus pregnancy-safe activity guidelines for household planning. Mealplan modes (`lean`, `pregnancy_nourish`) still apply. Existing pregnancy food-safety notes live under `food/` (off the watchlist).
 
 ## Current guidance
 
