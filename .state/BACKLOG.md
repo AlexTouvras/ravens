@@ -35,6 +35,7 @@
 - [x] Heimdall weekly 2026-10-04 — household `age-2-8w` how-tos `formula-feed` / `responsive-bottle-feeding` / `breastmilk-storage` / `nipple-pain` (no labour hunt; fitness URLs still live; vitamin D and dry cord care left as gaps)
 - [x] Heimdall weekly 2026-10-11 — household `age-2-8w` how-tos `baby-sling` / `baby-massage` / `hold-newborn` (no labour hunt; fitness URLs still live; vitamin D and dry cord care still gaps)
 - [x] Heimdall weekly 2026-10-18 — household `age-2-8w` how-tos `infant-car-seat` / `carry-infant-carrier` / `baby-carry-positions` / `baby-handling` / `blocked-nose` / `breast-compressions` (no labour hunt; fitness URLs still live; vitamin D, dry cord care, and nail cutting still gaps)
+- [x] Heimdall weekly 2026-10-25 — household `age-2-8w` how-tos `navel-care` / `dress-baby` / `infant-choking` / `infant-cpr` (no labour hunt; fitness URLs still live; vitamin D, nail cutting, and eye wiping still gaps)
 - [x] Huginn standing prompt + playbook: scan every watchlist domain; week-of-life is parenting query shape only (2026-09-06)
 - [x] Week-of-life planning out of ravens — gather for household by age-bucket; `coming-week` superseded (2026-09-06)
 - [x] Stocks watchlist section: mid/long buy setups under finance (2026-10-20)

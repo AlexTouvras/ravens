@@ -4,7 +4,7 @@ Heimdall’s video index. One note per topic. Prefer this over searching YouTube
 
 Consumers match from this catalog — see [docs/consumers.md](../docs/consumers.md). Fitness joins on `Coach library:` lines; motivate on slug; parenting on `stage`.
 
-Last updated: 2026-10-18
+Last updated: 2026-10-25
 
 | Domain | Slug | Intent | Stage | Status |
 |--------|------|--------|-------|--------|
@@ -53,5 +53,9 @@ Last updated: 2026-10-18
 | parenting | [baby-handling](parenting/baby-handling.md) | how-to | age-2-8w | active |
 | parenting | [blocked-nose](parenting/blocked-nose.md) | how-to | age-2-8w | active |
 | parenting | [breast-compressions](parenting/breast-compressions.md) | how-to | age-2-8w | active |
+| parenting | [navel-care](parenting/navel-care.md) | how-to | age-2-8w | active |
+| parenting | [dress-baby](parenting/dress-baby.md) | how-to | age-2-8w | active |
+| parenting | [infant-choking](parenting/infant-choking.md) | how-to | age-2-8w | active |
+| parenting | [infant-cpr](parenting/infant-cpr.md) | how-to | age-2-8w | active |
 
-Household `age-2-8w` how-tos added 2026-10-18 (Liikenneturva rear-facing carrier, LUVN carrier lift and arm carries, Väestöliitto side lift, UC Davis nose suction, Kent NHS breast compressions). Labour clips stay on file but were not this week’s hunt. Fitness W6 form-check and motivate slugs were oEmbed-live; no URL refresh. Vitamin D drops, dry cord care, and nail cutting still have no clip that clears the 2–12 minute public-health demo gate.
+Household `age-2-8w` how-tos added 2026-10-25 (Tays dry navel care, Väestöliitto over-the-head dressing, British Red Cross choking and unresponsive-baby CPR). Labour clips stay on file but were not this week’s hunt. Fitness W6 form-check and motivate slugs were oEmbed-live; no URL refresh. Vitamin D drops and nail cutting still have no clip that clears the 2–12 minute public-health demo gate. Väestöliitto eye wiping is 1:11, under that floor.

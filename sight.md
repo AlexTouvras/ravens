@@ -2,7 +2,7 @@
 
 Topics Heimdall may catalog. Separate from Huginn’s `watchlist.md` on purpose — news and videos are different jobs.
 
-Last reviewed: 2026-10-18
+Last reviewed: 2026-10-25
 
 v1 domains: **fitness** and **parenting** only.
 
@@ -75,6 +75,10 @@ Current catalogued slugs (restaged 2026-09-06; filled 2026-09-13; filled 2026-09
 | baby-handling | `age-2-8w` | how-to — side lift, neck support (catalogued 2026-10-18) |
 | blocked-nose | `age-2-8w` | how-to — bulb syringe, then a filtered tube (catalogued 2026-10-18) |
 | breast-compressions | `age-2-8w` | how-to — compression during a feed (catalogued 2026-10-18) |
+| navel-care | `age-2-8w` | how-to — clean and dry stump (catalogued 2026-10-25) |
+| dress-baby | `age-2-8w` | how-to — over-the-head body (catalogued 2026-10-25) |
+| infant-choking | `age-2-8w` | how-to — back blows, then chest thrusts (catalogued 2026-10-25) |
+| infant-cpr | `age-2-8w` | how-to — two fingers and rescue breaths (catalogued 2026-10-25) |
 
 Prefer THL, neuvola, Kela, NHS, AAP, WHO, Global Health Media. Finnish-language official clips are welcome. Skip wonder-weeks and sleep-training wars.
 

@@ -4,6 +4,11 @@
 
 <!-- New entries go below -->
 
+### 2026-10-25 — Heimdall weekly watch fill
+
+- **Built:** Four household `age-2-8w` how-tos in `watch/parenting/` (`navel-care`, `dress-baby`, `infant-choking`, `infant-cpr`). Sight table + `watch/README.md` refreshed. Fitness form-check / motivate URLs oEmbed-live; no labour hunt; no Slack. Left gaps: vitamin D drops and nail cutting (still no 2–12 min public-health demo). Väestöliitto eye wiping stays uncatalogued at 1:11.
+- **Why:** Weekly Heimdall fill. Existing sight slugs already had live notes. Tays finally had a dry-stump film at 2:08. Dressing, choking, and infant CPR were the next household demos that cleared the gates.
+
 ### 2026-10-18 — Heimdall weekly watch fill
 
 - **Built:** Six household `age-2-8w` how-tos in `watch/parenting/` (`infant-car-seat`, `carry-infant-carrier`, `baby-carry-positions`, `baby-handling`, `blocked-nose`, `breast-compressions`). Sight table + `watch/README.md` refreshed. Fitness form-check / motivate URLs oEmbed-live; no labour hunt; no Slack. Left gaps: vitamin D drops, dry cord care, and nail cutting (still no 2–12 min public-health demo that matches Finnish dosing, dry cotton care, or the two-week nail rule).
