@@ -6,23 +6,28 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 
 | ID | Domain | Title | Priority | Expires |
 |----|--------|-------|----------|---------|
-| [SIG-20260822-004](./SIG-20260822-004.md) | finance | Fortum Elmera tender — offer expired 2 Oct at 91.61%; settlement expected about 23 Oct | p2 | 2026-10-23 |
 | [SIG-20260905-001](./SIG-20260905-001.md) | finance | Terveystalo completed Hohde on 4 Sep; Emal clinic sales still due October | p2 | 2026-10-31 |
-| [SIG-20260908-001](./SIG-20260908-001.md) | ai-agents | Microsoft Agent Framework Python 1.22.0 — persisted content breaks pre-1.22 readers | p2 | 2026-11-02 |
-| [SIG-20261005-001](./SIG-20261005-001.md) | ai-agents | Google ADK Python 2.11.0 — workflow tools pause for approval; abort_signal cancels the run | p2 | 2026-10-19 |
-| [SIG-20261005-003](./SIG-20261005-003.md) | data-bi | ApproximateDistinctCount on Import and Direct Lake — keep an exact distinct-count switch | p2 | 2026-10-19 |
+| [SIG-20260908-001](./SIG-20260908-001.md) | ai-agents | Microsoft Agent Framework Python 1.23.0 — MCP 2.x lifecycle and explicit AG-UI auth | p2 | 2026-11-09 |
 | [SIG-20261012-001](./SIG-20261012-001.md) | ai-agents | Pydantic AI 2.55.0 — Python 3.11 floor; stable durable run id | p2 | 2026-10-26 |
-| [SIG-20261012-002](./SIG-20261012-002.md) | career | UPM Senior Specialist, Global Portfolio, Helsinki — apply by 20 Oct | p1 | 2026-10-20 |
 | [SIG-20261012-003](./SIG-20261012-003.md) | security | Cursor remote control of local agents is on by default outside Enterprise | p2 | 2026-10-26 |
-| [SIG-20261012-004](./SIG-20261012-004.md) | finance | Sensofusion (SENSO) Main Market trading starts 13 Oct; offer price EUR 16.41 | p2 | 2026-10-20 |
 | [SIG-20261019-001](./SIG-20261019-001.md) | ai-agents | Pydantic AI 2.57.0 — ApprovalReviewer can clear low-risk tool calls before a person | p2 | 2026-11-02 |
 | [SIG-20261019-002](./SIG-20261019-002.md) | data-bi | Power BI Gantt visual is in preview — 1,000-row cap; blank End is a milestone | p2 | 2026-11-02 |
 | [SIG-20261019-003](./SIG-20261019-003.md) | career | DigiHelsinki Senior Data and Reporting Specialist, Helsinki — apply by 1 Nov | p1 | 2026-11-01 |
 | [SIG-20261019-004](./SIG-20261019-004.md) | parenting | LUVN — close contacts of someone especially susceptible to severe influenza book December | p2 | 2026-12-31 |
 | [SIG-20261019-005](./SIG-20261019-005.md) | finance | Digitalist cuts 2026 EBITDA guidance — turnover and EBITDA both expected to fall | p2 | 2026-10-30 |
+| [SIG-20261026-001](./SIG-20261026-001.md) | data-bi | DAX Lib MCP 0.1.0 writes a package’s functions into an open Desktop model | p2 | 2026-11-09 |
+| [SIG-20261026-002](./SIG-20261026-002.md) | career | Veikkaus Head of Analytics & Insights, Helsinki — apply by 27 Oct | p1 | 2026-10-27 |
+| [SIG-20261026-003](./SIG-20261026-003.md) | security | Pydantic AI 2.58.0 — MCP tokens in traces; UI adapters could skip the model | p2 | 2026-11-09 |
+| [SIG-20261026-004](./SIG-20261026-004.md) | finance | UPM applied to list WISA on Nasdaq Helsinki; trading expected about 2 Nov | p2 | 2026-11-02 |
+| [SIG-20261026-005](./SIG-20261026-005.md) | finance | Nokia keeps the 2026 profit range and lowers free-cash-flow conversion to 35–55% | p2 | 2026-11-05 |
 
 Archived (expired/dropped/promoted):
 
+- [SIG-20261012-004](./SIG-20261012-004.md) — Sensofusion (SENSO) Main Market open, expired 2026-10-26 (13 Oct open and 20 Oct watch passed; no further exchange print)
+- [SIG-20261012-002](./SIG-20261012-002.md) — UPM Senior Specialist, Global Portfolio, expired 2026-10-26 (20 Oct deadline passed)
+- [SIG-20261005-003](./SIG-20261005-003.md) — ApproximateDistinctCount on Import and Direct Lake, expired 2026-10-26 (19 Oct window passed; Learn still not the source)
+- [SIG-20261005-001](./SIG-20261005-001.md) — Google ADK Python 2.11.0, expired 2026-10-26 (19 Oct window passed; no named-consumer pin; v2.13.0 telemetry default does not reopen)
+- [SIG-20260822-004](./SIG-20260822-004.md) — Fortum Elmera tender, expired 2026-10-26 (settlement window about 23 Oct passed; no further print)
 - [SIG-20260928-001](./SIG-20260928-001.md) — Cursor Rollouts and Security Review, expired 2026-10-19 (12 Oct window passed; no named-consumer enablement)
 - [SIG-20261005-002](./SIG-20261005-002.md) — Lokki banking BI Developer contract, expired 2026-10-12 (7 Oct 19:00 deadline passed)
 - [SIG-20260906-001](./SIG-20260906-001.md) — AAP tummy-time 15–30 min/day by 7 weeks, expired 2026-10-12 (8 Oct window passed; US quota stays off the Finnish note)

@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: data-bi
-updated: 2026-10-19
+updated: 2026-10-26
 status: active
 ---
 
@@ -24,8 +24,8 @@ Microsoft Fabric, Power BI / PBIR, semantic models, and analytics patterns used 
 
 ## Active signals
 
-- [SIG-20261005-003](../../signals/SIG-20261005-003.md) — ApproximateDistinctCount on Import and Direct Lake; keep an exact distinct-count switch
 - [SIG-20261019-002](../../signals/SIG-20261019-002.md) — Power BI Gantt visual in preview; 1,000-row cap; blank End is a milestone
+- [SIG-20261026-001](../../signals/SIG-20261026-001.md) — DAX Lib MCP 0.1.0 writes a package’s functions into an open Desktop model
 
 ## Note index
 
@@ -46,6 +46,7 @@ Microsoft Fabric, Power BI / PBIR, semantic models, and analytics patterns used 
 
 | Date | Change |
 |------|--------|
+| 2026-10-26 | Opened SIG-20261026-001 from FIND-20261026-002 (SQLBI 22 Oct: DAX Lib MCP 0.1.0 writes a package’s original functions into an open Windows Desktop model; same-name function replaced; file not saved; compat 1702). Evaluate this month — does not change the UDF, calculation-contract, or authoring-MCP notes. Expired SIG-20261005-003 (ApproximateDistinctCount) — 19 Oct window passed; Learn still not the source. |
 | 2026-10-19 | Opened SIG-20261019-002 from FIND-20261019-003 (Microsoft Learn: Gantt visual in preview; blank End draws a milestone; up to 1,000 rows; auto-scale no finer than days). Preview cap — signal until the visual leaves preview. |
 | 2026-10-12 | Promoted KNOW-data-bi-desktop-onedrive-save-post-march-2026 from FIND-20261012-003 (Microsoft Learn: from October 2026, Desktop builds from March 2026 or earlier lose OneDrive/SharePoint save and share; .PBIX only; personal OneDrive unsupported). Promoted KNOW-data-bi-copilot-readonly-mcp-default-on from FIND-20261012-004 (Microsoft Learn: read-only Copilot and Microsoft MCP access is on until a write owner disables the model setting; not the authoring-MCP deployment choice). Promoted KNOW-data-bi-dax-contract-before-ai-measure from FIND-20261012-005 (SQLBI 5 Oct 2026: save the calculation contract before the assistant writes the measure; validate before production; not the UDF regression-test note). |
 | 2026-10-05 | Promoted KNOW-data-bi-powerbi-authoring-mcp-hosted-vs-local from FIND-20261005-003 (Microsoft Learn: hosted preview authoring MCP for Fabric workspace models; local required for Desktop, PBIP/TMDL, service principal, transactions, and traces; do not register both; macOS uses hosted). Promoted KNOW-data-bi-directquery-service-authoring-one-way from FIND-20261005-004 (Microsoft Learn: author DirectQuery in the service except SAP HANA relational, cubes, and Blank Query; web editor Import save does not switch back). Opened SIG-20261005-003 from FIND-20261005-005 (Chris Webb: ApproximateDistinctCount on Import and Direct Lake; one-model ~1.6% gap; exact switch stays). Expired SIG-20260907-001 (skills-for-fabric 0.3.17) on its 2026-10-05 expiry — inbox noted v0.3.18 is not a new install contract; no consumer pin. |

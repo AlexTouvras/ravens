@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: finance
-updated: 2026-10-20
+updated: 2026-10-26
 status: active
 ---
 
@@ -15,10 +15,10 @@ _(none yet — monthly performance themes stay signals until a durable construct
 
 ## Active signals
 
-- [SIG-20260822-004](../../signals/SIG-20260822-004.md) — Fortum Elmera tender — offer expired 2 Oct at 91.61%; settlement expected about 23 Oct
 - [SIG-20260905-001](../../signals/SIG-20260905-001.md) — Terveystalo completed Hohde on 4 Sep; Emal clinic sales still due October
-- [SIG-20261012-004](../../signals/SIG-20261012-004.md) — Sensofusion (SENSO) Main Market trading starts 13 Oct; offer price EUR 16.41
 - [SIG-20261019-005](../../signals/SIG-20261019-005.md) — Digitalist 2026 guidance: turnover and EBITDA both expected to fall; business review 30 Oct
+- [SIG-20261026-004](../../signals/SIG-20261026-004.md) — UPM applied to list WISA; trading expected about 2 Nov
+- [SIG-20261026-005](../../signals/SIG-20261026-005.md) — Nokia 2026 profit range unchanged; free-cash-flow conversion now 35–55%
 
 ## Note index
 
@@ -30,6 +30,7 @@ _(none yet — monthly performance themes stay signals until a durable construct
 
 | Date | Change |
 |------|--------|
+| 2026-10-26 | Opened SIG-20261026-004 from FIND-20261026-005 (UPM IR 22 Oct 22:30 EEST: listing application for WISA; registration about 31 Oct; trading about 2 Nov; code WISA, ISIN FI4000603345; one WISA share per UPM share). Does not reopen expired SIG-20260901-001. Opened SIG-20261026-005 from FIND-20261026-006 (Nokia Q3 interim report: comparable operating profit outlook EUR 2.1–2.6 billion unchanged; FCF conversion updated to 35–55%; dividend EUR 0.03, record 27 Oct, payment 5 Nov). Neither is a stock setup or a position. Expired SIG-20260822-004 (Fortum Elmera settlement window about 23 Oct passed; no further print) and SIG-20261012-004 (SENSO 13 Oct open; 20 Oct watch passed). |
 | 2026-10-20 | Watchlist section `stocks`: mid/long setups (fear-dip, fundamentals-ahead, forced-selling, compounder-on-sale, trough-as-forever, mix-shift, owner-earnings, balance-sheet-floor). Findings stay in this domain. No ticker promoted to current guidance. |
 | 2026-10-19 | Opened SIG-20261019-005 from FIND-20261019-006 (Digitalist Group inside information 15 Oct 2026: 2026 turnover and EBITDA now both expected to decrease vs 2025; previous guide had EBITDA improving but still negative; business review 30 Oct 2026). Single official-action print — signal only. Elmera settlement and SENSO listing unchanged. |
 | 2026-10-12 | Opened SIG-20261012-004 from FIND-20261012-009 (Sensofusion IR: SENSO regulated-market trading starts 13 Oct 2026 at the disclosed offer price EUR 16.41; Nasdaq 9 Oct notice: prelist that day, Main Market expected 13 Oct, Large Cap, Industrials). Dual-stream listing catalyst — signal only, not a position. Elmera settlement watch unchanged; no new Fortum print. |
