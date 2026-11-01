@@ -4,6 +4,11 @@
 
 <!-- New entries go below -->
 
+### 2026-11-01 — Heimdall weekly watch fill
+
+- **Built:** Two household `age-2-8w` how-tos in `watch/parenting/` (`baby-swaddle`, `skin-to-skin`). Sight table + `watch/README.md` refreshed. Fitness form-check / motivate URLs oEmbed-live; no labour hunt; no Slack. Left gaps: vitamin D drops, nail cutting, and routine eye wiping (still no 2–12 min public-health demo that matches Ruokavirasto dosing, a printed nail cut, or the Finnish outer-to-inner tap-water wipe).
+- **Why:** Weekly Heimdall fill. Existing sight slugs already had live notes. A Väestöliitto swaddle and an HSE skin-to-skin film were the next household demos that cleared the gates.
+
 ### 2026-10-25 — Heimdall weekly watch fill
 
 - **Built:** Four household `age-2-8w` how-tos in `watch/parenting/` (`navel-care`, `dress-baby`, `infant-choking`, `infant-cpr`). Sight table + `watch/README.md` refreshed. Fitness form-check / motivate URLs oEmbed-live; no labour hunt; no Slack. Left gaps: vitamin D drops and nail cutting (still no 2–12 min public-health demo). Väestöliitto eye wiping stays uncatalogued at 1:11.

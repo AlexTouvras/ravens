@@ -4,7 +4,7 @@ Heimdall’s video index. One note per topic. Prefer this over searching YouTube
 
 Consumers match from this catalog — see [docs/consumers.md](../docs/consumers.md). Fitness joins on `Coach library:` lines; motivate on slug; parenting on `stage`.
 
-Last updated: 2026-10-25
+Last updated: 2026-11-01
 
 | Domain | Slug | Intent | Stage | Status |
 |--------|------|--------|-------|--------|
@@ -57,5 +57,7 @@ Last updated: 2026-10-25
 | parenting | [dress-baby](parenting/dress-baby.md) | how-to | age-2-8w | active |
 | parenting | [infant-choking](parenting/infant-choking.md) | how-to | age-2-8w | active |
 | parenting | [infant-cpr](parenting/infant-cpr.md) | how-to | age-2-8w | active |
+| parenting | [baby-swaddle](parenting/baby-swaddle.md) | how-to | age-2-8w | active |
+| parenting | [skin-to-skin](parenting/skin-to-skin.md) | how-to | age-2-8w | active |
 
-Household `age-2-8w` how-tos added 2026-10-25 (Tays dry navel care, Väestöliitto over-the-head dressing, British Red Cross choking and unresponsive-baby CPR). Labour clips stay on file but were not this week’s hunt. Fitness W6 form-check and motivate slugs were oEmbed-live; no URL refresh. Vitamin D drops and nail cutting still have no clip that clears the 2–12 minute public-health demo gate. Väestöliitto eye wiping is 1:11, under that floor.
+Household `age-2-8w` how-tos added 2026-11-01 (Väestöliitto thin swaddle, HSE safe skin-to-skin). Labour clips stay on file but were not this week’s hunt. Fitness W6 form-check and motivate slugs were oEmbed-live; no URL refresh. Vitamin D drops, nail cutting, and routine eye wiping still have no clip that clears the 2–12 minute public-health demo gate. Väestöliitto nails are 1:34, eye wiping is 1:11, and hunger-cue and everyday-talk films are 1:36 and 1:01. HUS eyelid-margin care is blepharitis treatment, not the outer-to-inner tap-water wipe.
