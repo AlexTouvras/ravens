@@ -6,23 +6,25 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 
 | ID | Domain | Title | Priority | Expires |
 |----|--------|-------|----------|---------|
-| [SIG-20260905-001](./SIG-20260905-001.md) | finance | Terveystalo completed Hohde on 4 Sep; Emal clinic sales still due October | p2 | 2026-10-31 |
-| [SIG-20260908-001](./SIG-20260908-001.md) | ai-agents | Microsoft Agent Framework Python 1.23.0 — MCP 2.x lifecycle and explicit AG-UI auth | p2 | 2026-11-09 |
-| [SIG-20261012-001](./SIG-20261012-001.md) | ai-agents | Pydantic AI 2.55.0 — Python 3.11 floor; stable durable run id | p2 | 2026-10-26 |
-| [SIG-20261012-003](./SIG-20261012-003.md) | security | Cursor remote control of local agents is on by default outside Enterprise | p2 | 2026-10-26 |
+| [SIG-20260908-001](./SIG-20260908-001.md) | ai-agents | Microsoft Agent Framework Python 1.24.0 — Python 3.11 baseline and default MCP approval mode | p2 | 2026-11-16 |
 | [SIG-20261019-001](./SIG-20261019-001.md) | ai-agents | Pydantic AI 2.57.0 — ApprovalReviewer can clear low-risk tool calls before a person | p2 | 2026-11-02 |
 | [SIG-20261019-002](./SIG-20261019-002.md) | data-bi | Power BI Gantt visual is in preview — 1,000-row cap; blank End is a milestone | p2 | 2026-11-02 |
-| [SIG-20261019-003](./SIG-20261019-003.md) | career | DigiHelsinki Senior Data and Reporting Specialist, Helsinki — apply by 1 Nov | p1 | 2026-11-01 |
 | [SIG-20261019-004](./SIG-20261019-004.md) | parenting | LUVN — close contacts of someone especially susceptible to severe influenza book December | p2 | 2026-12-31 |
-| [SIG-20261019-005](./SIG-20261019-005.md) | finance | Digitalist cuts 2026 EBITDA guidance — turnover and EBITDA both expected to fall | p2 | 2026-10-30 |
-| [SIG-20261026-001](./SIG-20261026-001.md) | data-bi | DAX Lib MCP 0.1.0 writes a package’s functions into an open Desktop model | p2 | 2026-11-09 |
-| [SIG-20261026-002](./SIG-20261026-002.md) | career | Veikkaus Head of Analytics & Insights, Helsinki — apply by 27 Oct | p1 | 2026-10-27 |
+| [SIG-20261026-001](./SIG-20261026-001.md) | data-bi | DAX Lib MCP 0.2.0 can return package functions in a query without writing the model | p2 | 2026-11-16 |
 | [SIG-20261026-003](./SIG-20261026-003.md) | security | Pydantic AI 2.58.0 — MCP tokens in traces; UI adapters could skip the model | p2 | 2026-11-09 |
-| [SIG-20261026-004](./SIG-20261026-004.md) | finance | UPM applied to list WISA on Nasdaq Helsinki; trading expected about 2 Nov | p2 | 2026-11-02 |
+| [SIG-20261026-004](./SIG-20261026-004.md) | finance | UPM demerger is registered; WISA starts trading on Nasdaq Helsinki on 2 Nov | p2 | 2026-11-02 |
 | [SIG-20261026-005](./SIG-20261026-005.md) | finance | Nokia keeps the 2026 profit range and lowers free-cash-flow conversion to 35–55% | p2 | 2026-11-05 |
+| [SIG-20261102-001](./SIG-20261102-001.md) | finance | Tieto cuts 2026 organic growth to -6% to -5% and raises the adjusted EBITA margin | p2 | 2026-11-16 |
+| [SIG-20261102-002](./SIG-20261102-002.md) | finance | ECB holds at 2.50% / 2.65% / 2.90%; Fed holds at 3.75–4% | p2 | 2026-11-16 |
 
 Archived (expired/dropped/promoted):
 
+- [SIG-20261026-002](./SIG-20261026-002.md) — Veikkaus Head of Analytics & Insights, expired 2026-11-02 (27 Oct deadline passed)
+- [SIG-20261019-005](./SIG-20261019-005.md) — Digitalist 2026 guidance cut, expired 2026-11-02 (30 Oct review restated the 15 Oct guide)
+- [SIG-20261019-003](./SIG-20261019-003.md) — DigiHelsinki Senior Data and Reporting Specialist, expired 2026-11-02 (1 Nov deadline passed)
+- [SIG-20261012-003](./SIG-20261012-003.md) — Cursor remote control of local agents, expired 2026-11-02 (26 Oct window passed; no disable decision)
+- [SIG-20261012-001](./SIG-20261012-001.md) — Pydantic AI 2.55.0 Python 3.11 floor, expired 2026-11-02 (26 Oct window passed; no named-consumer pin)
+- [SIG-20260905-001](./SIG-20260905-001.md) — Terveystalo Hohde / Emal clinic sales, expired 2026-11-02 (October window passed; no further print)
 - [SIG-20261012-004](./SIG-20261012-004.md) — Sensofusion (SENSO) Main Market open, expired 2026-10-26 (13 Oct open and 20 Oct watch passed; no further exchange print)
 - [SIG-20261012-002](./SIG-20261012-002.md) — UPM Senior Specialist, Global Portfolio, expired 2026-10-26 (20 Oct deadline passed)
 - [SIG-20261005-003](./SIG-20261005-003.md) — ApproximateDistinctCount on Import and Direct Lake, expired 2026-10-26 (19 Oct window passed; Learn still not the source)

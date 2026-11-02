@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: finance
-updated: 2026-10-26
+updated: 2026-11-02
 status: active
 ---
 
@@ -15,10 +15,10 @@ _(none yet — monthly performance themes stay signals until a durable construct
 
 ## Active signals
 
-- [SIG-20260905-001](../../signals/SIG-20260905-001.md) — Terveystalo completed Hohde on 4 Sep; Emal clinic sales still due October
-- [SIG-20261019-005](../../signals/SIG-20261019-005.md) — Digitalist 2026 guidance: turnover and EBITDA both expected to fall; business review 30 Oct
-- [SIG-20261026-004](../../signals/SIG-20261026-004.md) — UPM applied to list WISA; trading expected about 2 Nov
+- [SIG-20261026-004](../../signals/SIG-20261026-004.md) — UPM demerger registered; WISA starts trading 2 Nov (expiry date 2026-11-02, still watching)
 - [SIG-20261026-005](../../signals/SIG-20261026-005.md) — Nokia 2026 profit range unchanged; free-cash-flow conversion now 35–55%
+- [SIG-20261102-001](../../signals/SIG-20261102-001.md) — Tieto organic growth -6% to -5%; adjusted EBITA margin 15.5–16.0%
+- [SIG-20261102-002](../../signals/SIG-20261102-002.md) — ECB holds at 2.50% / 2.65% / 2.90%; Fed holds at 3.75–4%
 
 ## Note index
 
@@ -30,6 +30,7 @@ _(none yet — monthly performance themes stay signals until a durable construct
 
 | Date | Change |
 |------|--------|
+| 2026-11-02 | Updated SIG-20261026-004 from FIND-20261102-003 (UPM IR 31 Oct 9:00 EET: demerger registered; listing approved; WISA trading 2 Nov; code WISA, ISIN FI4000603345; one WISA per UPM share). Nasdaq 2 Nov notice confirms the first trade day and does not restate the ISINs. Same listing — no second SIG. Stays watching because expiry is today. Opened SIG-20261102-001 from FIND-20261102-004 (Tieto 26 Oct inside information: organic growth -6% to -5%, adjusted EBITA 15.5–16.0%; 27 Oct interim report restates the ranges). Opened SIG-20261102-002 from FIND-20261102-005 and FIND-20261102-006 (ECB 29 Oct hold at 2.50/2.65/2.90, Suomen Pankki same-day; FOMC 28 Oct hold at 3.75–4%, 10–2). Does not reopen expired SIG-20260829-002. None of these is a stock setup or a position. Expired SIG-20260905-001 (October Emal clinic-sale window passed) and SIG-20261019-005 (30 Oct business review restated the 15 Oct guidance). |
 | 2026-10-26 | Opened SIG-20261026-004 from FIND-20261026-005 (UPM IR 22 Oct 22:30 EEST: listing application for WISA; registration about 31 Oct; trading about 2 Nov; code WISA, ISIN FI4000603345; one WISA share per UPM share). Does not reopen expired SIG-20260901-001. Opened SIG-20261026-005 from FIND-20261026-006 (Nokia Q3 interim report: comparable operating profit outlook EUR 2.1–2.6 billion unchanged; FCF conversion updated to 35–55%; dividend EUR 0.03, record 27 Oct, payment 5 Nov). Neither is a stock setup or a position. Expired SIG-20260822-004 (Fortum Elmera settlement window about 23 Oct passed; no further print) and SIG-20261012-004 (SENSO 13 Oct open; 20 Oct watch passed). |
 | 2026-10-20 | Watchlist section `stocks`: mid/long setups (fear-dip, fundamentals-ahead, forced-selling, compounder-on-sale, trough-as-forever, mix-shift, owner-earnings, balance-sheet-floor). Findings stay in this domain. No ticker promoted to current guidance. |
 | 2026-10-19 | Opened SIG-20261019-005 from FIND-20261019-006 (Digitalist Group inside information 15 Oct 2026: 2026 turnover and EBITDA now both expected to decrease vs 2025; previous guide had EBITDA improving but still negative; business review 30 Oct 2026). Single official-action print — signal only. Elmera settlement and SENSO listing unchanged. |

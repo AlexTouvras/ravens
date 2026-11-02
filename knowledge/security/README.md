@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: security
-updated: 2026-10-26
+updated: 2026-11-02
 status: active
 ---
 
@@ -15,7 +15,6 @@ Secrets, auth, privacy, and local-vs-cloud handling for named consumers (JARVIS,
 
 ## Active signals
 
-- [SIG-20261012-003](../../signals/SIG-20261012-003.md) — Cursor remote control of local agents is on by default outside Enterprise (expiry date 2026-10-26, still watching)
 - [SIG-20261026-003](../../signals/SIG-20261026-003.md) — Pydantic AI 2.58.0 MCP tokens in traces; UI adapters could skip the model
 
 ## Note index
@@ -28,6 +27,7 @@ Secrets, auth, privacy, and local-vs-cloud handling for named consumers (JARVIS,
 
 | Date | Change |
 |------|--------|
+| 2026-11-02 | Expired SIG-20261012-003 (Cursor remote control of local agents) — 26 Oct window passed; no disable decision or durable prefer/avoid rule. Inbox says the changelog still shows 20 Oct and 16 Oct as the newest entries. github-mcp pin unchanged. |
 | 2026-10-26 | Opened SIG-20261026-003 from FIND-20261026-004 (pydantic-ai v2.58.0: MCP config could land tokens in OpenTelemetry traces even with `include_content=False`, fixed in v2.58.0 and v1.107.8; Vercel AI / AG-UI adapters could run a tool without a model request, fixed in v2.58.0, v1 unaffected). Upgrade and rotate — signal only. Does not change the github-mcp pin, the Python 3.11 floor, or the ApprovalReviewer watch. Left SIG-20261012-003 watching on its 2026-10-26 expiry date. |
 | 2026-10-12 | Opened SIG-20261012-003 from FIND-20261012-008 (Cursor changelog 6 Oct: Remote Control of local agents is on by default except Enterprise; the agent stays on the computer; pairing needs desktop approval). Changelog default — signal until a disable decision or a durable prefer/avoid rule. Not folded into the github-mcp pin. |
 | 2026-09-10 | Expired SIG-20260827-003 (Anthropic unified Claude memory) on default 14-day expiry — no ProjectBrain/JARVIS memory-design decision. |

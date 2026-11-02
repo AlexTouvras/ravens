@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: data-bi
-updated: 2026-10-26
+updated: 2026-11-02
 status: active
 ---
 
@@ -24,8 +24,8 @@ Microsoft Fabric, Power BI / PBIR, semantic models, and analytics patterns used 
 
 ## Active signals
 
-- [SIG-20261019-002](../../signals/SIG-20261019-002.md) — Power BI Gantt visual in preview; 1,000-row cap; blank End is a milestone
-- [SIG-20261026-001](../../signals/SIG-20261026-001.md) — DAX Lib MCP 0.1.0 writes a package’s functions into an open Desktop model
+- [SIG-20261019-002](../../signals/SIG-20261019-002.md) — Power BI Gantt visual in preview; 1,000-row cap; blank End is a milestone (expiry date 2026-11-02, still watching)
+- [SIG-20261026-001](../../signals/SIG-20261026-001.md) — DAX Lib MCP 0.2.0 can return package functions in a query without writing the model
 
 ## Note index
 
@@ -46,6 +46,7 @@ Microsoft Fabric, Power BI / PBIR, semantic models, and analytics patterns used 
 
 | Date | Change |
 |------|--------|
+| 2026-11-02 | Updated SIG-20261026-001 from FIND-20261102-002 — raised the evaluate pin from daxlib/daxlib-mcp 0.1.0 to 0.2.0 (`get_function_definitions` returns a DEFINE block for a query without writing the model; `install_package` warns when a dependency package is missing). 0.1.0 write / no-save / Windows x64 / compat-1702 limits unchanged. Does not change the UDF, calculation-contract, or authoring-MCP notes. Left SIG-20261019-002 watching on its 2026-11-02 expiry date. |
 | 2026-10-26 | Opened SIG-20261026-001 from FIND-20261026-002 (SQLBI 22 Oct: DAX Lib MCP 0.1.0 writes a package’s original functions into an open Windows Desktop model; same-name function replaced; file not saved; compat 1702). Evaluate this month — does not change the UDF, calculation-contract, or authoring-MCP notes. Expired SIG-20261005-003 (ApproximateDistinctCount) — 19 Oct window passed; Learn still not the source. |
 | 2026-10-19 | Opened SIG-20261019-002 from FIND-20261019-003 (Microsoft Learn: Gantt visual in preview; blank End draws a milestone; up to 1,000 rows; auto-scale no finer than days). Preview cap — signal until the visual leaves preview. |
 | 2026-10-12 | Promoted KNOW-data-bi-desktop-onedrive-save-post-march-2026 from FIND-20261012-003 (Microsoft Learn: from October 2026, Desktop builds from March 2026 or earlier lose OneDrive/SharePoint save and share; .PBIX only; personal OneDrive unsupported). Promoted KNOW-data-bi-copilot-readonly-mcp-default-on from FIND-20261012-004 (Microsoft Learn: read-only Copilot and Microsoft MCP access is on until a write owner disables the model setting; not the authoring-MCP deployment choice). Promoted KNOW-data-bi-dax-contract-before-ai-measure from FIND-20261012-005 (SQLBI 5 Oct 2026: save the calculation contract before the assistant writes the measure; validate before production; not the UDF regression-test note). |
