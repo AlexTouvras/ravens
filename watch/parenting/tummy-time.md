@@ -39,4 +39,4 @@ Backup (same channel, longer tips): https://www.youtube.com/watch?v=I-Fhn7LPsEs 
 ## Related
 
 - Stage: `age-2-8w` (hub Current stage — week 3 now, week 4 from 10 Sep)
-- Sibling: [infant-soothing](./infant-soothing.md), [newborn-safer-sleep](./newborn-safer-sleep.md)
+- Sibling: [infant-soothing](./infant-soothing.md), [newborn-safer-sleep](./newborn-safer-sleep.md), [flat-head](./flat-head.md)
