@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: security
-updated: 2026-11-02
+updated: 2026-11-09
 status: active
 ---
 
@@ -15,7 +15,8 @@ Secrets, auth, privacy, and local-vs-cloud handling for named consumers (JARVIS,
 
 ## Active signals
 
-- [SIG-20261026-003](../../signals/SIG-20261026-003.md) — Pydantic AI 2.58.0 MCP tokens in traces; UI adapters could skip the model
+- [SIG-20261026-003](../../signals/SIG-20261026-003.md) — Pydantic AI 2.58.0 MCP tokens in traces; UI adapters could skip the model (expiry date 2026-11-09, still watching)
+- [SIG-20261109-003](../../signals/SIG-20261109-003.md) — Pydantic AI 2.46–2.65 expands a crafted tool schema; patched in 2.66.0
 
 ## Note index
 
@@ -27,6 +28,7 @@ Secrets, auth, privacy, and local-vs-cloud handling for named consumers (JARVIS,
 
 | Date | Change |
 |------|--------|
+| 2026-11-09 | Opened SIG-20261109-003 from FIND-20261109-005 (GHSA-484x-x9m4-62cj: pydantic-ai 2.46.0–2.65.0 expands client tool schemas without a bound; patched in 2.66.0; reject `$defs` until then). Upgrade — signal only. Does not change the github-mcp pin or the 2.58.0 trace watch. Left SIG-20261026-003 watching on its 2026-11-09 expiry date. |
 | 2026-11-02 | Expired SIG-20261012-003 (Cursor remote control of local agents) — 26 Oct window passed; no disable decision or durable prefer/avoid rule. Inbox says the changelog still shows 20 Oct and 16 Oct as the newest entries. github-mcp pin unchanged. |
 | 2026-10-26 | Opened SIG-20261026-003 from FIND-20261026-004 (pydantic-ai v2.58.0: MCP config could land tokens in OpenTelemetry traces even with `include_content=False`, fixed in v2.58.0 and v1.107.8; Vercel AI / AG-UI adapters could run a tool without a model request, fixed in v2.58.0, v1 unaffected). Upgrade and rotate — signal only. Does not change the github-mcp pin, the Python 3.11 floor, or the ApprovalReviewer watch. Left SIG-20261012-003 watching on its 2026-10-26 expiry date. |
 | 2026-10-12 | Opened SIG-20261012-003 from FIND-20261012-008 (Cursor changelog 6 Oct: Remote Control of local agents is on by default except Enterprise; the agent stays on the computer; pairing needs desktop approval). Changelog default — signal until a disable decision or a durable prefer/avoid rule. Not folded into the github-mcp pin. |

@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: career
-updated: 2026-11-02
+updated: 2026-11-09
 status: active
 ---
 
@@ -16,7 +16,7 @@ FI/EU analytics, risk, BI leadership, and technology-delivery market signals for
 
 ## Active signals
 
-_(none)_
+- [SIG-20261109-002](../../signals/SIG-20261109-002.md) — Veikkaus Data Scientist and Senior Data Scientist, Helsinki — apply by 30 Nov
 
 ## Note index
 
@@ -29,6 +29,7 @@ _(none)_
 
 | Date | Change |
 |------|--------|
+| 2026-11-09 | Opened SIG-20261109-002 from FIND-20261109-003 (Veikkaus Data Scientist and Senior Data Scientist, both Helsinki hybrid, both apply by 30 Nov 2026). One employer, one deadline — one signal. Does not reopen expired SIG-20261026-002. Warehouse-pairing note unchanged. |
 | 2026-11-02 | Expired SIG-20261026-002 (Veikkaus Head of Analytics & Insights) — 27 Oct deadline passed; inbox says the ad still shows that close and was already filed. Expired SIG-20261019-003 (DigiHelsinki Senior Data and Reporting Specialist) — 1 Nov deadline passed. Neither became knowledge. Warehouse-pairing note unchanged. |
 | 2026-10-26 | Opened SIG-20261026-002 from FIND-20261026-003 (Veikkaus Group careers: Head of Analytics & Insights, full-time permanent, Helsinki Hybrid, also Sweden or Malta, apply by 27 Oct 2026). Single named-employer ad — not knowledge, and not the warehouse-pairing note. Expired SIG-20261012-002 (UPM Senior Specialist, Global Portfolio) — 20 Oct deadline passed. |
 | 2026-10-19 | Opened SIG-20261019-003 from FIND-20261019-004 (MPS / laura.fi: DigiHelsinki Senior Data- ja raportointiasiantuntija, Helsinki, permanent, hybrid Vallila, Power BI and semantic models, apply by 1 Nov 2026). Single named-employer ad — not knowledge, and not the warehouse-pairing note. |

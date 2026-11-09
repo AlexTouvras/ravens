@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: data-bi
-updated: 2026-11-02
+updated: 2026-11-09
 status: active
 ---
 
@@ -24,8 +24,8 @@ Microsoft Fabric, Power BI / PBIR, semantic models, and analytics patterns used 
 
 ## Active signals
 
-- [SIG-20261019-002](../../signals/SIG-20261019-002.md) — Power BI Gantt visual in preview; 1,000-row cap; blank End is a milestone (expiry date 2026-11-02, still watching)
 - [SIG-20261026-001](../../signals/SIG-20261026-001.md) — DAX Lib MCP 0.2.0 can return package functions in a query without writing the model
+- [SIG-20261109-001](../../signals/SIG-20261109-001.md) — skills-for-fabric 0.3.21 renames the ontology skill to `ontology-cli`
 
 ## Note index
 
@@ -46,6 +46,7 @@ Microsoft Fabric, Power BI / PBIR, semantic models, and analytics patterns used 
 
 | Date | Change |
 |------|--------|
+| 2026-11-09 | Opened SIG-20261109-001 from FIND-20261109-002 (skills-for-fabric v0.3.21: breaking rename `fabriciq-ontology-cli` → `ontology-cli`; V2 questions need delegated user sign-in; service principals unsupported; V1 natural-language consumption stops). Does not reopen expired SIG-20260907-001. Does not change the Direct Lake, UDF, or authoring-MCP notes. Expired SIG-20261019-002 (Power BI Gantt preview) — 2 Nov window passed; no portfolio trial. |
 | 2026-11-02 | Updated SIG-20261026-001 from FIND-20261102-002 — raised the evaluate pin from daxlib/daxlib-mcp 0.1.0 to 0.2.0 (`get_function_definitions` returns a DEFINE block for a query without writing the model; `install_package` warns when a dependency package is missing). 0.1.0 write / no-save / Windows x64 / compat-1702 limits unchanged. Does not change the UDF, calculation-contract, or authoring-MCP notes. Left SIG-20261019-002 watching on its 2026-11-02 expiry date. |
 | 2026-10-26 | Opened SIG-20261026-001 from FIND-20261026-002 (SQLBI 22 Oct: DAX Lib MCP 0.1.0 writes a package’s original functions into an open Windows Desktop model; same-name function replaced; file not saved; compat 1702). Evaluate this month — does not change the UDF, calculation-contract, or authoring-MCP notes. Expired SIG-20261005-003 (ApproximateDistinctCount) — 19 Oct window passed; Learn still not the source. |
 | 2026-10-19 | Opened SIG-20261019-002 from FIND-20261019-003 (Microsoft Learn: Gantt visual in preview; blank End draws a milestone; up to 1,000 rows; auto-scale no finer than days). Preview cap — signal until the visual leaves preview. |

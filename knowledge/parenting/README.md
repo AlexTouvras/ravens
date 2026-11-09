@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: parenting
-updated: 2026-10-19
+updated: 2026-11-09
 status: active
 ---
 
@@ -58,7 +58,7 @@ Related, other domains: infant feeding-safety here, not `food/`; postpartum acti
 
 ## Active signals
 
-- [SIG-20261019-004](../../signals/SIG-20261019-004.md) — LUVN: close contacts of someone especially susceptible to severe influenza book December (injectable delay only)
+- [SIG-20261019-004](../../signals/SIG-20261019-004.md) — LUVN: more influenza vaccine has arrived and entitled people should book soon; the 12 Oct close-contact December line is not restated
 
 ## Note index
 
@@ -107,6 +107,7 @@ Related, other domains: infant feeding-safety here, not `food/`; postpartum acti
 
 | Date | Change |
 |------|--------|
+| 2026-11-09 | Updated SIG-20261019-004 from FIND-20261109-004 (LUVN 9 Nov 2026 6:00: more influenza vaccines after the delivery delays; bookable times available; entitled people should book soon; free examples include children under 7). The notice does not withdraw the 12 Oct December close-contact instruction. Same season — no second SIG. Not an infant dose schedule. Rotavirus and five-in-one notes unchanged. Current stage unchanged. |
 | 2026-10-19 | Opened SIG-20261019-004 from FIND-20261019-005 (LUVN 12 Oct 2026: close contacts of someone especially susceptible to severe influenza book December; existing bookings stay; delay is the injectable vaccine; nasal spray for 2–6-year-olds unaffected). This season’s booking window — not the rotavirus 2/3/5-month note and not the five-in-one 3/5/12-month note. Current stage unchanged. |
 | 2026-10-12 | Promoted KNOW-parenting-fi-infant-dtap-ipv-hib-3-5-12m from FIND-20261012-007 (THL: injectable five-in-one at 3, 5 and 12 months; fallback gaps 2 months then 4 months; accelerated start from 6 weeks only if the series must move up, third dose still at 12 months; defer fever). Schedule only — not a home-injection protocol, not the oral rotavirus 2/3/5-month note, and not stem-cell or neurology clinician gates. Current stage unchanged. Expired SIG-20260906-001 (AAP tummy-time 15–30 min by 7 weeks) — 8 Oct window passed; US minute quota stays off the Finnish tummy-time note. |
 | 2026-10-05 | Promoted KNOW-parenting-thl-2-3-month-development from FIND-20261005-007 (Terveyskirjasto/THL table: 2–3 month intentional smile, cooing, head support when lying, two-handed grasp, turn toward sound; deviations common; corrected age for preterm). Next row after the 0–1 month note — not a week-plan, not the 4–6 month row, Current stage unchanged. |

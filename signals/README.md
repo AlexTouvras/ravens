@@ -6,19 +6,25 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 
 | ID | Domain | Title | Priority | Expires |
 |----|--------|-------|----------|---------|
-| [SIG-20260908-001](./SIG-20260908-001.md) | ai-agents | Microsoft Agent Framework Python 1.24.0 — Python 3.11 baseline and default MCP approval mode | p2 | 2026-11-16 |
-| [SIG-20261019-001](./SIG-20261019-001.md) | ai-agents | Pydantic AI 2.57.0 — ApprovalReviewer can clear low-risk tool calls before a person | p2 | 2026-11-02 |
-| [SIG-20261019-002](./SIG-20261019-002.md) | data-bi | Power BI Gantt visual is in preview — 1,000-row cap; blank End is a milestone | p2 | 2026-11-02 |
-| [SIG-20261019-004](./SIG-20261019-004.md) | parenting | LUVN — close contacts of someone especially susceptible to severe influenza book December | p2 | 2026-12-31 |
+| [SIG-20260908-001](./SIG-20260908-001.md) | ai-agents | Microsoft Agent Framework Python 1.25.0 — Python 3.11 required; MCP discovery caps | p2 | 2026-11-23 |
+| [SIG-20261019-004](./SIG-20261019-004.md) | parenting | LUVN — more influenza vaccine has arrived; close-contact December booking is not restated | p2 | 2026-12-31 |
 | [SIG-20261026-001](./SIG-20261026-001.md) | data-bi | DAX Lib MCP 0.2.0 can return package functions in a query without writing the model | p2 | 2026-11-16 |
 | [SIG-20261026-003](./SIG-20261026-003.md) | security | Pydantic AI 2.58.0 — MCP tokens in traces; UI adapters could skip the model | p2 | 2026-11-09 |
-| [SIG-20261026-004](./SIG-20261026-004.md) | finance | UPM demerger is registered; WISA starts trading on Nasdaq Helsinki on 2 Nov | p2 | 2026-11-02 |
-| [SIG-20261026-005](./SIG-20261026-005.md) | finance | Nokia keeps the 2026 profit range and lowers free-cash-flow conversion to 35–55% | p2 | 2026-11-05 |
 | [SIG-20261102-001](./SIG-20261102-001.md) | finance | Tieto cuts 2026 organic growth to -6% to -5% and raises the adjusted EBITA margin | p2 | 2026-11-16 |
 | [SIG-20261102-002](./SIG-20261102-002.md) | finance | ECB holds at 2.50% / 2.65% / 2.90%; Fed holds at 3.75–4% | p2 | 2026-11-16 |
+| [SIG-20261109-001](./SIG-20261109-001.md) | data-bi | microsoft/skills-for-fabric 0.3.21 — ontology skill renamed to ontology-cli | p2 | 2026-11-23 |
+| [SIG-20261109-002](./SIG-20261109-002.md) | career | Veikkaus Data Scientist and Senior Data Scientist, Helsinki — apply by 30 Nov | p1 | 2026-11-30 |
+| [SIG-20261109-003](./SIG-20261109-003.md) | security | Pydantic AI 2.46–2.65 expands a crafted tool schema without a bound | p2 | 2026-11-23 |
+| [SIG-20261109-004](./SIG-20261109-004.md) | finance | Tokmanni cuts 2026 revenue to EUR 1,780–1,830 million and comparable EBIT to EUR 75–90 million | p2 | 2026-11-23 |
+| [SIG-20261109-005](./SIG-20261109-005.md) | finance | Kempower cuts 2026 revenue growth to about 5% and expects operative EBIT below 2025 | p2 | 2026-11-23 |
+| [SIG-20261109-006](./SIG-20261109-006.md) | finance | Raisio now expects 2026 net sales flat with 2025 and comparable EBIT flat or slightly lower | p2 | 2026-11-10 |
 
 Archived (expired/dropped/promoted):
 
+- [SIG-20261026-005](./SIG-20261026-005.md) — Nokia 2026 profit range and 35–55% free-cash-flow conversion, expired 2026-11-09 (5 Nov dividend payment passed; no further print)
+- [SIG-20261026-004](./SIG-20261026-004.md) — UPM WISA first trade, expired 2026-11-09 (2 Nov listing passed; does not reopen SIG-20260901-001)
+- [SIG-20261019-002](./SIG-20261019-002.md) — Power BI Gantt preview, expired 2026-11-09 (2 Nov window passed; no portfolio trial)
+- [SIG-20261019-001](./SIG-20261019-001.md) — Pydantic AI 2.57.0 ApprovalReviewer, expired 2026-11-09 (2 Nov window passed; no named-consumer adoption; v2.66.0 schema advisory is SIG-20261109-003)
 - [SIG-20261026-002](./SIG-20261026-002.md) — Veikkaus Head of Analytics & Insights, expired 2026-11-02 (27 Oct deadline passed)
 - [SIG-20261019-005](./SIG-20261019-005.md) — Digitalist 2026 guidance cut, expired 2026-11-02 (30 Oct review restated the 15 Oct guide)
 - [SIG-20261019-003](./SIG-20261019-003.md) — DigiHelsinki Senior Data and Reporting Specialist, expired 2026-11-02 (1 Nov deadline passed)

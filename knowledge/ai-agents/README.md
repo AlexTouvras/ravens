@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: ai-agents
-updated: 2026-11-02
+updated: 2026-11-09
 status: active
 ---
 
@@ -16,8 +16,7 @@ Frameworks, protocols (MCP / A2A), and Cursor agent patterns that change deliver
 
 ## Active signals
 
-- [SIG-20260908-001](../../signals/SIG-20260908-001.md) — Microsoft Agent Framework Python 1.24.0 Python 3.11 baseline and default MCP approval mode
-- [SIG-20261019-001](../../signals/SIG-20261019-001.md) — Pydantic AI 2.57.0 ApprovalReviewer can clear low-risk tool calls before a person (expiry date 2026-11-02, still watching)
+- [SIG-20260908-001](../../signals/SIG-20260908-001.md) — Microsoft Agent Framework Python 1.25.0 requires Python 3.11 and caps MCP discovery
 
 ## Note index
 
@@ -30,6 +29,7 @@ Frameworks, protocols (MCP / A2A), and Cursor agent patterns that change deliver
 
 | Date | Change |
 |------|--------|
+| 2026-11-09 | Updated SIG-20260908-001 from FIND-20261109-001 — raised the evaluate pin from microsoft/agent-framework python-1.24.0 to python-1.25.0 (Python 3.10 can no longer install; Python 3.11 or later required; MCP discovery capped at 100 pages and 1,000 items; framework-owned request timeout 30 seconds; live workflow sessions bound to one authorization scope; declarative handlers open a fresh MCP session per call). 1.24.0 approval-mode and Redis-index contract unchanged. Same pin — no second SIG. Expired SIG-20261019-001 (Pydantic AI ApprovalReviewer) — 2 Nov window passed; no named-consumer adoption; v2.66.0 schema advisory is SIG-20261109-003 and does not reopen this approval path. |
 | 2026-11-02 | Updated SIG-20260908-001 from FIND-20261102-001 — raised the evaluate pin from microsoft/agent-framework python-1.23.0 to python-1.24.0 (Python 3.11 is the supported baseline; Python 3.10 install remains permitted but is not guaranteed; explicit default approval mode for local MCP tools outside the per-tool lists; beta Redis context index must be rebuilt, not overwritten). 1.23.0 MCP 2.x / AG-UI auth contract unchanged. Same pin — no second SIG. Expired SIG-20261012-001 (Pydantic AI 2.55.0 Python 3.11 floor) — 26 Oct window passed; no named-consumer pin; unfiled v2.62.0–v2.64.0 notes do not raise that floor. Left SIG-20261019-001 watching on its 2026-11-02 expiry date. |
 | 2026-10-26 | Updated SIG-20260908-001 from FIND-20261026-001 — raised the evaluate pin from microsoft/agent-framework python-1.22.0 to python-1.23.0 (MCP 2.x transports, errors, schemas, and lifecycle; AG-UI endpoint registration needs an explicit authorization scope or single-user declaration; Docker shell `extra_run_args` renamed `unsafe_extra_run_args`). 1.22.0 persisted-state contract unchanged. Same pin — no second SIG. Expired SIG-20261005-001 (Google ADK 2.11.0) — 19 Oct window passed; no named-consumer pin; unfiled v2.13.0 telemetry default does not reopen the HITL contract. Left SIG-20261012-001 watching on its 2026-10-26 expiry date; v2.58.0 is SIG-20261026-003 and does not raise the Python 3.11 floor. |
 | 2026-10-19 | Opened SIG-20261019-001 from FIND-20261019-001 (pydantic-ai v2.57.0: harness `ApprovalReviewer` lets a model approve low-risk tool calls before a person sees them; attach explicitly; a `no` answer approves; other outcomes stay with the person). New approval-path contract — does not raise the Python 3.11 floor on SIG-20261012-001. Updated SIG-20260908-001 from FIND-20261019-002 — raised the evaluate pin from microsoft/agent-framework python-1.21.0 to python-1.22.0 (persisted `Content` / response-update records: pre-1.22 runtimes cannot read new `hosted` or `merge_mode` records; do not mix workers on the same affected store). 1.21.0 session-isolation / full-buffer Purview contract unchanged. Expired SIG-20260928-001 (Cursor Rollouts / Security Review) — 12 Oct window passed; no named-consumer enablement. |
