@@ -4,7 +4,7 @@ Heimdall’s video index. One note per topic. Prefer this over searching YouTube
 
 Consumers match from this catalog — see [docs/consumers.md](../docs/consumers.md). Fitness joins on `Coach library:` lines; motivate on slug; parenting on `stage`.
 
-Last updated: 2026-11-08
+Last updated: 2026-11-15
 
 | Domain | Slug | Intent | Stage | Status |
 |--------|------|--------|-------|--------|
@@ -60,5 +60,6 @@ Last updated: 2026-11-08
 | parenting | [baby-swaddle](parenting/baby-swaddle.md) | how-to | age-2-8w | active |
 | parenting | [skin-to-skin](parenting/skin-to-skin.md) | how-to | age-2-8w | active |
 | parenting | [flat-head](parenting/flat-head.md) | how-to | age-2-8w | active |
+| parenting | [infant-cues](parenting/infant-cues.md) | how-to | age-2-8w | active |
 
-Household `age-2-8w` how-to added 2026-11-08 (HSE flat-head repositioning). Labour clips stay on file but were not this week’s hunt. Fitness W6 form-check and motivate slugs were oEmbed-live; no URL refresh. All parenting `primary_url`s were oEmbed-live. Vitamin D drops, nail cutting, and routine eye wiping still have no clip that clears the 2–12 minute public-health demo gate. Väestöliitto nails are 1:34 and eye wiping is 1:11. The Etelä-Pohjanmaa basic-care film that wipes outer corner to inner corner is 0:28. HUS eyelid-margin care is blepharitis treatment, not that tap-water wipe. A hospital-room breast-pump wash (SickKids) is not a home how-to.
+Household `age-2-8w` how-to added 2026-11-15 (Global Health Media universal baby cues; use the 2-month scenes). Labour clips stay on file but were not this week’s hunt. Fitness W6 form-check and motivate slugs were oEmbed-live; no URL refresh. All parenting `primary_url`s were oEmbed-live. Vitamin D drops, nail cutting, and routine eye wiping still have no clip that clears the 2–12 minute public-health demo gate. Väestöliitto nails are 1:34 and eye wiping is 1:11. Väestöliitto vauvattaminen is 4:39 and names no movements. A Siun sote handling film names the physiotherapist and names no steps.
