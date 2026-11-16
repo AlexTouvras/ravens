@@ -6,10 +6,9 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 
 | ID | Domain | Title | Priority | Expires |
 |----|--------|-------|----------|---------|
-| [SIG-20260908-001](./SIG-20260908-001.md) | ai-agents | Microsoft Agent Framework Python 1.25.0 — Python 3.11 required; MCP discovery caps | p2 | 2026-11-23 |
+| [SIG-20260908-001](./SIG-20260908-001.md) | ai-agents | Microsoft Agent Framework Python 1.26.0 — Copilot CLI 1.0.85 and a 30-second Hyperlight budget | p2 | 2026-11-30 |
 | [SIG-20261019-004](./SIG-20261019-004.md) | parenting | LUVN — more influenza vaccine has arrived; close-contact December booking is not restated | p2 | 2026-12-31 |
 | [SIG-20261026-001](./SIG-20261026-001.md) | data-bi | DAX Lib MCP 0.2.0 can return package functions in a query without writing the model | p2 | 2026-11-16 |
-| [SIG-20261026-003](./SIG-20261026-003.md) | security | Pydantic AI 2.58.0 — MCP tokens in traces; UI adapters could skip the model | p2 | 2026-11-09 |
 | [SIG-20261102-001](./SIG-20261102-001.md) | finance | Tieto cuts 2026 organic growth to -6% to -5% and raises the adjusted EBITA margin | p2 | 2026-11-16 |
 | [SIG-20261102-002](./SIG-20261102-002.md) | finance | ECB holds at 2.50% / 2.65% / 2.90%; Fed holds at 3.75–4% | p2 | 2026-11-16 |
 | [SIG-20261109-001](./SIG-20261109-001.md) | data-bi | microsoft/skills-for-fabric 0.3.21 — ontology skill renamed to ontology-cli | p2 | 2026-11-23 |
@@ -17,10 +16,14 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 | [SIG-20261109-003](./SIG-20261109-003.md) | security | Pydantic AI 2.46–2.65 expands a crafted tool schema without a bound | p2 | 2026-11-23 |
 | [SIG-20261109-004](./SIG-20261109-004.md) | finance | Tokmanni cuts 2026 revenue to EUR 1,780–1,830 million and comparable EBIT to EUR 75–90 million | p2 | 2026-11-23 |
 | [SIG-20261109-005](./SIG-20261109-005.md) | finance | Kempower cuts 2026 revenue growth to about 5% and expects operative EBIT below 2025 | p2 | 2026-11-23 |
-| [SIG-20261109-006](./SIG-20261109-006.md) | finance | Raisio now expects 2026 net sales flat with 2025 and comparable EBIT flat or slightly lower | p2 | 2026-11-10 |
+| [SIG-20261116-001](./SIG-20261116-001.md) | ai-agents | Pydantic AI 2.68.0 asks for approvals inside the run and falls back when max_tokens cuts the response | p2 | 2026-11-30 |
+| [SIG-20261116-002](./SIG-20261116-002.md) | career | Neste Development Manager, SCM Digitalization, Espoo — apply by 30 Nov | p1 | 2026-11-30 |
+| [SIG-20261116-003](./SIG-20261116-003.md) | finance | Oriola now allows 2026 adjusted EBITDA to be flat with 2025 | p2 | 2026-11-30 |
 
 Archived (expired/dropped/promoted):
 
+- [SIG-20261109-006](./SIG-20261109-006.md) — Raisio 2026 net sales and comparable EBIT, expired 2026-11-16 (10 Nov interim date passed; no further print)
+- [SIG-20261026-003](./SIG-20261026-003.md) — Pydantic AI 2.58.0 MCP traces and UI adapters, expired 2026-11-16 (9 Nov window passed; no named-consumer adoption; v2.68.0 approvals are SIG-20261116-001)
 - [SIG-20261026-005](./SIG-20261026-005.md) — Nokia 2026 profit range and 35–55% free-cash-flow conversion, expired 2026-11-09 (5 Nov dividend payment passed; no further print)
 - [SIG-20261026-004](./SIG-20261026-004.md) — UPM WISA first trade, expired 2026-11-09 (2 Nov listing passed; does not reopen SIG-20260901-001)
 - [SIG-20261019-002](./SIG-20261019-002.md) — Power BI Gantt preview, expired 2026-11-09 (2 Nov window passed; no portfolio trial)
