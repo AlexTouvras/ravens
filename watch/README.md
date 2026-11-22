@@ -4,7 +4,7 @@ Heimdall’s video index. One note per topic. Prefer this over searching YouTube
 
 Consumers match from this catalog — see [docs/consumers.md](../docs/consumers.md). Fitness joins on `Coach library:` lines; motivate on slug; parenting on `stage`.
 
-Last updated: 2026-11-15
+Last updated: 2026-11-22
 
 | Domain | Slug | Intent | Stage | Status |
 |--------|------|--------|-------|--------|
@@ -61,5 +61,7 @@ Last updated: 2026-11-15
 | parenting | [skin-to-skin](parenting/skin-to-skin.md) | how-to | age-2-8w | active |
 | parenting | [flat-head](parenting/flat-head.md) | how-to | age-2-8w | active |
 | parenting | [infant-cues](parenting/infant-cues.md) | how-to | age-2-8w | active |
+| parenting | [newborn-visitors](parenting/newborn-visitors.md) | how-to | age-2-8w | active |
+| parenting | [read-with-baby](parenting/read-with-baby.md) | how-to | age-2-8w | active |
 
-Household `age-2-8w` how-to added 2026-11-15 (Global Health Media universal baby cues; use the 2-month scenes). Labour clips stay on file but were not this week’s hunt. Fitness W6 form-check and motivate slugs were oEmbed-live; no URL refresh. All parenting `primary_url`s were oEmbed-live. Vitamin D drops, nail cutting, and routine eye wiping still have no clip that clears the 2–12 minute public-health demo gate. Väestöliitto nails are 1:34 and eye wiping is 1:11. Väestöliitto vauvattaminen is 4:39 and names no movements. A Siun sote handling film names the physiotherapist and names no steps.
+Household `age-2-8w` how-tos added 2026-11-22: Lullaby Trust visitor animation (`m9_VGg0qxOQ`, 2:07, THANKS) and Cincinnati Children’s SHARE/STEP book sharing (`iCDMKSZwrps`, 2:43). No labour hunt. Fitness W6 form-check and motivate URLs were oEmbed-live; no URL refresh. Prior parenting `primary_url`s were oEmbed-live. Vitamin D drops, nail cutting, and routine eye wiping still have no clip that clears the 2–12 minute public-health demo gate. Väestöliitto nails are 1:34 and eye wiping is 1:11. South Warwickshire reverse pressure softening `H2_iiPP160Y` (3:28) shows the holds and has an empty description, so it stays uncatalogued. Väestöliitto calm-crying `9OZc49v7GXw` (5:26) is a seated midwife talk.
