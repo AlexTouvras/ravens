@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: data-bi
-updated: 2026-11-16
+updated: 2026-11-23
 status: active
 ---
 
@@ -24,8 +24,9 @@ Microsoft Fabric, Power BI / PBIR, semantic models, and analytics patterns used 
 
 ## Active signals
 
-- [SIG-20261026-001](../../signals/SIG-20261026-001.md) — DAX Lib MCP 0.2.0 can return package functions in a query without writing the model
-- [SIG-20261109-001](../../signals/SIG-20261109-001.md) — skills-for-fabric 0.3.21 renames the ontology skill to `ontology-cli`
+- [SIG-20261109-001](../../signals/SIG-20261109-001.md) — skills-for-fabric 0.3.23 adds `plan-cli`; policy changes still need approval
+- [SIG-20261123-001](../../signals/SIG-20261123-001.md) — standalone and app-scoped Copilot end in January 2027; semantic views publish a read-only model
+- [SIG-20261123-002](../../signals/SIG-20261123-002.md) — TEXTCONTAINS needs a full-text index at compatibility level 1708
 
 ## Note index
 
@@ -46,6 +47,7 @@ Microsoft Fabric, Power BI / PBIR, semantic models, and analytics patterns used 
 
 | Date | Change |
 |------|--------|
+| 2026-11-23 | Updated SIG-20261109-001 from FIND-20261123-002 — raised the evaluate pin from skills-for-fabric 0.3.21 to 0.3.23 (`plan-cli` edits Fabric Plan items and does not calculate new figures; `fabric-policies-cli` runs only after approval). 0.3.21 ontology-cli contract unchanged. Same repo — no second SIG. Opened SIG-20261123-001 from FIND-20261123-003 (November 2026 Learn page: standalone and app-scoped Copilot end in January 2027; semantic views in preview publish a read-only Direct Lake model). Does not change the read-only Copilot setting or the Direct Lake prefer-rule. Opened SIG-20261123-002 from FIND-20261123-004 (SQLBI 16 Nov: `TEXTCONTAINS` needs `fullTextIndexingBehavior` at compat 1708; still in preview). Does not change the UDF or calculation-contract notes. Expired SIG-20261026-001 (DAX Lib MCP 0.2.0) — 16 Nov window passed; no newer pin. |
 | 2026-11-16 | Left SIG-20261026-001 watching on its 2026-11-16 expiry date. Inbox says daxlib/daxlib-mcp is still v0.2.0. UDF, calculation-contract, and authoring-MCP notes unchanged. |
 | 2026-11-09 | Opened SIG-20261109-001 from FIND-20261109-002 (skills-for-fabric v0.3.21: breaking rename `fabriciq-ontology-cli` → `ontology-cli`; V2 questions need delegated user sign-in; service principals unsupported; V1 natural-language consumption stops). Does not reopen expired SIG-20260907-001. Does not change the Direct Lake, UDF, or authoring-MCP notes. Expired SIG-20261019-002 (Power BI Gantt preview) — 2 Nov window passed; no portfolio trial. |
 | 2026-11-02 | Updated SIG-20261026-001 from FIND-20261102-002 — raised the evaluate pin from daxlib/daxlib-mcp 0.1.0 to 0.2.0 (`get_function_definitions` returns a DEFINE block for a query without writing the model; `install_package` warns when a dependency package is missing). 0.1.0 write / no-save / Windows x64 / compat-1702 limits unchanged. Does not change the UDF, calculation-contract, or authoring-MCP notes. Left SIG-20261019-002 watching on its 2026-11-02 expiry date. |

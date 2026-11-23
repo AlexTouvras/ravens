@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: security
-updated: 2026-11-16
+updated: 2026-11-23
 status: active
 ---
 
@@ -16,6 +16,8 @@ Secrets, auth, privacy, and local-vs-cloud handling for named consumers (JARVIS,
 ## Active signals
 
 - [SIG-20261109-003](../../signals/SIG-20261109-003.md) — Pydantic AI 2.46–2.65 expands a crafted tool schema; patched in 2.66.0
+- [SIG-20261123-004](../../signals/SIG-20261123-004.md) — PyPI agent-framework 1.26.1 and 1.26.2 were a credential stealer; stay on 1.26.0
+- [SIG-20261123-005](../../signals/SIG-20261123-005.md) — Pydantic AI Harness 0.70.0 fixes two event-loop stalls
 
 ## Note index
 
@@ -27,6 +29,7 @@ Secrets, auth, privacy, and local-vs-cloud handling for named consumers (JARVIS,
 
 | Date | Change |
 |------|--------|
+| 2026-11-23 | Opened SIG-20261123-004 from FIND-20261123-006 (Wiz: PyPI `agent-framework` 1.26.1 and 1.26.2 were a credential stealer and are gone; 1.26.0 remains the safe pin; `.pth` runs on interpreter start). Does not raise SIG-20260908-001. Opened SIG-20261123-005 from FIND-20261123-007 (GHSA-5m5q-5qj4-gx9h and GHSA-m4cr-m4qc-9hh3: harness JWT redaction and `strip_ansi=True` can stall the event loop; patched in 0.70.0). Does not replace SIG-20261109-003. Left SIG-20261109-003 watching on its 2026-11-23 expiry date. github-mcp pin unchanged. |
 | 2026-11-16 | Expired SIG-20261026-003 (Pydantic AI 2.58.0 MCP traces and UI adapters) — 9 Nov window passed; no named-consumer adoption. v2.68.0 in-run approvals are SIG-20261116-001 and do not reopen this contract. SIG-20261109-003 unchanged. github-mcp pin unchanged. |
 | 2026-11-09 | Opened SIG-20261109-003 from FIND-20261109-005 (GHSA-484x-x9m4-62cj: pydantic-ai 2.46.0–2.65.0 expands client tool schemas without a bound; patched in 2.66.0; reject `$defs` until then). Upgrade — signal only. Does not change the github-mcp pin or the 2.58.0 trace watch. Left SIG-20261026-003 watching on its 2026-11-09 expiry date. |
 | 2026-11-02 | Expired SIG-20261012-003 (Cursor remote control of local agents) — 26 Oct window passed; no disable decision or durable prefer/avoid rule. Inbox says the changelog still shows 20 Oct and 16 Oct as the newest entries. github-mcp pin unchanged. |

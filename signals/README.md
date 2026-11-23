@@ -8,20 +8,26 @@ Short-lived watch items produced by **Muninn**. See [docs/contracts/signal.md](.
 |----|--------|-------|----------|---------|
 | [SIG-20260908-001](./SIG-20260908-001.md) | ai-agents | Microsoft Agent Framework Python 1.26.0 — Copilot CLI 1.0.85 and a 30-second Hyperlight budget | p2 | 2026-11-30 |
 | [SIG-20261019-004](./SIG-20261019-004.md) | parenting | LUVN — more influenza vaccine has arrived; close-contact December booking is not restated | p2 | 2026-12-31 |
-| [SIG-20261026-001](./SIG-20261026-001.md) | data-bi | DAX Lib MCP 0.2.0 can return package functions in a query without writing the model | p2 | 2026-11-16 |
-| [SIG-20261102-001](./SIG-20261102-001.md) | finance | Tieto cuts 2026 organic growth to -6% to -5% and raises the adjusted EBITA margin | p2 | 2026-11-16 |
-| [SIG-20261102-002](./SIG-20261102-002.md) | finance | ECB holds at 2.50% / 2.65% / 2.90%; Fed holds at 3.75–4% | p2 | 2026-11-16 |
-| [SIG-20261109-001](./SIG-20261109-001.md) | data-bi | microsoft/skills-for-fabric 0.3.21 — ontology skill renamed to ontology-cli | p2 | 2026-11-23 |
+| [SIG-20261109-001](./SIG-20261109-001.md) | data-bi | microsoft/skills-for-fabric 0.3.23 — plan-cli edits Fabric Plan items; policy changes still need approval | p2 | 2026-12-07 |
 | [SIG-20261109-002](./SIG-20261109-002.md) | career | Veikkaus Data Scientist and Senior Data Scientist, Helsinki — apply by 30 Nov | p1 | 2026-11-30 |
 | [SIG-20261109-003](./SIG-20261109-003.md) | security | Pydantic AI 2.46–2.65 expands a crafted tool schema without a bound | p2 | 2026-11-23 |
 | [SIG-20261109-004](./SIG-20261109-004.md) | finance | Tokmanni cuts 2026 revenue to EUR 1,780–1,830 million and comparable EBIT to EUR 75–90 million | p2 | 2026-11-23 |
 | [SIG-20261109-005](./SIG-20261109-005.md) | finance | Kempower cuts 2026 revenue growth to about 5% and expects operative EBIT below 2025 | p2 | 2026-11-23 |
-| [SIG-20261116-001](./SIG-20261116-001.md) | ai-agents | Pydantic AI 2.68.0 asks for approvals inside the run and falls back when max_tokens cuts the response | p2 | 2026-11-30 |
+| [SIG-20261116-001](./SIG-20261116-001.md) | ai-agents | Pydantic AI 2.69.0 folds RequestInput into HandleDeferredToolCalls | p2 | 2026-12-07 |
 | [SIG-20261116-002](./SIG-20261116-002.md) | career | Neste Development Manager, SCM Digitalization, Espoo — apply by 30 Nov | p1 | 2026-11-30 |
 | [SIG-20261116-003](./SIG-20261116-003.md) | finance | Oriola now allows 2026 adjusted EBITDA to be flat with 2025 | p2 | 2026-11-30 |
+| [SIG-20261123-001](./SIG-20261123-001.md) | data-bi | Power BI standalone and app-scoped Copilot end in January 2027; semantic views publish a read-only model | p2 | 2027-01-31 |
+| [SIG-20261123-002](./SIG-20261123-002.md) | data-bi | TEXTCONTAINS needs a full-text index at compatibility level 1708 | p2 | 2026-12-07 |
+| [SIG-20261123-003](./SIG-20261123-003.md) | career | Alexandria Data & Analytics Lead, Helsinki — apply by 13 Dec | p1 | 2026-12-13 |
+| [SIG-20261123-004](./SIG-20261123-004.md) | security | PyPI agent-framework 1.26.1 and 1.26.2 were a credential stealer; stay on 1.26.0 | p1 | 2026-12-07 |
+| [SIG-20261123-005](./SIG-20261123-005.md) | security | Pydantic AI Harness 0.70.0 fixes two event-loop stalls in secret redaction and ANSI stripping | p2 | 2026-12-07 |
+| [SIG-20261123-006](./SIG-20261123-006.md) | finance | Enersense cuts 2026 adjusted EBITDA guidance to EUR 15–18 million | p2 | 2026-12-07 |
 
 Archived (expired/dropped/promoted):
 
+- [SIG-20261102-002](./SIG-20261102-002.md) — ECB 2.50% / Fed 3.75–4% holds, expired 2026-11-23 (16 Nov window passed; no new decision; 17 Dec is not a printed decision)
+- [SIG-20261102-001](./SIG-20261102-001.md) — Tieto 2026 organic growth and adjusted EBITA, expired 2026-11-23 (16 Nov window passed; no further print)
+- [SIG-20261026-001](./SIG-20261026-001.md) — DAX Lib MCP 0.2.0 query path, expired 2026-11-23 (16 Nov window passed; no newer pin)
 - [SIG-20261109-006](./SIG-20261109-006.md) — Raisio 2026 net sales and comparable EBIT, expired 2026-11-16 (10 Nov interim date passed; no further print)
 - [SIG-20261026-003](./SIG-20261026-003.md) — Pydantic AI 2.58.0 MCP traces and UI adapters, expired 2026-11-16 (9 Nov window passed; no named-consumer adoption; v2.68.0 approvals are SIG-20261116-001)
 - [SIG-20261026-005](./SIG-20261026-005.md) — Nokia 2026 profit range and 35–55% free-cash-flow conversion, expired 2026-11-09 (5 Nov dividend payment passed; no further print)

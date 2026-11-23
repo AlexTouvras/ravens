@@ -1,7 +1,7 @@
 ---
 schema: ravens.domain-hub/v1
 domain: career
-updated: 2026-11-16
+updated: 2026-11-23
 status: active
 ---
 
@@ -18,6 +18,7 @@ FI/EU analytics, risk, BI leadership, and technology-delivery market signals for
 
 - [SIG-20261109-002](../../signals/SIG-20261109-002.md) — Veikkaus Data Scientist and Senior Data Scientist, Helsinki — apply by 30 Nov
 - [SIG-20261116-002](../../signals/SIG-20261116-002.md) — Neste Development Manager, SCM Digitalization, Espoo — apply by 30 Nov
+- [SIG-20261123-003](../../signals/SIG-20261123-003.md) — Alexandria Data & Analytics Lead, Helsinki — apply by 13 Dec
 
 ## Note index
 
@@ -30,6 +31,7 @@ FI/EU analytics, risk, BI leadership, and technology-delivery market signals for
 
 | Date | Change |
 |------|--------|
+| 2026-11-23 | Opened SIG-20261123-003 from FIND-20261123-005 (Alexandria Data & Analytics Lead, Helsinki, full-time permanent hybrid, Power BI and Fabric/Databricks/Snowflake, apply by 13 Dec 2026). Single ad — not knowledge. Does not change the Veikkaus or Neste signals or the warehouse-pairing note. |
 | 2026-11-16 | Opened SIG-20261116-002 from FIND-20261116-003 (Neste Development Manager, SCM Digitalization, Espoo, full-time permanent, Power BI named as an example of SCM data governance, apply by 30 Nov 2026). Single ad — not knowledge. Does not change the Veikkaus signal or the warehouse-pairing note. |
 | 2026-11-09 | Opened SIG-20261109-002 from FIND-20261109-003 (Veikkaus Data Scientist and Senior Data Scientist, both Helsinki hybrid, both apply by 30 Nov 2026). One employer, one deadline — one signal. Does not reopen expired SIG-20261026-002. Warehouse-pairing note unchanged. |
 | 2026-11-02 | Expired SIG-20261026-002 (Veikkaus Head of Analytics & Insights) — 27 Oct deadline passed; inbox says the ad still shows that close and was already filed. Expired SIG-20261019-003 (DigiHelsinki Senior Data and Reporting Specialist) — 1 Nov deadline passed. Neither became knowledge. Warehouse-pairing note unchanged. |
